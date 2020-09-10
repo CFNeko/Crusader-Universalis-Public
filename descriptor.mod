@@ -16,4 +16,4 @@ tags={
 	"Warfare"
 }
 name="Crusader Universalis"
-supported_version="1.0.2"
+supported_version="1.0.3"
