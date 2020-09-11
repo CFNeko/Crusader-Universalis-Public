@@ -1,9 +1,26 @@
-CKU_1444_reconquista = {
+CKU_1444_europe = {
 	start_date = 1444.11.11
 	is_playable = yes
 
 	character = {
-		name = "bookmark_reconquista_castile"
+		name = "bookmark_europe_portugal"
+		dynasty = 442
+		dynasty_splendor_level = 5
+		type = male
+		birth = 828.1.1
+		title = k_portugal
+		government = feudal_government
+		culture = castilian
+		religion = catholic
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		history_id = 109500
+		position = { 0 800 }
+
+		anymation = disapproval
+	}
+
+	character = {
+		name = "bookmark_europe_castile"
 		dynasty = 442
 		dynasty_splendor_level = 5
 		type = male
@@ -14,75 +31,228 @@ CKU_1444_reconquista = {
 		religion = catholic
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
 		history_id = 107500
-		position = { 720 590 }
+		position = { 0 630 }
 
 		anymation = disapproval
 	}
 
 	character = {
-		name = "bookmark_reconquista_portugal"
+		name = "bookmark_europe_england"
 		dynasty = 442
 		dynasty_splendor_level = 5
 		type = male
 		birth = 828.1.1
-		title = k_spanish_galicia
-		government = feudal_government
-		culture = castilian
-		religion = catholic
-		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
-		history_id = 109500
-		position = { 365 700 }
-
-		anymation = disapproval
-	}
-
-	character = {
-		name = "bookmark_reconquista_aragon"
-		dynasty = 442
-		dynasty_splendor_level = 5
-		type = male
-		birth = 828.1.1
-		title = k_aragon
+		title = k_england
 		government = feudal_government
 		culture = castilian
 		religion = catholic
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
 		history_id = 109500
-		position = { 1250 590 }
+		position = { 50 270 }
 
 		anymation = disapproval
 	}
 
 	character = {
-		name = "bookmark_reconquista_navarra"
+		name = "bookmark_europe_france"
 		dynasty = 442
 		dynasty_splendor_level = 5
 		type = male
 		birth = 828.1.1
-		title = k_navarra
+		title = k_france
 		government = feudal_government
 		culture = basque
 		religion = catholic
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
 		history_id = 106000
-		position = { 865 300 }
+		position = { 50 450 }
 
 		anymation = disapproval
 	}
 
 	character = {
-		name = "bookmark_reconquista_granada"
+		name = "bookmark_europe_pope"
 		dynasty = 442
 		dynasty_splendor_level = 5
 		type = male
 		birth = 828.1.1
-		title = d_granada
+		title = k_papal_state
 		government = feudal_government
 		culture = castilian
 		religion = catholic
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
 		history_id = 109500
-		position = { 767 800 }
+		position = { 375 760 }
+
+		anymation = disapproval
+	}
+
+	character = {
+		name = "bookmark_europe_venice"
+		dynasty = 442
+		dynasty_splendor_level = 5
+		type = male
+		birth = 828.1.1
+		title = k_venice
+		government = feudal_government
+		culture = castilian
+		religion = catholic
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
+		history_id = 109500
+		position = { 375 580 }
+
+		anymation = disapproval
+	}
+
+	character = {
+		name = "bookmark_europe_austria"
+		dynasty = 442
+		dynasty_splendor_level = 5
+		type = male
+		birth = 828.1.1
+		title = k_austria
+		government = feudal_government
+		culture = castilian
+		religion = catholic
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
+		history_id = 109500
+		position = { 375 400 }
+
+		anymation = disapproval
+	}
+
+	character = {
+		name = "bookmark_europe_brandenburg"
+		dynasty = 442
+		dynasty_splendor_level = 5
+		type = male
+		birth = 828.1.1
+		title = c_brandenburg
+		government = feudal_government
+		culture = castilian
+		religion = catholic
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
+		history_id = 109500
+		position = { 425 220 }
+
+		anymation = disapproval
+	}
+
+	#character = {
+	#	name = "bookmark_europe_bohemia"
+	#	dynasty = 442
+	#	dynasty_splendor_level = 5
+	#	type = male
+	#	birth = 828.1.1
+	#	title = k_bohemia
+	#	government = feudal_government
+	#	culture = castilian
+	#	religion = catholic
+	#	difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
+	#	history_id = 109500
+	#	position = { 730 225 }
+	#
+	#	anymation = disapproval
+	#}
+
+	character = {
+		name = "bookmark_europe_byzantium"
+		dynasty = 442
+		dynasty_splendor_level = 5
+		type = male
+		birth = 828.1.1
+		title = e_byzantium
+		government = feudal_government
+		culture = castilian
+		religion = catholic
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
+		history_id = 109500
+		position = { 685 900 }
+
+		anymation = disapproval
+	}
+
+	character = {
+		name = "bookmark_europe_hungary"
+		dynasty = 442
+		dynasty_splendor_level = 5
+		type = male
+		birth = 828.1.1
+		title = k_hungary
+		government = feudal_government
+		culture = castilian
+		religion = catholic
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
+		history_id = 109500
+		position = { 700 580 }
+
+		anymation = disapproval
+	}
+
+	character = {
+		name = "bookmark_europe_poland"
+		dynasty = 442
+		dynasty_splendor_level = 5
+		type = male
+		birth = 828.1.1
+		title = k_poland
+		government = feudal_government
+		culture = castilian
+		religion = catholic
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
+		history_id = 109500
+		position = { 800 380 }
+
+		anymation = disapproval
+	}
+
+	character = {
+		name = "bookmark_europe_mamluks"
+		dynasty = 442
+		dynasty_splendor_level = 5
+		type = male
+		birth = 828.1.1
+		title = k_egypt
+		government = feudal_government
+		culture = castilian
+		religion = catholic
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
+		history_id = 109500
+		position = { 995 900 }
+
+		anymation = personality_content
+	}
+
+	character = {
+		name = "bookmark_europe_muscovy"
+		dynasty = 442
+		dynasty_splendor_level = 5
+		type = male
+		birth = 828.1.1
+		title = k_muscovy
+		government = feudal_government
+		culture = castilian
+		religion = catholic
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
+		history_id = 109500
+		position = { 1050 150 }
+
+		anymation = disapproval
+	}
+
+	character = {
+		name = "bookmark_europe_ottomans"
+		dynasty = 442
+		dynasty_splendor_level = 5
+		type = male
+		birth = 828.1.1
+		title = k_ottoman
+		government = feudal_government
+		culture = castilian
+		religion = catholic
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
+		history_id = 109500
+		position = { 1150 720 }
 
 		anymation = disapproval
 	}
