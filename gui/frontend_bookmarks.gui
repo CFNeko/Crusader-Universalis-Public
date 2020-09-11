@@ -1,0 +1,1129 @@
+widget = {
+	name = "frontend_bookmarks"
+	size = { 100% 100% }
+
+	#Background
+	#widget = {
+	#	parentanchor = center
+	#	size = { 1920 1080 }
+
+		widget = {
+			parentanchor = center
+			size = { 1920 1200 }
+			scale = "[ScaleToFitElementOutside('(int32)1920', '(int32)1200')]"
+
+			state = {
+				name = "bookmark_change"
+				alpha = 0.5
+				next = "fadein"
+			}
+
+			state = {
+				name = "fadein"
+				using = Animation_FadeIn_Standard
+			}
+
+			icon = {
+				name = "bookmark_background"
+				texture = "[GameSetup.GetSelectedBookmark.GetBackground]"
+				size = { 100% 100% }
+			}
+
+			icon = {
+				name = "character_selection"
+				visible = "[GameSetup.HasSelectedCharacter]"
+				texture = "[GameSetup.GetSelectedCharacterGUI.GetCharacter.GetLocationImage]"
+				size = { 100% 100% }
+
+				state = {
+					name = "_show"
+					using = Animation_FadeIn_Quick
+					next = pulse_a
+				}
+
+				state = {
+					name = pulse_a
+					alpha = 1
+					duration = 1
+					next = pulse_b
+					using = Animation_Curve_Default
+				}
+
+				state = {
+					name = pulse_b
+					alpha = 0.5
+					duration = 1
+					next = pulse_a
+					using = Animation_Curve_Default
+				}
+			}
+
+			icon = {
+				name = "character_over"
+				visible = "[GameSetup.HasHoveredCharacter]"
+				texture = "[GameSetup.GetHoveredCharacterGUI.GetCharacter.GetLocationImage]"
+				size = { 100% 100% }
+				alpha = 0.3
+
+				state = {
+					name = "_show"
+					using = Animation_FadeIn_Quick
+				}
+
+				state = {
+					name = "_hide"
+					using = Animation_FadeOut_Standard
+				}
+			}
+
+			widget = {
+				size = { 100% 100% }
+				datamodel = "[GameSetup.GetSelectedBookmarkCharacters]"
+
+				item = {
+					# container = {
+					# 	position = "[BookmarkCharacterGUI.GetCharacter.GetGuiPosition]"
+
+					# 	bm_portrait = {
+					# 		parentanchor = center
+					# 		size = { 145 175 }
+					# 		alwaystransparent = yes
+
+					# 		blockoverride "portrait_button"
+					# 		{
+					# 			portrait_texture = "[BookmarkCharacterGUI.GetPortrait( 'environment_shoulders', 'camera_shoulders', PdxGetWidgetScreenSize(PdxGuiWidget.Self) )]"
+					# 		}
+					# 	}
+
+					# 	coa_dynasty_bookmark = {
+					# 		onclick = "[PdxGuiTriggerAllAnimations('bookmark_character_change')]"
+					# 	}
+					# }
+
+
+					container = {
+						position = "[BookmarkCharacterGUI.GetCharacter.GetGuiPosition]"
+
+
+						button_standard = {
+							datacontext = "[BookmarkCharacterGUI.GetCharacter]"
+							layoutpolicy_horizontal = expanding
+							size = { 310 180 }
+
+							onclick = "[PdxGuiTriggerAllAnimations('bookmark_character_change')]"
+							onclick = "[BookmarkCharacterGUI.Select]"
+
+							using = State_BookmarCharacterGUI_MouseEntry
+
+							down = "[BookmarkCharacterGUI.IsSelected]"
+
+							background = {
+								using = Background_Area_Dark
+							}
+
+
+							vbox = {
+								margin_bottom = 10
+
+								hbox = {
+									widget = {
+										size = { 125 145 }
+
+										bm_portrait = {
+											parentanchor = center
+											position = { -10 -5 }
+											size = { 145 175 }
+											alwaystransparent = yes
+
+											blockoverride "portrait_button"
+											{
+												portrait_texture = "[BookmarkCharacterGUI.GetPortrait( 'environment_shoulders', 'camera_shoulders', PdxGetWidgetScreenSize(PdxGuiWidget.Self) )]"
+											}
+										}
+									}
+
+									vbox = {
+										widget = {
+											size = { 130 20 }
+											text_single = {
+												parentanchor = center
+												name = "character_title"
+												text = "BOOKMARK_CHARACTER_TITLE"
+												max_width = 210
+											}
+										}
+
+										text_single = {
+											name = "character_difficulty"
+											text = "BOOKMARK_CHARACTER_DIFFICULTY"
+											default_format = "#low"
+										}
+
+										hbox = {
+											spacing = 10
+
+											coa_dynasty_bookmark = {
+												using = tooltip_se
+											}
+
+											coa_realm_bookmark = {}
+										}
+									}
+
+									widget = {
+										size = { 25 0 }
+									}
+
+									# button = {
+									# 	name = "select"
+									# 	texture = "gfx/interface/frontend/bookmark_button.dds"
+
+									# 	gfxtype = updownframedbuttongfx
+									# 	effectname = "NoHighlight"
+									# 	upframe = 1
+									# 	overframe = 2
+									# 	downframe = 3
+									# 	framesize = { 360 49 }
+									# 	oversound = "event:/SFX/UI/Generic/sfx_ui_generic_pointer_over"
+									# 	onclick = "[BookmarkCharacterGUI.Select]"
+									# 	state = {
+									# 		name = _mouse_press
+									# 		start_sound = {
+									# 			soundeffect = "event:/SFX/UI/Generic/sfx_ui_generic_pointer_press"
+									# 		}
+									# 	}
+									# 	state = {
+									# 		name = _mouse_release
+									# 		start_sound = {
+									# 			soundeffect = "event:/SFX/UI/Generic/sfx_ui_generic_pointer_release"
+									# 		}
+									# 	}
+									# }
+								}
+
+								text_label_left = {
+									name = "name"
+									layoutpolicy_horizontal = expanding
+									margin_left = 20
+									#margin_top = 0
+									text = "[BookmarkCharacter.GetName]"
+									default_format = "#high"
+									using = Font_Size_Medium
+								}
+
+							}
+
+							expand = {}
+						}
+					}
+
+				}
+			}
+		}
+	#}
+
+	#widget = {
+	#	parentanchor = center
+	#	size = { 1920 100% }
+	#	scale = "[ScaleToFitElementInside('(int32)1920', '(int32)1')]"
+
+		### Top Bar
+		widget = {
+			size = { 100% 60 }
+
+			background = {
+				using = Background_Area_Dark
+				margin = { 20 0 }
+				margin_top = 10
+			}
+
+			background = {
+				using = Background_Area_Dark
+				margin = { 20 0 }
+				margin_top = 10
+			}
+
+			text_single = {
+				parentanchor = vcenter
+				position = { 20 0 }
+				text = "BOOKMARK_SELECT_BOOKMARK"
+				using = Font_Size_Medium
+				align = nobaseline
+			}
+
+			hbox = {
+				hbox = {
+					name = "bookmark_grid"
+					datamodel = "[GameSetup.GetBookmarks]"
+					layoutpolicy_vertical = expanding
+					margin = { 0 5 }
+					spacing = 3
+
+					item = {
+						button_standard = {
+							name = "select"
+							layoutpolicy_vertical = expanding
+							size = { 200 0 }
+							onclick = "[BookmarkItem.Select]"
+							onclick = "[PdxGuiTriggerAllAnimations('bookmark_change')]"
+							down = "[BookmarkItem.IsSelected]"
+
+							# animation_attention_text = {
+							# 	visible = "[BookmarkItem.GetBookmark.IsRecommended]"
+							# }
+
+							vbox = {
+								layoutpolicy_horizontal = expanding
+								margin_bottom = 10
+
+								vbox = {
+									text_single = {
+										name = "year"
+										text = [BookmarkItem.GetYear]
+										default_format = "#high"
+										using = Font_Size_Medium
+									}
+
+									text_single = {
+										name = "bookmark_name"
+										text = [BookmarkItem.GetName]
+										default_format = "#clickable"
+									}
+								}
+							}
+						}
+					}
+				}
+
+
+			}
+			button_standard = {
+				name = "play_tutorial"
+				parentanchor = vcenter|right
+				position = {-30 0}
+				onclick = "[GameSetup.OnShowTutorialPrompt]"
+				text = "GAMESETUP_PLAY_TUTORIAL"
+				default_format = "#high"
+			}
+
+		}
+
+		### Left Sidebar
+		widget = {
+			size = { 350 100% }
+
+			state = {
+				name = "bookmark_change"
+				alpha = 0
+				next = "fadein"
+			}
+
+			state = {
+				name = "fadein"
+				delay = 0.1
+				using = Animation_FadeIn_Standard
+			}
+
+			vbox = {
+				margin_top = 60
+				margin_bottom = 55
+
+				vbox = {
+					name = "bookmark_info"
+					layoutpolicy_horizontal = expanding
+					margin_top = 5
+					margin_bottom = 15
+
+					background = {
+						using = Background_Area_Dark
+					}
+
+					background = {
+						using = Background_Area
+					}
+
+					text_single = {
+						#	text = "[GameSetup.GetSelectedBookmark.GetDate.GetYear] A.D"
+						text = [GameSetup.GetSelectedDate.GetStringLong]
+						default_format = "#low"
+						using = Font_Size_Medium
+					}
+
+					text_single = {
+						text = [GameSetup.GetBookmarkName]
+						default_format = "#high"
+						using = Font_Size_Big
+					}
+
+					text_multi = {
+						name = "bookmark_text"
+						text = [GameSetup.GetBookmarkDescription]
+						#using = Font_Size_Medium
+						autoresize = yes
+						max_width = 300
+						align = center
+						margin_top = 10
+					}
+				}
+
+				expand = {}
+
+				# vbox = {
+				# 	layoutpolicy_horizontal = expanding
+				# 	layoutpolicy_vertical = expanding
+				# 	spacing = 5
+				# 	margin = { 3 0 }
+
+				# 	background = {
+				# 		using = Background_Area_Dark
+				# 	}
+
+				# 	background = {
+				# 		using = Background_Area
+				# 	}
+
+				# 	scrollbox = {
+				# 		name = "bookmark_characters"
+				# 		layoutpolicy_horizontal = expanding
+				# 		layoutpolicy_vertical = expanding
+
+				# 		blockoverride "scrollbox_background" {}
+
+				# 		blockoverride "scrollbox_content"
+				# 		{
+				# 			name = "bookmark_grid"
+				# 			datamodel = "[GameSetup.GetSelectedBookmarkCharacters]"
+				# 			spacing = 3
+
+				# 			item = {
+				# 				button_standard_clean = {
+				# 					datacontext = "[BookmarkCharacterGUI.GetCharacter]"
+				# 					layoutpolicy_horizontal = expanding
+				# 					size = { 0 180 }
+				# 					using = State_BookmarCharacterGUI_MouseEntry
+
+				# 					onclick = "[PdxGuiTriggerAllAnimations('bookmark_character_change')]"
+				# 					onclick = "[BookmarkCharacterGUI.Select]"
+
+				# 					vbox = {
+				# 						text_single = {
+				# 							name = "name"
+				# 							layoutpolicy_horizontal = expanding
+				# 							margin_left = 10
+				# 							margin_top = 5
+				# 							text = "[BookmarkCharacter.GetName]"
+				# 							default_format = "#high"
+				# 							using = Font_Size_Medium
+				# 						}
+
+				# 						hbox = {
+				# 							margin_bottom = 10
+
+				# 							widget = {
+				# 								size = { 125 145 }
+
+
+				# 								bm_portrait = {
+				# 									parentanchor = center
+				# 									size = { 145 175 }
+				# 									alwaystransparent = yes
+
+				# 									blockoverride "portrait_button"
+				# 									{
+				# 										portrait_texture = "[BookmarkCharacterGUI.GetPortrait( 'environment_shoulders', 'camera_shoulders', PdxGetWidgetScreenSize(PdxGuiWidget.Self) )]"
+				# 									}
+				# 								}
+				# 							}
+
+				# 							vbox = {
+				# 								layoutpolicy_horizontal = expanding
+
+				# 								text_single = {
+				# 									name = "character_title"
+				# 									text = "[BookmarkCharacter.GetTitleTierName] of [BookmarkCharacter.GetTitleName]"
+
+				# 								}
+
+				# 								text_single = {
+				# 									name = "character_difficulty"
+				# 									text = "BOOKMARK_CHARACTER_DIFFICULTY"
+				# 									default_format = "#low"
+				# 								}
+
+				# 								hbox = {
+				# 									spacing = 10
+
+				# 									coa_dynasty_bookmark = {}
+
+				# 									coa_realm_bookmark = {}
+				# 								}
+				# 							}
+
+				# 							# button = {
+				# 							# 	name = "select"
+				# 							# 	texture = "gfx/interface/frontend/bookmark_button.dds"
+
+				# 							# 	gfxtype = updownframedbuttongfx
+				# 							# 	effectname = "NoHighlight"
+				# 							# 	upframe = 1
+				# 							# 	overframe = 2
+				# 							# 	downframe = 3
+				# 							# 	framesize = { 360 49 }
+				# 							# 	oversound = "event:/SFX/UI/Generic/sfx_ui_generic_pointer_over"
+				# 							# 	onclick = "[BookmarkCharacterGUI.Select]"
+				# 							# 	state = {
+				# 							# 		name = _mouse_press
+				# 							# 		start_sound = {
+				# 							# 			soundeffect = "event:/SFX/UI/Generic/sfx_ui_generic_pointer_press"
+				# 							# 		}
+				# 							# 	}
+				# 							# 	state = {
+				# 							# 		name = _mouse_release
+				# 							# 		start_sound = {
+				# 							# 			soundeffect = "event:/SFX/UI/Generic/sfx_ui_generic_pointer_release"
+				# 							# 		}
+				# 							# 	}
+				# 							# }
+				# 						}
+				# 					}
+
+				# 					expand = {}
+				# 				}
+				# 			}
+
+				# 		}
+				# 	}
+
+
+				# }
+
+				hbox = {
+					layoutpolicy_horizontal = expanding
+					margin = { 10 0 }
+
+					container = {
+
+						background = {
+							using = Background_Area_Dark
+						}
+
+						button_standard = {
+							name = "pick_any_character_button"
+							layoutpolicy_horizontal = expanding
+							size = { 330 78 }
+
+							text = "PICK_ANY_CHARACTER"
+							default_format = "#high"
+							using = Font_Size_Medium
+							enabled = "[GameSetup.IsCurrentBookmarkPlayable]"
+							onclick = "[SetIronmanEnabledStatus( '(bool)no' )]"
+							onclick = "[GameSetup.OnCustomStart]"
+							tooltip = "[GameSetup.CustomPlayTooltip]"
+						}
+					}
+				}
+			}
+		}
+
+
+		### Bottom Panel
+		widget = {
+			name = "bottom_panel"
+			size = { 100% 52 }
+			parentanchor = bottom|left
+
+			background = {
+				visible = "[Not(GameSetup.HasSelectedCharacter)]"
+				using = Background_Area_Dark
+				margin = { 20 0 }
+				margin_bottom = 10
+			}
+
+			background = {
+				visible = "[Not(GameSetup.HasSelectedCharacter)]"
+				using = Background_Area_Dark
+				margin = { 20 0 }
+				margin_bottom = 10
+			}
+
+
+			background = {
+				visible = "[GameSetup.HasSelectedCharacter]"
+				using = Background_Area_Dark
+				margin = { 20 0 }
+				margin_bottom = 10
+				margin_right = -350
+			}
+
+			background = {
+				visible = "[GameSetup.HasSelectedCharacter]"
+				using = Background_Area_Dark
+				margin = { 20 0 }
+				margin_bottom = 10
+				margin_right = -350
+			}
+
+
+			button_standard = {
+				name = "back_button"
+				parentanchor = vcenter|left
+				position = { 10 2 }
+
+				text = "BACK_LABEL"
+				default_format = "#clickable"
+				shortcut = "close_window"
+				onclick = "[GameSetup.OnBack]"
+				oversound = "event:/SFX/UI/Generic/sfx_ui_generic_pointer_over"
+				clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_close"
+
+				button_back = {
+					parentanchor =  left|vcenter
+					position = { 5 0 }
+				}
+			}
+
+			flowcontainer = {
+				parentanchor = vcenter|right
+				position = { -360 2 }
+				spacing = 5
+
+				flowcontainer_game_rules_mini = {
+					name = "game_rules_mini"
+					parentanchor = vcenter
+					margin = { 15 0 }
+				}
+
+				flowcontainer = {
+					datacontext = "[GetGameRules]"
+					ignoreinvisible = yes
+
+					ironman_save_icon = {
+						visible = "[IsIronmanEnabled]"
+						tooltip = "IRONMAN_ENABLED"
+					}
+					ironman_disabled_icon = {
+						visible = "[Not( IsIronmanEnabled )]"
+						tooltip = "IRONMAN_DISBLED"
+					}
+					achievements_enabled_icon = {
+						visible = "[And( And( IsIronmanEnabled, IsGameChecksumOk ), Not( JominiGameRules.HasRuleWithFlag( 'blocks_achievements' ) ) )]"
+						tooltip = ACHIEVEMENTS_ENABLED
+					}
+					achievements_disabled_icon = {
+						visible = "[Not( And( And( IsIronmanEnabled, IsGameChecksumOk ), Not( JominiGameRules.HasRuleWithFlag( 'blocks_achievements' ) ) ) )]"
+						tooltip = ACHIEVEMENTS_DISABLED
+					}
+				}
+
+				button_standard = {
+					name = "game_rules_button"
+					parentanchor = vcenter
+
+					text = "GAME_RULES"
+					onclick = "[OpenGameRules]"
+
+					button_rules = {
+						size = { 25 25 }
+						parentanchor = left|vcenter
+						position = { 5 0 }
+						alwaystransparent = yes
+					}
+				}
+			}
+		}
+
+		# ### SELECT CHARACTER TEXT
+		# widget = {
+		# 	name = "select_character_text"
+		# 	size = { 800 100 }
+		# 	position = { 0 30 }
+		# 	parentanchor = top|hcenter
+		# 	visible = "[Not(GameSetup.HasSelectedCharacter)]"
+
+		# 	icon = {
+		# 		name = "glow"
+		# 		texture = "gfx/interface/frontend/text_glow.dds"
+		# 		position = { 0 -85 }
+		# 		parentanchor = top|hcenter
+		# 	}
+
+		# 	textbox = {
+		# 		name = "text"
+		# 		text = "SELECT_CHARACTER_ON_MAP"
+		# 		position = { 0 0 }
+		# 		using = FontHeading1_dark
+		# 		autoresize = yes
+		# 		align = center
+		# 		parentanchor = top|hcenter
+		# 	}
+		# }
+
+		### Right sidebar
+		widget = {
+			name = "selected_character_info"
+			visible = "[GameSetup.HasSelectedCharacter]"
+			parentanchor = right
+			size = { 350 100% }
+
+			state = {
+				name = _show
+				using = Animation_FadeIn_Standard
+			}
+
+			state = {
+				name = "bookmark_character_change"
+				alpha = 0.5
+				next = "fadein"
+			}
+
+			state = {
+				name = "fadein"
+				using = Animation_FadeIn_Standard
+			}
+
+			vbox = {
+				datacontext = "[GameSetup.GetSelectedCharacterGUI.GetCharacter]"
+				datacontext = "[GameSetup.GetSelectedCharacterGUI]"
+				margin_top = 70
+				margin_bottom = 15
+
+				background = {
+					using = Background_Area_Dark
+					margin_top = -60
+				}
+
+				background = {
+					using = Background_Area
+					margin_top = -60
+				}
+
+				hbox = {
+					text_single = {
+						name = "character_name"
+						text = "BOOKMARK_CHARACTER_INFO"
+						using = Font_Size_Big
+					}
+				}
+
+				text_single = {
+					name = "character_title"
+					text = "BOOKMARK_CHARACTER_TITLE"
+					using = Font_Size_Medium
+				}
+
+				hbox = {
+					spacing = 10
+					margin_top = 10
+
+					text_single = {
+						name = "character_culture"
+						text = "BOOKMARK_CHARACTER_CULTURE"
+					}
+
+					text_single = {
+						name = "character_religion"
+						text = "BOOKMARK_CHARACTER_RELIGION"
+					}
+				}
+
+				text_single = {
+					name = "character_difficulty"
+					text = "BOOKMARK_CHARACTER_DIFFICULTY"
+				}
+
+				hbox = {
+					layoutpolicy_horizontal = expanding
+					margin = { 10 0 }
+					spacing = 10
+
+					coa_dynasty_bookmark = {}
+
+					vbox = {
+						layoutpolicy_horizontal = expanding
+
+						text_single = {
+							layoutpolicy_horizontal = expanding
+							text = "[dynasty|E]"
+						}
+
+						text_single = {
+							layoutpolicy_horizontal = expanding
+							text = [BookmarkCharacter.GetDynastyTemplate.GetName]
+							default_format = "#high"
+							tooltip = "BOOKMARK_DYNASTY_TOOLTIP"
+						}
+
+
+					}
+				}
+
+
+
+
+				text_multi = {
+					name = "character_text"
+					layoutpolicy_horizontal = expanding
+					text = "[BookmarkCharacter.GetDescription]"
+					#	using = Font_Size_Medium
+					autoresize = yes
+					max_width = 300
+					margin_top = 10
+				}
+
+				expand = {
+					layoutpolicy_vertical = expanding
+				}
+
+				widget = {
+					datacontext = "[GameSetup.GetSelectedCharacterGUI]"
+					visible = "[GameSetup.HasSelectedCharacter]"
+					layoutpolicy_horizontal = expanding
+					#layoutpolicy_vertical = expanding
+
+					# debug_square = {
+					# 	size = { 100% 100% }
+					# }
+
+					bm_portrait = {
+						parentanchor = bottom|hcenter
+						position = { 0 0 }
+						size = { 300 470 }
+
+						blockoverride "portrait_button"
+						{
+							portrait_texture = "[BookmarkCharacterGUI.GetAnimatedPortrait( 'environment_body', 'camera_body', PdxGetWidgetScreenSize(PdxGuiWidget.Self) )]"
+						}
+					}
+
+					flowcontainer = {
+						datamodel = "[BookmarkCharacterGUI.GetRelatedCharacters]"
+						parentanchor = bottom|left
+						position = { 20 -15 }
+						spacing = 10
+
+						item = {
+							flowcontainer = {
+								direction = vertical
+
+								bm_portrait = {
+									size = { 145 175 }
+
+									blockoverride "portrait_tooltip"
+									{
+										tooltip_enabled = yes
+									}
+
+									blockoverride "portrait_button"
+									{
+										portrait_texture = "[BookmarkCharacterGUI.GetPortrait( 'environment_shoulders', 'camera_shoulders', PdxGetWidgetScreenSize(PdxGuiWidget.Self) )]"
+									}
+								}
+
+								text_multi = {
+									name = "character_name"
+									parentanchor = hcenter
+									text = "[BookmarkCharacterGUI.GetCharacter.GetName]"
+									default_format = "#high"
+									align = center
+									autoresize = yes
+									max_width = 135
+								}
+
+								text_single = {
+									name = "character_relation"
+									parentanchor = hcenter
+									text = "[BookmarkCharacterGUI.GetCharacter.GetRelation]"
+								}
+							}
+						}
+					}
+				}
+
+				button_primary_big = {
+					name = "start_button"
+					size = { 280 65 }
+					text = "START"
+					onclick = "[GameSetup.OnStart]"
+					enabled = "[GameSetup.CanStart]"
+					tooltip = "[GameSetup.PlayTooltip]"
+
+					state = {
+						name = _mouse_release
+						start_sound = {
+							soundeffect = "event:/SFX/UI/Generic/sfx_ui_generic_start_game"
+						}
+					}
+				}
+			}
+		}
+
+
+		### TUTORIAL PROMPT
+		widget = {
+			visible = "[GameSetup.ShouldShowTutorialPrompt]"
+			visible_at_creation = no
+			name = "tutorial_prompt_overlay"
+			size = { 100% 100% }
+			alwaystransparent = no
+
+			state = {
+				name = _show
+				using = Animation_FadeIn_Standard
+				using = Sound_WindowShow_Standard
+			}
+
+			state = {
+				name = _hide
+				using = Animation_FadeOut_Quick
+				using = Sound_WindowHide_Standard
+			}
+
+			background = {
+				using = Background_Area_Dark
+			}
+
+			gamesetup_tutorial_prompt = {
+				parentanchor = center
+			}
+		}
+	#}
+}
+
+types BookmarkPortraits
+{
+
+	type bm_portrait = widget {
+
+		portrait_button = {
+			parentanchor = center
+			size = { 100% 100% }
+			using = portrait_base
+			name = "culture_head_portrait"
+			portrait_texture = "[BookmarkCharacterGUI.GetPortrait( 'environment_head', 'camera_head', PdxGetWidgetScreenSize(PdxGuiWidget.Self) )]"
+
+			background_texture = "gfx/portraits/portrait_transparent.dds"
+			texture = "gfx/portraits/portrait_transparent.dds"
+			framesize = { 86 129 }
+			mask = "gfx/portraits/portrait_mask_body.dds"
+
+			#	onclick = "[BookmarkCharacterGUI.Select]"
+			datacontext = "[BookmarkCharacterGUI.GetCharacter]"
+			effectname = "NoHighlight"
+			alwaystransparent = yes
+
+			block "portrait_tooltip" {
+				tooltip_enabled = no
+			}
+
+			block "portrait_button" {}
+
+			blockoverride "portrait_button_template_tooltip"
+			{
+				tooltip = "[BookmarkCharacter.GetTooltip]"
+			}
+
+			blockoverride "portrait_button_template_onclick" {}
+			blockoverride "portrait_button_template_onmouseenter" {}
+			blockoverride "portrait_button_template_onmouseleave" {}
+
+			blockoverride "coa" {}
+			blockoverride "status_icons" {}
+			blockoverride "opinion_box" {}
+			blockoverride "imprisonment" {}
+			blockoverride "player_overlay" {}
+			blockoverride "grayscale"{}
+			blockoverride "TODO_debug_info" {}
+		}
+	}
+}
+
+types GameSetupTypes
+{
+	type gamesetup_tutorial_prompt = window {
+		movable = no
+		resizable = no
+		using = Window_Decoration_Spike
+		using = Window_Background
+
+		vbox = {
+			using = Window_Margins
+			set_parent_size_to_minimum = yes
+			spacing = 10
+
+
+			header_pattern = {
+				layoutpolicy_horizontal = expanding
+
+				blockoverride "header_text"
+				{
+					text = "GAMESETUP_TUTORIAL_PROMPT_HEADER"
+				}
+				blockoverride "button_back"
+				{
+					visible = no
+				}
+				blockoverride "button_close"
+				{
+					onclick = "[GameSetup.OnSkipTutorial]"
+				}
+			}
+
+			vbox = {
+				background = {
+					texture = "gfx/interface/illustrations/event_scenes/sittingroom.dds"
+					margin = { 0 0 }
+					fittype = centercrop
+					alpha = 0.8
+
+					modify_texture = {
+						texture = "gfx/interface/tiles/stretch_bottom_fade.dds"
+						blend_mode = alphamultiply
+					}
+				}
+
+				hbox = {
+					spacing = 10
+
+					vbox = {
+						layoutpolicy_vertical = expanding
+
+						margin = {15 15}
+
+
+						spacing = 40
+
+						hbox = {
+							layoutpolicy_horizontal = expanding
+							text_multi = {
+								max_width = 430
+								min_width = 430
+								autoresize = yes
+								text = "GAMESETUP_TUTORIAL_PROMPT_INTRO"
+								using = Font_Size_Medium
+							}
+							expand = {}
+						}
+
+
+						hbox = {
+							layoutpolicy_horizontal = expanding
+							text_multi = {
+								max_width = 430
+								min_width = 430
+								autoresize = yes
+								text = "GAMESETUP_TUTORIAL_PROMPT_RECOMMEND"
+								using = Font_Size_Medium
+							}
+							expand = {}
+						}
+
+						hbox = {
+							layoutpolicy_horizontal = expanding
+
+							spacing = 10
+							#coa_realm_bookmark = {
+							#	datacontext = "[GameSetup.GetTutorialCharacter]"
+							#	alwaystransparent = yes
+							#}
+
+							text_multi = {
+								max_width = 430
+								min_width = 430
+								autoresize = yes
+								text = "GAMESETUP_TUTORIAL_PROMPT_ABOUT_RULER"
+								using = Font_Size_Medium
+							}
+
+							expand = {}
+						}
+
+
+						expand = {}
+
+					}
+
+
+
+
+
+					vbox = {
+						bm_portrait = {
+							size = { 300 470 }
+							datacontext = "[GameSetup.GetTutorialCharacter]"
+
+							blockoverride "portrait_button"
+							{
+								portrait_texture = "[BookmarkCharacterGUI.GetAnimatedPortrait( 'environment_body', 'camera_body', PdxGetWidgetScreenSize(PdxGuiWidget.Self) )]"
+							}
+
+							blockoverride "portrait_transformation"
+							{
+								portrait_scale = { -1 1 }
+								portrait_offset = { 1 0 }
+							}
+
+
+						}
+
+
+
+						text_label_center = {
+							text = "bookmark_rags_to_riches_petty_king_murchad"
+							default_format = "#high"
+						}
+					}
+
+
+
+				}
+
+				vbox = {
+					layoutpolicy_horizontal = expanding
+					margin = {0 15}
+
+					spacing = 15
+
+					background = {
+						using = Background_Area
+					}
+
+					text_single = {
+						text = "GAMESETUP_TUTORIAL_PROMPT_ASK"
+					}
+
+					hbox = {
+						layoutpolicy_horizontal = expanding
+						spacing = 10
+
+						button_standard = {
+							text = "GAMESETUP_TUTORIAL_PROMPT_DISABLE"
+							onclick = "[GameSetup.OnSkipTutorial]"
+						}
+
+						button_primary = {
+							text = "GAMESETUP_TUTORIAL_PROMPT_PLAY_TUTORIAL"
+							onclick = "[GameSetup.OnPlayTutorial]"
+							default_format = "#high"
+						}
+
+
+					}
+				}
+			}
+		}
+	}
+}
+
+
+template State_BookmarCharacterGUI_MouseEntry
+{
+	state = {
+		name = _mouse_hierarchy_enter
+		on_start = "[BookmarkCharacterGUI.HoverStart]"
+	}
+
+	state = {
+		name = _mouse_hierarchy_leave
+		on_start = "[BookmarkCharacterGUI.HoverEnd]"
+	}
+}
