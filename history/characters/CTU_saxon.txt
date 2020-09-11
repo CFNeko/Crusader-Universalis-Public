@@ -1,0 +1,30 @@
+﻿
+CTU_saxon_1 = {	#Irontooth
+	name = "Friedrich"
+	religion = catholic
+	culture = franconian #CTU_markish
+	dynasty = 12476
+	martial = 10
+	diplomacy = 10
+	intrigue = 10
+	stewardship = 10
+	father = CTU_saxon_2
+	trait = education_martial_4
+	give_nickname = nick_irontooth
+	1430.1.1 = {
+		birth = yes
+	}
+}
+
+CTU_saxon_2 = {	
+	name = "Friedrich"
+	religion = catholic
+	culture = franconian #CTU_markish
+	dynasty = 12476
+	1400.1.1 = {
+		birth = yes
+	}
+	1440.1.1 = {
+		death = yes
+	}
+}
