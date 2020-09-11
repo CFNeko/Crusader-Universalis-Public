@@ -1,0 +1,11 @@
+﻿
+# Bohemian {
+	CKU_bohemian_1 = {
+		name = "jiri"
+		religion = catholic
+		culture = czech
+		1430.1.1 = {
+			birth = yes
+		}
+	}
+#}

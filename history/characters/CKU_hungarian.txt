@@ -1,0 +1,11 @@
+﻿
+# Hungarian {
+	CKU_hungarian_1 = {
+		name = "janos"
+		religion = catholic
+		culture = hungarian
+		1430.1.1 = {
+			birth = yes
+		}
+	}
+#}

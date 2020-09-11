@@ -1,0 +1,6 @@
+k_bohemia = {
+	1440.1.1 = {
+		holder = CKU_bohemian_1
+	}
+	reset_name = yes
+}
