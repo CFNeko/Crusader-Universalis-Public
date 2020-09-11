@@ -1,0 +1,64 @@
+
+k_aquitaine = {
+	867.1.1 = { change_development_level = 5 }
+	1066.1.1 = { change_development_level = 8 }
+	
+	778.1.1 = {
+		holder = 6392
+	}
+	781.1.1 = {
+		holder = 90095	#Louis le Pieux
+	}
+	817.1.1 = {
+		holder = 90096	#Pepin I of Aquitaine
+	}
+	838.1.14 = {
+		holder = 90104	#Charles the Bald
+	}
+	843.1.1 = {
+		#Pepin II revolts against Charles the Bald
+		holder = 90097	#Pepin II "le Jeune"
+	}
+	848.1.1 = {
+		#Pepin II kicked out by his people
+		holder = 0	#Effectively part of West Francia
+	}
+	854.1.1 = {
+		#Pepin II revolts again
+		holder = 90097	#Pepin II "le Jeune"
+	}
+	855.1.1 = {
+		holder = 42020 #Charles "the Puer"
+		#Effectively part of West Francia
+	}
+	863.1.1 = {
+		#42020 apparently destitued by his father the Bald
+		holder = 0	#Effectively part of West Francia
+	}
+	865.1.1 = {
+		holder = 42020 #Charles "the Puer"
+		#Effectively part of West Francia
+	}
+	
+	#866.1.30 = {
+	#	holder = 90123 #Louis II the Stammerer
+	#	#Effectively part of West Francia
+	#}
+	
+	866.1.30 = {	#Workaround as we don't support vassalage of same tier title, so we have to go around that
+		holder = 90104 #Charles II le Chauve
+	}	
+	877.1.1 = {
+		#Louis II the Stammerer becomes king of West Francia
+		holder = 0	#Effectively part of West Francia
+	}
+	880.1.1 = {
+		holder = 90155 #Carloman II, son of Louis the Stammerer
+	}
+	884.12.12 = {
+		holder = 0
+	}
+	1440.1.1 = {
+		holder = CKU_francien_1
+	}
+}

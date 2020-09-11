@@ -1,5 +1,5 @@
 ﻿
-CTU_saxon_1 = {	#Irontooth
+CKU_saxon_1 = {	#Irontooth
 	name = "Friedrich"
 	religion = catholic
 	culture = franconian #CTU_markish
@@ -16,7 +16,7 @@ CTU_saxon_1 = {	#Irontooth
 	}
 }
 
-CTU_saxon_2 = {	
+CKU_saxon_2 = {	
 	name = "Friedrich"
 	religion = catholic
 	culture = franconian #CTU_markish

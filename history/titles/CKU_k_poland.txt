@@ -1,0 +1,16 @@
+k_poland = {
+	867.1.1 = { change_development_level = 5 }
+	1066.1.1 = { change_development_level = 8 }
+	
+	778.1.1 = {
+		holder = 6392
+	}
+	1440.1.1 = {
+		holder = CKU_polish_1
+	}
+}
+k_galicia-volhynia = {
+	1440.1.1 = {
+		holder = CKU_polish_1
+	}
+}
