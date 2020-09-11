@@ -1,0 +1,6 @@
+
+k_andalusia = {
+	1440.1.1 = {
+		holder = CKU_granadan_1
+	}
+}

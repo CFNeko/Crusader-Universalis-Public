@@ -1,0 +1,6 @@
+
+k_portugal = {
+	1440.1.1 = {
+		holder = CKU_portugal_1
+	}
+}

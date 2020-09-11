@@ -1,0 +1,32 @@
+﻿
+# Aragon {
+	CKU_aragorn_1 = {
+		name = "Alfonso"
+		religion = catholic
+		culture = aragonese
+		dynasty = 774
+		1430.1.1 = {
+			birth = yes
+		}
+	}
+#}
+# Castille {
+	CKU_castille_1 = {
+		name = "Juan"
+		religion = catholic
+		culture = castilian
+		dynasty = 774
+		1430.1.1 = {
+			birth = yes
+		}
+	}
+#}
+# Castille {
+	CKU_portugal_1 = {
+		religion = catholic
+		culture = portuguese
+		1430.1.1 = {
+			birth = yes
+		}
+	}
+#}
