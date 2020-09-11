@@ -1,0 +1,11 @@
+﻿
+# Scotland {
+	CKU_scottish_1 = {
+		name = "Scotsman"
+		religion = catholic
+		culture = scottish
+		1430.1.1 = {
+			birth = yes
+		}
+	}
+#}

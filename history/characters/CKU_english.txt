@@ -1,0 +1,11 @@
+﻿
+# England {
+	CKU_english_1 = {
+		name = "Timmy"
+		religion = catholic
+		culture = english
+		1430.1.1 = {
+			birth = yes
+		}
+	}
+#}

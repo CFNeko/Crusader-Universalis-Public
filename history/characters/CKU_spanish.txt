@@ -4,8 +4,27 @@
 		name = "Alfonso"
 		religion = catholic
 		culture = aragonese
+		trait = generous
+		trait = calm
+		trait = patient
+		trait = education_diplomacy_3
+		diplomacy = 4
+		martial = 6
+		intrigue = 1
+		stewardship = 2
+		learning = 8	
 		dynasty = 774
-		1430.1.1 = {
+		1420.1.1 = {
+			birth = yes
+		}
+	}
+
+	CKU_aragorn_2 = {
+		name = "Melvasul"
+		religion = catholic
+		culture = sicilian
+		learning = 69
+		1420.1.1 = {
 			birth = yes
 		}
 	}
@@ -16,7 +35,7 @@
 		religion = catholic
 		culture = castilian
 		dynasty = 774
-		1430.1.1 = {
+		1420.1.1 = {
 			birth = yes
 		}
 	}
@@ -25,7 +44,7 @@
 	CKU_portugal_1 = {
 		religion = catholic
 		culture = portuguese
-		1430.1.1 = {
+		1420.1.1 = {
 			birth = yes
 		}
 	}

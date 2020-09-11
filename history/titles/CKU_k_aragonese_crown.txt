@@ -18,7 +18,7 @@ k_trinacria = {
 
 k_naples = {
 	1440.1.1 = {
-		liege = CKU_aragorn_1
+		holder = CKU_aragorn_1
 	}
 }
 
@@ -27,3 +27,4 @@ k_sicily = {
 		holder = CKU_aragorn_1
 	}
 }
+

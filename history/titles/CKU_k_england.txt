@@ -1,0 +1,29 @@
+k_england = {
+	1440.1.1 = {
+		holder = CKU_english_1
+	}
+}
+
+k_wales = {
+	1440.1.1 = {
+		holder = CKU_english_1
+	}
+}
+
+c_dublin = {
+	1440.1.1 = {
+		holder = CKU_english_1
+	}
+}
+
+d_normandy = {
+	1440.1.1 = {
+		holder = CKU_english_1
+	}
+}
+
+d_gascogne = {
+	1440.1.1 = {
+		holder = CKU_english_1
+	}
+}
