@@ -1,0 +1,4 @@
+CKU_de_medici = {
+	name = "dynn_de_Medici"
+	culture = florentine
+}

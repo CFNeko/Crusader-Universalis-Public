@@ -1,0 +1,18 @@
+c_firenze = {
+	government = republic_government
+	1434.10.6 = {
+		holder = CKU_florence_1
+	}
+}
+
+c_arezzo = {
+	1434.10.6 = {
+		holder = CKU_florence_1
+	}
+}
+
+c_pisa = {
+	1434.10.6 = {
+		holder = CKU_florence_1
+	}
+}

@@ -1,7 +1,7 @@
-CKU_venice_1 = {
-	name = "Francesco Foscari"
+CKU_montferrat_1 = {
+	name = "Giovanni Giacomo"
 	religion = catholic
-	culture = venetian
+	culture = greek
 	trait = generous
 	trait = calm
 	trait = patient
@@ -11,8 +11,11 @@ CKU_venice_1 = {
 	intrigue = 1
 	stewardship = 2
 	learning = 8	
-	dynasty = 770
-	1373.6.19 = {
+	dynasty = 48
+	1395.3.23 = {
 		birth = yes
+	}
+	1445.3.12 = {
+		death = yes
 	}
 }

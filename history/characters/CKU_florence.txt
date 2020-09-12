@@ -1,0 +1,133 @@
+CKU_florence_01 = {
+	name = "Giovanni di Bicci"
+	religion = catholic
+	culture = tuscan
+	trait = generous
+	trait = calm
+	trait = patient
+	trait = education_diplomacy_3
+	diplomacy = 4
+	martial = 6
+	intrigue = 1
+	stewardship = 2
+	learning = 8	
+	dynasty = CKU_de_medici
+	1360.2.18 = {
+		birth = yes
+	}
+	1386.1.1 = {
+		add_spouse = CKU_florence_02
+	}
+	1429.2.20 = {
+		death = yes
+	}
+}
+
+CKU_florence_02 = {
+	name = "Piccarda Bueri"
+	religion = catholic
+	culture = tuscan
+	trait = generous
+	trait = calm
+	trait = patient
+	trait = education_diplomacy_3
+	diplomacy = 4
+	martial = 6
+	intrigue = 1
+	stewardship = 2
+	learning = 8	
+	dynasty = CKU_de_medici
+	female = yes
+	1350.1.1 = {
+		birth = yes
+	}
+	1433.4.19 = {
+		death = yes
+	}
+}
+
+CKU_florence_1 = {
+	name = "Cosimo di Giovanni"
+	religion = catholic
+	culture = tuscan
+	trait = generous
+	trait = calm
+	trait = patient
+	trait = education_diplomacy_3
+	diplomacy = 4
+	martial = 6
+	intrigue = 1
+	stewardship = 2
+	learning = 8	
+	dynasty = CKU_de_medici
+	father = CKU_florence_01
+	mother = CKU_florence_02
+	1389.9.27 = {
+		birth = yes
+	}
+	1415.1.1 = {
+		add_spouse = CKU_florence_1_1
+	}
+}
+
+CKU_florence_1_1 = {
+	name = "Contessina de' Bardi"
+	religion = catholic
+	culture = tuscan
+	trait = generous
+	trait = calm
+	trait = patient
+	trait = education_diplomacy_3
+	diplomacy = 4
+	martial = 6
+	intrigue = 1
+	stewardship = 2
+	learning = 8
+	dynasty = CKU_de_medici
+	female = yes
+	1390.1.1 = {
+		birth = yes
+	}
+}
+
+CKU_florence_2 = {
+	name = "Piero di Cosimo"
+	father = CKU_florence_1
+	mother = CKU_florence_1_1
+	religion = catholic
+	culture = tuscan
+	trait = generous
+	trait = calm
+	trait = patient
+	trait = education_diplomacy_3
+	diplomacy = 4
+	martial = 6
+	intrigue = 1
+	stewardship = 2
+	learning = 8	
+	dynasty = CKU_de_medici
+	1416.6.14 = {
+		birth = yes
+	}
+}
+
+CKU_florence_3 = {
+	name = "Giovanni di Cosimo"
+	father = CKU_florence_1
+	mother = CKU_florence_1_1
+	religion = catholic
+	culture = tuscan
+	trait = generous
+	trait = calm
+	trait = patient
+	trait = education_diplomacy_3
+	diplomacy = 4
+	martial = 6
+	intrigue = 1
+	stewardship = 2
+	learning = 8	
+	dynasty = CKU_de_medici
+	1421.6.3 = {
+		birth = yes
+	}
+}

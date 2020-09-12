@@ -1,0 +1,115 @@
+﻿CKU_milan_0 = {
+	name = "Gian Galeazzo"
+	dynasty = 234
+	martial = 3
+	diplomacy = 6
+	intrigue = 4
+	stewardship = 7
+	religion = "catholic"
+	culture = lombard
+	trait = wrathful
+	trait = deceitful
+	trait = arrogant
+	trait = education_martial_3
+
+	father = 463151
+	1351.10.16 = {
+		birth = yes
+	}
+	1380.11.15 = {
+		add_spouse = CKU_milan_01
+	}
+	1402.9.3 = {
+		death = yes
+	}
+}
+
+CKU_milan_01 = {
+	name = "Caterina"
+	dynasty = 234
+	martial = 3
+	diplomacy = 6
+	intrigue = 4
+	stewardship = 7
+	religion = "catholic"
+	culture = lombard
+	trait = wrathful
+	trait = deceitful
+	trait = arrogant
+	trait = education_martial_3
+
+	female = yes
+	father = 463152
+	1362.7.12 = {
+		birth = yes
+	}
+	1404.10.17 = {
+		death = yes
+	}
+}
+
+CKU_milan_1 = {
+	name = "Filippo Maria"
+	dynasty = 234
+	martial = 3
+	diplomacy = 6
+	intrigue = 4
+	stewardship = 7
+	religion = "catholic"
+	culture = lombard
+	trait = wrathful
+	trait = deceitful
+	trait = arrogant
+	trait = education_martial_3
+
+	father = CKU_milan_0
+	1392.9.3 = {
+		birth = yes
+	}
+	1412 = {
+		add_spouse = CKU_milan_1_1
+	}
+}
+
+CKU_milan_1_1 = {
+	name = "Beatrice Lascaris"
+	female = yes
+	dynasty = 234
+	martial = 3
+	diplomacy = 6
+	intrigue = 4
+	stewardship = 7
+	religion = "catholic"
+	culture = lombard
+	trait = wrathful
+	trait = deceitful
+	trait = arrogant
+	trait = education_martial_3
+
+	1372.1.1 = {
+		birth = yes
+	}
+}
+
+CKU_milan_02 = {
+	name = "Giovanni Maria"
+	dynasty = 234
+	martial = 3
+	diplomacy = 6
+	intrigue = 4
+	stewardship = 7
+	religion = "catholic"
+	culture = lombard
+	trait = wrathful
+	trait = deceitful
+	trait = arrogant
+	trait = education_martial_3
+
+	#father = CKU_milan_0
+	1388.9.7 = {
+		birth = yes
+	}
+	1412.5.16 = {
+		death = yes
+	}
+}

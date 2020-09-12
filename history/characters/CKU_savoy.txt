@@ -1,0 +1,42 @@
+CKU_savoy_0 = {
+	name = Bianca
+	dynasty = 240
+	female = yes
+	martial = 3
+	diplomacy = 6
+	intrigue = 4
+	stewardship = 7
+	religion = "catholic"
+	culture = venetian
+	trait = wrathful
+	trait = deceitful
+	trait = arrogant
+	trait = education_martial_3
+	1336.1.1 = {
+		birth = yes
+	}
+	1387.11.31 = {
+		death = yes
+	}
+}
+
+CKU_savoy_1 = {
+	name = "Ludovico"
+	dynasty = 240
+	martial = 3
+	diplomacy = 6
+	intrigue = 4
+	stewardship = 7
+	religion = "catholic"
+	culture = venetian
+	trait = wrathful
+	trait = deceitful
+	trait = arrogant
+	trait = education_martial_3
+	1413.2.21 = {
+		birth = yes
+	}
+	1465.1.29 = {
+		death = yes
+	}
+}

@@ -16,7 +16,7 @@ CKU_1444_europe = {
 		history_id = 109500
 		position = { 0 800 }
 
-		anymation = disapproval
+		animation = disapproval
 	}
 
 	character = {
@@ -33,7 +33,7 @@ CKU_1444_europe = {
 		history_id = 107500
 		position = { 0 630 }
 
-		anymation = disapproval
+		animation = disapproval
 	}
 
 	character = {
@@ -50,7 +50,7 @@ CKU_1444_europe = {
 		history_id = 109500
 		position = { 50 270 }
 
-		anymation = disapproval
+		animation = disapproval
 	}
 
 	character = {
@@ -67,7 +67,7 @@ CKU_1444_europe = {
 		history_id = CKU_francien_1
 		position = { 50 450 }
 
-		anymation = disapproval
+		animation = disapproval
 	}
 
 	character = {
@@ -84,7 +84,7 @@ CKU_1444_europe = {
 		history_id = CKU_italian_1
 		position = { 375 760 }
 
-		anymation = disapproval
+		animation = disapproval
 	}
 
 	character = {
@@ -101,7 +101,7 @@ CKU_1444_europe = {
 		history_id = CKU_venice_1
 		position = { 375 580 }
 
-		anymation = disapproval
+		animation = disapproval
 	}
 
 	character = {
@@ -118,7 +118,7 @@ CKU_1444_europe = {
 		history_id = 109500
 		position = { 375 400 }
 
-		anymation = disapproval
+		animation = disapproval
 	}
 
 	character = {
@@ -135,7 +135,7 @@ CKU_1444_europe = {
 		history_id = 109500
 		position = { 425 220 }
 
-		anymation = disapproval
+		animation = disapproval
 	}
 
 	#character = {
@@ -152,7 +152,7 @@ CKU_1444_europe = {
 	#	history_id = 109500
 	#	position = { 730 225 }
 	#
-	#	anymation = disapproval
+	#	animation = disapproval
 	#}
 
 	character = {
@@ -169,7 +169,7 @@ CKU_1444_europe = {
 		history_id = 109500
 		position = { 685 900 }
 
-		anymation = disapproval
+		animation = disapproval
 	}
 
 	character = {
@@ -186,7 +186,7 @@ CKU_1444_europe = {
 		history_id = 109500
 		position = { 700 580 }
 
-		anymation = disapproval
+		animation = disapproval
 	}
 
 	character = {
@@ -203,7 +203,7 @@ CKU_1444_europe = {
 		history_id = 109500
 		position = { 800 380 }
 
-		anymation = disapproval
+		animation = disapproval
 	}
 
 	character = {
@@ -220,7 +220,7 @@ CKU_1444_europe = {
 		history_id = 109500
 		position = { 995 900 }
 
-		anymation = personality_content
+		animation = personality_content
 	}
 
 	character = {
@@ -237,7 +237,7 @@ CKU_1444_europe = {
 		history_id = 109500
 		position = { 1050 150 }
 
-		anymation = disapproval
+		animation = disapproval
 	}
 
 	character = {
@@ -254,6 +254,6 @@ CKU_1444_europe = {
 		history_id = 109500
 		position = { 1150 720 }
 
-		anymation = disapproval
+		animation = disapproval
 	}
 }

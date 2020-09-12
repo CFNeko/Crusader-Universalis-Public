@@ -1,7 +1,7 @@
 CKU_byzantium_1 = {
 	name = "John VIII "
 	religion = orthodox
-	culture = greek #venetian
+	culture = greek
 	trait = generous
 	trait = calm
 	trait = patient

@@ -38,13 +38,11 @@ c_lesbos = {
 c_azov = {
 	1363.6.8 = {
 		holder = CKU_genoa_1
-		liege = CKU_genoa_1
 	}
 }
 
 c_tanas = {
 	1363.6.8 = {
 		holder = CKU_genoa_1
-		liege = CKU_genoa_1
 	}
 }
