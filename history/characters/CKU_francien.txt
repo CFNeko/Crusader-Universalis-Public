@@ -19,7 +19,7 @@
 			birth = yes
 		}
 	}
-}
+#}
 # Burgundian = {
 	# Bourgogne {
 		CKU_bourgogne_1 = {

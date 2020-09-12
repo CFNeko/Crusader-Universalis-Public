@@ -1,6 +1,7 @@
 d_burgundy = {
 	1440.1.1 = {
 		holder = CKU_bourgogne_1
+		liege = 0
 	}
 }
 

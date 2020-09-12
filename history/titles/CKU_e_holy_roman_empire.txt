@@ -4,42 +4,101 @@
 			holder = CKU_austrian_1
 		}
 	}
-	#Archduchy {
-		k_austria = {
-			1439.1.1 = {
-				holder = CKU_austrian_3
-				liege = e_hre	
-			}
-		}
-			d_osterreich = {
-				1440.1.1 = {
-					holder = CKU_austrian_2
-				}
-			}
-
-			d_krain = {
-				1440.1.1 = {
-					holder = CKU_austrian_1
-				}
-			}
-
-			d_carinthia = {
-				1440.1.1 = {
-					holder = CKU_austrian_1
-				}
-			}
-
-			d_steyermark = {
-				1440.1.1 = {
-					holder = CKU_austrian_1
-				}
-			}
-
-			d_tyrol = {
+		# Archduchy of Austria = {
+			k_austria = {
 				1439.1.1 = {
 					holder = CKU_austrian_3
+					de_jure_liege = "e_hre"
+					liege = "e_hre"
 				}
 			}
-	#}
+				d_osterreich = {
+					1440.1.1 = {
+						holder = CKU_austrian_2
+						de_jure_liege = "k_austria"
+					}
+				}
 
+				d_krain = {
+					1440.1.1 = {
+						holder = CKU_austrian_1
+						de_jure_liege = "k_austria"
+					}
+				}
+
+				d_carinthia = {
+					1440.1.1 = {
+						holder = CKU_austrian_1
+						de_jure_liege = "k_austria"
+					}
+				}
+
+				d_steyermark = {
+					1440.1.1 = {
+						holder = CKU_austrian_1
+						de_jure_liege = "k_austria"
+					}
+				}
+
+				d_tyrol = {
+					1439.1.1 = {
+						holder = CKU_austrian_3
+						de_jure_liege = "k_austria"
+					}
+				}
+			#}
+		#}
+		# Electoral Palatinate = {
+			d_palatinate = {
+				1440.1.1 = {
+					holder = CKU_wittelsbach_1
+				}
+			}
+			d_nordgau = {
+				1440.1.1 = {
+					holder = CKU_wittelsbach_2
+				}
+			}
+			c_speyer = {
+				1440.1.1 = {
+					holder = CKU_wittelsbach_1
+				}
+			}
+			c_kaiserslautern = {
+				1440.1.1 = {
+					holder = CKU_wittelsbach_1
+				}
+			}
+		#}
+		# Electoral Saxony = {
+			d_meissen = {
+				1428.1.1 = {
+					holder = CKU_wettin_1
+				}
+			}
+			d_thuringia = {
+				1440.1.1 = {
+					holder = CKU_wettin_1
+				}
+			}
+			c_brene = {
+				1440.1.1 = {
+					holder = CKU_wettin_1
+				}
+			}
+			c_wittenberg = {
+				1440.1.1 = {
+					holder = CKU_wettin_1
+				}
+			}
+		#}
+		# Electoral Mainz = {
+			c_mainz = {
+				1440.1.1 = {
+					government = theocracy_government
+					owner = CKU_swabian_bishop_1
+				}
+			}
+		#}
+		#
 #}

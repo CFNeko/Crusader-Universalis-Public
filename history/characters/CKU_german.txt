@@ -26,6 +26,21 @@
 			}
 		}
 	# }
+	#
+	# Wettin {
+		CKU_wettin_1 = {	
+			name = "Friedrich"
+			religion = catholic
+			culture = saxon
+			dynasty = 528
+			1412.1.1 = {
+				birth = yes
+			}
+			1464.1.1 = {
+				death = yes
+			}
+		}
+	#}
 # }
 # Australian = {
 	#Habsburgs = {
@@ -163,5 +178,50 @@
 				}
 			}
 		#}
+	#}
+#}
+# Bavarians {
+	# Wittelsbachs = {
+		CKU_wittelsbach_1 = {	
+			name = "Louis"
+			religion = catholic
+			culture = bavarian
+			dynasty = 217
+			1424.1.1 = {
+				birth = yes
+			}
+			1449.1.1 = {
+				death = yes
+			}
+		}
+		CKU_wittelsbach_2 = {	
+			name = "Friedrich"
+			religion = catholic
+			culture = bavarian
+			father = CKU_wittelsbach_1
+			dynasty = 217
+			1425.1.1 = {
+				birth = yes
+			}
+			1476.1.1 = {
+				death = yes
+			}
+		}
+	#}
+#}
+# Swabians {
+	#Clergy = {
+		CKU_swabian_bishop_1 = {	
+			name = "Dietrich"
+			religion = catholic
+			culture = swabian
+			dynasty = 0
+			1400.1.1 = {
+				birth = yes
+			}
+			1459.1.1 = {
+				death = yes
+			}
+		}
 	#}
 #}
