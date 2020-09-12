@@ -215,11 +215,37 @@
 			name = "Dietrich"
 			religion = catholic
 			culture = swabian
-			dynasty = 0
 			1400.1.1 = {
-				birth = yes
+				birth = yes #unknown
 			}
 			1459.1.1 = {
+				death = yes
+			}
+		}
+	#}
+#}
+
+# Franconians {
+	#Clergy = {
+		CKU_franconian_bishop_1 = {	
+			name = "Jakob"
+			religion = catholic
+			culture = franconian
+			1400.1.1 = {
+				birth = yes #unknown
+			}
+			1456.1.1 = {
+				death = yes
+			}
+		}
+		CKU_franconian_bishop_2 = {	
+			name = "Dietrich"
+			religion = catholic
+			culture = franconian
+			1400.1.1 = {
+				birth = yes #unknown
+			}
+			1463.1.1 = {
 				death = yes
 			}
 		}

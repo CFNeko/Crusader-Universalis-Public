@@ -17,7 +17,7 @@ d_naples = {
 	male_names = {  }
 }
 
-d_brandenburg = {
+d_ostmark = {
 	color = { 121 140 121 }
 	color2 = { 255 255 255 }
 	

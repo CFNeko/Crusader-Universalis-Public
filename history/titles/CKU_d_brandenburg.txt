@@ -1,7 +1,8 @@
-d_brandenburg = {
+d_ostmark = {
 	1440.1.1 = {
 		holder = CKU_saxon_1
 		de_jure_liege = "k_east_francia"
 		liege = "e_hre"
+		name = CKU_brandenburg
 	}
 }

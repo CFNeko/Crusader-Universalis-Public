@@ -34,3 +34,21 @@ d_flanders = {
 		holder = CKU_bourgogne_1
 	}
 }
+
+c_amiens = {
+	1440.1.1 = {
+		holder = CKU_bourgogne_1
+	}
+}
+
+c_clermont = {
+	1440.1.1 = {
+		holder = CKU_bourgogne_1
+	}
+}
+
+c_sancerre = {
+	1440.1.1 = {
+		holder = CKU_bourgogne_1
+	}
+}

@@ -2,23 +2,28 @@
 
 
 # Francien {
-	CKU_francien_1 = {
-		name = "Charles"
-		dynasty = 101
-		martial = 3
-		diplomacy = 6
-		intrigue = 4
-		stewardship = 7
-		religion = "catholic"
-		culture = french
-		trait = wrathful
-		trait = deceitful
-		trait = arrogant
-		trait = education_martial_3
-		1430.1.1 = {
-			birth = yes
+	# Valois = {
+		CKU_francien_1 = {
+			name = "Charles"
+			dynasty = 101
+			religion = "catholic"
+			culture = french
+			1400.1.1 = {
+				birth = yes
+			}
 		}
-	}
+	#}
+	# Valois-Orleans = {
+		CKU_orleans_1 = {
+			name = "Charles"
+			dynasty = 100138
+			religion = "catholic"
+			culture = french
+			1400.1.1 = {
+				birth = yes
+			}
+		}
+	#}
 #}
 # Burgundian = {
 	# Bourgogne {
@@ -28,6 +33,71 @@
 			culture = french
 			dynasty = 741
 			1430.1.1 = {
+				birth = yes
+			}
+		}
+	# }
+# }
+
+# Occitan = {
+	# Anjou {
+		CKU_anjou_1 = {
+			name = "Rene"
+			religion = catholic
+			culture = french
+			dynasty = 81
+			1409.1.1 = {
+				birth = yes
+				add_pressed_claim = k_sicily
+				add_pressed_claim = d_naples
+			}
+		}
+	# }
+	# bourbon {
+		CKU_bourbon_1 = {
+			name = "Rene"
+			religion = catholic
+			culture = french
+			dynasty = 329
+			1407.1.1 = {
+				birth = yes
+			}
+		}
+	# }
+	# bourbon {
+		CKU_bourbon_1 = {
+			name = "Elenore"
+			religion = catholic
+			culture = french
+			gender = female
+			dynasty = 100209
+			1407.1.1 = {
+				birth = yes
+			}
+		}
+	# }
+	# foix {
+		CKU_foix_1 = {
+			name = "Gaston"
+			religion = catholic
+			culture = french
+			dynasty = 684
+			1422.1.1 = {
+				birth = yes
+			}
+		}
+	# }
+# }
+
+
+# Bretagne = {
+	# Montfort {
+		CKU_montfort_1 = {
+			name = "Francis"
+			religion = catholic
+			culture = french
+			dynasty = 4003
+			1414.1.1 = {
 				birth = yes
 			}
 		}

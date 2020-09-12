@@ -46,17 +46,14 @@
 						de_jure_liege = "k_austria"
 					}
 				}
+				
 			#}
 		#}
 		# Electoral Palatinate = {
-			d_palatinate = {
-				1440.1.1 = {
-					holder = CKU_wittelsbach_1
-				}
-			}
 			d_nordgau = {
 				1440.1.1 = {
-					holder = CKU_wittelsbach_2
+					holder = CKU_wittelsbach_1
+					name = CKU_Palatinate
 				}
 			}
 			c_speyer = {
@@ -74,6 +71,7 @@
 			d_meissen = {
 				1428.1.1 = {
 					holder = CKU_wettin_1
+					name = CKU_Saxony
 				}
 			}
 			d_thuringia = {
@@ -96,9 +94,27 @@
 			c_mainz = {
 				1440.1.1 = {
 					government = theocracy_government
-					owner = CKU_swabian_bishop_1
+					holder = CKU_swabian_bishop_1
+					liege = "e_hre"
 				}
 			}
 		#}
-		#
+		# Electoral Trier = {
+			c_trier = {
+				1440.1.1 = {
+					government = theocracy_government
+					holder = CKU_franconian_bishop_1
+					liege = "e_hre"
+				}
+			}
+		#}
+		# Electoral Cologne = {
+			c_cologne = {
+				1440.1.1 = {
+					government = theocracy_government
+					holder = CKU_franconian_bishop_2
+					liege = "e_hre"
+				}
+			}
+		#}
 #}
