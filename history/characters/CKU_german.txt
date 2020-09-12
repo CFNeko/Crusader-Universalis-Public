@@ -143,7 +143,7 @@
 				religion = catholic
 				culture = bavarian #CTU_austrian
 				dynasty = 51
-				father = CKU_austrian_4
+				father = 462020 #CKU_austrian_4
 				1349.1.1 = {
 					birth = yes
 				}
