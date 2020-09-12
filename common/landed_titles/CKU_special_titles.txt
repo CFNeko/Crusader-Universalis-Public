@@ -16,3 +16,19 @@ d_naples = {
 
 	male_names = {  }
 }
+#k_austria = {
+#	color = { 100 50 150 }
+#	color2 = { 100 50 150 }
+#	
+#	capital = c_naples
+#	
+#	ai_primary_priority = {
+#		if = {
+#			limit = {
+#				culture_group = culture_group:latin_group
+#			}
+#			add = @correct_culture_primary_score
+#			add = @better_than_the_alternatives_score
+#		}
+#	}
+#}

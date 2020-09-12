@@ -1,18 +1,35 @@
 ﻿
-CKU_francien_1 = {
-	name = "Charles"
-	dynasty = 101
-	martial = 3
-	diplomacy = 6
-	intrigue = 4
-	stewardship = 7
-	religion = "catholic"
-	culture = french
-	trait = wrathful
-	trait = deceitful
-	trait = arrogant
-	trait = education_martial_3
-	1430.1.1 = {
-		birth = yes
+
+
+# Francien {
+	CKU_francien_1 = {
+		name = "Charles"
+		dynasty = 101
+		martial = 3
+		diplomacy = 6
+		intrigue = 4
+		stewardship = 7
+		religion = "catholic"
+		culture = french
+		trait = wrathful
+		trait = deceitful
+		trait = arrogant
+		trait = education_martial_3
+		1430.1.1 = {
+			birth = yes
+		}
 	}
 }
+# Burgundian = {
+	# Bourgogne {
+		CKU_bourgogne_1 = {
+			name = "Philip"
+			religion = catholic
+			culture = french
+			dynasty = 741
+			1430.1.1 = {
+				birth = yes
+			}
+		}
+	# }
+# }

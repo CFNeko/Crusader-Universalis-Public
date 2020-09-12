@@ -1,0 +1,35 @@
+d_burgundy = {
+	1440.1.1 = {
+		holder = CKU_bourgogne_1
+	}
+}
+
+d_upper_burgundy = {
+	1440.1.1 = {
+		holder = CKU_bourgogne_1
+	}
+}
+
+d_luxembourg = {
+	1440.1.1 = {
+		holder = CKU_bourgogne_1
+	}
+}
+
+d_brabant = {
+	1440.1.1 = {
+		holder = CKU_bourgogne_1
+	}
+}
+
+d_holland = {
+	1440.1.1 = {
+		holder = CKU_bourgogne_1
+	}
+}
+
+d_flanders = {
+	1440.1.1 = {
+		holder = CKU_bourgogne_1
+	}
+}

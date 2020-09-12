@@ -1,7 +1,7 @@
 CKU_venice_1 = {
 	name = "Francesco Foscari"
 	religion = catholic
-	culture = venetian
+	culture = cisalpinan #venetian
 	trait = generous
 	trait = calm
 	trait = patient

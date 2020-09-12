@@ -1,0 +1,167 @@
+﻿
+# Saxon = {
+	# Hohenzollerns {
+		CKU_saxon_1 = {	#Irontooth
+			name = "Friedrich"
+			religion = catholic
+			culture = franconian #CTU_saxon
+			dynasty = 12476
+			father = CTU_saxon_2
+			give_nickname = nick_irontooth
+			1430.1.1 = {
+				birth = yes
+			}
+		}
+
+		CKU_saxon_2 = {	
+			name = "Friedrich"
+			religion = catholic
+			culture = franconian #CTU_saxon
+			dynasty = 12476
+			1400.1.1 = {
+				birth = yes
+			}
+			1440.1.1 = {
+				death = yes
+			}
+		}
+	# }
+# }
+# Australian = {
+	#Habsburgs = {
+		CKU_austrian_1 = {
+			name = "Friedrich"
+			religion = catholic
+			culture = bavarian #CTU_austrian
+			dynasty = 51
+			father = CKU_austrian_7
+			trait = chaste
+			trait = calm
+			trait = shy
+			trait = education_diplomacy_3
+			1415.1.1 = {
+				birth = yes
+			}
+		}
+
+		CKU_austrian_2 = {
+			name = "Ladislaus"
+			religion = catholic
+			culture = bavarian #CTU_austrian
+			dynasty = 51
+			father = CKU_austrian_10
+			1440.1.1 = {
+				birth = yes
+			}
+		}
+
+		CKU_austrian_3 = {
+			name = "Siegmund"
+			religion = catholic
+			culture = bavarian #CTU_austrian
+			father = CKU_austrian_6
+			dynasty = 51
+			1439.1.1 = {
+				birth = yes
+			}
+		}
+		# Daddy Chin
+		CKU_austrian_4 = {
+			name = "Albert"
+			religion = catholic
+			culture = bavarian #CTU_austrian
+			dynasty = 51
+			1298.1.1 = {
+				birth = yes
+			}
+			1358.1.1 = {
+				death = yes
+			}
+		}
+
+		# Leopoldian Line {
+			CKU_austrian_5 = {
+				name = "Leopold"
+				religion = catholic
+				culture = bavarian #CTU_austrian
+				dynasty = 51
+				father = CKU_austrian_4
+				1351.1.1 = {
+					birth = yes
+				}
+				1386.1.1 = {
+					death = yes
+				}
+			}
+
+			CKU_austrian_6 = {
+				name = "Friedrich"
+				religion = catholic
+				culture = bavarian #CTU_austrian
+				dynasty = 51
+				father = CKU_austrian_5
+				1382.1.1 = {
+					birth = yes
+				}
+				1439.1.1 = {
+					death = yes
+				}
+			}
+
+			CKU_austrian_7 = {
+				name = "Ernst"
+				religion = catholic
+				culture = bavarian #CTU_austrian
+				dynasty = 51
+				father = CKU_austrian_5
+				1377.1.1 = {
+					birth = yes
+				}
+				1424.1.1 = {
+					death = yes
+				}
+			}
+		#}
+		# Alberian Line {
+			CKU_austrian_8 = {
+				name = "Albert"
+				religion = catholic
+				culture = bavarian #CTU_austrian
+				dynasty = 51
+				father = CKU_austrian_4
+				1349.1.1 = {
+					birth = yes
+				}
+				1395.1.1 = {
+					death = yes
+				}
+			}
+			CKU_austrian_9 = {
+				name = "Albert"
+				religion = catholic
+				culture = bavarian #CTU_austrian
+				dynasty = 51
+				father = CKU_austrian_8
+				1377.1.1 = {
+					birth = yes
+				}
+				1404.1.1 = {
+					death = yes
+				}
+			}
+			CKU_austrian_10 = {
+				name = "Albert"
+				religion = catholic
+				culture = bavarian #CTU_austrian
+				dynasty = 51
+				father = CKU_austrian_9
+				1397.1.1 = {
+					birth = yes
+				}
+				1439.1.1 = {
+					death = yes
+				}
+			}
+		#}
+	#}
+#}

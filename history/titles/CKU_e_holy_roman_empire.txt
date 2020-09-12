@@ -1,0 +1,45 @@
+#HRE {
+	e_hre = {
+		1440.1.1 = {
+			holder = CKU_austrian_1
+		}
+	}
+	#Archduchy {
+		k_austria = {
+			1439.1.1 = {
+				holder = CKU_austrian_3
+				liege = e_hre	
+			}
+		}
+			d_osterreich = {
+				1440.1.1 = {
+					holder = CKU_austrian_2
+				}
+			}
+
+			d_krain = {
+				1440.1.1 = {
+					holder = CKU_austrian_1
+				}
+			}
+
+			d_carinthia = {
+				1440.1.1 = {
+					holder = CKU_austrian_1
+				}
+			}
+
+			d_steyermark = {
+				1440.1.1 = {
+					holder = CKU_austrian_1
+				}
+			}
+
+			d_tyrol = {
+				1439.1.1 = {
+					holder = CKU_austrian_3
+				}
+			}
+	#}
+
+#}
