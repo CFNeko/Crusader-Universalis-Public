@@ -69,11 +69,17 @@
 					holder = CKU_orleans_1
 				}
 			}
+			c_angouleme = {
+				1440.1.1 = {
+					holder = CKU_orleans_1
+				}
+			}
 		#}
 		# Duchy of Armagnac = {
 			c_brie_francaise = {
 				1440.1.1 = {
 					holder = CKU_bourbon_1
+					liege = k_france
 				}
 			}
 			c_la_marche = {
@@ -110,7 +116,37 @@
 				}
 			}
 		#}
-
+		# Duchy of Bourbon = {
+			d_bourbon = {
+				1440.1.1 = {
+					holder = CKU_bourbon_2
+					liege = k_france
+				}
+			}
+			d_auvergne = {
+				1440.1.1 = {
+					holder = CKU_bourbon_2
+				}
+			}
+			c_forez = {
+				1440.1.1 = {
+					holder = CKU_bourbon_2
+				}
+			}
+		#}
+		# Duchy of Albret = {
+			c_limousin = {
+				1440.1.1 = {
+					holder = CKU_albret_1
+					liege = k_france
+				}
+			}
+			c_perigord = {
+				1440.1.1 = {
+					holder = CKU_albret_1
+				}
+			}
+		#}
 
 		# Duchy of Brittany = {
 			d_brittany = {

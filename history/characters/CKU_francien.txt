@@ -55,23 +55,21 @@
 	# }
 	# bourbon {
 		CKU_bourbon_1 = {
-			name = "Rene"
+			name = "Elenore"
 			religion = catholic
 			culture = french
-			dynasty = 329
+			female = yes
+			dynasty = 100209
 			1407.1.1 = {
 				birth = yes
 			}
 		}
-	# }
-	# bourbon {
-		CKU_bourbon_1 = {
-			name = "Elenore"
+		CKU_bourbon_2 = {
+			name = "Charles"
 			religion = catholic
 			culture = french
-			gender = female
-			dynasty = 100209
-			1407.1.1 = {
+			dynasty = 329
+			1401.1.1 = {
 				birth = yes
 			}
 		}
@@ -83,6 +81,17 @@
 			culture = french
 			dynasty = 684
 			1422.1.1 = {
+				birth = yes
+			}
+		}
+	# }
+	# albret {
+		CKU_albret_1 = {
+			name = "Jean"
+			religion = catholic
+			culture = french
+			dynasty = 100150
+			1425.1.1 = {
 				birth = yes
 			}
 		}
