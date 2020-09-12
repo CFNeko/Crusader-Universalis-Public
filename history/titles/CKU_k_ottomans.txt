@@ -1,0 +1,89 @@
+k_ottoman = {
+	1444.8.1 = {
+		holder = CKU_ottomans_1
+	}
+}
+
+d_bulgaria = {
+	1444.8.1 = {
+		holder = CKU_ottomans_1
+	}
+}
+
+d_dobrudja = {
+	1444.8.1 = {
+		holder = CKU_ottomans_1
+	}
+}
+
+d_ephese = {
+	1444.8.1 = {
+		holder = CKU_ottomans_1
+	}
+}
+
+d_opsikion = {
+	1444.8.1 = {
+		holder = CKU_ottomans_1
+	}
+}
+
+d_optimatoi = {
+	1444.8.1 = {
+		holder = CKU_ottomans_1
+	}
+}
+
+d_philippopolis = {
+	1444.8.1 = {
+		holder = CKU_ottomans_1
+	}
+}
+
+d_strymon = {
+	1444.8.1 = {
+		holder = CKU_ottomans_1
+	}
+}
+
+d_thracesia = {
+	1444.8.1 = {
+		holder = CKU_ottomans_1
+	}
+}
+
+d_turnovo = {
+	1444.8.1 = {
+		holder = CKU_ottomans_1
+	}
+}
+
+d_thessalonika = {
+	1444.8.1 = {
+		holder = CKU_ottomans_1
+	}
+}
+
+d_thessaly = {
+	1444.8.1 = {
+		holder = CKU_ottomans_1
+	}
+}
+
+c_abydos = {
+	1444.8.1 = {
+		holder = CKU_ottomans_1
+	}
+}
+
+c_adrianopolis = {
+	1444.8.1 = {
+		holder = CKU_ottomans_1
+	}
+}
+
+c_kalliopolis = {
+	1444.8.1 = {
+		holder = CKU_ottomans_1
+	}
+}

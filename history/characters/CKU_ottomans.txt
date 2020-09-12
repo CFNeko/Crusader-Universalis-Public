@@ -1,0 +1,20 @@
+CKU_ottomans_1 = {
+	name = "Mehmed II"
+	dynasty = 101864
+	martial = 3
+	diplomacy = 6
+	intrigue = 4
+	stewardship = 7
+	religion = "catholic"
+	culture = turkish
+	trait = wrathful
+	trait = deceitful
+	trait = arrogant
+	trait = education_martial_3
+	1432.3.30 = {
+		birth = yes
+	}
+	1481.5.3 = {
+		death = yes
+	}
+}
