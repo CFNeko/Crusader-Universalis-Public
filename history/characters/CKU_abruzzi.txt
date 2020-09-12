@@ -1,17 +1,20 @@
-CKU_salerno_1 = {
-	name = "Raimondo Orsini"
-	dynasty = 101
+CKU_abruzzi_1 = {
+	name = "Giosia Acquaviva"
+	dynasty = 442
 	martial = 3
 	diplomacy = 6
 	intrigue = 4
 	stewardship = 7
 	religion = "catholic"
-	culture = neapolitan
+	culture = abruzzan
 	trait = wrathful
 	trait = deceitful
 	trait = arrogant
 	trait = education_martial_3
-	1401.9.9 = {
+	1399.1.1 = {
 		birth = yes
+	}
+	1462.8.22 = {
+		death = yes
 	}
 }

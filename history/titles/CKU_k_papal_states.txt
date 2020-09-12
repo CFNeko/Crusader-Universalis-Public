@@ -1,17 +1,49 @@
-k_romagna = {
-	1440.1.1 = {
-		holder = CKU_italian_1
-	}
-}
-
 k_papal_state = {
-	1440.1.1 = {
-		holder = CKU_italian_1
+	1431.3.3 = {
+		holder = CKU_papal_state_1
+	}
+
+	capital = c_roma
+}
+
+d_ancona = {
+	1442.1.1 = {
+		holder = CKU_papal_state_1
 	}
 }
 
-2609 = {
+c_benevento = {
 	1440.1.1 = {
-		holder = CKU_italian_1
+		holder = CKU_papal_state_1
+	}
+}
+
+c_roma = {
+	1442.1.1 = {
+		holder = CKU_papal_state_1
+	}
+}
+
+c_teramo = {
+	1442.1.1 = {
+		holder = CKU_papal_state_1
+	}
+}
+
+c_orvieto = {
+	1440.1.1 = {
+		holder = CKU_papal_state_1
+	}
+}
+
+c_tivoli = {
+	1442.1.1 = {
+		holder = CKU_papal_state_1
+	}
+}
+
+c_viterbo = {
+	1442.1.1 = {
+		holder = CKU_papal_state_1
 	}
 }

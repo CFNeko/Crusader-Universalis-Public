@@ -10,21 +10,8 @@ k_sardinia = {
 	}
 }
 
-k_trinacria = {
-	1440.1.1 = {
-		holder = CKU_aragorn_1
-	}
-}
-
-k_naples = {
-	1440.1.1 = {
-		holder = CKU_aragorn_1
-	}
-}
-
 k_sicily = {
 	1440.1.1 = {
 		holder = CKU_aragorn_1
 	}
 }
-

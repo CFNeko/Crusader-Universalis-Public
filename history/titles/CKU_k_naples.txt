@@ -12,7 +12,14 @@ c_napoli = {
 	}
 }
 
-b_isernia = {	
+c_apulia = {
+	1440.1.1 = {
+		holder = CKU_naples_1
+		liege = d_naples
+	}
+}
+
+d_calabria = {
 	1440.1.1 = {
 		holder = CKU_naples_1
 		liege = d_naples
@@ -26,12 +33,41 @@ c_foggia = {
 	}
 }
 
-c_benevento = {
+c_lanciano = {
 	1440.1.1 = {
 		holder = CKU_naples_1
 		liege = d_naples
 	}
 }
+
+c_camarda = {
+	1440.1.1 = {
+		holder = CKU_naples_1
+		liege = d_naples
+	}
+}
+
+b_isernia = {
+	1440.1.1 = {
+		holder = CKU_naples_1
+		liege = d_naples
+	}
+}
+
+b_alife = {
+	1440.1.1 = {
+		holder = CKU_naples_1
+		liege = d_naples
+	}
+}
+
+b_melfi = {
+	1440.1.1 = {
+		holder = CKU_naples_1
+		liege = d_naples
+	}
+}
+
 
 c_capua = {
 	1440.1.1 = {
@@ -47,65 +83,30 @@ b_amalfi = {
     }
 }
 
-c_apulia = {
-	1440.1.1 = {
-		holder = CKU_naples_1
-		liege = d_naples
-    }
-}
-
-c_bari = {
-	1440.1.1 = {
-		holder = CKU_naples_1
-		liege = d_naples
-    }
-}
-
-c_lecce = {
-	1440.1.1 = {
-		holder = CKU_naples_1
-		liege = d_naples
-    }
-}
-
-c_salerno = {
+b_salerno = {
 	1440.1.1 = {
 		holder = CKU_salerno_1
 		liege = d_naples
     }
 }
 
-c_camarda = {
-	1440.1.1 = {
-		holder = CKU_naples_1
+c_abruzzi = {
+	1442.1.1 = {
+		holder = CKU_abruzzi_1
 		liege = d_naples
-    }
+	}
 }
 
-c_cosenza = {
-	1440.1.1 = {
-		holder = CKU_naples_1
+c_lecce = {
+	1421.1.1 = {
+		holder = CKU_taranto_1
 		liege = d_naples
-    }
+	}
 }
 
-c_rossano = {
-	1440.1.1 = {
-		holder = CKU_naples_1
+c_bari = {
+	1421.1.1 = {
+		holder = CKU_taranto_1
 		liege = d_naples
-    }
-}
-
-c_reggio_calabria = {
-	1440.1.1 = {
-		holder = CKU_naples_1
-		liege = d_naples
-    }
-}
-
-c_lanciano = {
-	1440.1.1 = {
-		holder = CKU_naples_1
-		liege = d_naples
-    }
+	}
 }

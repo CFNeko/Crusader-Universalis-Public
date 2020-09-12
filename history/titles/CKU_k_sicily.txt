@@ -1,0 +1,41 @@
+d_sicily = {
+	1443.1.1 = {
+		holder = CKU_sicily_1
+		liege = k_aragon
+	}
+}
+
+c_palermo = {
+	1443.1.1 = {
+		holder = CKU_sicily_1
+		liege = d_sicily
+	}
+}
+
+c_messina = {
+	1443.1.1 = {
+		holder = CKU_sicily_1
+		liege = d_sicily
+	}
+}
+
+c_siracusa = {
+	1443.1.1 = {
+		holder = CKU_sicily_1
+		liege = d_sicily
+	}
+}
+
+c_agrigento = {
+	1443.1.1 = {
+		holder = CKU_sicily_1
+		liege = d_sicily
+	}
+}
+
+c_malta = {
+	1443.1.1 = {
+		holder = CKU_sicily_1
+		liege = d_sicily
+	}
+}

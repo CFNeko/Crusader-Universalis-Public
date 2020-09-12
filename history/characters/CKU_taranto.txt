@@ -1,17 +1,20 @@
-CKU_salerno_1 = {
-	name = "Raimondo Orsini"
-	dynasty = 101
+CKU_taranto_1 = {
+	name = "Giovanni Antonio Orsini del Balzo"
+	dynasty = 89
 	martial = 3
 	diplomacy = 6
 	intrigue = 4
 	stewardship = 7
 	religion = "catholic"
-	culture = neapolitan
+	culture = apulian
 	trait = wrathful
 	trait = deceitful
 	trait = arrogant
 	trait = education_martial_3
 	1401.9.9 = {
 		birth = yes
+	}
+	1463.11.15 = {
+		death = yes
 	}
 }
