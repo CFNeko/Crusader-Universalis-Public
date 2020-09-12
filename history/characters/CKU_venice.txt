@@ -1,0 +1,18 @@
+CKU_venice_1 = {
+	name = "Francesco Foscari"
+	religion = catholic
+	culture = venetian
+	trait = generous
+	trait = calm
+	trait = patient
+	trait = education_diplomacy_3
+	diplomacy = 4
+	martial = 6
+	intrigue = 1
+	stewardship = 2
+	learning = 8	
+	dynasty = 770
+	1373.6.19 = {
+		birth = yes
+	}
+}

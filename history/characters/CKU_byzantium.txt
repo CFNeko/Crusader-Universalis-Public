@@ -1,0 +1,18 @@
+CKU_byzantium_1 = {
+	name = "John VIII "
+	religion = orthodox
+	culture = venetian
+	trait = generous
+	trait = calm
+	trait = patient
+	trait = education_diplomacy_3
+	diplomacy = 4
+	martial = 6
+	intrigue = 1
+	stewardship = 2
+	learning = 8	
+	dynasty = 48
+	1392.12.18 = {
+		birth = yes
+	}
+}

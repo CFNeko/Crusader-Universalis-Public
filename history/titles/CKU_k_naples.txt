@@ -102,3 +102,10 @@ c_reggio_calabria = {
 		liege = d_naples
     }
 }
+
+c_lanciano = {
+	1440.1.1 = {
+		holder = CKU_naples_1
+		liege = d_naples
+    }
+}

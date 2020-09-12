@@ -1,5 +1,5 @@
 CKU_salerno_1 = {
-	name = "Giovanni Antonio Orsini "
+	name = "Giovanni Antonio Orsini"
 	dynasty = 101
 	martial = 3
 	diplomacy = 6

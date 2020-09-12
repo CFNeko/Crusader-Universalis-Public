@@ -9,3 +9,9 @@ k_papal_state = {
 		holder = CKU_italian_1
 	}
 }
+
+2609 = {
+	1440.1.1 = {
+		holder = CKU_italian_1
+	}
+}

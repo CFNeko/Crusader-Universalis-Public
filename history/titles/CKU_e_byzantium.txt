@@ -1,0 +1,53 @@
+c_byzantion = {
+    1440.1.1 = {
+		holder = CKU_byzantium_1
+	}
+}
+
+c_laconia = {
+	1440.1.1 = {
+		holder = CKU_byzantium_1
+	}
+}
+
+c_messenia = {
+	1440.1.1 = {
+		holder = CKU_byzantium_1
+	}
+}
+
+c_achaia = {
+	1440.1.1 = {
+		holder = CKU_byzantium_1
+	}
+}
+
+c_korinthos = {
+	1440.1.1 = {
+		holder = CKU_byzantium_1
+	}
+}
+
+c_boeotia = {
+	1440.1.1 = {
+		holder = CKU_byzantium_1
+	}
+}
+
+c_attica = {
+	1440.1.1 = {
+		holder = CKU_byzantium_1
+	}
+}
+
+c_brysis = {
+	1440.1.1 = {
+		holder = CKU_byzantium_1
+	}
+}
+
+c_burgas = {
+	1440.1.1 = {
+		holder = CKU_byzantium_1
+	}
+}

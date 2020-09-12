@@ -14,7 +14,7 @@
 		stewardship = 2
 		learning = 8	
 		dynasty = 774
-		1420.1.1 = {
+		1396.2.24 = {
 			birth = yes
 		}
 	}
