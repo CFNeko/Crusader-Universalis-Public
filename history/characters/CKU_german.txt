@@ -81,26 +81,26 @@
 			}
 		}
 		# Daddy Chin
-		CKU_austrian_4 = {
-			name = "Albert"
-			religion = catholic
-			culture = bavarian #CTU_austrian
-			dynasty = 51
-			1298.1.1 = {
-				birth = yes
-			}
-			1358.1.1 = {
-				death = yes
-			}
-		}
+		#CKU_austrian_4 = {
+		#	name = "Albert"
+		#	religion = catholic
+		#	culture = bavarian #CTU_austrian
+		#	dynasty = 51
+		#	1298.1.1 = {
+		#		birth = yes
+		#	}
+		#	1358.1.1 = {
+		#		death = yes
+		#	}
+		#}
 
 		# Leopoldian Line {
 			CKU_austrian_5 = {
 				name = "Leopold"
 				religion = catholic
 				culture = bavarian #CTU_austrian
-				dynasty = 51
-				father = CKU_austrian_4
+				dynasty = 51 
+				father = 462020 #CKU_austrian_4
 				1351.1.1 = {
 					birth = yes
 				}
@@ -114,7 +114,7 @@
 				religion = catholic
 				culture = bavarian #CTU_austrian
 				dynasty = 51
-				father = CKU_austrian_5
+				father = 462020 #CKU_austrian_4
 				1382.1.1 = {
 					birth = yes
 				}
@@ -224,7 +224,6 @@
 		}
 	#}
 #}
-
 # Franconians {
 	#Clergy = {
 		CKU_franconian_bishop_1 = {	

@@ -8,8 +8,51 @@
 			dynasty = 101
 			religion = "catholic"
 			culture = french
+			father = CKU_valois_4
 			1400.1.1 = {
 				birth = yes
+			}
+		}
+		
+		CKU_valois_2 = {
+			name = "John"
+			dynasty = 101
+			religion = "catholic"
+			culture = french
+			father = 455500
+			1319.9.26 = {
+				birth = yes
+			}
+			1364.4.8 = {
+				death = yes
+			}
+		}
+
+		CKU_valois_3 = {
+			name = "Charles"
+			dynasty = 101
+			religion = "catholic"
+			culture = french
+			father = CKU_valois_2
+			1338.1.21 = {
+				birth = yes
+			}
+			1380.9.16 = {
+				death = yes
+			}
+		}
+
+		CKU_valois_4 = {
+			name = "Charles"
+			dynasty = 101
+			religion = "catholic"
+			culture = french
+			father = CKU_valois_3
+			1368.12.3 = {
+				birth = yes
+			}
+			1422.10.21 = {
+				death = yes
 			}
 		}
 	#}
@@ -32,8 +75,52 @@
 			religion = catholic
 			culture = french
 			dynasty = 741
-			1430.1.1 = {
+			father = CKU_bourgogne_4
+			1419.9.10 = {
 				birth = yes
+			}
+		}
+
+		CKU_bourgogne_2 = {
+			name = "Philip"
+			dynasty_house = house_bourgogne
+			religion = catholic
+			culture = french
+			dynasty = 741
+			father = CKU_valois_2
+			1342.1.17 = {
+				birth = yes
+			}
+			1404.4.27 = {
+				death = yes
+			}
+		}
+
+		CKU_bourgogne_3 = {
+			name = "John"
+			religion = catholic
+			culture = french
+			dynasty = 741
+			father = CKU_bourgogne_2
+			1371.5.28 = {
+				birth = yes
+			}
+			1419.9.10 = {
+				death = yes
+			}
+		}
+
+		CKU_bourgogne_4 = {
+			name = "John"
+			religion = catholic
+			culture = french
+			dynasty = 741
+			father = CKU_bourgogne_3
+			1396.7.31 = {
+				birth = yes
+			}
+			1467.6.15 = {
+				death = yes
 			}
 		}
 	# }
