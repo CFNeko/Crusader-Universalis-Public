@@ -117,4 +117,24 @@
 				}
 			}
 		#}
+		# Hohenzollern Possessions = {
+			c_leuchtenburg = {
+				1440.1.1 = {
+					holder = CKU_hohenzollern_3
+					liege = "e_hre"
+				}
+			}
+			c_ansbach = {
+				1440.1.1 = {
+					holder = CKU_hohenzollern_3
+					liege = "e_hre"
+				}
+			}
+			c_zollern = {
+				1440.1.1 = {
+					holder = CKU_hohenzollern_4
+					liege = "e_hre"
+				}
+			}
+		#}
 #}

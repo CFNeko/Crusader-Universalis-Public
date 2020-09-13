@@ -21,7 +21,7 @@ d_ostmark = {
 	color = { 121 140 121 }
 	color2 = { 255 255 255 }
 	
-	#capital = 3166 #Brandenburg
+	capital = c_berlin #Brandenburg
 	
 	cultural_names = {
 		polabian = cn_luticia

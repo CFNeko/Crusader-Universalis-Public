@@ -1,30 +1,64 @@
 ﻿
 # Saxon = {
 	# Hohenzollerns {
-		CKU_saxon_1 = {	#Irontooth
-			name = "Friedrich"
-			religion = catholic
-			culture = franconian #CTU_saxon
-			dynasty = 12476
-			father = CTU_saxon_2
-			give_nickname = nick_irontooth
-			1430.1.1 = {
-				birth = yes
+		# Franconian hohenzollerns = {
+			CKU_hohenzollern_1 = {	
+				name = "Friedrich"
+				religion = catholic
+				culture = franconian #CTU_saxon
+				dynasty = 12476
+				1371.1.1 = {
+					birth = yes
+				}
+				1440.1.1 = {
+					death = yes
+				}
+			}
+
+			CKU_hohenzollern_2 = {	#Irontooth
+				name = "Friedrich"
+				religion = catholic
+				culture = franconian #CTU_saxon
+				dynasty = 12476
+				father = CKU_hohenzollern_1
+				give_nickname = nick_irontooth
+				1413.1.1 = {
+					birth = yes
+				}
+				1471.1.1 = {
+					death = yes
+				}
+			}
+
+			CKU_hohenzollern_3 = {	
+				name = "Albrecht"
+				religion = catholic
+				culture = franconian #CTU_saxon
+				dynasty = 12476
+				father = CKU_hohenzollern_1
+				1414.1.1 = {
+					birth = yes
+				}
+				1486.1.1 = {
+					death = yes
+				}
 			}
 		}
 
-		CKU_saxon_2 = {	
-			name = "Friedrich"
-			religion = catholic
-			culture = franconian #CTU_saxon
-			dynasty = 12476
-			1400.1.1 = {
-				birth = yes
+		# Swabian Hohenzollerns = {
+			CKU_hohenzollern_4 = {	
+				name = "Jobst"
+				religion = catholic
+				culture = swabian #CTU_saxon
+				dynasty = 12476
+				1433.1.1 = {
+					birth = yes
+				}
+				1488.1.1 = {
+					death = yes
+				}
 			}
-			1440.1.1 = {
-				death = yes
-			}
-		}
+		#}
 	# }
 	#
 	# Wettin {
