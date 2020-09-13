@@ -12,7 +12,7 @@
 	trait = arrogant
 	trait = education_martial_3
 
-	father = 463151
+	#father = 463151
 	1351.10.16 = {
 		birth = yes
 	}
@@ -48,6 +48,29 @@ CKU_milan_01 = {
 	}
 }
 
+CKU_milan_02 = {
+	name = "Giovanni Maria"
+	dynasty = 234
+	martial = 3
+	diplomacy = 6
+	intrigue = 4
+	stewardship = 7
+	religion = "catholic"
+	culture = lombard
+	trait = wrathful
+	trait = deceitful
+	trait = arrogant
+	trait = education_martial_3
+
+	father = CKU_milan_0
+	1388.9.7 = {
+		birth = yes
+	}
+	1412.5.16 = {
+		death = yes
+	}
+}
+
 CKU_milan_1 = {
 	name = "Filippo Maria"
 	dynasty = 234
@@ -69,6 +92,9 @@ CKU_milan_1 = {
 	1412 = {
 		add_spouse = CKU_milan_1_1
 	}
+	1447.8.13 = {
+		death = yes
+	}
 }
 
 CKU_milan_1_1 = {
@@ -88,28 +114,5 @@ CKU_milan_1_1 = {
 
 	1372.1.1 = {
 		birth = yes
-	}
-}
-
-CKU_milan_02 = {
-	name = "Giovanni Maria"
-	dynasty = 234
-	martial = 3
-	diplomacy = 6
-	intrigue = 4
-	stewardship = 7
-	religion = "catholic"
-	culture = lombard
-	trait = wrathful
-	trait = deceitful
-	trait = arrogant
-	trait = education_martial_3
-
-	#father = CKU_milan_0
-	1388.9.7 = {
-		birth = yes
-	}
-	1412.5.16 = {
-		death = yes
 	}
 }
