@@ -1,0 +1,55 @@
+﻿l_english:
+ # CULTURES #############
+ # IBERIAN
+ asturleonese:0 "Leonese"
+ asturleonese_collective_noun:0 "Leonese"
+
+ # FRANKISH
+ frankish_group:0 "French"
+ frankish_group_collective_noun:0 "French"
+ french:0 "Francien"
+ french_collective_noun:0 "Franciens"
+ walloon:0 "Walloon"
+ walloon_collective_noun:0 "Walloons"
+ gascon:0 "Gascon"
+ gascon_collective_noun:0 "Gascons"
+ burgundian:0 "Burgundian"
+ burgundian_collective_noun:0 "Burgundians"
+
+ # GERMANIC
+ rhenish:0 "Rhenish"
+ rhenish_collective_noun:0 "Rhenish"
+ westphalian:0 "Westphalian"
+ westphalian_collective_noun:0 "Westphalians"
+ flemish:0 "Flemish"
+ flemish_collective_noun:0 "Flemish"
+ swiss:0 "Swiss"
+ swiss_collective_noun:0 "Swiss"
+
+ # SLAVIC
+ sorbian:0 "Sorbian"
+ sorbian_collective_noun:0 "Sorbians"
+ silesian:0 "Silesian"
+ silesian_collective_noun:0 "Silesians"
+ vlach:0 "Romanian"
+ vlach_collective_noun:0 "Romanians"
+ byelorussian:0 "Byelorussian"
+ byelorussian_collective_noun:0 "Byelorussians"
+ ruthenian:0 "Ruthenian"
+ ruthenian_collective_noun:0 "Ruthenians"
+ ryazanian:0 "Ryazanian"
+ ryazanian_collective_noun:0 "Ryazanians"
+ novgorodian:0 "Novgorodian"
+ novgorodian_collective_noun:0 "Novgorodians"
+ russian:0 "Muscovite"
+ russian_collective_noun:0 "Muscovites"
+
+ # BALTIC
+ semigallian:0 "Semigallian"
+ semigallian_collective_noun:0 "Semigallians"
+
+ # RELIGION #############
+ protestant:0 "Protestantism"
+ protestant_adj:0 "Protestant"
+ protestant_adherent:0 "Protestant"
+ protestant_adherent_plural:0 "Protestants"

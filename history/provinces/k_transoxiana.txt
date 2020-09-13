@@ -1,0 +1,175 @@
+# 903 - Afrasiyab
+903 = {	# 903 - Afrasiyab
+	
+	# County Title
+	#title = c_samarkand
+	
+	# Settlements
+	#max_settlements = 6
+	#b_afrasiyab = castle
+	#b_samarkand = city
+	#b_khokand = temple
+	
+	#b_ishtikhon = city
+	#b_urgut = castle
+	#b_koshrabot = castle
+	#b_ziadin = castle
+	#b_laish = castle
+	
+	# Misc
+	culture = sogdian
+	religion = khurmazta
+	terrain = steppe
+	
+	# History
+	
+	
+	
+
+}
+
+# 1423 - Fergana
+1423 = {	# 1423 - Fergana
+	
+	# Misc
+	culture = sogdian
+	religion = manichean
+	
+	# History
+	
+	
+	
+	
+}
+
+# 4376 - Halavand
+4376 = {	# 1188 - Khuttal
+		
+	# Misc
+	culture = sogdian
+	religion = mahayana
+	
+	# History
+	
+		
+	
+
+}
+
+# 4406 - QATWAN
+4406 = {	# 4406 - QATWAN
+	
+	# Misc
+	culture = sogdian
+	religion = gayomarthianism
+	
+	# History
+	
+	
+	
+	
+}
+
+# 4393 - PAYKEND
+4393 = {	# 4393 - PAYKEND
+	
+	# Misc
+	culture = sogdian
+	religion = gayomarthianism
+	
+	# History
+	
+	
+}
+
+# 4394 - BUKHARA
+4394 = {	# 4394 - BUKHARA
+	
+	# Misc
+	culture = sogdian
+	religion = gayomarthianism
+	terrain = steppe
+	
+	# History
+	
+	
+	
+}
+
+# 4418 - KHOJAND
+4418 = {	
+	# Settlements
+	# Misc
+	culture = sogdian
+	religion = khurmazta
+	
+	# History
+	
+	
+	
+	
+
+}
+
+# 4460 - KURDAR
+4460 = {	# 4460 - KURDAR
+	
+	# Misc
+	culture = khwarezmian
+	religion = gayomarthianism
+	
+	# History
+	
+
+}
+
+# 7089 - Vezir
+7089 = {	# 7089 - Vezir
+	
+	# Misc
+	culture = persian
+	religion = mazdayasna
+	
+	holding = none
+	
+	# History
+
+}
+
+# 7964 - Muji
+7964 = {	# 7964 - Muji
+	
+	# Misc
+	culture = afghan
+	religion = ashari
+	
+	holding = none
+	
+	# History
+}
+
+# 7965 - Badakhshan_TARIM
+7965 = {	# 7964 - Muji
+	
+	# Misc
+	culture = afghan
+	religion = ashari
+	
+	holding = none
+	
+	# History
+}
+
+# 4528 - Kurtysh
+4528 = {	# 4528 - Kurtysh
+	
+	# Misc
+	culture = khwarezmian
+	religion = mazdayasna
+	
+	# History
+	
+	
+
+}
+

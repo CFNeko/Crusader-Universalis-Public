@@ -1,0 +1,215 @@
+###c_coruna
+1787 = {	# LA CORUNA
+	# Misc
+	culture = galician
+	religion = catholic
+	
+	holding = castle_holding
+	
+	# History
+	
+}
+1789 = {	# MONDONEDO
+	holding = none
+	
+	
+}
+1788 = {	# FERROL
+	holding = city_holding
+}
+1790 = {	# VILALBA
+	holding = none
+}
+
+###c_santiago
+1785 = {	# SANTIAGO DE COMPOSTELA
+	# Misc
+	culture = galician
+	religion = catholic
+	
+	holding = castle_holding
+	
+	# History
+	
+}
+1786 = {	# BETANZOS
+	holding = city_holding
+}
+1791 = {	# MELIDE
+	holding = church_holding
+}
+1783 = {	# PADRON
+	holding = none
+}
+
+###c_tui
+1784 = {	# MONTE FARO
+	# Misc
+	culture = galician
+	religion = catholic
+	
+	holding = castle_holding
+	
+	# History
+	
+}
+1781 = {	# TUI
+	holding = church_holding
+}
+1782 = {	# VIGO
+	holding = none
+	
+	
+}
+
+###c_astorga
+1821 = {	# ASTORGA
+	# Misc
+	culture = galician
+	religion = catholic
+	
+	holding = castle_holding
+	
+	# History
+	
+}
+1792 = {	# LUGO
+	holding = city_holding
+}
+1799 = {	# OURENSE
+	holding = church_holding
+}
+1819 = {	# MONFORTE DE LEMOS
+	holding = none
+}
+1820 = {	# PONFERRADA
+	holding = none
+}
+
+###c_monterrei
+1818 = {	# MONTERREI
+	# Misc
+	culture = galician
+	religion = catholic
+	
+	holding = castle_holding
+	
+	# History
+	
+}
+1800 = {	# LIMIA
+	holding = city_holding
+}
+
+###c_porto
+1760 = {	# PORTO
+	# Misc
+	culture = portuguese
+	religion = catholic
+	
+	holding = castle_holding
+	
+	# History
+	
+}
+1761 = {	# BRAGA
+	holding = city_holding
+}
+1762 = {	# CHAVEZ/Chaves
+	holding = church_holding
+}
+1766 = {	# GUIMARAES
+	holding = castle_holding
+}
+
+###c_braganza
+1763 = {	# BRAGANCA
+	# Misc
+	culture = portuguese
+	religion = catholic
+	
+	holding = castle_holding
+	
+	# History
+	
+}
+1764 = {	# MIRANDA DO DUORO
+	holding = city_holding
+}
+1765 = {	# VILLA REAL
+	holding = none
+	
+	
+}
+1767 = {	# MOGADOURO
+	holding = none
+}
+
+###c_coimbra
+1758 = {	# COIMBRA
+	# Misc
+	culture = portuguese
+	religion = catholic
+	
+	holding = castle_holding
+	
+	# History
+	
+}
+1757 = {	# LEIRIA
+	holding = church_holding
+}
+1756 = {	# OBIDOS
+	holding = city_holding
+}
+
+###c_viseu
+1769 = {	# VISEU
+	# Misc
+	culture = portuguese
+	religion = catholic
+	
+	holding = castle_holding
+	
+	# History
+	
+}
+1770 = {	# TRANCOSO
+	holding = city_holding
+}
+
+###c_aveiro
+1759 = {	# 1759 - AVEIRO
+	# Misc
+	culture = portuguese
+	religion = catholic
+	
+	holding = castle_holding
+	
+	# History
+	
+}
+2003 = {	# GRALHEIRA/Cinfaes
+	holding = none
+}
+1768 = {	# 1768 - LAMEGO
+	holding = church_holding
+}
+
+###c_castelo_branco
+1773 = {	# CASTELO BRANCO
+	# Misc
+	culture = portuguese
+	religion = catholic
+	
+	holding = castle_holding
+	
+	# History
+	
+}
+1771 = {	# IDANHA/Beira
+	holding = city_holding
+}
+1772 = {	# ABRANTES
+	holding = church_holding
+}

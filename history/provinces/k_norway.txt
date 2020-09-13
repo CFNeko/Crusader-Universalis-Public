@@ -1,0 +1,137 @@
+# 1 - VESTFIRDIR
+1 = {	# 1 - Vestfirdir
+	
+	# Misc
+	culture = icelandic
+	religion = norse_pagan
+	terrain = arctic
+	
+	# History
+	
+}
+
+# 2 - REYKJAVIK
+2 = {	# 2 - Reykjavik
+	
+	# Misc
+	culture = icelandic
+	religion = norse_pagan
+	terrain = arctic
+	
+	# History
+	
+}
+
+# 3 - STOKKSEYRI
+3 = {	# 3 - STOKKSEYRI
+	
+	# Misc
+	culture = icelandic
+	religion = norse_pagan
+	terrain = arctic
+	
+	# History
+	
+}
+
+# 4 - REYDARFJALL
+4 = {	# 5 - HUSAVIK
+	
+	# Misc
+	culture = icelandic
+	religion = norse_pagan
+	terrain = arctic
+	
+	# History
+	
+}
+
+# 5 - HUSAVIK
+5 = {	# 4 - REYDARFJALL
+	
+	# Misc
+	culture = icelandic
+	religion = norse_pagan
+	terrain = arctic
+	
+	# History
+	
+}
+
+# 6 - TORSHAVN
+6 = {	# Misc
+	culture = pictish
+	religion = catholic
+	terrain = mountain
+	
+	# History
+	
+	
+	
+}
+
+# 7 - SCALLOWAY
+7 = {	
+	# Misc
+	culture = pictish
+	religion = catholic
+	terrain = hills
+	
+	# History
+	
+	
+	
+	
+}
+
+# 8 - KIRKWALL
+8 = {	# 36 - Orkney
+	
+	# County Title
+	#title = c_orkney
+	
+	# Settlements
+	#max_settlements = 3
+	#b_birsay = tribal
+	#b_kirkwall = temple
+	#b_orphir = castle
+	
+	#b_westray = castle
+	#b_egilsay = castle
+	#b_wyre = castle
+	#b_sanday = castle
+	#b_ronaldsay = castle
+	
+	# Misc
+	culture = pictish
+	religion = catholic
+	terrain = hills
+	
+	# History
+	
+	
+	
+}
+
+# 270 - STRIND
+270 = {	
+	
+	# Misc
+	culture = norwegian
+	religion = norse_pagan
+	
+	
+}
+
+# 386 - FROSO
+386 = {	
+	# Misc
+	culture = norwegian
+	religion = norse_pagan
+	
+	# History
+	
+	
+
+}
+
