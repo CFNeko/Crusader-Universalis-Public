@@ -118,18 +118,29 @@
 			}
 		#}
 		# Hohenzollern Possessions = {
-			c_leuchtenburg = {
+			d_ostmark = {
 				1440.1.1 = {
-					holder = CKU_hohenzollern_3
+					holder = CKU_hohenzollern_2
+					de_jure_liege = "k_east_francia"
 					liege = "e_hre"
+					name = CKU_brandenburg
 				}
 			}
+			
 			c_ansbach = {
 				1440.1.1 = {
 					holder = CKU_hohenzollern_3
 					liege = "e_hre"
 				}
 			}
+
+			c_leuchtenburg = {
+				1440.1.1 = {
+					holder = CKU_hohenzollern_3
+					liege = "e_hre"
+				}
+			}
+			
 			c_zollern = {
 				1440.1.1 = {
 					holder = CKU_hohenzollern_4
