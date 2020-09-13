@@ -1,0 +1,746 @@
+# 161 - GRODNO
+161 = {	# 161 - GRODNO
+	
+	# Misc
+	culture = lithuanian
+	religion = baltic_pagan
+	
+	holding = tribal_holding
+	
+	# History
+
+}
+
+# 164 - LIDA
+164 = {	# 164 - LIDA
+	
+	# Misc
+	culture = lithuanian
+	religion = baltic_pagan
+	
+	# History
+
+}
+
+# 548 - Pinsk
+548 = {	# 548 - Pinsk
+	
+	# Misc
+	culture = byelorussian
+	religion = slavic_pagan
+	
+	#holding = castle_holding
+	
+	#terrain = wetlands
+	
+	# History
+	
+}
+
+# 550 - Minsk
+550 = {	# 550 - Minsk
+	
+	# Misc
+	culture = byelorussian
+	religion = slavic_pagan
+	
+	#holding = castle_holding
+	
+	#terrain = hills
+	
+	# History
+	
+}
+
+# 551 - Mstislavl
+551 = {	# 551 - Mstislavl
+	
+	# Misc
+	culture = byelorussian
+	religion = slavic_pagan
+	
+	holding = none
+	
+	# History
+	
+	
+}
+
+# 568 - Smolensk
+568 = {	# 568 - Smolensk
+	
+	# Misc
+	culture = byelorussian
+	religion = slavic_pagan
+	
+	#holding = castle_holding
+	
+	# History
+	
+}
+
+# 569 - Vyazma
+569 = {	# 569 - Vyazma
+	
+	# Misc
+	culture = byelorussian
+	religion = slavic_pagan
+	
+	holding = none
+	
+	# History
+	
+}
+
+# 587 - Mozhaysk
+587 = {	# 587 - Mozhaysk
+	
+	# Misc
+	culture = byelorussian
+	religion = slavic_pagan
+	
+	#holding = castle_holding
+	
+	# History
+	
+	
+}
+
+# 933 - Roslavl
+933 = {	# 933 - Roslavl
+	
+	# Misc
+	culture = byelorussian
+	religion = slavic_pagan
+	
+	#holding = castle_holding
+	
+	# History
+	
+}
+
+# 934 - Lukoml
+934 = {	# 934 - Lukoml
+	
+	# Misc
+	culture = byelorussian
+	religion = slavic_pagan
+	
+	#holding = castle_holding
+	
+	#terrain = forest
+	
+	# History
+	
+}
+
+# 5043 - Sokolka
+5043 = {	# 5043 - Sokolka
+	
+	# Misc
+	culture = byelorussian
+	religion = slavic_pagan
+	
+	holding = none
+	
+	#terrain = forest
+	
+	# History
+	
+
+}
+
+# 5044 - Volkovysk
+5044 = {	# 5044 - Volkovysk
+	
+	# Misc
+	culture = byelorussian
+	religion = slavic_pagan
+	
+	#holding = castle_holding
+	
+	#terrain = forest
+	
+	# History
+	
+
+}
+
+# 5045 - Slonim
+5045 = {	# 5045 - Slonim
+	
+	# Misc
+	culture = byelorussian
+	religion = slavic_pagan
+	
+	holding = none
+	
+	#terrain = forest
+	
+	# History
+	
+
+}
+
+# 5046 - Bielastock
+5046 = {	# 5046 - Bielastock
+	
+	# Misc
+	culture = byelorussian
+	religion = slavic_pagan
+	
+	holding = none
+	
+	#terrain = forest
+	
+	# History
+	
+
+}
+
+# 5112 - Lahishyn
+5112 = {	# 5112 - Lahishyn
+	
+	# Misc
+	culture = byelorussian
+	religion = slavic_pagan
+	
+	holding = none
+	
+	#terrain = wetlands
+	
+	# History
+	
+}
+
+# 5113 - Luninets
+5113 = {	# 5113 - Luninets
+	
+	# Misc
+	culture = byelorussian
+	religion = slavic_pagan
+	
+	holding = none
+	
+	#terrain = wetlands
+	
+	# History
+	
+}
+
+# 5114 - Slutsk
+5114 = {	# 5114 - Slutsk
+	
+	# Misc
+	culture = byelorussian
+	religion = slavic_pagan
+	
+	#holding = castle_holding
+	
+	#terrain = forest
+	
+	# History
+	
+}
+
+# 5115 - Zhytkavichy
+5115 = {	# 5115 - Zhytkavichy
+	
+	# Misc
+	culture = byelorussian
+	religion = slavic_pagan
+	
+	holding = none
+	
+	#terrain = wetlands
+	
+	# History
+	
+}
+
+# 5116 - Mikashevichy
+5116 = {	# 5116 - Mikashevichy
+	
+	# Misc
+	culture = byelorussian
+	religion = slavic_pagan
+	
+	holding = none
+	
+	#terrain = wetlands
+	
+	# History
+	
+}
+
+# 5117 - Kletsk
+5117 = {	# 5117 - Kletsk
+	
+	# Misc
+	culture = byelorussian
+	religion = slavic_pagan
+	
+	#holding = castle_holding
+	
+	#terrain = forest
+	
+	# History
+	
+}
+
+# 5118 - Baranovichi
+5118 = {	# 5118 - Baranovichi
+	
+	# Misc
+	culture = byelorussian
+	religion = slavic_pagan
+	
+	holding = none
+	
+	#terrain = forest
+	
+	# History
+	
+}
+
+# 5119 - Babruysk
+5119 = {	# 5119 - Babruysk
+	
+	# Misc
+	culture = byelorussian
+	religion = slavic_pagan
+	
+	#holding = castle_holding
+	
+	#terrain = forest
+	
+	# History
+	
+}
+
+# 5120 - Zhlobin
+5120 = {	# 5120 - Zhlobin
+	
+	# Misc
+	culture = byelorussian
+	religion = slavic_pagan
+	
+	holding = none
+	
+	#terrain = forest
+	
+	# History
+	
+}
+
+# 5121 - Kalinkavichy
+5121 = {	# 5121 - Kalinkavichy
+	
+	# Misc
+	culture = byelorussian
+	religion = slavic_pagan
+	
+	holding = none
+	
+	#terrain = wetlands
+	
+	# History
+	
+}
+
+# 5122 - Rechytsa
+5122 = {	# 5122 - Rechytsa
+	
+	# Misc
+	culture = byelorussian
+	religion = slavic_pagan
+	
+	#holding = castle_holding
+	
+	#terrain = wetlands
+	
+	# History
+	
+}
+
+# 5123 - Lahoysk
+5123 = {	# 5123 - Lahoysk
+	
+	# Misc
+	culture = byelorussian
+	religion = slavic_pagan
+	
+	holding = none
+	
+	#terrain = hills
+	
+	# History
+	
+	
+}
+
+# 5124 - Zaslawye
+5124 = {	# 5124 - Zaslawye
+	
+	# Misc
+	culture = byelorussian
+	religion = slavic_pagan
+	
+	holding = none
+	
+	#terrain = forest
+	
+	# History
+	
+	
+}
+
+# 5125 - Maladzyechna
+5125 = {	# 5125 - Maladzyechna
+	
+	# Misc
+	culture = byelorussian
+	religion = slavic_pagan
+	
+	holding = none
+	
+	#terrain = hills
+	
+	# History
+	
+}
+
+# 5126 - Barysaw
+5126 = {	# 5126 - Barysaw
+	
+	# Misc
+	culture = byelorussian
+	religion = slavic_pagan
+	
+	holding = none
+	
+	#terrain = forest
+	
+	# History
+	
+	
+}
+
+# 5127 - Orsha
+5127 = {	# 5127 - Orsha
+	
+	# Misc
+	culture = byelorussian
+	religion = slavic_pagan
+	
+	#holding = castle_holding
+	
+	#terrain = forest
+	
+	# History
+	
+}
+
+# 5128 - Drutsk
+5128 = {	# 5128 - Drutsk
+	
+	# Misc
+	culture = byelorussian
+	religion = slavic_pagan
+	
+	holding = none
+	
+	#terrain = forest
+	
+	# History
+	
+	
+}
+
+# 5129 - Polotsk
+5129 = {	# 5129 - Polotsk
+	
+	# Misc
+	culture = byelorussian
+	religion = slavic_pagan
+	
+	#holding = castle_holding
+	
+	#terrain = forest
+	
+	# History
+	
+}
+
+# 5130 - Drysa
+5130 = {	# 5130 - Drysa
+	
+	# Misc
+	culture = byelorussian
+	religion = slavic_pagan
+	
+	holding = none
+	
+	#terrain = forest
+	
+	# History
+	
+}
+
+# 5131 - Myory
+5131 = {	# 5131 - Myory
+	
+	# Misc
+	culture = byelorussian
+	religion = slavic_pagan
+	
+	holding = none
+	
+	#terrain = forest
+	
+	# History
+	
+}
+
+# 5132 - Vetrino
+5132 = {	# 5132 - Vetrino
+	
+	# Misc
+	culture = byelorussian
+	religion = slavic_pagan
+	
+	holding = none
+	
+	#terrain = forest
+	
+	# History
+	
+}
+
+# 5133 - Hlybokaye
+5133 = {	# 5133 - Hlybokaye
+	
+	# Misc
+	culture = byelorussian
+	religion = slavic_pagan
+	
+	holding = none
+	
+	#terrain = forest
+	
+	# History
+	
+}
+
+# 5134 - Vitebsk
+5134 = {	# 5134 - Vitebsk
+	
+	# Misc
+	culture = byelorussian
+	religion = slavic_pagan
+	
+	#holding = castle_holding
+	
+	#terrain = forest
+	
+	# History
+	
+}
+
+# 5135 - Haradok
+5135 = {	# 5135 - Haradok
+	
+	# Misc
+	culture = byelorussian
+	religion = slavic_pagan
+	
+	holding = none
+	
+	#terrain = forest
+	
+	# History
+	
+	
+}
+
+# 5136 - Novogrudok
+5136 = {	# 5136 - Novogrudok
+	
+	# Misc
+	culture = byelorussian
+	religion = slavic_pagan
+	
+	#holding = castle_holding
+	
+	#terrain = forest
+	
+	# History
+	
+
+}
+
+# 5170 - Toropets
+5170 = {	# 5170 - Toropets
+	
+	# Misc
+	culture = byelorussian
+	religion = slavic_pagan
+	
+	#holding = castle_holding
+	
+	#terrain = forest
+	
+	# History
+	
+}
+
+# 5171 - Andreapol
+5171 = {	# 5171 - Andreapol
+	
+	# Misc
+	culture = byelorussian
+	religion = finnish_pagan
+	
+	holding = none
+	
+	#terrain = forest
+	
+	# History
+	
+}
+
+# 5172 - Ozerski
+5172 = {	# 5172 - Ozerski
+	
+	# Misc
+	culture = byelorussian
+	religion = finnish_pagan
+	
+	holding = none
+	
+	#terrain = forest
+	
+	# History
+	
+}
+
+# 5219 - Dorogobyzh
+5219 = {	# 5219 - Dorogobyzh
+	
+	# Misc
+	culture = byelorussian
+	religion = slavic_pagan
+	
+	holding = none
+	
+	# History
+	
+	
+}
+
+# 5220 - Yelnya
+5220 = {	# 5220 - Yelnya
+	
+	# Misc
+	culture = byelorussian
+	religion = slavic_pagan
+	
+	holding = none
+	
+	# History
+	
+	
+}
+
+# 5221 - Gnezdovo
+5221 = {	# 5221 - Gnezdovo
+	
+	# Misc
+	culture = byelorussian
+	religion = slavic_pagan
+	
+	#holding = castle_holding
+	
+	# History
+	
+}
+
+# 5222 - Velizh
+5222 = {	# 5222 - Velizh
+	
+	# Misc
+	culture = byelorussian
+	religion = slavic_pagan
+	
+	holding = none
+	
+	# History
+	
+}
+
+# 5223 - Dukhovshchina
+5223 = {	# 5223 - Dukhovshchina
+	
+	# Misc
+	culture = byelorussian
+	religion = slavic_pagan
+	
+	holding = none
+	
+	# History
+	
+}
+
+# 5224 - Klimavichy
+5224 = {	# 5224 - Klimavichy
+	
+	# Misc
+	culture = byelorussian
+	religion = slavic_pagan
+	
+	holding = none
+	
+	# History
+	
+}
+
+# 5225 - Cherykaw
+5225 = {	# 5225 - Cherykaw
+	
+	# Misc
+	culture = byelorussian
+	religion = slavic_pagan
+	
+	holding = none
+	
+	# History
+	
+}
+
+# 5226 - Lotoshino
+5226 = {	# 5226 - Lotoshino
+	
+	# Misc
+	culture = byelorussian
+	religion = slavic_pagan
+	
+	holding = none
+	
+	# History
+	
+	
+}
+
+# 5227 - Zubstov
+5227 = {	# 5227 - Zubstov
+	
+	# Misc
+	culture = byelorussian
+	religion = slavic_pagan
+	
+	holding = none
+	
+	# History
+	
+}
+

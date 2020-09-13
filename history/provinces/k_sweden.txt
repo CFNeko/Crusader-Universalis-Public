@@ -1,0 +1,268 @@
+# 302 - VAXJO
+302 = {	# 302 - VAXJO
+	
+	# Misc
+	culture = swedish
+	religion = norse_pagan
+	
+	# History
+	
+	
+}
+
+# 307 - KALMAR
+307 = {	# 307 - KALMAR
+	
+	# Misc
+	culture = swedish
+	religion = norse_pagan
+	
+	# History
+	
+}
+
+# 314 - BORGHOLM
+314 = {	# 314 - BORGHOLM
+	
+	# Misc
+	culture = swedish
+	religion = norse_pagan
+	terrain = plains
+	
+	# History
+	
+	
+
+}
+
+# 320 - VARNHEM
+320 = {	# 320 - VARNHEM
+	
+	
+	# Misc
+	culture = swedish
+	religion = norse_pagan
+	
+	
+}
+
+316 = {	# 316 - SKARA
+	
+	
+	# Misc
+	culture = swedish
+	religion = norse_pagan
+	
+	
+}
+
+8723 = {	# 8723 - L�CK�
+	
+	
+	# Misc
+	culture = swedish
+	religion = norse_pagan
+	
+	
+}
+
+# 321 - DALABORG
+321 = {	#321 DALABORG
+	
+	# Misc
+	culture = swedish
+	religion = norse_pagan
+	
+	# History
+	
+}
+
+# 323 - TINGVALLA
+323 = {	# 323 TINGVALLA
+	
+	# Misc
+	culture = swedish
+	religion = norse_pagan
+	terrain = forest
+	
+	
+}
+
+# 327 - ORABRO
+327 = {	# 327 ORABRO
+	
+	# Misc
+	culture = swedish
+	religion = norse_pagan
+	
+	#History
+	
+
+}
+
+# 330 - SUDHERKOPUNG
+330 = {	# 330 SUDHERKOPING
+	
+	#skanninge = city		#One of the oldest cities in sweden
+	#linkoping = temple	#Second Diocese in Sweden, next to Skara. Norse Pagan Holy Site.
+	#soderkoping = city	#Large medieval centre, definite proof from the 12th century
+	#vreta = temple 	#Vreta Abbey, one of the oldest in Scandinavia and a religious centre ~1100
+	
+	
+	# Misc
+	culture = swedish
+	religion = norse_pagan
+	
+	#History
+	
+}
+
+# 339 - STRIGINES
+339 = {	# 292 - S�dermanland
+	
+	# County Title
+	#title = c_sodermanland
+	
+	# Settlements
+	#max_settlements = 5
+	#b_gripsholm = tribal
+	
+	#b_nykoping = city
+	#b_strangnas = temple
+	#b_torshalla = city
+	#b_vaderbrunn = castle
+	#b_hundhamra = castle
+	#b_eskilstuna = castle
+	#b_telge = city
+	
+	# Misc
+	culture = swedish
+	religion = norse_pagan
+	
+	# History
+	
+	
+	
+	#
+	#
+}
+
+# 341 - SIGTUNA
+341 = {	# 341 - SIGTUNA
+	
+	# Misc
+	culture = swedish
+	religion = norse_pagan
+	
+	# History
+	
+	
+
+}
+
+# 345 - HENAMORUM
+345 = {	# 345 - HENAMORUM
+	
+	# Misc
+	culture = swedish
+	religion = norse_pagan
+	terrain = forest
+	
+	# History
+	
+	
+}
+
+# 346 - VAESTRAAROS
+346 = {	#346 - VAESTRAAROS
+	# Misc
+	culture = swedish
+	religion = norse_pagan
+	
+	# History
+	
+	
+}
+
+# 350 - FALENE
+350 = {	
+	# Misc
+	culture = swedish
+	religion = norse_pagan
+	
+	# History
+	
+	
+	
+
+}
+
+# 354 - GAVLE
+354 = {	# 354 - GAVLE
+	
+	# Misc
+	culture = swedish
+	religion = norse_pagan
+	
+	# History
+	
+	
+	
+	
+
+}
+
+# 360 - NORALE
+360 = {	# 360 - NORALE
+	
+	# Misc
+	culture = swedish
+	religion = norse_pagan
+	terrain = forest
+	
+	# History
+	
+	
+	
+
+}
+
+# 361 - SEILANGER
+361 = {	#  361 - SEILANGER
+	
+	# Misc
+	culture = swedish
+	religion = norse_pagan
+	terrain = forest
+	
+	# History
+	
+	
+
+}
+
+# 366 - SOLATUMUM
+366 = {	# 366 - SOLATUMUM
+	
+	# Misc
+	culture = swedish
+	religion = norse_pagan
+	terrain = forest
+	
+	# History
+	
+	
+}
+
+# 369 - WYSBU
+369 = {	# 369 WYSBU
+	
+	# Misc
+	culture = swedish
+	religion = norse_pagan
+	
+	# History
+	
+	
+}
+

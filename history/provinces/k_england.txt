@@ -1,0 +1,1752 @@
+# 1499 - BOLTON
+1499 = {	# 1595 - York
+	
+	# Misc
+	culture = english
+	religion = catholic
+	
+	# History
+	
+}
+
+# 1500 - YARLESTRE
+1500 = {	# 1595 - York
+	
+	# Misc
+	culture = english
+	religion = catholic
+	
+	# History
+	
+}
+
+# County of Kent
+1502 = {	# 1502 - Dover
+	# Misc
+	culture = english
+	religion = catholic
+	
+	holding = castle_holding
+	
+	# History
+	
+}
+1503 = {	# 1503 - Canterbury
+	# Misc
+	culture = english
+	religion = catholic
+	
+	holding =  church_holding
+	
+	# History
+	
+
+}
+1504 = {	# 1504 - Rochester
+	# Misc
+	culture = english
+	religion = catholic
+	
+	holding = none
+	
+	# History
+	
+}
+1505 = {	# 1505 - Tonbridge
+	# Misc
+	culture = english
+	religion = catholic
+	
+	holding = none
+	
+	# History
+}
+
+# 1506 - LEWES
+1506 = {	# 1506 - Lewes
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = plains
+	
+	# History
+	
+}
+
+# 1507 - CHICHESTER
+1507 = {	# 1507 - Chichester
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = plains
+	
+	# History
+	
+}
+
+# 1508 - ARUN
+1508 = {	# 1508 - Arun
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = plains
+	
+	# History
+	
+}
+
+# 1509 - HASTINGS
+1509 = {	# 1509 - Hastings
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = plains
+	
+	# History
+	
+}
+
+# 1510 - CHERTSEY
+1510 = {	# 1510 - Chertsey
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = plains
+	
+	# History
+	
+}
+
+# 1511 - GUILDFORD
+1511 = {	# 1511 - Guildford
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = forest
+	
+	# History
+	
+}
+
+# 1512 - KINGSTON
+1512 = {	# 1512 - Kingston
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = farmlands
+	
+	# History
+	
+}
+
+# 1513 - TANDBRIDGE
+1513 = {	# 1513 - Tandbridge
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = plains
+	
+	# History
+	
+}
+
+# 1514 - COLCHESTER
+1514 = {	# 1514 - Colchester
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = forest
+	
+	# History
+	
+}
+
+# 1515 - MALDON
+1515 = {	# 1515 - Maldon
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = forest
+	
+	# History
+	
+}
+
+# 1516 - CHELMSFORD
+1516 = {	# 1516 - Chelmsford
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = farmlands
+	
+	# History
+	
+}
+
+# 1517 - DUNMOW
+1517 = {	# 1517 - Dunmow
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = hills
+	
+	# History
+	
+}
+
+# 1518 - IPSWICH
+1518 = {	# 1518 - Ipswich
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = plains
+	
+	# History
+	
+}
+
+# 1519 - SUDBURY
+1519 = {	# 1519 - Sudbury
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = plains
+	
+	# History
+	
+}
+
+# 1520 - BLYTHING
+1520 = {	# 1520 - Blything
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = forest
+	
+	# History
+	
+}
+
+# 1521 - BEODERICSWORTH
+1521 = {	# 1521 - Beodericsworth
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = forest
+	
+	# History
+	
+}
+
+# 1522 - NORWICH
+1522 = {	# 1522 - Norwich
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = farmlands
+	
+	# History
+	
+}
+
+# 1523 - THETFORD
+1523 = {	# 1523 - Thetford
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = plains
+	
+	# History
+	
+}
+
+# 1524 - WALSINGHAM
+1524 = {	# 1524 - Walsingham
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = plains
+	
+	# History
+	
+}
+
+# 1525 - LYNN
+1525 = {	# 1525 - Lynn
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = farmlands
+	
+	# History
+	
+}
+
+# 1526 - SOUTHWARK
+1526 = {	# 1526 - London
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = plains
+	
+	# History
+	
+}
+
+# 1527 - LONDON
+1527 = {	# 1527 - Edmonton
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = plains
+	
+	# History
+	
+	
+	
+}
+
+# 1528 - WOXBRIGGE
+1528 = {	# 1528 - Woxbrigge
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = forest
+	
+	# History
+	
+}
+
+# 1529 - GORE
+1529 = {	# 1529 - Gore
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = plains
+	
+	# History
+	
+}
+
+# 1530 - BRENTFORD
+1530 = {	# 1530 - Brentford
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = plains
+	
+	# History
+	
+}
+
+# 1531 - BERKHAMSTED
+1531 = {	# 1531 - Berkhamsted
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = farmlands
+	
+	# History
+	
+}
+
+# 1532 - SAINT ALBANS
+1532 = {	# 1532 - Saint Albans
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = forest
+	
+	# History
+	
+}
+
+# 1533 - HERTFORD
+1533 = {	# 1533 - Hertford
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = farmlands
+	
+	# History
+	
+}
+
+# 1534 - CAMBRIDGE
+1534 = {	# 1534 - Cambridge
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = farmlands
+	
+	# History
+	
+}
+
+# 1535 - RADFIELD
+1535 = {	# 1535 - Radfield
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = plains
+	
+	# History
+	
+}
+
+# 1536 - PAPWORTH
+1536 = {	# 1536 - Papworth
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = forest
+	
+	# History
+	
+}
+
+# 1537 - ELY
+1537 = {	# 1537 - Ely
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = farmlands
+	
+	# History
+	
+}
+
+# 1538 - BEDFORD
+1538 = {	# 1538 - Bedford
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = plains
+	
+	# History
+	
+}
+
+# 1539 - AMPTHILL
+1539 = {	# 1539 - Ampthill
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = hills
+	
+	# History
+	
+}
+
+# 1540 - LUTON
+1540 = {	# 1540 - Luton
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = plains
+	
+	# History
+	
+}
+
+# 1541 - HURSTINGSTONE
+1541 = {	# 1541 - Hustingstone
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = forest
+	
+	# History
+	
+}
+
+# 1542 - NORMAN CROSS
+1542 = {	# 1542 - Norman Cross
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = hills
+	
+	# History
+	
+}
+
+# 1543 - LEIGHTONSTONE
+1543 = {	# 1543 - Leightonstone
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = farmlands
+	
+	# History
+	
+}
+
+# 1544 - WINCHESTER
+1544 = {	# 1544 - Winchester
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = farmlands
+	
+	# History
+	
+}
+
+# 1545 - SOUTHAMPTON
+1545 = {	# 1545 - Southampton
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = plains
+	
+	# History
+	
+}
+
+# 1546 - PORTSMOUTH
+1546 = {	# 1546 - Portsmouth
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = plains
+	
+	# History
+	
+}
+
+# 1547 - BASINGSTOKE
+1547 = {	# 1547 - Basingstoke
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = plains
+	
+	# History
+	
+}
+
+# 1548 - CHRISTCHURCH
+1548 = {	# 1548 - Christchurch
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = plains
+	
+	# History
+	
+}
+
+# 1549 - CARISBROOKE
+1549 = {	# 1549 - Carisbrooke
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = plains
+	
+	# History
+	
+}
+
+# 1551 - BUCKINGHAM
+1551 = {	# 1510 - Buckingham
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = farmlands
+	
+	# History
+	
+}
+
+# 1552 - AYLESBURY
+1552 = {	# 1552 - Aylesbury
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = hills
+	
+	# History
+	
+}
+
+# 1553 - NEWPORT
+1553 = {	# 1553 - Newport
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = farmlands
+	
+	# History
+	
+}
+
+# 1554 - WYCOMBE
+1554 = {	# 1554 - Wycombe
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = hills
+	
+	# History
+	
+}
+
+# 1555 - READING
+1555 = {	# 1555 - Reading
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = forest
+	
+	# History
+	
+}
+
+# 1556 - NEWBURY
+1556 = {	# 1556 - Newbury
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = forest
+	
+	# History
+	
+}
+
+# 1557 - ABINGDON
+1557 = {	# 1557 - Abingdon
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = plains
+	
+	# History
+	
+}
+
+# 1558 - OXFORD
+1558 = {	# 1558 - Oxford
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = farmlands
+	
+	# History
+	
+}
+
+# 1559 - BANBURY
+1559 = {	# 1559 - Banbury
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = forest
+	
+	# History
+	
+}
+
+# 1560 - WITNEY
+1560 = {	# 1560 - Witney
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = plains
+	
+	# History
+	
+}
+
+# 1561 - SALISBURY
+1561 = {	# 1561 - Salisbury
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = farmlands
+	
+	# History
+	
+	
+}
+
+# 1562 - WILTON
+1562 = {	# 1562 - Wilton
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = hills
+	
+	# History
+	
+}
+
+# 1563 - RAMSBURY
+1563 = {	# 1563 - Ramsbury
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = forest
+	
+	# History
+	
+}
+
+# 1564 - MALMESBURY
+1564 = {	# 1564 - Malmesbury
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = plains
+	
+	# History
+	
+}
+
+# 1565 - WAREHAM
+1565 = {	# 1565 - Wareham
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = forest
+	
+	# History
+	
+}
+
+# 1566 - POOLE
+1566 = {	# 1566 - Poole
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = plains
+	
+	# History
+	
+}
+
+# 1567 - SHAFTESBURY
+1567 = {	# 1567 - Shaftesbury
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = plains
+	
+	# History
+	
+}
+
+# 1568 - LYME
+1568 = {	# 1568 - Lyme
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = hills
+	
+	# History
+	
+}
+
+# 1569 - EXETER
+1569 = {	# 1569 - Exeter
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = farmlands
+	
+	# History
+	
+}
+
+# 1570 - TOTNES
+1570 = {	# 1570 - Totnes
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = farmlands
+	
+	# History
+	
+}
+
+# 1571 - OKEHAMPTON
+1571 = {	# 1571 - Okehampton
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = plains
+	
+	# History
+	
+}
+
+# 1572 - BARNSTAPLE
+1572 = {	# 1572 - Barnstaple
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = plains
+	
+	# History
+	
+}
+
+# 1573 - LAUNCESTON
+1573 = {	# 1573 - Launceston
+	
+	# Misc
+	culture = cornish
+	religion = catholic
+	terrain = plains
+	
+	# History
+}
+
+# 1574 - TINTAGEL
+1574 = {	# 1574 - Tintagel
+	
+	# Misc
+	culture = cornish
+	religion = catholic
+	terrain = farmlands
+	
+	# History
+}
+
+# 1575 - HELSTON
+1575 = {	# 1575 - Helston
+	
+	# Misc
+	culture = cornish
+	religion = catholic
+	terrain = forest
+	
+	# History
+}
+
+# 1576 - BATH
+1576 = {	# 1576 - Bath
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = farmlands
+	
+	# History
+	
+}
+
+# 1577 - WINTERSTOKE
+1577 = {	# 1577 - Winterstoke
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = farmlands
+	
+	# History
+	
+}
+
+# 1578 - ILCHESTER
+1578 = {	# 1578 - Ilchester
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = forest
+	
+	# History
+	
+}
+
+# 1579 - TAUNTON
+1579 = {	# 1579 - Taunton
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = plains
+	
+	# History
+	
+}
+
+# 1580 - GLOUCESTER
+1580 = {	# 1580 - Gloucester
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = farmlands
+	
+	# History
+	
+	
+}
+
+# 1581 - BRISTOL
+1581 = {	# 1581 - Bristol
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = farmlands
+	
+	# History
+	
+}
+
+# 1582 - WINCHCOMBE
+1582 = {	# 1582 - Winchombe
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = farmlands
+	
+	# History
+	
+}
+
+# 1583 - LINCOLN
+1583 = {	# 1583 - Lincoln
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = farmlands
+	
+	# History
+	
+}
+
+# 1584 - STAMFORD
+1584 = {	# 1584 - Stamford
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = plains
+	
+	# History
+	
+}
+
+# 1585 - BOSTON
+1585 = {	# 1585 - Boston
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = plains
+	
+	# History
+	
+}
+
+# 1586 - BOLINGBROKE
+1586 = {	# 1586 - Bolingbroke
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = plains
+	
+	# History
+	
+}
+
+# 1587 - GRIMSBY
+1587 = {	# 1587 - Grimsby
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = plains
+	
+	# History
+	
+}
+
+# 1588 - POCKLINGTON
+1588 = {	# 1588 - Pocklington
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = hills
+	
+	# History
+	
+}
+
+# 1589 - COTTINGHAM
+1589 = {	# 1589 - Cottingham
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = forest
+	
+	# History
+	
+}
+
+# 1590 - BRIDLINGTON
+1590 = {	# 1590 - Bridlington
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = plains
+	
+	# History
+	
+}
+
+# 1591 - LEEDS
+1591 = {	# 1591 - Leeds
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = farmlands
+	
+	# History
+	
+}
+
+# 1592 - DONCASTER
+1592 = {	# 1592 - Doncaster
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = hills
+	
+	# History
+	
+}
+
+# 1593 - HALIFAX
+1593 = {	# 1593 - Halifax
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = forest
+	
+	# History
+	
+}
+
+# 1594 - SHEFFIELD
+1594 = {	# 1594 - Sheffield
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = plains
+	
+	# History
+	
+}
+
+# 1595 - YORK
+1595 = {	# 1595 - York
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = farmlands
+	
+	# History
+	
+}
+
+# 1596 - SCARBOROUGH
+1596 = {	# 1596 - Scarborough
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = forest
+	
+	# History
+	
+}
+
+# 1597 - WHITBY
+1597 = {	# 1597 - Whitby
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = forest
+	
+	# History
+	
+}
+
+# 1598 - RICHMOND
+1598 = {	# 1598 - Richmond
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = farmlands
+	
+	# History
+	
+}
+
+# 1599 - RIPON
+1599 = {	# 1599 - Ripon
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = plains
+	
+	# History
+	
+}
+
+# 1600 - NORTHAMPTON
+1600 = {	# 1600 - Northampton
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = farmlands
+	
+	# History
+	
+}
+
+# 1601 - PETERBOROUGH
+1601 = {	# 1601 - Peterborough
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = plains
+	
+	# History
+	
+}
+
+# 1602 - KETTERING
+1602 = {	# 1602 - Kettering
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = hills
+	
+	# History
+	
+}
+
+# 1603 - WARWICK
+1603 = {	# 1603 - Warwick
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = forest
+	
+	# History
+	
+}
+
+# 1604 - COVENTRY
+1604 = {	# 1604 - Coventry
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = farmlands
+	
+	# History
+	
+}
+
+# 1605 - BIRMINGHAM
+1605 = {	# 1605 - Birmingham
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = farmlands
+	
+	# History
+	
+}
+
+# 1606 - DURHAM
+1606 = {	# 1606 - Durham
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = forest
+	
+	# History
+	
+}
+
+# 1607 - HARTLEPOOL
+1607 = {	# 1607 - Hartlepool
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = forest
+	
+	# History
+	
+}
+
+# 1608 - DARLINGTON
+1608 = {	# 1608 - Darlington
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = farmlands
+	
+	# History
+	
+}
+
+# 1609 - BAMBURGH
+1609 = {	# 1609 - Bamburgh
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = farmlands
+	
+	holding = castle_holding
+	
+	# History
+	
+	
+	
+}
+
+# 1610 - LINDISFARNE
+1610 = {	# 1610 - Lindisfarne
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = plains
+	
+	holding = church_holding
+	
+	# History
+	
+}
+
+# 1611 - HEXHAM
+1611 = {	# 1611 - Hexham
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = hills
+	
+	# History
+	
+	
+	
+}
+
+# 1612 - ROTHBURY
+1612 = {	# 1612 - Rothbury
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = forest
+	
+	# History
+	
+}
+
+# 1613 - OAKHAM
+1613 = {	# 1613 - Oakham
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = hills
+	
+	# History
+	
+}
+
+# 1615 - LEICESTER
+1615 = {	# 1615 - Leicester
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = farmlands
+	
+	# History
+	
+}
+
+# 1616 - MELTON
+1616 = {	# 1616 - Melton
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = hills
+	
+	# History
+	
+}
+
+# 1617 - BOSWORTH
+1617 = {	# 1617 - Bosworth
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = forest
+	
+	# History
+	
+}
+
+# 1618 - NOTTINGHAM
+1618 = {	# 1618 - Nottingham
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = farmlands
+	
+	# History
+	
+}
+
+# 1619 - NEWARK
+1619 = {	# 1619 - Newark
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = plains
+	
+	# History
+	
+}
+
+# 1620 - RETFORD
+1620 = {	# 1620 - Retford
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = forest
+	
+	# History
+	
+}
+
+# 1621 - DERBY
+1621 = {	# 1621 - Derby
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = farmlands
+	
+	# History
+	
+}
+
+# 1622 - CHESTERFIELD
+1622 = {	# 1622 - Chesterfield
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = farmlands
+	
+	# History
+	
+}
+
+# 1623 - CASTLETON
+1623 = {	# 1623 - Castleton
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = plains
+	
+	# History
+	
+}
+
+# 1624 - WORCESTER
+1624 = {	# 1624 - Worcester
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = forest
+	
+	# History
+	
+}
+
+# 1625 - EVESHAM
+1625 = {	# 1625 - Evesham
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = forest
+	
+	# History
+	
+}
+
+# 1626 - KIDDERMINSTER
+1626 = {	# 1626 - Kidderminster
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = hills
+	
+	# History
+	
+}
+
+# 1627 - STAFFORD
+1627 = {	# 1627 - Stafford
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = plains
+	
+	# History
+	
+}
+
+# 1628 - WOLVERHAMPTON
+1628 = {	# 1628 - Wolverhampton
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = forest
+	
+	# History
+	
+}
+
+# 1629 - STOKE-ON-TRENT
+1629 = {	# 1629 - Stoke-on-Trent
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = plains
+	
+	# History
+	
+}
+
+# 1632 - HEREFORD
+1632 = {	# 1632 - Hereford
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = farmlands
+	
+	# History
+	
+	
+}
+
+# 1633 - WIGMORE
+1633 = {	# 1633 - Wigmore
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = forest
+	
+	# History
+	
+	
+}
+
+# 1634 - CLIFFORD
+1634 = {	# 1634 - Clifford
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = hills
+	
+	# History
+	
+	
+}
+
+# 1635 - CARLISLE
+1635 = {	# 1635 - Carlisle
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = hills
+	
+	# History
+	
+	
+	
+}
+
+# 1636 - WHITEHAVEN
+1636 = {	# 1636 - Whitehaven
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = hills
+	
+	# History
+	
+	
+	
+}
+
+# 1637 - KENDAL
+1637 = {	# 1637 - Kendal
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = hills
+	
+	# History
+	
+}
+
+# 1638 - APPLEBY
+1638 = {	# 1638 - Appleby
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = forest
+	
+	# History
+	
+}
+
+# 1639 - LANCASTER
+1639 = {	# 1639 - Lancaster
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = farmlands
+	
+	# History
+	
+}
+
+# 1640 - SALFORD
+1640 = {	# 1640 - Salford
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = plains
+	
+	# History
+	
+}
+
+# 1641 - WEST DERBY
+1641 = {	# 1641 - West Derby
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = forest
+	
+	# History
+	
+}
+
+# 1642 - FURNESS
+1642 = {	# 1642 - Furness
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = hills
+	
+	# History
+	
+}
+
+# 1643 - CHESTER
+1643 = {	#1643 - Chester
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = farmlands
+	
+	# History
+	
+	
+}
+
+# 1644 - NORTHWICH
+1644 = {	# 1644 - Northwich
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = forest
+	
+	# History
+	
+}
+
+# 1645 - MACCLESFIELD
+1645 = {	# 1645 - Macclesfield
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = plains
+	
+	# History
+	
+}
+
+# 1646 - SHREWSBURY
+1646 = {	# 1646 - Shrewshbury
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = forest
+	
+	# History
+	
+	
+}
+
+# 1647 - LUDLOW
+1647 = {	# 1647 - Ludlow
+	
+	# Misc
+	culture = english
+	religion = catholic
+	terrain = forest
+	
+	# History
+	
+}
+
+# 1648 - BISHOP'S CASTLE
+1648 = {	# 1648 - Bishop's Castle
+	
+	# Misc
+	culture = welsh
+	religion = catholic
+	terrain = forest
+	
+	# History
+	
+	
+	
+}
+

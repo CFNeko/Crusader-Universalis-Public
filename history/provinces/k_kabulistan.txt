@@ -1,0 +1,25 @@
+# 4343 - Bamiyan
+4343 = {	# 1185 - Kabul
+	
+	# Misc
+	culture = afghan
+	religion = mahayana
+	
+	# History
+
+	
+
+}
+# 4500 - Ghazna
+4500 = {	# 4500 - Ghazna
+	
+	# Misc
+	culture = afghan
+	religion = mahayana
+
+	# History
+
+	
+
+}
+

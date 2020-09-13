@@ -1,0 +1,211 @@
+###c_silves
+1747 = {	# SILVES
+	# Misc
+	culture = portuguese
+	religion = catholic
+	
+	holding = castle_holding
+	
+	# History
+	
+	
+	
+}
+1746 = {	# LAGOS
+	holding = church_holding
+}
+1749 = {	# OURIQUE
+	holding = city_holding
+}
+
+###c_faro
+1748 = {	# Faro
+	#Misc	
+	culture = portuguese
+	religion = muwalladi
+	
+	holding = castle_holding
+	
+	# History
+	
+	
+}
+1750 = {	# MERTOLA
+	holding = city_holding
+}
+
+###c_alcacer_do_sal
+1752 = {	# ALCACER DO SAL
+	# Misc
+	culture = portuguese
+	religion = catholic
+	
+	# History
+	
+	
+}
+1778 = {	# AVIS
+	holding = none
+}
+1779 = {	# MONTEMOR
+	holding = city_holding
+}
+1780 = {	# VIANA DO ALENTEJO
+	holding = church_holding
+}
+
+###c_lisboa
+1754 = {	# Lisboa
+	# Misc
+	culture = portuguese
+	religion = catholic
+	
+	holding = castle_holding
+	
+	# History
+	
+	
+}
+1755 = {	# SANTAREM
+	holding = city_holding
+}
+1753 = {	# SETUBAL
+	holding = church_holding
+}
+
+###c_elvas
+1776 = {	# ELVAS
+	# Misc
+	culture = portuguese
+	religion = catholic
+	
+	holding = castle_holding
+	
+	# History
+	
+	
+}
+1774 = {	# NISA
+	holding = city_holding
+}
+1775 = {	# CRATO
+	holding = none
+	
+	
+}
+
+###c_beja/evora/�vora
+1777 = {	# EVORA
+	# Misc
+	culture = portuguese
+	religion = catholic
+	
+	holding = castle_holding
+	
+	# History
+	
+	
+	
+}
+1751 = {	# BEJA
+	holding = city_holding
+}
+
+###c_plasencia
+1831 = {	# PLASENCIA/Hervas
+	# Misc
+	culture = asturleonese
+	religion = catholic
+	
+	holding = castle_holding
+	
+	# History
+	
+}
+1830 = {	# 1830 - CORIA
+	holding = city_holding
+}
+1917 = {	# 1917 - ALMARAZ
+	holding = church_holding
+}
+
+###c_caceres
+1954 = {	# CACERES
+	# Misc
+	culture = asturleonese
+	religion = catholic
+	
+	holding = castle_holding
+	
+	# History
+	
+	
+	
+}
+1832 = {	# ALCANTARA
+	holding = city_holding
+}
+1833 = {	# ZALACA
+	holding = none
+}
+
+###c_badajoz
+1835 = {	#  BADAJOZ
+	# Misc
+	culture = andalusian
+	religion = catholic
+	
+	holding = castle_holding
+	
+	# History
+	
+	
+	
+}
+1836 = {	# OLIVENZA
+	holding = city_holding
+}
+1990 = {	# ILERENA/Llerena
+	holding = church_holding
+}
+
+###c_merida
+1834 = {	# MERIDA
+	# Misc
+	culture = asturleonese
+	religion = catholic
+	
+	holding = castle_holding
+	
+	# History
+	
+	
+	
+}
+1955 = {	# TRUJILLO
+	holding = none
+	
+	
+}
+1956 = {	# CASTILBLANCO
+	holding = church_holding
+}
+
+
+###c_medellin
+1996 = {	# MEDELLIN
+	# Misc
+	culture = andalusian
+	religion = catholic
+	
+	# History
+	
+	
+	
+}
+1997 = {	# HORNACHOS
+	holding = church_holding
+}
+1998 = {	# DON LLORENTE/La Serena
+	holding = city_holding
+}

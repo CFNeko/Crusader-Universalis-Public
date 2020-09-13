@@ -1,0 +1,515 @@
+# 511 - Galati
+511 = {	# 511 - Galati
+	
+	culture = vlach
+	religion = orthodox
+	
+	#holding = castle_holding
+	
+	#terrain = swamp
+	
+	
+}
+
+# 512 - Cetatea Alba
+512 = {	# 512 - Cetatea Alba
+	
+	culture = vlach
+	religion = orthodox
+	
+	#holding = castle_holding
+	
+	#terrain = swamp
+	
+	
+}
+
+# 513 - Barlad
+513 = {	# 513 - Barlad
+	
+	culture = vlach
+	religion = slavic_pagan
+	
+	#holding = castle_holding
+	
+	#terrain = forest
+	
+	#Misc
+	
+}
+
+# 541 - Iasi
+541 = {	# 541 - Iasi
+	
+	culture = vlach
+	religion = slavic_pagan
+	
+	#holding = castle_holding
+	
+	#terrain = hills
+	
+	#Misc
+	
+}
+
+# 545 - Suceava
+545 = {	# 545 - Suceava
+	
+	culture = vlach
+	religion = slavic_pagan
+	
+	#holding = castle_holding
+	
+	#terrain = hills
+	
+	#Misc
+	
+}
+
+# 5011 - Tighina
+5011 = {	# 5011 - Tighina
+	
+	culture = vlach
+	religion = slavic_pagan
+	
+	holding = none
+	
+	#terrain = plains
+	
+	#Misc
+	
+}
+
+# 5012 - Chilia
+5012 = {	# 5012 - Chilia
+	
+	culture = vlach
+	religion = orthodox
+	
+	#holding = castle_holding
+	
+	#terrain = swamp
+	
+}
+
+# 5013 - Oblucita
+5013 = {	# 5013 - Oblucita
+	
+	culture = vlach
+	religion = orthodox
+	
+	holding = none
+	
+	#terrain = swamp
+	
+	#Misc
+	
+}
+
+# 5014 - Artsyz
+5014 = {	# 5014 - Artsyz
+	
+	culture = vlach
+	religion = slavic_pagan
+	
+	holding = none
+	
+	#terrain = plains
+	
+	#Misc
+	
+}
+
+# 5015 - Tigheci
+5015 = {	# 5015 - Tigheci
+	
+	culture = vlach
+	religion = slavic_pagan
+	
+	#holding = castle_holding
+	
+	#terrain = hills
+	
+	#Misc
+	
+	
+}
+
+# 5016 - Cahul
+5016 = {	# 5016 - Cahul
+	
+	culture = vlach
+	religion = slavic_pagan
+	
+	holding = none
+	
+	#terrain = swamp
+	
+	#Misc
+	
+}
+
+# 5017 - Lapusna
+5017 = {	# 5017 - Lapusna
+	
+	culture = vlach
+	religion = slavic_pagan
+	
+	#holding = castle_holding
+	
+	#terrain = plains
+	
+	#Misc
+	
+}
+
+# 5018 - Chisinau
+5018 = {	# 5018 - Chisinau
+	
+	culture = vlach
+	religion = slavic_pagan
+	
+	holding = none
+	
+	#terrain = plains
+	
+	#Misc
+	
+}
+
+# 5019 - Orhei
+5019 = {	# 5019 - Orhei
+	
+	culture = vlach
+	religion = slavic_pagan
+	
+	#holding = castle_holding
+	
+	#terrain = plains
+	
+	#Misc
+	
+}
+
+# 5020 - Tuzara
+5020 = {	# 5020 - Tuzara
+	
+	culture = vlach
+	religion = slavic_pagan
+	
+	holding = none
+	
+	#terrain = plains
+	
+	#Misc
+	
+}
+
+# 5021 - Soroca
+5021 = {	# 5021 - Soroca
+	
+	culture = vlach
+	religion = slavic_pagan
+	
+	#holding = castle_holding
+	
+	#terrain = plains
+	
+	#Misc
+	
+}
+
+# 5022 - Balti
+5022 = {	# 5022 - Balti
+	
+	culture = vlach
+	religion = slavic_pagan
+	
+	holding = none
+	
+	#terrain = plains
+	
+	#Misc
+	
+}
+
+# 5023 - Ungheni
+5023 = {	# 5023 - Ungheni
+	
+	culture = vlach
+	religion = slavic_pagan
+	
+	holding = none
+	
+	#terrain = hills
+	
+	#Misc
+	
+}
+
+# 5024 - Falesti
+5024 = {	# 5024 - Falesti
+	
+	culture = vlach
+	religion = slavic_pagan
+	
+	holding = none
+	
+	#terrain = hills
+	
+	#Misc
+	
+}
+
+# 5025 - Vaslui
+5025 = {	# 5025 - Vaslui
+	
+	culture = vlach
+	religion = slavic_pagan
+	
+	holding = none
+	
+	#terrain = hills
+	
+	#Misc
+	
+}
+
+# 5026 - Husi
+5026 = {	# 5026 - Husi
+	
+	culture = vlach
+	religion = slavic_pagan
+	
+	holding = none
+	
+	#terrain = forest
+	
+	#Misc
+	
+}
+
+# 5027 - Tecuci
+5027 = {	# 5027 - Tecuci
+	
+	culture = vlach
+	religion = orthodox
+	
+	holding = city_holding
+	
+	#terrain = plains
+}
+
+# 5028 - Focsani
+5028 = {	# 5028 - Focsani
+	
+	culture = vlach
+	religion = orthodox
+	
+	holding = none
+	
+	#terrain = plains
+	
+	#Misc
+	
+}
+
+# 5029 - Stoenesti
+5029 = {	# 5029 - Stoenesti
+	
+	culture = vlach
+	religion = slavic_pagan
+	
+	#holding = castle_holding
+	
+	#terrain = mountains
+	
+	#Misc
+	
+	
+}
+
+# 5030 - Bacau
+5030 = {	# 5030 - Bacau
+	
+	culture = vlach
+	religion = slavic_pagan
+	
+	holding = none
+	
+	#terrain = hills
+	
+	#Misc
+	
+}
+
+# 5031 - Piatra Neamnt
+5031 = {	# 5031 - Piatra Neamnt
+	
+	culture = vlach
+	religion = slavic_pagan
+	
+	#holding = castle_holding
+	
+	#terrain = mountains
+	
+	#Misc
+	
+}
+
+# 5032 - Targu Neamnt
+5032 = {	# 5032 - Targu Neamnt
+	
+	culture = vlach
+	religion = slavic_pagan
+	
+	holding = none
+	
+	#terrain = mountains
+	
+	#Misc
+	
+}
+
+# 5033 - Roman
+5033 = {	# 5033 - Roman
+	
+	culture = vlach
+	religion = slavic_pagan
+	
+	holding = none
+	
+	#terrain = hills
+	
+	#Misc
+	
+}
+
+# 5034 - Baia
+5034 = {	# 5034 - Baia
+	
+	culture = vlach
+	religion = slavic_pagan
+	
+	holding = none
+	
+	#terrain = hills
+	
+	#Misc
+	
+	
+}
+
+# 5035 - Vatra Dornei
+5035 = {	# 5035 - Vatra Dornei
+	
+	culture = vlach
+	religion = slavic_pagan
+	
+	holding = none
+	
+	#terrain = mountains
+	
+	#Misc
+	
+}
+
+# 5036 - Campulung Moldovenesc
+5036 = {	# 5036 - Campulung Moldovenesc
+	
+	culture = vlach
+	religion = slavic_pagan
+	
+	holding = none
+	
+	#terrain = mountains
+	
+	#Misc
+	
+}
+
+# 5037 - Siret
+5037 = {	# 5010 - Sulina
+	
+	culture = vlach
+	religion = slavic_pagan
+	
+	holding = none
+	
+	#terrain = hills
+	
+	#Misc
+	
+	
+}
+
+# 5038 - Dorohoi
+5038 = {	# 5038 - Dorohoi
+	
+	culture = vlach
+	religion = slavic_pagan
+	
+	#holding = castle_holding
+	
+	#terrain = hills
+	
+	#Misc
+	
+}
+
+# 5039 - Harlau
+5039 = {	# 5039 - Harlau
+	
+	culture = vlach
+	religion = slavic_pagan
+	
+	holding = none
+	
+	#terrain = hills
+	
+	#Misc
+	
+}
+
+# 5040 - Hotin
+5040 = {	# 5040 - Hotin
+	
+	culture = vlach
+	religion = slavic_pagan
+	
+	#holding = castle_holding
+	
+	#terrain = hills
+	
+	#Misc
+	
+}
+
+# 5041 - Tetina
+5041 = {	# 5041 - Tetina
+	
+	culture = vlach
+	religion = slavic_pagan
+	
+	holding = none
+	
+	#terrain = hills
+	
+	#Misc
+	
+}
+
+# 5042 - Cernauti
+5042 = {	# 5042 - Cernauti
+	
+	culture = vlach
+	religion = slavic_pagan
+	
+	holding = none
+	
+	#terrain = hills
+	
+	#Misc
+	
+}
+

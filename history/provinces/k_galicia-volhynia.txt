@@ -1,0 +1,650 @@
+# 534 - Peremyshl
+534 = {	# 534 - Peremyshl
+	
+	# Misc
+	culture = ruthenian
+	religion = slavic_pagan
+	
+	#holding = castle_holding
+	
+	#terrain = hills
+	
+	# History
+	
+
+}
+
+# 535 - Volodymyr
+535 = {	# 535 - Volodymyr
+	
+	# Misc
+	culture = ruthenian
+	religion = slavic_pagan
+	
+	#holding = castle_holding
+	
+	#terrain = hills
+	
+	# History
+	
+
+}
+
+# 536 - Halych
+536 = {	# 536 - Halych
+	
+	# Misc
+	culture = ruthenian
+	religion = slavic_pagan
+	
+	#holding = castle_holding
+	
+	#terrain = hills
+	
+	# History
+	
+
+}
+
+# 546 - Terebovl
+546 = {	# 546 - Terebovl
+	
+	# Misc
+	culture = ruthenian
+	religion = slavic_pagan
+	
+	#holding = castle_holding
+	
+	#terrain = hills
+	
+	# History
+	
+
+}
+
+# 549 - Berestye
+549 = {	# 549 - Berestye
+	
+	# Misc
+	culture = byelorussian
+	religion = slavic_pagan
+	
+	#holding = castle_holding
+	
+	#terrain = wetlands
+	
+	# History
+	
+
+}
+
+# 5047 - Lutsk
+5047 = {	# 5047 - Lutsk
+	
+	# Misc
+	culture = ruthenian
+	religion = slavic_pagan
+	
+	holding = city_holding
+	
+	#terrain = hills
+	
+	# History
+	
+
+}
+
+# 5048 - Luboml
+5048 = {	# 5048 - Luboml
+	
+	# Misc
+	culture = ruthenian
+	religion = slavic_pagan
+	
+	holding = none
+	
+	#terrain = plains
+	
+	# History
+	
+
+}
+
+# 5049 - Kovel
+5049 = {	# 5049 - Kovel
+	
+	# Misc
+	culture = ruthenian
+	religion = slavic_pagan
+	
+	holding = none
+	
+	#terrain = plains
+	
+	# History
+	
+
+}
+
+# 5050 - Rozhyshche
+5050 = {	# 5050 - Rozhyshche
+	
+	# Misc
+	culture = ruthenian
+	religion = slavic_pagan
+	
+	holding = none
+	
+	#terrain = plains
+	
+	# History
+	
+
+}
+
+# 5051 - Peresopnytsia
+5051 = {	# 5051 - Peresopnytsia
+	
+	# Misc
+	culture = ruthenian
+	religion = slavic_pagan
+	
+	#holding = castle_holding
+	
+	#terrain = hills
+	
+	# History
+	
+
+}
+
+# 5052 - Rivne
+5052 = {	# 5052 - Rivne
+	
+	# Misc
+	culture = ruthenian
+	religion = slavic_pagan
+	
+	holding = none
+	
+	#terrain = hills
+	
+	# History
+	
+
+}
+
+# 5053 - Klevan
+5053 = {	# 5033 - Klevan
+	
+	# Misc
+	culture = ruthenian
+	religion = slavic_pagan
+	
+	holding = none
+	
+	#terrain = plains
+	
+	# History
+	
+
+}
+
+# 5054 - Bielsk
+5054 = {	# 5054 - Bielsk
+	
+	# Misc
+	culture = ruthenian
+	religion = slavic_pagan
+	
+	holding = none
+	
+	#terrain = plains
+	
+	# History
+	
+	
+
+}
+
+# 5055 - Kamyanyets
+5055 = {	# 5055 - Kamyanyets
+	
+	# Misc
+	culture = ruthenian
+	religion = slavic_pagan
+	
+	holding = none
+	
+	#terrain = plains
+	
+	# History
+	
+
+}
+
+# 5056 - Simiatychi
+5056 = {	# 5056 - Simiatychi
+	
+	# Misc
+	culture = ruthenian
+	religion = slavic_pagan
+	
+	holding = none
+	
+	#terrain = plains
+	
+	# History
+	
+
+}
+
+# 5057 - Dorohychyn
+5057 = {	# 5057 - Dorohychyn
+	
+	# Misc
+	culture = byelorussian
+	religion = slavic_pagan
+	
+	#holding = castle_holding
+	
+	#terrain = forest
+	
+	# History
+	
+
+}
+
+# 5058 - Kobryn
+5058 = {	# 5058 - Kobryn
+	
+	# Misc
+	culture = ruthenian
+	religion = slavic_pagan
+	
+	holding = none
+	
+	#terrain = wetlands
+	
+	# History
+	
+
+}
+
+# 5059 - Blotkowo
+5059 = {	# 5059 - Blotkowo
+	
+	# Misc
+	culture = ruthenian
+	religion = slavic_pagan
+	
+	holding = none
+	
+	#terrain = forest
+	
+	# History
+	
+
+}
+
+# 5060 - Sambir
+5060 = {	# 5060 - Sambir
+	
+	# Misc
+	culture = ruthenian
+	religion = slavic_pagan
+	
+	holding = none
+	
+	#terrain = hills
+	
+	# History
+	
+	
+
+}
+
+# 5061 - Kolomyia
+5061 = {	# 5061 - Kolomyia
+	
+	# Misc
+	culture = ruthenian
+	religion = slavic_pagan
+	
+	holding = none
+	
+	#terrain = hills
+	
+	# History
+	
+
+}
+
+# 5062 - Spas
+5062 = {	# 5062 - Spas
+	
+	# Misc
+	culture = ruthenian
+	religion = slavic_pagan
+	
+	holding = none
+	
+	#terrain = hills
+	
+	# History
+	
+
+}
+
+# 5063 - Lviv
+5063 = {	# 5063 - Lviv
+	
+	# Misc
+	culture = ruthenian
+	religion = slavic_pagan
+	
+	#holding = castle_holding
+	
+	#terrain = hills
+	
+	# History
+	
+
+}
+
+# 5064 - Zvenyhorod
+5064 = {	# 5064 - Zvenyhorod
+	
+	# Misc
+	culture = ruthenian
+	religion = slavic_pagan
+	
+	holding = none
+	
+	#terrain = hills
+	
+	# History
+	
+	
+
+}
+
+# 5065 - Busk
+5065 = {	# 5065 - Busk
+	
+	# Misc
+	culture = ruthenian
+	religion = slavic_pagan
+	
+	holding = none
+	
+	#terrain = hills
+	
+	# History
+	
+	
+
+}
+
+# 5066 - Buchach
+5066 = {	# 5066 - Buchach
+	
+	# Misc
+	culture = ruthenian
+	religion = slavic_pagan
+	
+	holding = none
+	
+	#terrain = hills
+	
+	# History
+	
+
+}
+
+# 5067 - Moklekov
+5067 = {	# 5067 - Moklekov
+	
+	# Misc
+	culture = ruthenian
+	religion = slavic_pagan
+	
+	holding = none
+	
+	#terrain = hills
+	
+	# History
+	
+
+}
+
+# 5068 - Horodok
+5068 = {	# 5068 - Horodok
+	
+	# Misc
+	culture = ruthenian
+	religion = slavic_pagan
+	
+	holding = none
+	
+	#terrain = hills
+	
+	# History
+	
+
+}
+
+# 5069 - Chortkiv
+5069 = {	# 5069 - Chortkiv
+	
+	# Misc
+	culture = ruthenian
+	religion = slavic_pagan
+	
+	holding = none
+	
+	#terrain = hills
+	
+	# History
+	
+
+}
+
+# 5070 - Zaslavl
+5070 = {	# 5070 - Zaslavl
+	
+	# Misc
+	culture = ruthenian
+	religion = slavic_pagan
+	
+	#holding = castle_holding
+	
+	#terrain = hills
+	
+	# History
+	
+
+}
+
+# 5071 - Dubno
+5071 = {	# 5071 - Dubno
+	
+	# Misc
+	culture = ruthenian
+	religion = slavic_pagan
+	
+	holding = none
+	
+	#terrain = hills
+	
+	# History
+	
+	
+
+}
+
+# 5072 - Ostroh
+5072 = {	# 5072 - Ostroh
+	
+	# Misc
+	culture = ruthenian
+	religion = slavic_pagan
+	
+	holding = none
+	
+	#terrain = hills
+	
+	# History
+	
+	
+
+}
+
+# 5073 - Cherven
+5073 = {	# 5073 - Cherven
+	
+	# Misc
+	culture = ruthenian
+	religion = slavic_pagan
+	
+	#holding = castle_holding
+	
+	#terrain = hills
+	
+	# History
+	
+
+}
+
+# 5074 - Volin
+5074 = {	# 5074 - Volin
+	
+	# Misc
+	culture = ruthenian
+	religion = slavic_pagan
+	
+	holding = city_holding
+	
+	#terrain = hills
+	
+	# History
+	
+
+}
+
+# 5075 - Kholm
+5075 = {	# 5075 - Kholm
+	
+	# Misc
+	culture = ruthenian
+	religion = slavic_pagan
+	
+	holding = none
+	
+	#terrain = plains
+	
+	# History
+	
+	
+
+}
+
+# 5076 - Suteysk
+5076 = {	# 5076 - Suteysk
+	
+	# Misc
+	culture = ruthenian
+	religion = slavic_pagan
+	
+	holding = none
+	
+	#terrain = hills
+	
+	# History
+	
+	
+
+}
+
+# 5077 - Belz
+5077 = {	# 5077 - Belz
+	
+	# Misc
+	culture = ruthenian
+	religion = slavic_pagan
+	
+	#holding = castle_holding
+	
+	#terrain = hills
+	
+	# History
+	
+
+}
+
+# 5078 - Liubachev
+5078 = {	# 5078 - Liubachev
+	
+	# Misc
+	culture = ruthenian
+	religion = slavic_pagan
+	
+	holding = none
+	
+	#terrain = hills
+	
+	# History
+	
+
+}
+
+# 5079 - Yaroslav
+5079 = {	# 5079 - Yaroslav
+	
+	# Misc
+	culture = ruthenian
+	religion = slavic_pagan
+	
+	holding = none
+	
+	#terrain = forest
+	
+	# History
+	
+	
+
+}
+
+# 5080 - Sanok
+5080 = {	# 5080 - Sanok
+	
+	# Misc
+	culture = ruthenian
+	religion = slavic_pagan
+	
+	holding = none
+	
+	#terrain = hills
+	
+	# History
+	
+	
+
+}
+
+# 5081 - Lizhensk
+5081 = {	# 5081 - Lizhensk
+	
+	# Misc
+	culture = ruthenian
+	religion = slavic_pagan
+	
+	holding = none
+	
+	#terrain = hills
+	
+	# History
+	
+
+}
+

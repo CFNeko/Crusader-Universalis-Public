@@ -1,0 +1,360 @@
+#k_lotharingia
+##d_luxembourg ###################################
+###c_luxembourg
+2082 = {	#LUXEMBOURG
+	culture = walloon
+	religion = catholic
+	holding = castle_holding
+	
+}
+2090 = {	#BASTOGNE
+	holding = city_holding
+}
+2449 = {	#CLERVAUX
+	holding = castle_holding
+}
+2699 = {	#VIANDEN
+	holding = city_holding
+}
+2089 = {	#DIEKIRCH
+	holding = church_holding
+}
+
+###c_bouillon
+2091 = {	#BOUILLON
+	culture = walloon
+	religion = catholic
+	holding = castle_holding
+}
+2686 = {	#CHINY
+	holding = none
+	
+}
+2687 = {	#SAINT HUBERT
+	holding = church_holding
+}
+2095 = {	#VIRTON
+	holding = none
+	
+}
+
+###c_liege
+2097 = {	#LIEGE
+	culture = walloon
+	religion = catholic
+	holding = castle_holding
+}
+2094 = {	#LA ROCHE
+	holding = none
+}
+2096 = {	#HUY
+	holding = city_holding
+}
+
+###c_namur
+2098 = {	#NAMUR
+	culture = walloon
+	religion = catholic
+	holding = castle_holding
+}
+2116 = {	#CHARLEROI
+	holding = city_holding
+}
+2122 = {	#COUVIN
+	holding = church_holding
+}
+
+##d_brabant ###################################
+###c_brabant
+2105 = {	#LEUVEN
+	culture = flemish
+	religion = catholic
+	holding = castle_holding
+}
+2107 = {	#BRUSSELS
+	holding = city_holding
+}
+2111 = {	#TURNHOUT
+	holding = none
+}
+
+###c_antwerpen
+2106 = {	#ANTWERP
+	culture = flemish
+	religion = catholic
+	holding = castle_holding
+}
+2108 = {	#ROSENDAAL
+	holding = none
+}
+2109 = {	#BREDA
+	holding = none
+	
+}
+
+###c_hainaut
+2117 = {	#MONS
+	culture = walloon
+	religion = catholic
+	holding = castle_holding
+}
+2127 = {	#TOURNAI
+	holding = city_holding
+}
+2120 = {	#ATH
+	holding = none
+	
+}
+
+###c_cambray
+2118 = {	#CAMBRAI
+	culture = walloon
+	religion = catholic
+	holding = castle_holding
+}
+2121 = {	# MALBODEN
+	holding = church_holding
+}
+2119 = {	#VALENCIENNES
+	holding = city_holding
+}
+
+##d_julich ###################################
+###c_aachen
+2092 = {	#AACHEN
+	culture = rhenish
+	religion = catholic
+	holding = castle_holding
+	special_building = palace_of_aachen_01
+}
+2448 = {	#LIMBOURG
+	holding = none
+	
+}
+2093 = {	#DUREN
+	holding = city_holding
+}
+2683 = {	#ESCHWEILER
+	holding = none
+}
+2684 = {	#PRUM
+	holding = church_holding
+}
+
+###c_cleves
+2104 = {	#KLEVE
+	culture = rhenish
+	religion = catholic
+	holding = castle_holding
+}
+2102 = {	#GLADBACH
+	holding = none
+	
+}
+2435 = {	#WEZEL
+	holding = none
+}
+2101 = {	#MOERS
+	holding = none
+	
+}
+
+###c_maastricht
+2099 = {	#MAASTRICHT
+	culture = rhenish
+	religion = catholic
+	holding = castle_holding
+}
+2100 = {	#EINDHOVEN
+	holding = none
+}
+2110 = {	#TILBURG
+	holding = city_holding
+}
+
+##d_upper_lorraine ###################################
+###c_trier
+2083 = {	#TRIER
+	culture = rhenish
+	religion = catholic
+	holding = castle_holding
+}
+2085 = {	#BEDA
+	holding = none
+}
+2700 = {	#KONZ
+	holding = none
+}
+2703 = {	#WADERN
+	holding = city_holding
+}
+
+###c_nancy
+2709 = {	#NANCY
+	culture = burgundian
+	religion = catholic
+	holding = castle_holding
+}
+2078 = {	#EPINAL
+	holding = church_holding
+}
+2713 = {	#BLANKENBERG = L�NSTADT / LUNEVILLE
+	holding = none
+	
+}
+2714 = {	#SALM
+	holding = none
+	#1225
+}
+
+###c_metz
+2708 = {	#METZ
+	culture = rhenish
+	religion = catholic
+	holding = castle_holding
+}
+2698 = {	#SAARBURG
+	holding = none
+	
+}
+2705 = {	#FORBACH
+	holding = none
+	
+}
+2711 = {	#FAULQUEMONT
+	holding = church_holding
+}
+
+###c_saarbrucken
+2704 = {	#SAARBRUCKEN
+	culture = rhenish
+	religion = catholic
+	holding = castle_holding
+}
+2726 = {	#ZWEIBRUCKEN
+	holding = none
+	
+}
+2725 = {	#BITSCH
+	holding = none
+}
+
+###c_puttlingen
+2710 = {	#PUTTLINGEN
+	culture = rhenish
+	religion = catholic
+	holding = castle_holding
+}
+2712 = {	#FINSTIGEN
+	holding = none
+}
+
+###c_neufchateau
+2384 = {	#NEUFCHATEAU
+	culture = burgundian
+	religion = catholic
+	holding = castle_holding
+}
+2715 = {	#VAUDEMONT
+	holding = city_holding
+}
+2192 = {	#LURE
+	holding = church_holding
+}
+
+##d_lower_lorraine ###################################
+###c_cologne
+2088 = {	#COLOGNE
+	culture = rhenish
+	religion = catholic
+	holding = castle_holding
+	special_building_slot = holy_site_cologne_cathedral_01
+}
+2087 = {	#BONN
+	holding = city_holding
+}
+2682 = {	#NEUSS
+	holding = castle_holding
+}
+2685 = {	#NAUENAHR
+	holding = none
+}
+
+###c_dortmund
+2673 = {	#DORTMUND
+	culture = rhenish
+	religion = catholic
+	holding = castle_holding
+}
+2677 = {	#ESSEN
+	holding = church_holding
+}
+2675 = {	#RECKLINGHAUSEN
+	holding = none
+	
+}
+
+###c_arnsberg
+2680 = {	#ARNSBERG
+	culture = rhenish
+	religion = catholic
+	holding = castle_holding
+}
+2681 = {	#BILSTEIN
+	holding = none
+}
+
+###c_mark
+2679 = {	#MARK
+	culture = rhenish
+	religion = catholic
+	holding = castle_holding
+}
+2678 = {	#HAGEN
+	holding = none
+}
+2676 = {	#HUKESWAG
+	holding = none
+	
+}
+
+###c_koblenz
+2084 = {	#KOBLENZ
+	culture = rhenish
+	religion = catholic
+	holding = castle_holding
+}
+2086 = {	#ADENAU
+	holding = none
+	
+}
+2697 = {	#COCHEM
+	holding = city_holding
+}
+2696 = {	#SPONHEM
+	holding = none
+}
+
+###c_bergh
+2433 = {	#BERGH
+	culture = rhenish
+	religion = catholic
+	holding = castle_holding
+}
+2688 = {	#SIEGBURG
+	holding = city_holding
+}
+
+###c_sayn
+2689 = {	#SAYN
+	culture = rhenish
+	religion = catholic
+	holding = castle_holding
+}
+2690 = {	#WIED
+	holding = none
+}
+2691 = {	#ISENBURG
+	holding = none
+	
+}
