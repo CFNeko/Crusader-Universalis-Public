@@ -1,6 +1,6 @@
 CKU_genoa_1 = {
-	name = "Raffaele Adorno"
-	dynasty = 101864
+	name = "Raffaele"
+	dynasty = CKU_adorno
 	martial = 3
 	diplomacy = 6
 	intrigue = 4

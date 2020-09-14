@@ -1,6 +1,6 @@
 CKU_sardinia_1 = {
-	name = "Antonio Cubello"
-	dynasty = 101
+	name = "Antonio"
+	dynasty = CKU_cubello
 	martial = 3
 	diplomacy = 6
 	intrigue = 4

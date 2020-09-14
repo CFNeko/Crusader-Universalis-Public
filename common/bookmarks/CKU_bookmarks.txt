@@ -231,7 +231,7 @@ CKU_1444_europe = {
 		title = k_muscovy
 		government = feudal_government
 		culture = castilian
-		religion = catholic
+		religion = orthodox
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
 		history_id = 109500
 		position = { 1050 150 }
@@ -253,6 +253,6 @@ CKU_1444_europe = {
 		history_id = 109500
 		position = { 1150 720 }
 
-		animation = disapproval
+		animation = rage
 	}
 }

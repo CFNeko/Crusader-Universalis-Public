@@ -1,5 +1,5 @@
 CKU_venice_1 = {
-	name = "Francesco Foscari"
+	name = "Francesco"
 	religion = catholic
 	culture = venetian
 	trait = generous
@@ -11,7 +11,7 @@ CKU_venice_1 = {
 	intrigue = 1
 	stewardship = 2
 	learning = 8
-	dynasty = "Foscari"
+	dynasty = CKU_foscari
 	1373.6.19 = {
 		birth = yes
 	}

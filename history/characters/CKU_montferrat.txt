@@ -1,4 +1,153 @@
 CKU_montferrat_1 = {
+	name = "Ottone III il Secondotto"
+	dynasty = 48
+	religion = orthodox
+	culture = greek
+	trait = generous
+	trait = calm
+	trait = patient
+	trait = education_diplomacy_3
+	diplomacy = 4
+	martial = 6
+	intrigue = 1
+	stewardship = 2
+	learning = 8
+
+	father = 465523
+	1358.1.1 = {
+		birth = yes
+	}
+	1378.1.1 = {
+		death = yes
+	}
+}
+
+CKU_montferrat_2 = {
+	name = "Giovanni III"
+	dynasty = 48
+	religion = orthodox
+	culture = greek
+	trait = generous
+	trait = calm
+	trait = patient
+	trait = education_diplomacy_3
+	diplomacy = 4
+	martial = 6
+	intrigue = 1
+	stewardship = 2
+	learning = 8
+
+	father = 465523
+	1362.1.1 = {
+		birth = yes
+	}
+	1381.8.25 = {
+		death = yes
+	}
+}
+
+CKU_montferrat_3 = {
+	name = "Teodoro II"
+	dynasty = 48
+	religion = catholic
+	culture = piedmontese
+	trait = generous
+	trait = calm
+	trait = patient
+	trait = education_diplomacy_3
+	diplomacy = 4
+	martial = 6
+	intrigue = 1
+	stewardship = 2
+	learning = 8
+
+	father = 465523
+	1364.1.1 = {
+		birth = yes
+	}
+	1384.1.1 = {
+		add_spouse = CKU_montferrat_3_1
+	}
+	1418.4.26 = {
+		death = yes
+	}
+}
+
+CKU_montferrat_3_1 = {
+	name = "Giovanna"
+	dynasty = CKU_bar
+	religion = catholic
+	culture = piedmontese
+	trait = generous
+	trait = calm
+	trait = patient
+	trait = education_diplomacy_3
+	diplomacy = 4
+	martial = 6
+	intrigue = 1
+	stewardship = 2
+	learning = 8
+
+	female = yes
+	1360.1.1 = {
+		birth = yes
+	}
+	1402.1.1 = {
+		death = yes
+	}
+}
+
+CKU_montferrat_4 = {
+	name = "Guglielmo"
+	dynasty = 48
+	religion = orthodox
+	culture = greek
+	trait = generous
+	trait = calm
+	trait = patient
+	trait = education_diplomacy_3
+	diplomacy = 4
+	martial = 6
+	intrigue = 1
+	stewardship = 2
+	learning = 8
+
+	father = 465523
+	1365.1.1 = {
+		birth = yes
+	}
+	1400.1.1 = {
+		death = yes
+	}
+}
+
+CKU_montferrat_5 = {
+	name = "Margherita"
+	dynasty = 48
+	religion = orthodox
+	culture = greek
+	trait = generous
+	trait = calm
+	trait = patient
+	trait = education_diplomacy_3
+	diplomacy = 4
+	martial = 6
+	intrigue = 1
+	stewardship = 2
+	learning = 8
+
+	female = yes
+
+	father = 465523
+	1360.1.1 = {
+		birth = yes
+	}
+	1420.1.1 = {
+		death = yes
+	}
+}
+
+CKU_montferrat_6 = {
 	name = "Giovanni Giacomo"
 	religion = catholic
 	culture = greek
@@ -12,10 +161,224 @@ CKU_montferrat_1 = {
 	stewardship = 2
 	learning = 8	
 	dynasty = 48
+
+	father = CKU_montferrat_3
+	mother = CKU_montferrat_3_1
 	1395.3.23 = {
 		birth = yes
 	}
+	1412.1.1 = {
+		add_spouse = CKU_montferrat_6_0
+	}
 	1445.3.12 = {
+		death = yes
+	}
+}
+
+CKU_montferrat_6_0 = {
+	name = "Giovanna"
+	religion = catholic
+	culture = greek
+	trait = generous
+	trait = calm
+	trait = patient
+	trait = education_diplomacy_3
+	diplomacy = 4
+	martial = 6
+	intrigue = 1
+	stewardship = 2
+	learning = 8	
+	dynasty = 240
+
+	female = yes
+
+	1392.7.16 = {
+		birth = yes
+	}
+	1460.1.1 = {
+		death = yes
+	}
+}
+
+CKU_montferrat_7 = {
+	name = "Sofia"
+	religion = catholic
+	culture = greek
+	trait = generous
+	trait = calm
+	trait = patient
+	trait = education_diplomacy_3
+	diplomacy = 4
+	martial = 6
+	intrigue = 1
+	stewardship = 2
+	learning = 8	
+	dynasty = 48
+
+	female = yes
+
+	father = CKU_montferrat_3
+	mother = CKU_montferrat_3_1
+	1399.1.1 = {
+		birth = yes
+	}
+	1437.12.10 = {
+		death = yes
+	}
+}
+
+CKU_montferrat_8 = {
+	name = "Sibilla"
+	religion = catholic
+	culture = greek
+	trait = generous
+	trait = calm
+	trait = patient
+	trait = education_diplomacy_3
+	diplomacy = 4
+	martial = 6
+	intrigue = 1
+	stewardship = 2
+	learning = 8	
+	dynasty = 48
+
+	female = yes
+
+	father = CKU_montferrat_3
+	mother = CKU_montferrat_3_1
+	1397.1.1 = {
+		birth = yes
+	}
+	1401.1.1 = {
+		death = yes
+	}
+}
+
+CKU_montferrat_9 = {
+	name = "Giovanni IV"
+	dynasty = 48
+	religion = catholic
+	culture = piedmontese
+	trait = generous
+	trait = calm
+	trait = patient
+	trait = education_diplomacy_3
+	diplomacy = 4
+	martial = 6
+	intrigue = 1
+	stewardship = 2
+	learning = 8
+
+	father = CKU_montferrat_6
+	mother = CKU_montferrat_6_0
+	1412.6.24 = {
+		birth = yes
+	}
+	1464.1.19 = {
+		death = yes
+	}
+}
+
+CKU_montferrat_10 = {
+	name = "Amedea"
+	dynasty = 48
+	religion = catholic
+	culture = piedmontese
+	trait = generous
+	trait = calm
+	trait = patient
+	trait = education_diplomacy_3
+	diplomacy = 4
+	martial = 6
+	intrigue = 1
+	stewardship = 2
+	learning = 8
+
+	female = yes
+
+	father = CKU_montferrat_6
+	mother = CKU_montferrat_6_0
+	1429.8.3 = {
+		birth = yes
+	}
+	1440.9.13 = {
+		death = yes
+	}
+}
+
+CKU_montferrat_11 = {
+	name = "Isabella"
+	dynasty = 48
+	religion = catholic
+	culture = piedmontese
+	trait = generous
+	trait = calm
+	trait = patient
+	trait = education_diplomacy_3
+	diplomacy = 4
+	martial = 6
+	intrigue = 1
+	stewardship = 2
+	learning = 8
+
+	female = yes
+
+	father = CKU_montferrat_6
+	mother = CKU_montferrat_6_0
+	1419.9.7 = {
+		birth = yes
+	}
+	1475.1.1 = {
+		death = yes
+	}
+}
+
+CKU_montferrat_12 = {
+	name = "Guglielmo VII"
+	dynasty = 48
+	religion = catholic
+	culture = piedmontese
+	trait = generous
+	trait = calm
+	trait = patient
+	trait = education_diplomacy_3
+	diplomacy = 4
+	martial = 6
+	intrigue = 1
+	stewardship = 2
+	learning = 8
+
+	father = CKU_montferrat_6
+	mother = CKU_montferrat_6_0
+	1420.7.19 = {
+		birth = yes
+	}
+	1483.2.27 = {
+		death = yes
+	}
+}
+
+CKU_montferrat_13 = {
+	name = "Bonifacio III"
+	dynasty = 48
+	religion = catholic
+	culture = piedmontese
+	trait = generous
+	trait = calm
+	trait = patient
+	trait = education_diplomacy_3
+	diplomacy = 4
+	martial = 6
+	intrigue = 1
+	stewardship = 2
+	learning = 8
+
+	father = CKU_montferrat_6
+	mother = CKU_montferrat_6_0
+	1424.8.10 = {
+		birth = yes
+	}
+	1494.1.1 = {
 		death = yes
 	}
 }
