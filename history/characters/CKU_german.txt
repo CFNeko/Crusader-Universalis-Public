@@ -216,28 +216,107 @@
 #}
 # Bavarians {
 	# Wittelsbachs = {
-		CKU_wittelsbach_1 = {	
-			name = "Louis"
+		#Palatinate Branch = {
+			CKU_wittelsbach_1 = {	
+				name = "Louis"
+				religion = catholic
+				culture = bavarian
+				dynasty = 217
+				1424.1.1 = {
+					birth = yes
+				}
+				1449.1.1 = {
+					death = yes
+				}
+			}
+			CKU_wittelsbach_2 = {	
+				name = "Friedrich"
+				religion = catholic
+				culture = bavarian
+				father = CKU_wittelsbach_1
+				dynasty = 217
+				1425.1.1 = {
+					birth = yes
+				}
+				1476.1.1 = {
+					death = yes
+				}
+			}
+		#}
+		#Bavarian Branch = {
+			CKU_wittelsbach_3 = {	
+				name = "Albert"
+				religion = catholic
+				culture = bavarian
+				dynasty = 217
+				1401.3.27 = {
+					birth = yes
+				}
+				1460.2.29 = {
+					death = yes
+				}
+			}
+			CKU_wittelsbach_4 = {	
+				name = "Louis"
+				religion = catholic
+				culture = bavarian
+				dynasty = 217
+				1403.9.1 = {
+					birth = yes
+				}
+				1445.4.7 = {
+					death = yes
+				}
+			}
+			CKU_wittelsbach_5 = {	
+				name = "Henry"
+				religion = catholic
+				culture = bavarian
+				dynasty = 217
+				1386.9.1 = {
+					birth = yes
+				}
+				1450.7.30 = {
+					death = yes
+				}
+			}
+		#}
+	#}
+	#Clergy = {
+		CKU_bavarian_bishop_1 = {	
+			name = "Frederick"
 			religion = catholic
 			culture = bavarian
-			dynasty = 217
-			1424.1.1 = {
-				birth = yes
+			1400.1.1 = {
+				birth = yes #unknown
 			}
-			1449.1.1 = {
+			1452.1.1 = {
 				death = yes
 			}
 		}
-		CKU_wittelsbach_2 = {	
-			name = "Friedrich"
+	#}
+	# Minor Lords = {
+		CKU_bavarian_lord_1 = {	
+			name = "Georg"
 			religion = catholic
 			culture = bavarian
-			father = CKU_wittelsbach_1
-			dynasty = 217
-			1425.1.1 = {
-				birth = yes
+			dynasty = 12463
+			1400.1.1 = {
+				birth = yes #unknown
 			}
-			1476.1.1 = {
+			1491.3.7 = {
+				death = yes
+			}
+		}
+		CKU_bavarian_lord_2 = {
+			name = "Reinprecht"
+			religion = catholic
+			culture = bavarian
+			dynasty = CKU_von_Walsee
+			1400.1.1 = {
+				birth = yes #unknown
+			}
+			1450.3.10 = {
 				death = yes
 			}
 		}
@@ -247,6 +326,21 @@
 	#Clergy = {
 		CKU_swabian_bishop_1 = {	
 			name = "Dietrich"
+			religion = catholic
+			culture = swabian
+			1400.1.1 = {
+				birth = yes #unknown
+			}
+			1459.1.1 = {
+				death = yes
+			}
+		}
+	#}
+#}
+# Swiss {
+	#Swiss = {
+		CKU_swiss_1 = {	
+			name = "Swiss Army Knife"
 			religion = catholic
 			culture = swabian
 			1400.1.1 = {

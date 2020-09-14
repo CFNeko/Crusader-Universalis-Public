@@ -2,3 +2,8 @@ CKU_de_medici = {
 	name = "dynn_de_Medici"
 	culture = florentine
 }
+CKU_von_Walsee = {
+	prefix = "dynnp_von"
+	name = "dynn_Walsee"
+	culture = "bavarian"
+}
