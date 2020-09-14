@@ -10,8 +10,8 @@ CKU_venice_1 = {
 	martial = 6
 	intrigue = 1
 	stewardship = 2
-	learning = 8	
-	dynasty = 770
+	learning = 8
+	dynasty = "Foscari"
 	1373.6.19 = {
 		birth = yes
 	}

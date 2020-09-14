@@ -13,6 +13,7 @@
 	trait = education_martial_3
 
 	#father = 463151
+	#we will add it back once PDX fix his history files
 	1351.10.16 = {
 		birth = yes
 	}
@@ -98,9 +99,9 @@ CKU_milan_1 = {
 }
 
 CKU_milan_1_1 = {
-	name = "Beatrice Lascaris"
+	name = "Beatrice"
 	female = yes
-	dynasty = 234
+	dynasty = "Lascaris"
 	martial = 3
 	diplomacy = 6
 	intrigue = 4

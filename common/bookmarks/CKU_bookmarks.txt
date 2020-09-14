@@ -72,7 +72,6 @@ CKU_1444_europe = {
 
 	character = {
 		name = "bookmark_europe_pope"
-		dynasty = 442
 		dynasty_splendor_level = 5
 		type = male
 		birth = 1430.1.1
@@ -89,7 +88,7 @@ CKU_1444_europe = {
 
 	character = {
 		name = "bookmark_europe_venice"
-		dynasty = 770
+		dynasty = "Foscari"
 		dynasty_splendor_level = 5
 		type = male
 		birth = 1373.6.19
@@ -101,24 +100,24 @@ CKU_1444_europe = {
 		history_id = CKU_venice_1
 		position = { 375 580 }
 
-		animation = disapproval
+		animation = personality_greedy
 	}
 
 	character = {
 		name = "bookmark_europe_austria"
-		dynasty = 442
+		dynasty = 51
 		dynasty_splendor_level = 5
 		type = male
-		birth = 828.1.1
+		birth = 1415.1.1
 		title = k_austria
 		government = feudal_government
-		culture = castilian
+		culture = austrian
 		religion = catholic
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
-		history_id = 109500
+		history_id = CKU_austrian_1
 		position = { 375 400 }
 
-		animation = disapproval
+		animation = personality_bold
 	}
 
 	character = {
