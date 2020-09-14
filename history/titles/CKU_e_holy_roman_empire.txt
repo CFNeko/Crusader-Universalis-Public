@@ -46,6 +46,16 @@
 						de_jure_liege = "k_austria"
 					}
 				}
+				c_sundgau = {
+					1439.1.1 = {
+						holder = CKU_austrian_3
+					}
+				}
+				c_breisgau = {
+					1439.1.1 = {
+						holder = CKU_austrian_3
+					}
+				}
 				
 			#}
 		#}
@@ -147,5 +157,156 @@
 					liege = "e_hre"
 				}
 			}
+		#}
+		# Wittelsbach Possessions = {
+			# Bavaria Munchen = {
+				c_munchen = {
+					1438.1.1 = {
+						holder = CKU_wittelsbach_3
+						liege = "e_hre"
+					}
+				}
+				c_regensburg = {
+					1440.1.1 = {
+						holder = CKU_wittelsbach_3
+						liege = "e_hre"
+					}
+				}
+				c_eschenlohe = {
+					1440.1.1 = {
+						holder = CKU_wittelsbach_3
+						liege = "e_hre"
+					}
+				}
+			#}
+
+			# Bavaria Ingolstadt = {
+				c_ingolstadt = {
+					1440.1.1 = {
+						holder = CKU_wittelsbach_4
+						liege = "e_hre"
+					}
+				}
+				c_berchtesgaden = {
+					1440.1.1 = {
+						holder = CKU_wittelsbach_4
+						liege = "e_hre"
+					}
+				}
+				c_passau = {
+					1440.1.1 = {
+						holder = CKU_wittelsbach_4
+						liege = "e_hre"
+					}
+				}
+				c_rothenburg = {
+					1440.1.1 = {
+						holder = CKU_wittelsbach_4
+						liege = "e_hre"
+					}
+				}
+			#}
+
+			# Bavaria Landshut = {
+				c_geisenhausen = {
+					1440.1.1 = {
+						holder = CKU_wittelsbach_5
+						liege = "e_hre"
+					}
+				}
+				c_falkenstein = {
+					1440.1.1 = {
+						holder = CKU_wittelsbach_5
+						liege = "e_hre"
+					}
+				}
+				c_frontenhausen = {
+					1440.1.1 = {
+						holder = CKU_wittelsbach_5
+						liege = "e_hre"
+					}
+				}
+			#}
+		#}
+		# Bavarian/Austrian Minors = {
+			c_salzburg = {
+				1438.1.1 = {
+					holder = CKU_bavarian_bishop_1
+					liege = "e_hre"
+				}
+			}
+			c_schaumberg = {
+				1438.1.1 = {
+					holder = CKU_bavarian_lord_1
+					liege = "d_osterreich"
+					de_jure_liege = "d_osterreich"
+				}
+			}
+			c_linz = {
+				1440.1.1 = {
+					holder = CKU_bavarian_lord_2
+					liege = "d_osterreich"
+					de_jure_liege = "d_osterreich"
+				}
+			}
+			c_hallstatt = {
+				1440.1.1 = {
+					holder = CKU_bavarian_lord_2
+					liege = "d_osterreich"
+					de_jure_liege = "d_osterreich"
+				}
+			}
+		#}
+		# Swiss Confederacy = {
+			d_swiss = {
+				1440.1.1 = {
+					government = republic_government
+					holder = CKU_swiss_1
+					de_jure_liege = "e_hre"
+					liege = "e_hre"
+				}
+			}
+				c_bern = {
+					1440.1.1 = {
+						government = republic_government
+						holder = CKU_swiss_1
+						de_jure_liege = "d_swiss"
+					}
+				}
+				c_aargau = {
+					1440.1.1 = {
+						government = republic_government
+						holder = CKU_swiss_1
+						de_jure_liege = "d_swiss"
+					}
+				}
+				c_neuchatel = {
+					1440.1.1 = {
+						government = republic_government
+						holder = CKU_swiss_1
+						de_jure_liege = "d_swiss"
+					}
+				}
+				c_grisons = {
+					1440.1.1 = {
+						government = republic_government
+						holder = CKU_swiss_1
+						de_jure_liege = "d_swiss"
+					}
+				}
+				c_sankt_gallen = {
+					1440.1.1 = {
+						government = republic_government
+						holder = CKU_swiss_1
+						de_jure_liege = "d_swiss"
+					}
+				}
+				c_zurich = {
+					1440.1.1 = {
+						government = republic_government
+						holder = CKU_swiss_1
+						de_jure_liege = "d_swiss"
+					}
+				}
 		#}
 #}
