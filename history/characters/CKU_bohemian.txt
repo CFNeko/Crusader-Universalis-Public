@@ -8,4 +8,111 @@
 			birth = yes
 		}
 	}
+	#Silesian Piasts = {
+		CKU_spiast_1 = {
+			name = "John"
+			religion = catholic
+			culture = silesian
+			dynasty = 699
+			1425.1.1 = {
+				birth = yes
+			}
+			1453.11.21 = {
+				death = yes
+			}
+		}
+
+		CKU_spiast_2 = {
+			name = "Bolesław"
+			religion = catholic
+			culture = silesian
+			dynasty = 699
+			1425.1.1 = {
+				birth = yes
+			}
+			1452.10.4 = {
+				death = yes
+			}
+		} 
+
+		CKU_spiast_3 = {
+			name = "Bolko"
+			religion = catholic
+			culture = silesian
+			father = CKU_spiast_5
+			dynasty = 699
+			1400.1.1 = {
+				birth = yes
+			}
+			1460.10.4 = {
+				death = yes
+			}
+		}
+
+		CKU_spiast_4 = {
+			name = "Nicolas"
+			religion = catholic
+			culture = silesian
+			father = CKU_spiast_5
+			dynasty = 699
+			1424.1.1 = {
+				birth = yes
+			}
+			1476.7.3 = {
+				death = yes
+			}
+		}
+
+		CKU_spiast_5 = {
+			name = "Bolko"
+			religion = catholic
+			culture = silesian
+			dynasty = 699
+			1363.1.1 = {
+				birth = yes
+			}
+			1437.10.4 = {
+				death = yes
+			}
+		}
+
+		CKU_spiast_6 = {
+			name = "Jan"
+			religion = catholic
+			culture = silesian
+			dynasty = 699
+			1435.4.16 = {
+				birth = yes
+			}
+			1504.9.22 = {
+				death = yes
+			}
+		}
+
+		CKU_spiast_7 = {
+			name = "Henryk"
+			religion = catholic
+			culture = silesian
+			dynasty = 699
+			1387.4.16 = {
+				birth = yes
+			}
+			1467.11.11 = {
+				death = yes
+			}
+		}
+
+		CKU_spiast_8 = {
+			name = "Konrad"
+			religion = catholic
+			culture = silesian
+			dynasty = 699
+			1415.1.1 = {
+				birth = yes
+			}
+			1471.8.14 = {
+				death = yes
+			}
+		}
+	#}
 #}

@@ -4,3 +4,85 @@ k_bohemia = {
 	}
 	reset_name = yes
 }
+	d_upper_silesia = {
+		1440.1.1 = {
+			holder = CKU_bohemian_1
+		}
+		reset_name = yes
+	}
+		c_bethen = {
+			1441.1.1 = {
+				holder = CKU_spiast_1
+				liege = d_upper_silesia
+			}
+		}
+		c_brzeg = {
+			1441.1.1 = {
+				holder = CKU_spiast_1
+			}
+		}
+		c_cieszyn = {
+			1441.1.1 = {
+				holder = CKU_spiast_2
+				liege = d_upper_silesia
+			}
+		}
+		c_opole = {
+			1422.1.1 = {
+				holder = CKU_spiast_3
+				liege = d_upper_silesia
+			}
+		}
+		c_nysa = {
+			1422.1.1 = {
+				holder = CKU_spiast_3
+			}
+		}
+		c_brzeg = {
+			1422.1.1 = {
+				holder = CKU_spiast_4
+				liege = d_upper_silesia
+			}
+		}
+		c_legnica = {
+			1441.1.1 = {
+				holder = CKU_spiast_6
+				liege = d_lower_silesia
+			}
+		}
+		c_sprottau = {
+			1422.1.1 = {
+				holder = CKU_spiast_6
+				liege = d_lower_silesia
+			}
+		}
+		c_przemkow = {
+			1422.1.1 = {
+				holder = CKU_spiast_6
+				liege = d_lower_silesia
+			}
+		}
+		c_grunberg = {
+			1440.1.1 = {
+				holder = CKU_spiast_7
+				liege = d_lower_silesia
+			}
+		}
+		c_schweibus = {
+			1440.1.1 = {
+				holder = CKU_spiast_7
+			}
+		}
+		c_miliez = {
+			1440.1.1 = {
+				holder = CKU_spiast_8
+				liege = d_lower_silesia
+			}
+		}
+
+	d_lower_silesia = {
+		1440.1.1 = {
+			holder = CKU_bohemian_1
+		}
+		reset_name = yes
+	}
