@@ -1,4 +1,4 @@
-﻿christianity_religion = {
+﻿	christianity_religion = {
 	family = rf_abrahamic
 
 	doctrine_background_icon = core_tenet_banner_christian.dds
@@ -295,7 +295,6 @@
 
 		protestant = {
 			color = { 0.0 0.0 0.8 }
-			religious_head = k_papal_state
 			graphical_faith = "catholic_gfx"
 			icon = protestantism
 			
