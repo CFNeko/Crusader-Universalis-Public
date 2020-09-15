@@ -76,6 +76,16 @@
 					holder = CKU_wittelsbach_1
 				}
 			}
+			c_worms = {
+				1440.1.1 = {
+					holder = CKU_wittelsbach_1
+				}
+			}
+			c_durne = {
+				1440.1.1 = {
+					holder = CKU_wittelsbach_1
+				}
+			}
 		#}
 		# Electoral Saxony = {
 			d_meissen = {
@@ -99,9 +109,21 @@
 					holder = CKU_wettin_1
 				}
 			}
+			c_coburg = {
+				1440.1.1 = {
+					holder = CKU_wettin_1
+				}
+			}
 		#}
 		# Electoral Mainz = {
 			c_mainz = {
+				1440.1.1 = {
+					government = theocracy_government
+					holder = CKU_swabian_bishop_1
+					liege = "e_hre"
+				}
+			}
+			c_erbach = {
 				1440.1.1 = {
 					government = theocracy_government
 					holder = CKU_swabian_bishop_1
@@ -115,6 +137,12 @@
 					government = theocracy_government
 					holder = CKU_franconian_bishop_1
 					liege = "e_hre"
+				}
+			}
+			c_koblenz = {
+				1440.1.1 = {
+					government = theocracy_government
+					holder = CKU_franconian_bishop_1
 				}
 			}
 		#}
@@ -160,22 +188,25 @@
 		#}
 		# Wittelsbach Possessions = {
 			# Bavaria Munchen = {
-				c_munchen = {
+				d_bavaria = {
 					1438.1.1 = {
 						holder = CKU_wittelsbach_3
 						liege = "e_hre"
 					}
 				}
+				c_munchen = {
+					1438.1.1 = {
+						holder = CKU_wittelsbach_3
+					}
+				}
 				c_regensburg = {
 					1440.1.1 = {
 						holder = CKU_wittelsbach_3
-						liege = "e_hre"
 					}
 				}
 				c_eschenlohe = {
 					1440.1.1 = {
 						holder = CKU_wittelsbach_3
-						liege = "e_hre"
 					}
 				}
 			#}
@@ -262,7 +293,7 @@
 				1440.1.1 = {
 					government = republic_government
 					holder = CKU_swiss_1
-					de_jure_liege = "e_hre"
+					de_jure_liege = "k_east_francia"
 					liege = "e_hre"
 				}
 			}
@@ -308,5 +339,225 @@
 						de_jure_liege = "d_swiss"
 					}
 				}
+		#}
+		# Swabian Minors = {
+			# Wurttemburg = {
+				c_wurttemberg = {
+					1440.1.1 = {
+						holder = CKU_wurttemberg_2
+						liege = "e_hre"
+					}
+				}
+				b_reutlingen = {
+					1440.1.1 = {
+						de_jure_liege = "c_wurttemberg"
+					}
+				}
+				c_vaihingen = {
+					1440.1.1 = {
+						holder = CKU_wurttemberg_1
+						liege = "e_hre"
+					}
+				}
+			#}
+			
+			c_augsburg = {
+				1440.1.1 = {
+					government = theocracy_government
+					holder = CKU_swabian_bishop_2
+					liege = "e_hre"
+				}
+			}
+			c_burgau = {
+				1440.1.1 = {
+					government = theocracy_government
+					holder = CKU_swabian_bishop_2
+					liege = "e_hre"
+				}
+			}
+			c_ulm = {
+				1440.1.1 = {
+					government = republic_government
+					holder = CKU_swabian_major_1
+					liege = "e_hre"
+				}
+			}
+			c_kempten = {
+				1440.1.1 = {
+					government = republic_government
+					holder = CKU_swabian_major_2
+					liege = "e_hre"
+				}
+			}
+			c_ravensburg = {
+				1440.1.1 = {
+					government = republic_government
+					holder = CKU_swabian_major_3
+					liege = "e_hre"
+				}
+			}
+			c_grunningen = {
+				1440.1.1 = {
+					government = republic_government
+					holder = CKU_swabian_major_3
+					liege = "e_hre"
+				}
+			}
+			c_alpsee = {
+				1440.1.1 = {
+					holder = CKU_swabian_lord_1
+					liege = "d_bavaria"
+				}
+			}
+			c_baden = {
+				1440.1.1 = {
+					holder = CKU_baden_1
+					liege = "e_hre"
+				}
+			}
+			c_hohenberg = {
+				1440.1.1 = {
+					holder = CKU_baden_1
+					liege = "e_hre"
+				}
+			}
+			c_furstenberg = {
+				1440.1.1 = {
+					holder = CKU_baden_1
+					liege = "e_hre"
+				}
+			}
+			c_strassburg = {
+				1440.1.1 = {
+					holder = CKU_swabian_bishop_3
+					liege = "e_hre"
+				}
+			}
+			c_colmar = {
+				1440.1.1 = {
+					holder = CKU_swabian_bishop_3
+					liege = "e_hre"
+				}
+			}
+		#}
+		# Franconian Minors = {
+			d_east_franconia = {
+				1440.1.1 = {
+					government = theocracy_government
+					holder = CKU_franconian_bishop_3
+					liege = "e_hre"
+				}
+			}
+			c_wurzburg = {
+				1440.1.1 = {
+					holder = CKU_franconian_bishop_3
+				}
+			}
+			c_bamberg = {
+				1440.1.1 = {
+					holder = CKU_franconian_bishop_3
+				}
+			}
+			c_wiltberg = {
+				1440.1.1 = {
+					holder = CKU_franconian_bishop_3
+				}
+			}
+			c_fulda = {
+				1440.1.1 = {
+					holder = CKU_franconian_bishop_3
+				}
+			}
+			c_klingenberg = {
+				1440.1.1 = {
+					holder = CKU_franconian_bishop_3
+				}
+			}
+			c_hohenlohe = {
+				1440.1.1 = {
+					holder = CKU_hohenlohe_1
+					liege = "e_hre"
+				}
+			}
+			c_nordlingen = {
+				1440.1.1 = {
+					government = republic_government
+					holder = CKU_franconian_major_1
+					liege = "e_hre"
+				}
+			}
+			c_frankfurt = {
+				1440.1.1 = {
+					government = republic_government
+					holder = CKU_franconian_major_2
+					liege = "e_hre"
+				}
+			}
+			c_nurnberg = {
+				1440.1.1 = {
+					government = republic_government
+					holder = CKU_franconian_major_3
+					liege = "e_hre"
+				}
+			}
+		#}
+		# Rhenish Minors = {
+			c_kassel = {
+				1440.1.1 = {
+					holder = CKU_rhenish_1
+					liege = "e_hre"
+				}
+			}
+			c_marburg = {
+				1440.1.1 = {
+					holder = CKU_rhenish_1
+					liege = "e_hre"
+				}
+			}
+			c_nassau = {
+				1440.1.1 = {
+					holder = CKU_rhenish_2
+					liege = "e_hre"
+				}
+			}
+			c_sayn = {
+				1440.1.1 = {
+					holder = CKU_rhenish_2
+					liege = "e_hre"
+				}
+			}
+			c_aachen = {
+				1440.1.1 = {
+					holder = CKU_rhenish_major_1
+					liege = "e_hre"
+				}
+			}
+			d_julich = {
+				1440.1.1 = {
+					holder = CKU_julich_1
+					liege = "e_hre"
+				}
+			}
+			c_bergh = {
+				1440.1.1 = {
+					holder = CKU_julich_1
+				}
+			}
+			c_minden = {
+				1440.1.1 = {
+					holder = CKU_julich_1
+				}
+			}
+			c_cleves = {
+				1440.1.1 = {
+					holder = CKU_marck_1
+					liege = "e_hre"
+				}
+			}
+			c_mark = {
+				1440.1.1 = {
+					holder = CKU_marck_1
+				}
+			}
 		#}
 #}

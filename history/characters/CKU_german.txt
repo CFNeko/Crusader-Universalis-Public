@@ -323,6 +323,62 @@
 	#}
 #}
 # Swabians {
+	# Wurttemberg = {
+		CKU_wurttemberg_1 = {	
+			name = "Ulrich"
+			religion = catholic
+			culture = swabian
+			dynasty = 12446
+			father = CKU_wurttemberg_3
+			1413.1.1 = {
+				birth = yes #unknown
+				add_pressed_claim = c_wurttemberg
+			}
+			1480.7.1 = {
+				death = yes
+			}
+		}
+		CKU_wurttemberg_2 = {	
+			name = "Ludwig"
+			religion = catholic
+			culture = swabian
+			dynasty = 12446
+			father = CKU_wurttemberg_3
+			1413.1.1 = {
+				birth = yes #unknown
+				add_pressed_claim = c_vaihingen
+			}
+			1480.7.1 = {
+				death = yes
+			}
+		}
+		CKU_wurttemberg_3 = {	
+			name = "Ebenhard"
+			religion = catholic
+			culture = swabian
+			dynasty = 12446
+			1388.8.23 = {
+				birth = yes #unknown
+			}
+			1419.7.2 = {
+				death = yes
+			}
+		}
+	#}
+	# Baden = {
+		CKU_baden_1 = {	
+			name = "Jacob"
+			religion = catholic
+			culture = swabian
+			dynasty = 261
+			1407.3.15 = {
+				birth = yes #unknown
+			}
+			1453.10.13 = {
+				death = yes
+			}
+		}
+	#}
 	#Clergy = {
 		CKU_swabian_bishop_1 = {	
 			name = "Dietrich"
@@ -332,6 +388,72 @@
 				birth = yes #unknown
 			}
 			1459.1.1 = {
+				death = yes
+			}
+		}
+		CKU_swabian_bishop_2 = {	
+			name = "Peter"
+			religion = catholic
+			culture = swabian
+			1400.1.1 = {
+				birth = yes #unknown
+			}
+			1469.1.1 = {
+				death = yes
+			}
+		}
+		CKU_swabian_bishop_3 = {	
+			name = "Conrad"
+			religion = catholic
+			culture = swabian
+			1400.1.1 = {
+				birth = yes #unknown
+			}
+			1471.3.12 = {
+				death = yes
+			}
+		}
+	#}
+	#Cities = {
+		CKU_swabian_major_1 = {	
+			religion = catholic
+			culture = swabian
+			1400.1.1 = {
+				birth = yes #unknown
+			}
+			1460.1.1 = {
+				death = yes
+			}
+		}
+		CKU_swabian_major_2 = {	
+			religion = catholic
+			culture = swabian
+			1400.1.1 = {
+				birth = yes #unknown
+			}
+			1460.1.1 = {
+				death = yes
+			}
+		}
+		CKU_swabian_major_3 = {	
+			religion = catholic
+			culture = swabian
+			1400.1.1 = {
+				birth = yes #unknown
+			}
+			1460.1.1 = {
+				death = yes
+			}
+		}
+	#}
+	#Minor Lords = {
+		CKU_swabian_lord_1 = {	
+			religion = catholic
+			culture = swabian
+			1400.1.1 = {
+				birth = yes #unknown
+			}
+			1460.1.1 = {
 				death = yes
 			}
 		}
@@ -353,6 +475,20 @@
 	#}
 #}
 # Franconians {
+	#Minor Lords = {
+		CKU_hohenlohe_1 = {	
+			name = "Kraft"
+			religion = catholic
+			culture = franconian
+			dynasty = 7138
+			1400.1.1 = {
+				birth = yes #unknown
+			}
+			1472.1.1 = {
+				death = yes
+			}
+		}
+	#}
 	#Clergy = {
 		CKU_franconian_bishop_1 = {	
 			name = "Jakob"
@@ -373,6 +509,111 @@
 				birth = yes #unknown
 			}
 			1463.1.1 = {
+				death = yes
+			}
+		}
+		CKU_franconian_bishop_3 = {	
+			name = "Gottfried"
+			religion = catholic
+			culture = franconian
+			1400.1.1 = {
+				birth = yes #unknown
+			}
+			1455.1.1 = {
+				death = yes
+			}
+		}
+	#}
+	#Franconian Cities = {
+		CKU_franconian_major_1 = {	
+			religion = catholic
+			culture = franconian
+			1400.1.1 = {
+				birth = yes #unknown
+			}
+			1460.1.1 = {
+				death = yes
+			}
+		}
+		CKU_franconian_major_2 = {	
+			religion = catholic
+			culture = franconian
+			1400.1.1 = {
+				birth = yes #unknown
+			}
+			1460.1.1 = {
+				death = yes
+			}
+		}
+		CKU_franconian_major_3 = {	
+			religion = catholic
+			culture = franconian
+			1400.1.1 = {
+				birth = yes #unknown
+			}
+			1460.1.1 = {
+				death = yes
+			}
+		}
+	#}
+#}
+# Rhenish = {
+	# Minor Lords = {
+		CKU_rhenish_1 = {	
+			name = "Louis"
+			religion = catholic
+			culture = rhenish
+			dynasty = 7198
+			1402.1.1 = {
+				birth = yes #unknown
+			}
+			1458.1.1 = {
+				death = yes
+			}
+		}
+		CKU_rhenish_2 = {	
+			name = "Philip"
+			religion = catholic
+			culture = rhenish
+			dynasty = 263
+			1418.1.1 = {
+				birth = yes #unknown
+			}
+			1492.1.1 = {
+				death = yes
+			}
+		}
+		CKU_rhenish_major_1 = {
+			religion = catholic
+			culture = rhenish
+			1400.1.1 = {
+				birth = yes #unknown
+			}
+			1460.1.1 = {
+				death = yes
+			}
+		}
+		CKU_julich_1 = {
+			name = "Gerhard"
+			religion = catholic
+			culture = rhenish
+			dynasty = 285
+			1416.1.1 = {
+				birth = yes #unknown
+			}
+			1475.1.1 = {
+				death = yes
+			}
+		}
+		CKU_marck_1 = {
+			name = "Adolph"
+			religion = catholic
+			culture = rhenish
+			dynasty = 7117
+			1373.1.1 = {
+				birth = yes #unknown
+			}
+			1448.1.1 = {
 				death = yes
 			}
 		}
