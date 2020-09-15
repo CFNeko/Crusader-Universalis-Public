@@ -154,6 +154,13 @@
 					liege = "e_hre"
 				}
 			}
+			c_paderborn = {
+				1440.1.1 = {
+					government = theocracy_government
+					holder = CKU_franconian_bishop_2
+					liege = "e_hre"
+				}
+			}
 		#}
 		# Hohenzollern Possessions = {
 			d_ostmark = {
@@ -502,16 +509,25 @@
 			}
 		#}
 		# Rhenish Minors = {
-			c_kassel = {
+			d_hesse = {
 				1440.1.1 = {
 					holder = CKU_rhenish_1
 					liege = "e_hre"
 				}
 			}
+			c_kassel = {
+				1440.1.1 = {
+					holder = CKU_rhenish_1
+				}
+			}
 			c_marburg = {
 				1440.1.1 = {
 					holder = CKU_rhenish_1
-					liege = "e_hre"
+				}
+			}
+			c_arnsberg = {
+				1440.1.1 = {
+					holder = CKU_rhenish_1
 				}
 			}
 			c_nassau = {
@@ -557,7 +573,314 @@
 			c_mark = {
 				1440.1.1 = {
 					holder = CKU_marck_1
+					liege = "e_hre"
 				}
 			}
 		#}
+		# Netherlands = {
+			c_dokkum = {
+				1440.1.1 = {
+					government = republic_government
+					holder = CKU_dutch_1
+					liege = "e_hre"
+				}
+			}
+			c_frisia = {
+				1440.1.1 = {
+					government = republic_government
+					holder = CKU_dutch_1
+					liege = "e_hre"
+				}
+			}
+			c_ostfriesland = {
+				1440.1.1 = {
+					government = republic_government
+					holder = CKU_dutch_2
+					liege = "e_hre"
+				}
+			}
+			d_utrecht = {
+				1440.1.1 = {
+					government = theocracy_government
+					holder = CKU_dutch_bishop_1
+					liege = "e_hre"
+				}
+			}
+			c_nedersticht = {
+				1440.1.1 = {
+					government = theocracy_government
+					holder = CKU_dutch_bishop_1
+					liege = "e_hre"
+				}
+			}
+			c_oversticht = {
+				1440.1.1 = {
+					government = theocracy_government
+					holder = CKU_dutch_bishop_1
+					liege = "e_hre"
+				}
+			}
+			c_groningen = {
+				1440.1.1 = {
+					government = theocracy_government
+					holder = CKU_dutch_bishop_1
+					liege = "e_hre"
+				}
+			}
+			d_gelre = {
+				1440.1.1 = {
+					holder = CKU_dutch_3
+					liege = "e_hre"
+				}
+			}
+			c_guelders = {
+				1440.1.1 = {
+					holder = CKU_dutch_3
+				}
+			}
+			c_arnhem = {
+				1440.1.1 = {
+					holder = CKU_dutch_3
+				}
+			}
+			c_zutphen = {
+				1440.1.1 = {
+					holder = CKU_dutch_3
+				}
+			}
+			
+		#}
+		# Westphalia = {
+			c_oldenburg = {
+				1440.1.1 = {
+					holder = CKU_oldenburg_1
+					liege = "e_hre"
+				}
+			}
+			c_munster = {
+				1440.1.1 = {
+					holder = CKU_westphalian_bishop_1
+					liege = "e_hre"
+				}
+			}
+			c_tecklenburg = {
+				1440.1.1 = {
+					holder = CKU_westphalian_bishop_1
+					liege = "e_hre"
+				}
+			}
+			c_osnabruck = {
+				1440.1.1 = {
+					holder = CKU_westphalian_bishop_2
+					liege = "e_hre"
+				}
+			}
+			c_dortmund = {
+				1440.1.1 = {
+					holder = CKU_westphalian_major_1
+					liege = "e_hre"
+				}
+			}
+			c_waldeck = {
+				1440.1.1 = {
+					holder = CKU_waldeck_1
+					liege = "d_hesse"
+				}
+			}
+			c_lippe = {
+				1440.1.1 = {
+					holder = CKU_lippe_1
+					liege = "e_hre"
+				}
+			}
+		#}
+		# Saxons = {
+			c_brunswick = {
+				1440.1.1 = {
+					holder = CKU_welf_1
+					liege = "e_hre"
+				}
+			}
+			c_gottingen = {
+				1440.1.1 = {
+					holder = CKU_welf_1
+				}
+			}
+			c_luneburg = {
+				1440.1.1 = {
+					holder = CKU_welf_1
+				}
+			}
+			c_brunswick = {
+				1440.1.1 = {
+					holder = CKU_welf_1
+				}
+			}
+			c_hannover = {
+				1440.1.1 = {
+					holder = CKU_welf_1
+				}
+			}
+			c_wolpe = {
+				1440.1.1 = {
+					holder = CKU_welf_1
+				}
+			}
+			c_dannenberg = {
+				1440.1.1 = {
+					holder = CKU_welf_1
+				}
+			}
+			c_hildesheim = {
+				1440.1.1 = {
+					government = theocracy_government
+					holder = CKU_saxon_bishop_4
+					liege = "e_hre"
+				}
+			}
+			c_bremen = {
+				1440.1.1 = {
+					government = theocracy_government
+					holder = CKU_saxon_bishop_1
+					liege = "e_hre"
+				}
+			}
+			c_stade = {
+				1440.1.1 = {
+					holder = CKU_saxon_bishop_1
+				}
+			}
+			c_ditmarschen = {
+				1440.1.1 = {
+					holder = CKU_saxon_bishop_1
+				}
+			}
+			c_hamburg = {
+				1440.1.1 = {
+					government = republic_government
+					holder = CKU_saxon_major_1
+				}
+			}
+			c_lubeck = {
+				1440.1.1 = {
+					government = republic_government
+					holder = CKU_saxon_major_2
+					liege = "e_hre"
+				}
+			}
+			d_holstein = {
+				1440.1.1 = {
+					holder = CKU_holstein_1
+				}
+			}
+			c_magdeburg = {
+				1440.1.1 = {
+					government = theocracy_government
+					holder = CKU_saxon_bishop_2
+					liege = "e_hre"
+				}
+			}
+			c_halberstadt = {
+				1440.1.1 = {
+					holder = CKU_saxon_bishop_2
+				}
+			}
+			c_blankenburg = {
+				1440.1.1 = {
+					holder = CKU_saxon_bishop_2
+				}
+			}
+			c_dessau = {
+				1440.1.1 = {
+					holder = CKU_saxon_1
+				}
+			}
+			c_mansfeld = {
+				1440.1.1 = {
+					holder = CKU_saxon_1
+				}
+			}
+			c_mersenburg = {
+				1440.1.1 = {
+					government = theocracy_government
+					holder = CKU_saxon_bishop_3
+					liege = "e_hre"
+				}
+			}
+			c_cottbus = {
+				1440.1.1 = {
+					holder = CKU_hohenzollern_2
+				}
+			}
+			d_lausitz = {
+				1440.1.1 = {
+					holder = CKU_bohemian_1
+					liege = k_bohemia
+				}
+			}
+			c_juterbog = {
+				1440.1.1 = {
+					holder = CKU_bohemian_1
+					liege = k_bohemia
+				}
+			}
+			c_spreewald = {
+				1440.1.1 = {
+					holder = CKU_bohemian_1
+					liege = k_bohemia
+				}
+			}
+			c_naumberg = {
+				1440.1.1 = {
+					holder = CKU_bohemian_1
+					liege = k_bohemia
+				}
+			}
+			c_gorlitz = {
+				1440.1.1 = {
+					holder = CKU_bohemian_1
+					liege = k_bohemia
+				}
+			}
+		#}
+		# k_swiss = {
+		# 	1440.1.1 = {
+		# 		holder = 0
+		# 	}
+		# }
+		d_angria = {
+			1440.1.1 = {
+				holder = 0
+			}
+		}
+		d_westfalen = {
+			1440.1.1 = {
+				holder = 0
+			}
+		}
+		d_ostfalen = {
+			1440.1.1 = {
+				holder = 0
+			}
+		}
+		d_ostfalen = {
+			1440.1.1 = {
+				holder = 0
+			}
+		}
+		d_salzburg = {
+			1440.1.1 = {
+				holder = 0
+			}
+		}
+		d_west_franconia = {
+			1440.1.1 = {
+				holder = 0
+			}
+		}
+		d_istria = {
+			1440.1.1 = {
+				holder = 0
+			}
+		}
 #}

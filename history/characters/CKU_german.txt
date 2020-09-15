@@ -60,7 +60,6 @@
 			}
 		#}
 	# }
-	#
 	# Wettin {
 		CKU_wettin_1 = {	
 			name = "Friedrich"
@@ -71,6 +70,100 @@
 				birth = yes
 			}
 			1464.1.1 = {
+				death = yes
+			}
+		}
+	#}
+	# Welf {
+		CKU_welf_1 = {	
+			name = "William"
+			religion = catholic
+			culture = saxon
+			dynasty = 650
+			1392.1.1 = {
+				birth = yes
+			}
+			1482.1.1 = {
+				death = yes
+			}
+		}
+	#}
+	# Minor Lords = {
+		CKU_saxon_bishop_1 = {	
+			name = "Gerhard"
+			religion = catholic
+			culture = saxon
+			1392.1.1 = {
+				birth = yes
+			}
+			1482.1.1 = {
+				death = yes
+			}
+		}
+		CKU_saxon_bishop_2 = {	
+			name = "Günther"
+			religion = catholic
+			culture = saxon
+			1400.1.1 = {
+				birth = yes
+			}
+			1445.1.1 = {
+				death = yes
+			}
+		}
+		CKU_saxon_bishop_3 = {	
+			name = "Johann"
+			religion = catholic
+			culture = saxon
+			1400.1.1 = {
+				birth = yes
+			}
+			1463.1.1 = {
+				death = yes
+			}
+		}
+		CKU_saxon_bishop_4 = {	
+			name = "Magnus"
+			religion = catholic
+			culture = saxon
+			1390.1.1 = {
+				birth = yes
+			}
+			1452.1.1 = {
+				death = yes
+			}
+		}
+		CKU_saxon_major_1 = {	
+			name = ""
+			religion = catholic
+			culture = saxon
+			1400.1.1 = {
+				birth = yes
+			}
+			1480.1.1 = {
+				death = yes
+			}
+		}
+		CKU_saxon_major_2 = {	
+			name = ""
+			religion = catholic
+			culture = saxon
+			1400.1.1 = {
+				birth = yes
+			}
+			1480.1.1 = {
+				death = yes
+			}
+		}
+		CKU_saxon_1 = {	
+			name = "George"
+			religion = catholic
+			culture = saxon
+			dynasty = 226
+			1390.1.1 = {
+				birth = yes
+			}
+			1474.1.1 = {
 				death = yes
 			}
 		}
@@ -618,4 +711,122 @@
 			}
 		}
 	#}
+#}
+# Low Countries = {
+	# Minor Lords = {
+		CKU_dutch_1 = {	
+			religion = catholic
+			culture = frisian
+			1400.1.1 = {
+				birth = yes #unknown
+			}
+			1460.1.1 = {
+				death = yes
+			}
+		}
+		CKU_dutch_2 = {	
+			religion = catholic
+			culture = frisian
+			1400.1.1 = {
+				birth = yes #unknown
+			}
+			1460.1.1 = {
+				death = yes
+			}
+		}
+		CKU_dutch_3 = {
+			name = "Egmont"
+			religion = catholic
+			culture = dutch
+			dynasty = 7117 #Egmont, Placeholder.
+			1410.1.1 = {
+				birth = yes #unknown
+			}
+			1473.1.1 = {
+				death = yes
+			}
+		}
+		CKU_dutch_bishop_1 = {	
+			name = "Rudolf"
+			religion = catholic
+			culture = dutch
+			1400.1.1 = {
+				birth = yes #unknown
+			}
+			1460.1.1 = {
+				death = yes
+			}
+		}
+	#}
+#}
+# Westphalia = {
+	CKU_oldenburg_1 = {
+		name = "Christian"
+		religion = catholic
+		culture = westphalian
+		dynasty = 224
+		1426.1.1 = {
+			birth = yes
+		}
+		1481.1.1 = {
+			death = yes
+		}
+	}
+	CKU_waldeck_1 = {
+		name = "Otto"
+		religion = catholic
+		culture = westphalian
+		dynasty = 7125
+		1389.1.1 = {
+			birth = yes 
+		}
+		1469.1.1 = {
+			death = yes
+		}
+	}
+	CKU_lippe_1 = {
+		name = "Bernard"
+		religion = catholic
+		culture = westphalian
+		dynasty = 12462
+		1429.1.1 = {
+			birth = yes 
+		}
+		1511.1.1 = {
+			death = yes
+		}
+	}
+	CKU_westphalian_bishop_1 = {
+		name = "Henry"
+		religion = catholic
+		culture = westphalian
+		1400.1.1 = {
+			birth = yes #unknown
+		}
+		1460.1.1 = {
+			death = yes
+		}
+	}
+	CKU_westphalian_bishop_2 = {
+		name = "Heinrich"
+		religion = catholic
+		culture = westphalian
+		1400.1.1 = {
+			birth = yes #unknown
+		}
+		1460.1.1 = {
+			death = yes
+		}
+	}
+	CKU_westphalian_major_1 = {
+		name = ""
+		religion = catholic
+		culture = westphalian
+		1400.1.1 = {
+			birth = yes #unknown
+		}
+		1460.1.1 = {
+			death = yes
+		}
+	}
 #}

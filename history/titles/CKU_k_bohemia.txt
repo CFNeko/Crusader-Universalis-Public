@@ -10,6 +10,12 @@ k_bohemia = {
 		}
 		reset_name = yes
 	}
+	d_lower_silesia = {
+		1440.1.1 = {
+			holder = CKU_bohemian_1
+		}
+		reset_name = yes
+	}
 		c_bethen = {
 			1441.1.1 = {
 				holder = CKU_spiast_1
@@ -80,9 +86,4 @@ k_bohemia = {
 			}
 		}
 
-	d_lower_silesia = {
-		1440.1.1 = {
-			holder = CKU_bohemian_1
-		}
-		reset_name = yes
-	}
+		
