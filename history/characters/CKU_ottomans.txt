@@ -1,11 +1,11 @@
 CKU_ottomans_1 = {
 	name = "Mehmed II"
-	dynasty = 101864
+	dynasty = CKU_osman
 	martial = 3
 	diplomacy = 6
 	intrigue = 4
 	stewardship = 7
-	religion = "catholic"
+	religion = muwalladi
 	culture = turkish
 	trait = wrathful
 	trait = deceitful

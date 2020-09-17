@@ -1,4 +1,4 @@
-latin_group = {
+﻿latin_group = {
 	graphical_cultures = {
 		latin_group_coa_gfx
 		western_coa_gfx

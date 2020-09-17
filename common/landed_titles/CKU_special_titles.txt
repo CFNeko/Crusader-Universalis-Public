@@ -1,4 +1,4 @@
-d_naples = {
+﻿d_naples = {
 	color = { 100 50 150 }
 	color2 = { 100 50 150 }
 	
@@ -417,6 +417,7 @@ d_ostmark = {
 		}
 	}
 }
+
 d_count_palatinate = {
 	color = { 255 249 198 }
 	color2 = { 220 220 0 }

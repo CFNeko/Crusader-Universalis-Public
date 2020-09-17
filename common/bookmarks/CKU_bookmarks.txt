@@ -1,9 +1,9 @@
-CKU_1444_europe = {
+﻿CKU_1444_europe = {
 	start_date = 1444.11.11
 	is_playable = yes
 
 	character = {
-		name = "bookmark_europe_portugal"
+		name = "bookmark_europe_1444_portugal"
 		dynasty = 442
 		dynasty_splendor_level = 5
 		type = male
@@ -14,13 +14,13 @@ CKU_1444_europe = {
 		religion = catholic
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
 		history_id = 109500
-		position = { 0 800 }
+		position = { 2 800 }
 
 		animation = disapproval
 	}
 
 	character = {
-		name = "bookmark_europe_castile"
+		name = "bookmark_europe_1444_castile"
 		dynasty = 442
 		dynasty_splendor_level = 5
 		type = male
@@ -31,13 +31,13 @@ CKU_1444_europe = {
 		religion = catholic
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
 		history_id = 107500
-		position = { 0 630 }
+		position = { 2 630 }
 
 		animation = disapproval
 	}
 
 	character = {
-		name = "bookmark_europe_england"
+		name = "bookmark_europe_1444_england"
 		dynasty = 442
 		dynasty_splendor_level = 5
 		type = male
@@ -54,7 +54,7 @@ CKU_1444_europe = {
 	}
 
 	character = {
-		name = "bookmark_europe_france"
+		name = "bookmark_europe_1444_france"
 		dynasty = 442
 		dynasty_splendor_level = 5
 		type = male
@@ -71,7 +71,9 @@ CKU_1444_europe = {
 	}
 
 	character = {
-		name = "bookmark_europe_pope"
+		name = "bookmark_europe_1444_pope"
+		history_id = CKU_italian_1
+		dynasty = 48
 		dynasty_splendor_level = 5
 		type = male
 		birth = 1430.1.1
@@ -80,15 +82,14 @@ CKU_1444_europe = {
 		culture = castilian
 		religion = catholic
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
-		history_id = CKU_italian_1
 		position = { 375 760 }
 
 		animation = disapproval
 	}
 
 	character = {
-		name = "bookmark_europe_venice"
-		dynasty = "Foscari"
+		name = "bookmark_europe_1444_venice"
+		dynasty = CKU_foscari
 		dynasty_splendor_level = 5
 		type = male
 		birth = 1373.6.19
@@ -104,7 +105,7 @@ CKU_1444_europe = {
 	}
 
 	character = {
-		name = "bookmark_europe_austria"
+		name = "bookmark_europe_1444_austria"
 		dynasty = 51
 		dynasty_splendor_level = 5
 		type = male
@@ -121,7 +122,7 @@ CKU_1444_europe = {
 	}
 
 	character = {
-		name = "bookmark_europe_brandenburg"
+		name = "bookmark_europe_1444_brandenburg"
 		dynasty = 442
 		dynasty_splendor_level = 5
 		type = male
@@ -138,7 +139,7 @@ CKU_1444_europe = {
 	}
 
 	#character = {
-	#	name = "bookmark_europe_bohemia"
+	#	name = "bookmark_europe_1444_bohemia"
 	#	dynasty = 442
 	#	dynasty_splendor_level = 5
 	#	type = male
@@ -150,29 +151,29 @@ CKU_1444_europe = {
 	#	difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
 	#	history_id = 109500
 	#	position = { 730 225 }
-	#
+	
 	#	animation = disapproval
 	#}
 
 	character = {
-		name = "bookmark_europe_byzantium"
-		dynasty = 442
+		name = "bookmark_europe_1444_byzantium"
+		dynasty = 48
 		dynasty_splendor_level = 5
 		type = male
-		birth = 828.1.1
+		birth = 1392.12.18
 		title = e_byzantium
 		government = feudal_government
 		culture = castilian
 		religion = catholic
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
-		history_id = 109500
+		history_id = CKU_byzantium_1
 		position = { 685 900 }
 
 		animation = disapproval
 	}
 
 	character = {
-		name = "bookmark_europe_hungary"
+		name = "bookmark_europe_1444_hungary"
 		dynasty = 442
 		dynasty_splendor_level = 5
 		type = male
@@ -189,7 +190,7 @@ CKU_1444_europe = {
 	}
 
 	character = {
-		name = "bookmark_europe_poland"
+		name = "bookmark_europe_1444_poland"
 		dynasty = 442
 		dynasty_splendor_level = 5
 		type = male
@@ -206,7 +207,7 @@ CKU_1444_europe = {
 	}
 
 	character = {
-		name = "bookmark_europe_mamluks"
+		name = "bookmark_europe_1444_mamluks"
 		dynasty = 442
 		dynasty_splendor_level = 5
 		type = male
@@ -218,12 +219,12 @@ CKU_1444_europe = {
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
 		history_id = 109500
 		position = { 995 900 }
-
+	
 		animation = personality_content
 	}
 
 	character = {
-		name = "bookmark_europe_muscovy"
+		name = "bookmark_europe_1444_muscovy"
 		dynasty = 442
 		dynasty_splendor_level = 5
 		type = male
@@ -235,24 +236,46 @@ CKU_1444_europe = {
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
 		history_id = 109500
 		position = { 1050 150 }
-
+	
 		animation = disapproval
 	}
 
 	character = {
-		name = "bookmark_europe_ottomans"
-		dynasty = 442
+		name = "bookmark_europe_1444_ottomans"
+		dynasty = CKU_osman
 		dynasty_splendor_level = 5
 		type = male
-		birth = 828.1.1
+		history_id = CKU_ottomans_1
+		birth = 1432.3.30
 		title = k_ottoman
 		government = feudal_government
-		culture = castilian
-		religion = catholic
-		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
-		history_id = 109500
+		culture = turkish
+		religion = muwalladi
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
 		position = { 1150 720 }
 
 		animation = rage
 	}
 }
+
+#CKU_1356_europe = {
+#	start_date = 1356.11.11
+#	is_playable = yes
+#
+#	character = {
+#		name = "bookmark_europe_1356_portugal"
+#		dynasty = 442
+#		dynasty_splendor_level = 5
+#		type = male
+#		birth = 828.1.1
+#		title = k_portugal
+#		government = feudal_government
+#		culture = castilian
+#		religion = catholic
+#		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+#		history_id = 109500
+#		position = { 2 800 }
+#
+#		animation = disapproval
+#	}
+#}
