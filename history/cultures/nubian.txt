@@ -90,5 +90,5 @@
 	discover_innovation = innovation_plate_armor
 	discover_innovation = innovation_royal_armory
 	discover_innovation = innovation_sappers
-	discover_innovation = innovation_trebuchet
+	discover_innovation = innovation_standing_armies
 } 
