@@ -1,26 +1,13 @@
-# Uyghur part of turkic group
+from pathlib import Path
+path = Path.cwd()
 
-867.1.1 = {
-	discover_innovation = innovation_bannus
-	discover_innovation = innovation_mustering_grounds
-	discover_innovation = innovation_quilted_armor
-	#
-	discover_innovation = innovation_plenary_assemblies
-	discover_innovation = innovation_currency_01
-	#
-	discover_innovation = innovation_compound_bows
-}
+files = [e for e in path.iterdir() if e.is_file()]
+print(files)
 
-950.1.1 = {
-	# Tribal Innovations
-	discover_innovation = innovation_motte
-	discover_innovation = innovation_barracks
-	discover_innovation = innovation_catapult
-	#
-	discover_innovation = innovation_development_01
-	discover_innovation = innovation_casus_belli
-	discover_innovation = innovation_ledger
-}
+
+for file in files:
+	with open(file, 'a') as f:
+		f.write("""
 1444.11.11 = {
 	discover_innovation = innovation_currency_03
 	discover_innovation = innovation_divine_right
@@ -38,4 +25,5 @@
 	discover_innovation = innovation_men-at-arms
 	discover_innovation = innovation_trebuchet
 }
-			
+			""")
+
