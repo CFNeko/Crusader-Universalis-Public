@@ -13,25 +13,5 @@ date = {									# When is executed
 
 ##################################
 Everything is executed in the order specified before
-		
-1444.11.10 = {
-	discover_innovation = innovation_currency_03
-	discover_innovation = innovation_divine_right
-	discover_innovation = innovation_guilds
-	discover_innovation = innovation_heraldry
-	discover_innovation = innovation_land_grants
-	discover_innovation = innovation_scutage
-	discover_innovation = innovation_development_03
-	discover_innovation = innovation_windmills
 
-	discover_innovation = innovation_advanced_bowmaking
-	discover_innovation = innovation_castle_baileys
-	discover_innovation = innovation_hoardings
-	discover_innovation = innovation_knighthood
-	discover_innovation = innovation_men-at-arms
-	discover_innovation = innovation_trebuchet
-
-	join_era = culture_era_high_medieval
-	join_era = culture_era_late_medieval
-}
 			
