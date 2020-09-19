@@ -1,8 +1,8 @@
 #Scandinavia = {
     e_kalmar_union = {
-        1440.1.1 = {
-            holder = CKU_dan_wittelsbach_1
-        }
+       1440.1.1 = {
+           holder = CKU_dan_wittelsbach_1
+       }
     }
 	# Denmark = {
         k_denmark = {
@@ -34,6 +34,23 @@
     #}
     # Sweden = {
         k_sweden = {
+            1441.1.1 = {
+                holder = CKU_dan_wittelsbach_1
+                liege = e_kalmar_union
+            }
+            1443.1.1 = {
+                holder = CKU_bonde_1
+            }
+        }
+        k_sapmi = {
+            1441.1.1 = {
+                holder = CKU_dan_wittelsbach_1
+            }
+            1443.1.1 = {
+                holder = CKU_bonde_1
+            }
+        }
+        k_finland = {
             1441.1.1 = {
                 holder = CKU_dan_wittelsbach_1
             }

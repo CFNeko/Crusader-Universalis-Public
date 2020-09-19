@@ -1,0 +1,13 @@
+# Prussians = {
+	CKU_prussian_1 = {	
+		name = "Konrad"
+		religion = catholic
+		culture = prussian
+		1390.1.1 = {
+			birth = yes
+		}
+		1449.1.1 = {
+			death = yes
+		}
+	}
+#}

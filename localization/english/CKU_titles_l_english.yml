@@ -1,3 +1,10 @@
 ﻿l_english:
  d_naples: "Naples"
  d_naples_adj: "Napolitan"
+ e_kalmar_union: "Kalmar Union"
+ e_kalmar_union_adj: "Kalmar"
+ k_prussia: "Prussia"
+ k_prussia_adj: "Prussian"
+
+ CKU_teutonic_order: "Teutonic Order"
+ CKU_brandenburg: "Brandenburg"

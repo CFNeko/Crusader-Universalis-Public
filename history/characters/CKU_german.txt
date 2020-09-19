@@ -848,3 +848,67 @@
 		}
 	}
 #}
+# Pommeranian {
+	#Minor Lords = {
+		CKU_Mecklenburg_1 = {	
+			name = "Henry"
+			religion = catholic
+			culture = pommeranian
+			dynasty = CKU_mecklenburg
+			1438.1.1 = {
+				birth = yes #unknown
+			}
+			1483.1.1 = {
+				death = yes
+			}
+		}
+		CKU_Mecklenburg_2 = {	
+			name = "Albert"
+			religion = catholic
+			culture = pommeranian
+			dynasty = CKU_mecklenburg
+			1438.1.1 = {
+				birth = yes #unknown
+			}
+			1483.1.1 = {
+				death = yes
+			}
+		}
+		CKU_gryff_1 = {	
+			name = "Wartislaw"
+			religion = catholic
+			culture = pommeranian
+			dynasty = 177
+			1438.1.1 = {
+				birth = yes #unknown
+			}
+			1483.1.1 = {
+				death = yes
+			}
+		}
+		CKU_gryff_2 = {	
+			name = "Wartislaw"
+			religion = catholic
+			culture = pommeranian
+			dynasty = 177
+			1438.1.1 = {
+				birth = yes #unknown
+			}
+			1483.1.1 = {
+				death = yes
+			}
+		}
+		CKU_gryff_3 = {	
+			name = "Otto"
+			religion = catholic
+			culture = pommeranian
+			dynasty = 177
+			1444.1.1 = {
+				birth = yes #unknown
+			}
+			1464.1.1 = {
+				death = yes
+			}
+		}
+	#}
+#}

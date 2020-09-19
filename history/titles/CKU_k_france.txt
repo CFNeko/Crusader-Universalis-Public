@@ -24,6 +24,7 @@
 			d_bar = {
 				1440.1.1 = {
 					holder = CKU_anjou_2
+					liege = k_france
 				}
 			}
 			c_provence = {

@@ -17,6 +17,25 @@
 	male_names = {  }
 }
 
+e_kalmar_union = {
+	color = { 100 50 150 }
+	color2 = { 100 50 150 }
+	definite_form = yes
+	landless = yes
+	
+	capital = c_more
+	
+	ai_primary_priority = {
+		add = @better_than_the_alternatives_score
+	}
+	male_names = { }
+}
+k_prussia = {
+	color = { 0 49 83 }
+	color2 = { 0 49 83 }
+	capital = c_konigsberg
+}
+
 d_ostmark = {
 	color = { 121 140 121 }
 	color2 = { 255 255 255 }
@@ -434,14 +453,3 @@ d_count_palatinate = {
 	}
 }
 
-e_kalmar_union = {
-	color = { 100 50 150 }
-	color2 = { 100 50 150 }
-	
-	capital = c_more
-	
-	ai_primary_priority = {
-	}
-
-	male_names = {  }
-}

@@ -53,3 +53,9 @@ CKU_bogdan = {
 	name = "dynn_Bogdan"
 	culture = "vlach"
 }
+
+CKU_mecklenburg = {
+	prefix = "dynnp_von"
+	name = "dynn_Mecklenburg"
+	culture = "pommeranian"
+}

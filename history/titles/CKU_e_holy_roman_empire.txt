@@ -752,13 +752,14 @@
 			}
 			c_ditmarschen = {
 				1440.1.1 = {
-					holder = CKU_saxon_bishop_1
+					holder = CKU_holstein_1
 				}
 			}
 			c_hamburg = {
 				1440.1.1 = {
 					government = republic_government
 					holder = CKU_saxon_major_1
+					liege = "e_hre"
 				}
 			}
 			c_lubeck = {
@@ -771,6 +772,7 @@
 			d_holstein = {
 				1440.1.1 = {
 					holder = CKU_holstein_1
+					liege = "k_denmark"
 				}
 			}
 			c_magdeburg = {
@@ -840,6 +842,76 @@
 				1440.1.1 = {
 					holder = CKU_bohemian_1
 					liege = k_bohemia
+				}
+			}
+		#}
+		# Pommeranians = {
+			c_mecklenburg = {
+				1440.1.1 = {
+					holder = CKU_Mecklenburg_1
+					liege = e_hre
+				}
+			}
+			c_rostock = {
+				1440.1.1 = {
+					holder = CKU_Mecklenburg_1
+				}
+			}
+			c_werle = {
+				1440.1.1 = {
+					holder = CKU_Mecklenburg_2
+					liege = e_hre
+				}
+			}
+			
+			c_wolgast = {
+				1440.1.1 = {
+					holder = CKU_gryff_1
+					liege = e_hre
+				}
+			}
+			c_rugen = {
+				1440.1.1 = {
+					holder = CKU_gryff_1
+				}
+			}
+			c_kolobrzeg = {
+				1440.1.1 = {
+					holder = CKU_gryff_1
+					
+				}
+			}
+			c_stettin = {
+				1440.1.1 = {
+					holder = CKU_gryff_3
+					liege = e_hre
+				}
+			}
+			c_slupsk = {
+				1440.1.1 = {
+					holder = CKU_gryff_2
+					liege = e_hre
+				}
+			}
+
+			c_cammin = {
+				1440.1.1 = {
+					holder = CKU_gryff_2
+				}
+			}
+			c_miastko = {
+				1440.1.1 = {
+					holder = CKU_gryff_2
+				}
+			}
+			d_nordmark = {
+				1440.1.1 = {
+					de_jure_liege = k_east_germany
+				}
+			}
+			d_pommerania = {
+				1440.1.1 = {
+					de_jure_liege = k_east_germany
 				}
 			}
 		#}
