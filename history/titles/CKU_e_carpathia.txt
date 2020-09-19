@@ -1,0 +1,16 @@
+# Wallachia = {
+	k_dacia = {
+		1440.1.1 = {
+			holder = CKU_dracul_1
+			liege = 0
+		}
+	}
+#}
+# Moldavia = {
+	k_moldavia = {
+		1440.1.1 = {
+			holder = CKU_bogdan_1
+			liege = 0
+		}
+	}
+#}

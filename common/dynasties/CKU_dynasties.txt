@@ -48,3 +48,8 @@ CKU_von_Walsee = {
 	name = "dynn_Walsee"
 	culture = "bavarian"
 }
+
+CKU_bogdan = {
+	name = "dynn_Bogdan"
+	culture = "vlach"
+}
