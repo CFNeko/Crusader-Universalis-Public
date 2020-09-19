@@ -1,4 +1,4 @@
-﻿	christianity_religion = {
+﻿christianity_religion = {
 	family = rf_abrahamic
 
 	doctrine_background_icon = core_tenet_banner_christian.dds
@@ -233,84 +233,7 @@
 			
 			#Special Tolerance
 			doctrine = special_doctrine_ecumenical_christian
-
-			#Tenets
-			doctrine = tenet_communion
-			doctrine = tenet_armed_pilgrimages
-			doctrine = tenet_monasticism
-
-			holy_order_names = {
-				{ name = "holy_order_knights_templar" coat_of_arms = "ho_knights_templar" }
-				{ name = "holy_order_knights_hospitaller" coat_of_arms = "ho_knights_hospitaller"  }
-				{ name = "holy_order_teutonic_order" coat_of_arms = "ho_teutonic_order"  }
-				{ name = "holy_order_order_of_calatrava" coat_of_arms = "ho_order_of_calatrava"  }
-				{ name = "holy_order_order_of_alcantara" coat_of_arms = "ho_order_of_alcantara"  }
-				{ name = "holy_order_knights_of_santiago" coat_of_arms = "ho_knights_of_santiago"  }
-			}
-
-			localization = { # Utilizes the 'West Christian' Saints, shared by Catholics and Orthodox
-				#FertilityGod
-				FertilityGodName = west_christian_fertility_god_name
-				FertilityGodNamePossessive = west_christian_fertility_god_name_possessive
-				FertilityGodSheHe = CHARACTER_SHEHE_SHE
-				FertilityGodHerHis = CHARACTER_HERHIS_HER
-				FertilityGodHerHim = CHARACTER_HERHIM_HER
-
-				#WealthGod
-				WealthGodName = west_christian_wealth_god_name
-				WealthGodNamePossessive = west_christian_wealth_god_name_possessive
-				WealthGodSheHe = CHARACTER_SHEHE_HE
-				WealthGodHerHis = CHARACTER_HERHIS_HIS
-				WealthGodHerHim = CHARACTER_HERHIM_HIM
-
-				#HouseholdGod
-				HouseholdGodName = west_christian_household_god_name
-				HouseholdGodNamePossessive = west_christian_household_god_name_possessive
-				HouseholdGodSheHe = CHARACTER_SHEHE_HE
-				HouseholdGodHerHis = CHARACTER_HERHIS_HIS
-				HouseholdGodHerHim = CHARACTER_HERHIM_HIM
-
-				#KnowledgeGod
-				KnowledgeGodName = west_christian_knowledge_god_name
-				KnowledgeGodNamePossessive = west_christian_knowledge_god_name_possessive
-				KnowledgeGodSheHe = CHARACTER_SHEHE_SHE
-				KnowledgeGodHerHis = CHARACTER_HERHIS_HER
-				KnowledgeGodHerHim = CHARACTER_HERHIM_HER
-
-				#WarGod
-				WarGodName = west_christian_war_god_name
-				WarGodNamePossessive = west_christian_war_god_name_possessive
-				WarGodSheHe = CHARACTER_SHEHE_HE
-				WarGodHerHis = CHARACTER_HERHIS_HIS
-				WarGodHerHim = CHARACTER_HERHIM_HIM
-
-				#WaterGod
-				WaterGodName = west_christian_water_god_name
-				WaterGodNamePossessive = west_christian_water_god_name_possessive
-				WaterGodSheHe = CHARACTER_SHEHE_HE
-				WaterGodHerHis = CHARACTER_HERHIS_HIS
-				WaterGodHerHim = CHARACTER_HERHIM_HIM
-			}
-		}
-
-		protestant = {
-			color = { 0.0 0.0 0.8 }
-			graphical_faith = "catholic_gfx"
-			icon = protestantism
-			
-			holy_site = jerusalem
-			holy_site = rome
-			holy_site = cologne
-			holy_site = santiago
-			holy_site = kent
-			holy_site = segrada_familia
-			
-			#Special Tolerance
-			doctrine = special_doctrine_reformed_christian
-			
-			#Main Gorup
-			doctrine = doctrine_theocracy_lay_clergy
-			doctrine = doctrine_no_head
+			doctrine = special_doctrine_papacy
 
 			#Tenets
 			doctrine = tenet_communion
@@ -371,7 +294,85 @@
 			}
 		}
 		
-		lutheran = {
+		hussite = {
+			color = { 0.0 0.0 0.8 }
+			graphical_faith = "catholic_gfx"
+			icon = protestantism
+			
+			holy_site = jerusalem
+			holy_site = rome
+			holy_site = cologne
+			holy_site = santiago
+			holy_site = kent
+			holy_site = segrada_familia
+			
+			#Special Tolerance
+			doctrine = special_doctrine_reformed_christian
+			
+			#Main Gorup
+			doctrine = doctrine_theocracy_lay_clergy
+			doctrine = doctrine_no_head
+			
+			#Crimes
+			doctrine = doctrine_adultery_women_shunned
+			
+			#Clerical Functions
+			doctrine = doctrine_clerical_function_alms_and_pacification
+			doctrine = doctrine_clerical_gender_either
+			doctrine = doctrine_clerical_marriage_allowed
+			doctrine = doctrine_clerical_succession_temporal_appointment
+			
+			#Tenets
+			doctrine = tenet_literalism
+			doctrine = tenet_aniconism
+			doctrine = tenet_mass_translation
+
+			localization = { # Utilizes the 'West Christian' Saints, shared by Catholics and Orthodox
+				#FertilityGod
+				FertilityGodName = west_christian_fertility_god_name
+				FertilityGodNamePossessive = west_christian_fertility_god_name_possessive
+				FertilityGodSheHe = CHARACTER_SHEHE_SHE
+				FertilityGodHerHis = CHARACTER_HERHIS_HER
+				FertilityGodHerHim = CHARACTER_HERHIM_HER
+
+				#WealthGod
+				WealthGodName = west_christian_wealth_god_name
+				WealthGodNamePossessive = west_christian_wealth_god_name_possessive
+				WealthGodSheHe = CHARACTER_SHEHE_HE
+				WealthGodHerHis = CHARACTER_HERHIS_HIS
+				WealthGodHerHim = CHARACTER_HERHIM_HIM
+
+				#HouseholdGod
+				HouseholdGodName = west_christian_household_god_name
+				HouseholdGodNamePossessive = west_christian_household_god_name_possessive
+				HouseholdGodSheHe = CHARACTER_SHEHE_HE
+				HouseholdGodHerHis = CHARACTER_HERHIS_HIS
+				HouseholdGodHerHim = CHARACTER_HERHIM_HIM
+
+				#KnowledgeGod
+				KnowledgeGodName = west_christian_knowledge_god_name
+				KnowledgeGodNamePossessive = west_christian_knowledge_god_name_possessive
+				KnowledgeGodSheHe = CHARACTER_SHEHE_SHE
+				KnowledgeGodHerHis = CHARACTER_HERHIS_HER
+				KnowledgeGodHerHim = CHARACTER_HERHIM_HER
+
+				#WarGod
+				WarGodName = west_christian_war_god_name
+				WarGodNamePossessive = west_christian_war_god_name_possessive
+				WarGodSheHe = CHARACTER_SHEHE_HE
+				WarGodHerHis = CHARACTER_HERHIS_HIS
+				WarGodHerHim = CHARACTER_HERHIM_HIM
+
+				#WaterGod
+				WaterGodName = west_christian_water_god_name
+				WaterGodNamePossessive = west_christian_water_god_name_possessive
+				WaterGodSheHe = CHARACTER_SHEHE_HE
+				WaterGodHerHis = CHARACTER_HERHIS_HIS
+				WaterGodHerHim = CHARACTER_HERHIM_HIM
+			}
+		}
+		
+		taborite = {
 			color = { 0.0 0.0 0.7 }
 			graphical_faith = "catholic_gfx"
 			icon = protestantism
@@ -389,23 +390,99 @@
 			#Main Gorup
 			doctrine = doctrine_theocracy_lay_clergy
 			doctrine = doctrine_no_head
+			doctrine = doctrine_pluralism_fundamentalist
 
 			#Clerical Functions
+			doctrine = doctrine_clerical_function_recruitment
 			doctrine = doctrine_clerical_marriage_allowed
-
+			doctrine = doctrine_clerical_succession_temporal_appointment
+			
+			#Crimes
+			doctrine = doctrine_adultery_women_shunned
+			
 			#Tenets
-			doctrine = tenet_communion
-			doctrine = tenet_armed_pilgrimages
-			doctrine = tenet_monasticism
+			doctrine = tenet_unrelenting_faith
+			doctrine = tenet_literalism
+			doctrine = tenet_religious_legal_pronouncements
 
-			holy_order_names = {
-				{ name = "holy_order_knights_templar" coat_of_arms = "ho_knights_templar" }
-				{ name = "holy_order_knights_hospitaller" coat_of_arms = "ho_knights_hospitaller"  }
-				{ name = "holy_order_teutonic_order" coat_of_arms = "ho_teutonic_order"  }
-				{ name = "holy_order_order_of_calatrava" coat_of_arms = "ho_order_of_calatrava"  }
-				{ name = "holy_order_order_of_alcantara" coat_of_arms = "ho_order_of_alcantara"  }
-				{ name = "holy_order_knights_of_santiago" coat_of_arms = "ho_knights_of_santiago"  }
+			localization = { # Utilizes the 'West Christian' Saints, shared by Catholics and Orthodox
+				#FertilityGod
+				FertilityGodName = west_christian_fertility_god_name
+				FertilityGodNamePossessive = west_christian_fertility_god_name_possessive
+				FertilityGodSheHe = CHARACTER_SHEHE_SHE
+				FertilityGodHerHis = CHARACTER_HERHIS_HER
+				FertilityGodHerHim = CHARACTER_HERHIM_HER
+
+				#WealthGod
+				WealthGodName = west_christian_wealth_god_name
+				WealthGodNamePossessive = west_christian_wealth_god_name_possessive
+				WealthGodSheHe = CHARACTER_SHEHE_HE
+				WealthGodHerHis = CHARACTER_HERHIS_HIS
+				WealthGodHerHim = CHARACTER_HERHIM_HIM
+
+				#HouseholdGod
+				HouseholdGodName = west_christian_household_god_name
+				HouseholdGodNamePossessive = west_christian_household_god_name_possessive
+				HouseholdGodSheHe = CHARACTER_SHEHE_HE
+				HouseholdGodHerHis = CHARACTER_HERHIS_HIS
+				HouseholdGodHerHim = CHARACTER_HERHIM_HIM
+
+				#KnowledgeGod
+				KnowledgeGodName = west_christian_knowledge_god_name
+				KnowledgeGodNamePossessive = west_christian_knowledge_god_name_possessive
+				KnowledgeGodSheHe = CHARACTER_SHEHE_SHE
+				KnowledgeGodHerHis = CHARACTER_HERHIS_HER
+				KnowledgeGodHerHim = CHARACTER_HERHIM_HER
+
+				#WarGod
+				WarGodName = west_christian_war_god_name
+				WarGodNamePossessive = west_christian_war_god_name_possessive
+				WarGodSheHe = CHARACTER_SHEHE_HE
+				WarGodHerHis = CHARACTER_HERHIS_HIS
+				WarGodHerHim = CHARACTER_HERHIM_HIM
+
+				#WaterGod
+				WaterGodName = west_christian_water_god_name
+				WaterGodNamePossessive = west_christian_water_god_name_possessive
+				WaterGodSheHe = CHARACTER_SHEHE_HE
+				WaterGodHerHis = CHARACTER_HERHIS_HIS
+				WaterGodHerHim = CHARACTER_HERHIM_HIM
 			}
+		}
+
+		beguines = {
+			color = { 0.0 0.0 0.9 }
+			graphical_faith = "catholic_gfx"
+			icon = protestantism
+			
+			holy_site = jerusalem
+			holy_site = rome
+			holy_site = cologne
+			holy_site = santiago
+			holy_site = kent
+			holy_site = segrada_familia
+			
+			#Special Tolerance
+			doctrine = special_doctrine_reformed_christian
+			
+			#Main Gorup
+			doctrine = doctrine_theocracy_lay_clergy
+			doctrine = doctrine_no_head
+			doctrine = doctrine_gender_female_dominated
+
+			#Clerical Functions
+			doctrine = doctrine_clerical_function_alms_and_pacification
+			doctrine = doctrine_clerical_gender_female_only
+			doctrine = doctrine_clerical_marriage_allowed
+			doctrine = doctrine_clerical_succession_temporal_appointment
+			
+			#Crimes
+			doctrine = doctrine_adultery_women_shunned
+			
+			#Tenets
+			doctrine = tenet_communal_identity
+			doctrine = tenet_literalism
+			doctrine = tenet_vows_of_poverty
 
 			localization = { # Utilizes the 'West Christian' Saints, shared by Catholics and Orthodox
 				#FertilityGod
@@ -687,6 +764,7 @@
 			# Main Group
 			doctrine = doctrine_pluralism_pluralistic
 			doctrine = doctrine_no_head
+			doctrine = special_doctrine_papacy
 
 			#Crimes
 			doctrine = doctrine_adultery_men_crime
@@ -756,7 +834,7 @@
 			#Main Group
 			doctrine = doctrine_pluralism_pluralistic
 			doctrine = doctrine_theocracy_lay_clergy
-
+			doctrine = special_doctrine_reformed_christian
 
 
 			#Tenets
@@ -780,6 +858,7 @@
 
 			#Main Gorup
 			doctrine = doctrine_theocracy_lay_clergy
+			doctrine = special_doctrine_reformed_christian
 
 			#Clerical Functions
 			doctrine = doctrine_clerical_marriage_allowed
@@ -802,7 +881,9 @@
 			holy_site = rome
 			holy_site = alexandria
 			holy_site = antioch
-
+			
+			doctrine = special_doctrine_papacy
+			
 			#Tenets
 			doctrine = tenet_communion
 			doctrine = tenet_pentarchy
@@ -968,6 +1049,7 @@
 			doctrine = doctrine_gender_equal
 			doctrine = doctrine_pluralism_righteous
 			doctrine = doctrine_theocracy_lay_clergy
+			doctrine = special_doctrine_reformed_christian
 
 			#Marriage
 			doctrine = doctrine_concubines
@@ -1007,6 +1089,7 @@
 			holy_site = iona
 
 			#Special Tolerance
+			doctrine = special_doctrine_papacy
 			doctrine = special_doctrine_ecumenical_christian
 
 			#Main Group
@@ -1131,6 +1214,7 @@
 			#Main Group
 			doctrine = doctrine_no_head
 			doctrine = doctrine_pluralism_pluralistic
+			doctrine = special_doctrine_papacy
 
 			#Crimes
 			#Generally quite bad at enforcing religious dictats from Rome: many things are shunned, few things are criminal.
