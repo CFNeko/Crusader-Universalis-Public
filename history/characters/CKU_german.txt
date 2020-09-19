@@ -550,6 +550,24 @@
 				death = yes
 			}
 		}
+		CKU_swabian_lord_2 = { #Swabian Lady?
+			name = "Isabella"
+			religion = catholic
+			culture = swabian
+			female = yes
+			dynasty = 294
+			trait = brave
+			trait = calm
+			trait = ambitious
+			trait = education_diplomacy_3
+			trait = beauty_good_2
+			1400.1.1 = {
+				birth = yes #unknown
+			}
+			1460.1.1 = {
+				death = yes
+			}
+		}
 	#}
 #}
 # Swiss {

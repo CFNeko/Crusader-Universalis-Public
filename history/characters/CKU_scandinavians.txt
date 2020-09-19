@@ -1,12 +1,40 @@
-CKU_holstein_1 = {
-	name = "Adolphus"
-	religion = catholic
-	culture = danish
-	dynasty = 12463
-	1427.1.1 = {
-		birth = yes
+# Danes = {
+	CKU_holstein_1 = {
+		name = "Adolphus"
+		religion = catholic
+		culture = danish
+		dynasty = 12463
+		1427.1.1 = {
+			birth = yes
+		}
+		1459.1.1 = {
+			death = yes
+		}
 	}
-	1459.1.1 = {
-		death = yes
+	CKU_dan_wittelsbach_1 = {
+		name = "Christopher"
+		religion = catholic
+		culture = danish
+		dynasty = 217
+		1416.1.1 = {
+			birth = yes
+		}
+		1448.1.1 = {
+			death = yes
+		}
 	}
-}
+#}
+# Swedes = {
+	CKU_dan_wittelsbach_1 = {
+		name = "Karl"
+		religion = catholic
+		culture = swedish
+		dynasty = 3811
+		1409.1.1 = {
+			birth = yes
+		}
+		1470.1.1 = {
+			death = yes
+		}
+	}
+#}

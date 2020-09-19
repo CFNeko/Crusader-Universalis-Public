@@ -433,3 +433,15 @@ d_count_palatinate = {
 		@better_than_the_alternatives_score = 50
 	}
 }
+
+e_kalmar_union = {
+	color = { 100 50 150 }
+	color2 = { 100 50 150 }
+	
+	capital = c_more
+	
+	ai_primary_priority = {
+	}
+
+	male_names = {  }
+}

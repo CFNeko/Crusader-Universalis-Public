@@ -23,7 +23,7 @@
 			}
 			d_bar = {
 				1440.1.1 = {
-					holder = CKU_anjou_1
+					holder = CKU_anjou_2
 				}
 			}
 			c_provence = {
@@ -33,7 +33,7 @@
 			}
 			d_upper_lorraine = {
 				1440.1.1 = {
-					holder = CKU_anjou_1
+					holder = CKU_swabian_lord_2
 				}
 			}
 		#}

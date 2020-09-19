@@ -138,6 +138,41 @@
 				add_pressed_claim = k_sicily
 				add_pressed_claim = d_naples
 			}
+			1420.1.1 = {
+				add_spouse = CKU_swabian_lord_2
+			}
+		}
+		CKU_anjou_2 = {
+			name = "John"
+			religion = catholic
+			culture = french
+			dynasty = 81
+			father = CKU_anjou_1
+			mother = CKU_swabian_lord_2
+			1426.1.1 = {
+				birth = yes
+				add_pressed_claim = k_sicily
+				add_pressed_claim = d_naples
+			}
+			1470.1.1 = {
+				death = yes
+			}
+		}
+		CKU_anjou_3 = {
+			name = "Yolanda"
+			religion = catholic
+			culture = french
+			dynasty = 81
+			father = CKU_anjou_1
+			mother = CKU_swabian_lord_2
+			1428.1.1 = {
+				birth = yes
+				add_pressed_claim = k_sicily
+				add_pressed_claim = d_naples
+			}
+			1483.1.1 = {
+				death = yes
+			}
 		}
 	# }
 	# bourbon {
