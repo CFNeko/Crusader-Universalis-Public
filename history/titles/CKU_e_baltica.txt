@@ -1,0 +1,164 @@
+#Prussia = {
+	k_prussia = {
+		1440.1.1 = {
+			de_jure_liege = e_wendish_empire
+		}
+	}
+	d_prussia = {
+		1440.1.1 = {
+			government = theocracy_government
+			holder = CKU_prussian_1
+			de_jure_liege = k_prussia
+			name = CKU_teutonic_order
+		}
+	}
+	d_masuria = {
+		1440.1.1 = {
+			government = theocracy_government
+			holder = CKU_prussian_1
+			de_jure_liege = k_prussia
+		}
+	}
+	d_pomerelia = {
+		1440.1.1 = {
+			government = theocracy_government
+			holder = CKU_prussian_1
+			de_jure_liege = k_prussia
+		}
+	}
+	c_slupsk = {
+		1440.1.1 = {
+			de_jure_liege = d_pommerania
+		}
+	}
+	c_miastko = {
+		1440.1.1 = {
+			de_jure_liege = d_pommerania
+		}
+	}
+	c_memel = {
+		government = theocracy_government
+		1440.1.1 = {
+			holder = CKU_prussian_1
+			de_jure_liege = k_prussia
+		}
+	}
+	c_scalovia = {
+		government = theocracy_government
+		1440.1.1 = {
+			holder = CKU_prussian_1
+			de_jure_liege = k_prussia
+		}
+	}
+#}
+#Livonia = {
+	d_livonia = {
+		1440.1.1 = {
+			government = theocracy_government
+			holder = CKU_livonian_1
+			name = CKU_livonian_order
+		}
+	}
+		c_dorpat = {
+			1440.1.1 = {
+				government = theocracy_government
+				holder = CKU_livonian_6
+				liege = d_livonia
+			}
+		}
+		c_vidzeme = {
+			1440.1.1 = {
+				government = theocracy_government
+				holder = CKU_livonian_5
+				liege = d_livonia
+			}
+		}
+	d_esthonia = {
+		1440.1.1 = {
+			government = theocracy_government
+			holder = CKU_livonian_1
+		}
+	}
+		c_osel = {
+			1440.1.1 = {
+				government = theocracy_government
+				holder = CKU_livonian_2
+				liege = d_livonia
+			}
+		}
+		c_wiek = {
+			1440.1.1 = {
+				government = theocracy_government
+				holder = CKU_livonian_2
+				liege = d_livonia
+			}
+		}
+	d_courland = {
+		1440.1.1 = {
+			government = theocracy_government
+			holder = CKU_livonian_1
+		}
+	}
+		c_zemigalians = {
+			1440.1.1 = {
+				government = republic_government
+				holder = CKU_livonian_4
+				liege = d_livonia
+			}
+		}
+		c_vanemane = {
+			1440.1.1 = {
+				government = theocracy_government
+				holder = CKU_livonian_3 #Can be argued to belong to CKU_livonian_1
+				liege = d_livonia
+			}
+		}
+		c_grobin = {
+			1440.1.1 = {
+				government = theocracy_government
+				holder = CKU_livonian_3
+				liege = d_livonia
+			}
+		}
+		c_selpils = {
+			1440.1.1 = {
+				government = theocracy_government
+				holder = CKU_livonian_5
+				liege = d_livonia
+			}
+		}
+	d_latgalians = {
+		1440.1.1 = {
+			government = theocracy_government
+			holder = CKU_livonian_1
+		}
+	}
+		c_kokenois = {
+			1440.1.1 = {
+				government = theocracy_government
+				holder = CKU_livonian_5
+				liege = d_livonia
+			}
+		}
+		c_aluksne = {
+			1440.1.1 = {
+				government = theocracy_government
+				holder = CKU_livonian_5
+				liege = d_livonia
+			}
+		}
+		c_jersika = {
+			1440.1.1 = {
+				government = theocracy_government
+				holder = CKU_livonian_5
+				liege = d_livonia
+			}
+		}
+		c_talava = {
+			1440.1.1 = {
+				government = theocracy_government
+				holder = CKU_livonian_5
+				liege = d_livonia
+			}
+		}
+#}

@@ -2,6 +2,11 @@
 	e_hre = {
 		1440.1.1 = {
 			holder = CKU_austrian_1
+			succession_laws = {
+				princely_elective_succession_law
+				male_only_law
+				hre_law_1
+			}
 		}
 	}
 		# Archduchy of Austria = {
@@ -906,12 +911,12 @@
 			}
 			d_nordmark = {
 				1440.1.1 = {
-					de_jure_liege = k_east_germany
+					de_jure_liege = k_east_francia
 				}
 			}
 			d_pommerania = {
 				1440.1.1 = {
-					de_jure_liege = k_east_germany
+					de_jure_liege = k_east_francia
 				}
 			}
 		#}

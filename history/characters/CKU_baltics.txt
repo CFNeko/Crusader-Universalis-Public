@@ -3,10 +3,72 @@
 		name = "Konrad"
 		religion = catholic
 		culture = prussian
-		1390.1.1 = {
+		1400.1.1 = {
 			birth = yes
 		}
 		1449.1.1 = {
+			death = yes
+		}
+	}
+	CKU_livonian_1 = {	
+		name = "Heinrich"
+		religion = catholic
+		culture = prussian
+		1400.1.1 = {
+			birth = yes
+		}
+		1450.1.1 = {
+			death = yes
+		}
+	}
+	CKU_livonian_2 = {	
+		name = "Johannes"
+		religion = catholic
+		culture = prussian
+		1390.1.1 = {
+			birth = yes
+		}
+		1454.1.1 = {
+			death = yes
+		}
+	}
+	CKU_livonian_3 = {	
+		name = "Johann"
+		religion = catholic
+		culture = prussian
+		1380.1.1 = {
+			birth = yes
+		}
+		1456.1.1 = {
+			death = yes
+		}
+	}
+	CKU_livonian_4 = {	
+		religion = catholic
+		culture = prussian
+		1400.1.1 = {
+			birth = yes
+		}
+	}
+	CKU_livonian_5 = {	
+		name = "Henning"
+		religion = catholic
+		culture = prussian
+		1400.1.1 = {
+			birth = yes
+		}
+		1479.1.1 = {
+			death = yes
+		}
+	} 
+	CKU_livonian_6 = {	
+		name = "Bartholomäus"
+		religion = catholic
+		culture = prussian
+		1400.1.1 = {
+			birth = yes
+		}
+		1479.1.1 = {
 			death = yes
 		}
 	}
