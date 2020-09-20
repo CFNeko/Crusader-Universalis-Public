@@ -450,7 +450,7 @@
 			}
 		}
 
-		beguines = {
+		beguine = {
 			color = { 0.0 0.0 0.9 }
 			graphical_faith = "catholic_gfx"
 			icon = protestantism

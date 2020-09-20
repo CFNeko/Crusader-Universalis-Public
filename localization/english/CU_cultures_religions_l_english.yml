@@ -49,7 +49,29 @@
  semigallian_collective_noun:0 "Semigallians"
 
  # RELIGION #############
- protestant:0 "Protestantism"
- protestant_adj:0 "Protestant"
- protestant_adherent:0 "Protestant"
- protestant_adherent_plural:0 "Protestants"
+ hussite:0 "Hussitism"
+ hussite_adj:0 "Hussite"
+ hussite_adherent:0 "Hussites"
+ hussite_adherent_plural:0 "Hussitess"
+ hussite_desc:0 "The followers of Jan Hus proclaims that Jesus Christ is the supreme Head of the Church, and denounce the Catholic Church and their clergy as corrupt."
+ 
+ taborite:0 "Taboritism"
+ taborite_adj:0 "Taborite"
+ taborite_adherent:0 "Taborite"
+ taborite_adherent_plural:0 "Taborites"
+ taborite_desc:0 "The zealous Taborites wishes to create a utopian christian society where all Christian is equal to each other. To this end they proclaim themselves as soldiers of God, ready to fight the ungodly Apostates."
+ 
+ beguine:0 "Beguinism"
+ beguine_adj:0 "Beguine"
+ beguine_adherent:0 "Beguine"
+ beguine_adherent_plural:0 "Beguines"
+ beguine_desc:0 "The Beguine are adult women who devoted themselves to the church and charity, even though they made no vows to the church and their members are free to join and leave the community. They believe that all men and women are equal in Christ and due to this has often found themselves sided with those who want to reform the Church."
+ 
+ special_doctrine_reformed_christian_name:0 "Reformed"
+ special_doctrine_reformed_christian_desc:0 "We denounce the Pope and his corrupt church who had become enamoured by wordly matters! For the Church to return to its Holiness, we need to reform it."
+ 
+ special_doctrine_papacy_name:0 "Papacy"
+ special_doctrine_papacy_desc:0 "We adheres to the authority of the Pope as the Head of the Church, the successor of the Prime Apostle Saint Peter"
+
+ tenet_mass_translation_name:0 "Mass Translation"
+ tenet_mass_translation_desc:0 "By translating our holy book to the masses, everyone may understand the doctrines of our faith. Through it may we open the eyes of all infidels and apostates to the divine truth."
