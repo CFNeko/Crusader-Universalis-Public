@@ -6,20 +6,20 @@ HRE_law_group = {
 	
 	hre_law_1 = {
 		can_keep = {		# Requirements for keeping the law in the ruler's scope. If this invalidates, the law will be replaced with the default law (see own section) within a month. Also checked after changing faith since doctrinal changes are likely to invalidate laws. Always true if not specified.
-			always = yes
+			always = no
 		}
 		can_have = {		# Requirements for adopting the law in the ruler's scope. If this is true, the character is allowed to adopt the law and the law will show as available (but it can be currantly disabled if can_pass is false). Always true if not specified.
-			always = yes
+			always = no
 		}
 		can_pass = {		# Requirements for adopting the law in the ruler's scope. For more temporary conditions, e.g. being at war ("I can have the law, but can't pass it right now"). Always true if not specified.
-			always = yes
+			always = no
 		}
 		should_start_with = { # If these conditions are true, this is a valid law to start with. Note that it always includes the can_keep check.
 			this = title:e_hre
 		}
 		
 		can_title_have = {	# Requirements for titles being able to have this law, in the title's scope. Always false if not specified
-			always = yes
+			always = no
 		}
 
 		pass_cost = { prestige = 50 }	# Cost of enacting this law
