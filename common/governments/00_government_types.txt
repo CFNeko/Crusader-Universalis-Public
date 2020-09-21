@@ -32,7 +32,7 @@ republic_government = {
 	vassal_contract = {
 		republican_government_taxes
 		feudal_government_levies
-		republican_special_contract
+		stadhouder_rights
 	}
 
 	ai = {
@@ -41,7 +41,6 @@ republic_government = {
 		perform_religious_reformation = no
 	}
 
-	vassal_contract = { republic_government_obligations }
 	color = hsv{ 0.00 1.00 0.98 }
 }
 

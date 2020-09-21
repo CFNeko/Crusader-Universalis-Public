@@ -130,7 +130,7 @@ republican_special_contract = {
 			parent = republican_special_contract_none
 			position = { 1 1 }
 			
-			tax_factor = scutage_contract_tax
+			tax = scutage_contract_tax
 			levies_factor = -0.75
 			
 			vassal_modifier = {
@@ -151,6 +151,31 @@ republican_special_contract = {
 					add = @ai_standard_liege_desire
 				}
 			}
+		}
+	}
+}
+
+stadhouder_rights = {
+	display_mode = checkbox
+	is_shown = {
+		always = yes
+	}
+	obligation_levels = {
+		stadhouder_rights_none = {
+			default = yes
+			position = { 0 0 }
+			
+			ai_liege_desire = @ai_standard_liege_desire
+			ai_vassal_desire = 0
+		}
+		stadhouder_rights_granted = {
+			parent = stadhouder_rights_none
+			position = { 1 0 }
+					
+			tax = scutage_contract_tax
+
+			ai_liege_desire = 0
+			ai_vassal_desire = @ai_standard_vassal_desire
 		}
 	}
 }
