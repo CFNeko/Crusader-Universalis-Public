@@ -162,3 +162,71 @@
 			}
 		}
 #}
+#Lithuania = {
+	k_lithuania = {
+		1440.1.1 = {
+			holder = CKU_jagiellon_1
+		}
+	}
+	d_lithuanians = {
+		1440.1.1 = {
+			holder = CKU_jagiellon_1
+		}
+	}
+	d_polotsk = {
+		1440.1.1 = {
+			holder = CKU_jagiellon_1
+		}
+	}
+	d_minsk = {
+		1440.1.1 = {
+			holder = CKU_jagiellon_1
+		}
+	}
+	d_grodno = {
+		1440.1.1 = {
+			holder = CKU_jagiellon_1
+		}
+	}
+	d_pinsk = {
+		1440.1.1 = {
+			holder = CKU_jagiellon_1
+		}
+	}
+	d_smolensk = {
+		1440.1.1 = {
+			holder = CKU_jagiellon_1
+		}
+	}
+	d_chernigov = {
+		1440.1.1 = {
+			holder = CKU_jagiellon_1
+		}
+	}
+	d_kiev = {
+		1440.1.1 = {
+			holder = CKU_jagiellon_1
+		}
+	}
+	d_pereyaslavl = {
+		1440.1.1 = {
+			holder = CKU_jagiellon_1
+		}
+	}
+	d_turov = {
+		1440.1.1 = {
+			holder = CKU_jagiellon_1
+		}
+	}
+	d_yedisan = {
+		1440.1.1 = {
+			holder = CKU_jagiellon_1
+		}
+	}
+	d_karachev = {
+		1440.1.1 = {
+			holder = CKU_jagiellon_1
+		}
+	}
+	
+#}

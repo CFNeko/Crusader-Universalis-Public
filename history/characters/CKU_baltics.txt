@@ -73,3 +73,17 @@
 		}
 	}
 #}
+# Lithuanians = {
+	CKU_jagiellon_1 = {	
+		name = "Casimir"
+		religion = catholic
+		culture = lithuanian
+		dynasty = 11
+		1400.1.1 = {
+			birth = yes
+		}
+		1449.1.1 = {
+			death = yes
+		}
+	}
+#}
