@@ -32,7 +32,7 @@
 			vassal_contract_is_blocked_from_modification = no
 		}
 		scope:actor = {
-			#has_changed_contract_obligation_trigger = { WHO = scope:recipient }
+			has_changed_contract_obligation_trigger = { WHO = scope:recipient }
 			# Safety Valve Cut because otherwise it glitches out
 			custom_description = {
 				text = "liege_modify_vassal_contract_cannot_exceed_tyranny_cap"
@@ -92,6 +92,13 @@
 					
 					set_obligation_if_changed_effect = { OBLIGATION_TYPE = republican_government_taxes }
 					set_obligation_if_changed_effect = { OBLIGATION_TYPE = stadhouder_rights }
+
+					if = {
+						limit = {
+							vassal_contract_has_flag = forced_into_stadholder
+						}
+						add_realm_law_skip_effects = stadholder_succession_law
+					}
 				}
 			}
 		}

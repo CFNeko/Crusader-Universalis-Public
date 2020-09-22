@@ -314,7 +314,8 @@ has_changed_contract_obligation_trigger = {
 			local_var:council_rights != scope:obligation_check.vassal_contract_obligation_level:council_rights
 			local_var:title_revocation_rights != scope:obligation_check.vassal_contract_obligation_level:title_revocation_rights
 			
-			local_var:stadhouder_rights != scope:obligation_check.vassal_contract_obligation_level:stadhouder_rights
+			
+			local_var:governor_status_rights != scope:obligation_check.vassal_contract_obligation_level:governor_status_rights
 			local_var:republican_government_taxes != scope:obligation_check.vassal_contract_obligation_level:republican_government_taxes
 		}
 	}

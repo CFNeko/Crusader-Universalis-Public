@@ -29,12 +29,7 @@ republic_government = {
 	valid_holdings = { castle_holding }
 	required_county_holdings = { city_holding castle_holding church_holding }
 	
-	vassal_contract = {
-		republican_government_taxes
-		feudal_government_levies
-		stadhouder_rights
-	}
-
+	vassal_contract = { republic_government_obligations }
 	ai = {
 		arrange_marriage = no
 		use_goals = no

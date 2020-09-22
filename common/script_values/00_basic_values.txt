@@ -1031,7 +1031,7 @@ count_total_obligation_changes = {
 	}
 	if = {
 		limit = {
-			local_var:stadhouder_rights != vassal_contract_obligation_level:stadhouder_rights
+			local_var:governor_status_rights != vassal_contract_obligation_level:governor_status_rights
 		}
 		add = 1
 	}
