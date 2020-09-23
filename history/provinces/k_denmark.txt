@@ -3,56 +3,56 @@
 ###c_sjaelland
 63 = {		#ROSKILDE
 	culture = danish
-	religion = norse_pagan
+	religion = catholic
 	
 }
 433 = {		#HELSINGORA
 	culture = danish
-	religion = norse_pagan
+	religion = catholic
 	
 }
 85 = {		#HAFN
 	culture = danish
-	religion = norse_pagan
+	religion = catholic
 	
 }
 64 = {		#NAEVSTED
 	culture = danish
-	religion = norse_pagan
+	religion = catholic
 	
 }
 69 = {		#SLAGELSE
 	culture = danish
-	religion = norse_pagan
+	religion = catholic
 	
 }
 
 ###c_fyn
 65 = {		#ODENSE
 	culture = danish
-	religion = norse_pagan
+	religion = catholic
 	
 }
 66 = {		#SVENDBORG
 	culture = danish
-	religion = norse_pagan
+	religion = catholic
 	
 }
 228 = {		#MIDDELFART
 	culture = danish
-	religion = norse_pagan
+	religion = catholic
 	
 }
 
 ###c_lolland_falster
 67 = {		#NYKOBING
 	culture = danish
-	religion = norse_pagan
+	religion = catholic
 	
 }
 68 = {		#NAKSKOV
 	culture = danish
-	religion = norse_pagan
+	religion = catholic
 	
 }
 
@@ -60,73 +60,73 @@
 ###c_skane
 70 = {		#LUND
 	culture = danish
-	religion = norse_pagan
+	religion = catholic
 	
 }
 71 = {		#TRELLEBORG
 	culture = danish
-	religion = norse_pagan
+	religion = catholic
 	
 }
 72 = {		#TOMMERUP
 	culture = danish
-	religion = norse_pagan
+	religion = catholic
 	
 }
 86 = {		#GOINGE
 	culture = danish
-	religion = norse_pagan
+	religion = catholic
 	
 }
 73 = {		#HELSINGBORG
 	culture = danish
-	religion = norse_pagan
+	religion = catholic
 	
 }
 
 ###c_halland
 74 = {		#HALMSTAD
 	culture = danish
-	religion = norse_pagan
+	religion = catholic
 	
 }
 75 = {		#ONSALA
 	culture = danish
-	religion = norse_pagan
+	religion = catholic
 	
 }
 76 = {		#LAHOLM
 	culture = danish
-	religion = norse_pagan
+	religion = catholic
 	
 }
 
 ###c_bornholm
 77 = {		#RONNE
 	culture = danish
-	religion = norse_pagan
+	religion = catholic
 	
 }
 
 ###c_blekinge
 78 = {		#BREGNE
 	culture = danish
-	religion = norse_pagan
+	religion = catholic
 	
 }
 79 = {		#RONNEBY
 	culture = danish
-	religion = norse_pagan
+	religion = catholic
 	
 }
 87 = {		#LISTER
 	culture = danish
-	religion = norse_pagan
+	religion = catholic
 	
 }
 80 = {		#AVASKAR
 	culture = danish
-	religion = norse_pagan
+	religion = catholic
 	
 }
 
@@ -134,68 +134,68 @@
 ###c_aarhus
 57 = {		#AARHUS
 	culture = danish
-	religion = norse_pagan
+	religion = catholic
 	
 }
 58 = {		#JELLING
 	culture = danish
-	religion = norse_pagan
+	religion = catholic
 	
 }
 226 = {		#DJURSLAND
 	culture = danish
-	religion = norse_pagan
+	religion = catholic
 	
 }
 
 ###c_viborg
 56 = {		#VIBORG
 	culture = danish
-	religion = norse_pagan
+	religion = catholic
 	
 }
 222 = {		#ORMSTRUP
 	culture = danish
-	religion = norse_pagan
+	religion = catholic
 	
 }
 
 ###c_ringkobing
 82 = {		#RINGKOBING
 	culture = danish
-	religion = norse_pagan
+	religion = catholic
 	
 }
 221 = {		#HOLSTEBRO
 	culture = danish
-	religion = norse_pagan
+	religion = catholic
 	
 }
 223 = {		#YCOST
 	culture = danish
-	religion = norse_pagan
+	religion = catholic
 	
 }
 225 = {		#TARM
 	culture = danish
-	religion = norse_pagan
+	religion = catholic
 	
 }
 
 ###c_aalborg
 81 = {		#AALBORG
 	culture = danish
-	religion = norse_pagan
+	religion = catholic
 	
 }
 55 = {		#LINDHOLM
 	culture = danish
-	religion = norse_pagan
+	religion = catholic
 	
 }
 224 = {		#RANDROS
 	culture = danish
-	religion = norse_pagan
+	religion = catholic
 	
 }
 
@@ -203,50 +203,50 @@
 ###c_slesvig
 62 = {		#HEDEBY
 	culture = danish
-	religion = norse_pagan
+	religion = catholic
 	
 }
 61 = {		#AABENRAA
 	culture = danish
-	religion = norse_pagan
+	religion = catholic
 	
 }
 84 = {		#HUSUMBRO
 	culture = danish
-	religion = norse_pagan
+	religion = catholic
 	
 }
 
 ###c_vorbasse
 59 = {		#VORBASSE
 	culture = danish
-	religion = norse_pagan
+	religion = catholic
 	
 }
 227 = {		#TAULOV
 	culture = danish
-	religion = norse_pagan
+	religion = catholic
 	
 }
 434 = {		#KOLDING
 	culture = danish
-	religion = norse_pagan
+	religion = catholic
 	
 }
 
 ###c_ribe
 60 = {		#RIBE
 	culture = danish
-	religion = norse_pagan
+	religion = catholic
 	
 }
 83 = {		#VARDE
 	culture = danish
-	religion = norse_pagan
+	religion = catholic
 	
 }
 220 = {		#STRAND
 	culture = danish
-	religion = norse_pagan
+	religion = catholic
 	
 }

@@ -3,7 +3,7 @@
 	
 	# Misc
 	culture = swedish
-	religion = norse_pagan
+	religion = catholic
 	
 	# History
 	
@@ -15,7 +15,7 @@
 	
 	# Misc
 	culture = swedish
-	religion = norse_pagan
+	religion = catholic
 	
 	# History
 	
@@ -26,7 +26,7 @@
 	
 	# Misc
 	culture = swedish
-	religion = norse_pagan
+	religion = catholic
 	terrain = plains
 	
 	# History
@@ -41,7 +41,7 @@
 	
 	# Misc
 	culture = swedish
-	religion = norse_pagan
+	religion = catholic
 	
 	
 }
@@ -51,7 +51,7 @@
 	
 	# Misc
 	culture = swedish
-	religion = norse_pagan
+	religion = catholic
 	
 	
 }
@@ -61,7 +61,7 @@
 	
 	# Misc
 	culture = swedish
-	religion = norse_pagan
+	religion = catholic
 	
 	
 }
@@ -71,7 +71,7 @@
 	
 	# Misc
 	culture = swedish
-	religion = norse_pagan
+	religion = catholic
 	
 	# History
 	
@@ -82,7 +82,7 @@
 	
 	# Misc
 	culture = swedish
-	religion = norse_pagan
+	religion = catholic
 	terrain = forest
 	
 	
@@ -93,7 +93,7 @@
 	
 	# Misc
 	culture = swedish
-	religion = norse_pagan
+	religion = catholic
 	
 	#History
 	
@@ -111,7 +111,7 @@
 	
 	# Misc
 	culture = swedish
-	religion = norse_pagan
+	religion = catholic
 	
 	#History
 	
@@ -137,7 +137,7 @@
 	
 	# Misc
 	culture = swedish
-	religion = norse_pagan
+	religion = catholic
 	
 	# History
 	
@@ -152,7 +152,7 @@
 	
 	# Misc
 	culture = swedish
-	religion = norse_pagan
+	religion = catholic
 	
 	# History
 	
@@ -165,7 +165,7 @@
 	
 	# Misc
 	culture = swedish
-	religion = norse_pagan
+	religion = catholic
 	terrain = forest
 	
 	# History
@@ -177,7 +177,7 @@
 346 = {	#346 - VAESTRAAROS
 	# Misc
 	culture = swedish
-	religion = norse_pagan
+	religion = catholic
 	
 	# History
 	
@@ -188,7 +188,7 @@
 350 = {	
 	# Misc
 	culture = swedish
-	religion = norse_pagan
+	religion = catholic
 	
 	# History
 	
@@ -202,7 +202,7 @@
 	
 	# Misc
 	culture = swedish
-	religion = norse_pagan
+	religion = catholic
 	
 	# History
 	
@@ -217,7 +217,7 @@
 	
 	# Misc
 	culture = swedish
-	religion = norse_pagan
+	religion = catholic
 	terrain = forest
 	
 	# History
@@ -232,7 +232,7 @@
 	
 	# Misc
 	culture = swedish
-	religion = norse_pagan
+	religion = catholic
 	terrain = forest
 	
 	# History
@@ -246,7 +246,7 @@
 	
 	# Misc
 	culture = swedish
-	religion = norse_pagan
+	religion = catholic
 	terrain = forest
 	
 	# History
@@ -259,7 +259,7 @@
 	
 	# Misc
 	culture = swedish
-	religion = norse_pagan
+	religion = catholic
 	
 	# History
 	
