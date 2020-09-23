@@ -56,6 +56,7 @@
 			}
 		}
 	#}
+	
 	# Valois-Orleans = {
 		CKU_orleans_1 = {
 			name = "Charles"
@@ -67,26 +68,89 @@
 			}
 		}
 	#}
+	
+	# Sancerre = {
+		CKU_sancerre_1 = {
+			name = "Jean"
+			religion = catholic
+			culture = french
+			dynasty = CKU_bueil
+			trait = brave
+			trait = education_martial_3
+			trait = blademaster_2
+			trait = organizer
+			1405.8.17 = {
+				birth = yes
+			}
+			1439.1.1 = {
+				add_spouse = CKU_francien_minor_1
+			}
+		}
+		CKU_sancerre_2 = {
+			name = "Antoine"
+			religion = catholic
+			culture = french
+			dynasty = CKU_bueil
+			father = CKU_sancerre_1
+			mother = CKU_francien_minor_1
+			1440.1.1 = {
+				birth = yes
+			}
+		}
+	#}
+	
+	# Price-Bishopric Cambrésis = {
+		CKU_french_bishop_1 = {
+			name = "Jean"
+			religion = catholic
+			culture = french
+			dynasty = CKU_valois_bourgogne
+			father = CKU_bourgogne_2
+			#trait= bastard
+			1404.1.1 = {
+				birth = yes
+			}
+		}
+	#}
+	
+	# Abby of Vézelay = {
+		CKU_french_abbot_1 = {
+			name = "Aubert"
+			religion = "catholic"
+			culture = french
+			1400.1.1 = {
+				birth = yes
+			}
+		}
+	#}
+	
+	# Minor Francien = {
+		CKU_francien_minor_1 = {
+			name = "Jeanne"
+			female = yes
+			religion = catholic
+			culture = french
+			1410.1.1 = {
+				birth = yes
+			}
+		}
+		CKU_francien_minor_2 = {
+			name = "Jean"
+			religion = catholic
+			culture = french
+			1395.1.1 = {
+				birth = yes
+			}
+		}
+	#}
 #}
 # Burgundian = {
 	# Bourgogne {
 		CKU_bourgogne_1 = {
-			name = "Philip"
+			name = "Philippe"
 			religion = catholic
 			culture = french
-			dynasty = 741
-			father = CKU_bourgogne_4
-			1419.9.10 = {
-				birth = yes
-			}
-		}
-
-		CKU_bourgogne_2 = {
-			name = "Philip"
-			dynasty_house = house_bourgogne
-			religion = catholic
-			culture = french
-			dynasty = 741
+			dynasty = CKU_valois_bourgogne
 			father = CKU_valois_2
 			1342.1.17 = {
 				birth = yes
@@ -95,13 +159,13 @@
 				death = yes
 			}
 		}
-
-		CKU_bourgogne_3 = {
-			name = "John"
+		
+		CKU_bourgogne_2 = {
+			name = "Jean"
 			religion = catholic
 			culture = french
-			dynasty = 741
-			father = CKU_bourgogne_2
+			dynasty = CKU_valois_bourgogne
+			father = CKU_bourgogne_1
 			1371.5.28 = {
 				birth = yes
 			}
@@ -109,18 +173,279 @@
 				death = yes
 			}
 		}
-
-		CKU_bourgogne_4 = {
-			name = "John"
+		
+		CKU_bourgogne_3 = {
+			name = "Philippe"
 			religion = catholic
 			culture = french
-			dynasty = 741
-			father = CKU_bourgogne_3
+			dynasty = CKU_valois_bourgogne
+			father = CKU_bourgogne_2
+			trait = ambitious
+			trait = gregarious
+			trait = just
+			trait = education_diplomacy_3
+			trait = shrewd
+			trait = reveler_2
+			trait = adulterer
 			1396.7.31 = {
 				birth = yes
 			}
-			1467.6.15 = {
+			1430.1.7 = {
+				#add_spouse = # Isabel, daughter of the king of Portugal
+			}
+			1435.9.21 = { # Treaty of Arras
+				effect = {
+					vassal_contract_set_obligation_level = {
+						type = feudal_government_taxes
+						level = 0
+					}
+					vassal_contract_set_obligation_level = {
+						type = feudal_government_levies
+						level = 0
+					}
+					vassal_contract_set_obligation_level = {
+						type = war_declaration_rights
+						level = 1
+					}
+					vassal_contract_set_obligation_level = {
+						type = title_revocation_rights
+						level = 1
+					}
+				}
+			}
+		}
+		
+		CKU_bourgogne_4 = {
+			name = "Anthoine"
+			religion = catholic
+			culture = french
+			dynasty = CKU_valois_bourgogne
+			father = CKU_bourgogne_3
+			#mother = # CKU_bourgogne_3 wife(Isabel)
+			1430.9.30 = {
+				birth = yes
+			}
+			1432.2.5 = {
 				death = yes
+			}
+		}
+		
+		CKU_bourgogne_5 = {
+			name = "Josse"
+			religion = catholic
+			culture = french
+			dynasty = CKU_valois_bourgogne
+			father = CKU_bourgogne_3
+			#mother = # CKU_bourgogne_3 wife(Isabel)
+			1432.4.24 = {
+				birth = yes
+			}
+			1432.5.6 = {
+				death = yes
+			}
+		}
+		
+		CKU_bourgogne_6 = {
+			name = "Charles"
+			religion = catholic
+			culture = french
+			dynasty = CKU_valois_bourgogne
+			father = CKU_bourgogne_3
+			#mother = # CKU_bourgogne_3 wife(Isabel)
+			trait = brave
+			trait = rowdy
+			1433.11.10 = {
+				birth = yes
+			}
+			1433.11.10 = {
+				#add_spouse = # Catherine, daughter of the king of France
+			}
+		}
+		
+		CKU_bourgogne_7 = {
+			name = "Corneille"
+			religion = catholic
+			culture = french
+			dynasty = CKU_valois_bourgogne
+			trait= bastard
+			father = CKU_bourgogne_3
+			#mother = # (Catherine Schaers)
+			1420.1.1 = {
+				birth = yes
+			}
+		}
+		
+		CKU_bourgogne_8 = {
+			name = "Anthoine"
+			religion = catholic
+			culture = french
+			dynasty = CKU_valois_bourgogne
+			trait= bastard
+			trait = education_martial_2
+			trait = hunter_2
+			father = CKU_bourgogne_3
+			#mother = # (Jeanne de Presle)
+			1421.1.1 = {
+				birth = yes
+			}
+		}
+		
+		CKU_bourgogne_9 = {
+			name = "David"
+			religion = catholic
+			culture = french
+			dynasty = CKU_valois_bourgogne
+			trait= bastard
+			father = CKU_bourgogne_3
+			#mother = # (?)
+			1427.1.1 = {
+				birth = yes
+			}
+		}
+		
+		CKU_bourgogne_10 = {
+			name = "Anne"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = CKU_valois_bourgogne
+			trait= bastard
+			trait = pensive
+			father = CKU_bourgogne_3
+			#mother = # (Jacqueline van Steenberghe)
+			1435.1.1 = {
+				birth = yes
+			}
+		}
+		
+		CKU_bourgogne_11 = {
+			name = "Raphaël"
+			religion = catholic
+			culture = french
+			dynasty = CKU_valois_bourgogne
+			trait= bastard
+			father = CKU_bourgogne_3
+			#mother = # (?)
+			1437.1.1 = {
+				birth = yes
+			}
+		}
+		
+		######### Nevers line of Valois-Burgundy #########
+		
+		CKU_bourgogne_12 = {
+			name = "Philippe"
+			religion = catholic
+			culture = french
+			dynasty = CKU_bourgogne_nevers
+			father = CKU_bourgogne_1
+			mother = CKU_flemish_2
+			1389.10.1 = {
+				birth = yes
+			}
+			1415.10.25 = {
+				death = yes
+			}
+		}
+		
+		CKU_bourgogne_13 = {
+			name = "Charles"
+			religion = catholic
+			culture = french
+			dynasty = CKU_bourgogne_nevers
+			father = CKU_bourgogne_12
+			1414.1.1 = {
+				birth = yes
+			}
+		}
+		
+		CKU_bourgogne_14 = {
+			name = "Jean"
+			religion = catholic
+			culture = french
+			dynasty = CKU_bourgogne_nevers
+			father = CKU_bourgogne_12
+			1415.1.1 = {
+				birth = yes
+			}
+			1415.1.1 = {
+				add_spouse = CKU_bourgogne_minor_5
+			}
+		}
+		
+		CKU_bourgogne_15 = {
+			name = "Anne"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = CKU_bourgogne_nevers
+			father = CKU_bourgogne_14
+			mother = CKU_bourgogne_minor_5
+			1439.8.24 = {
+				birth = yes
+			}
+		}
+		
+		######### Minor Characters Employed by Burgundians #########
+		
+		CKU_bourgogne_minor_1 = { # Childeren can be added later, lower priority
+			name = "Willem"
+			religion = catholic
+			culture = flemish
+			dynasty = CKU_lalaing
+			trait= education_stewardship_3
+			1395.1.1 = {
+				birth = yes
+			}
+			1418.1.1 = {
+				add_spouse = CKU_bourgogne_minor_2
+			}
+		}
+		
+		CKU_bourgogne_minor_2 = {
+			name = "Jeanne"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = CKU_crequy
+			father = CKU_bourgogne_minor_3
+			1400.1.1 = {
+				birth = yes
+			}
+		}
+		
+		CKU_bourgogne_minor_3 = {
+			name = "Jean"
+			religion = catholic
+			culture = french
+			dynasty = CKU_crequy
+			1366.1.1 = {
+				birth = yes
+			}
+			1411.1.1 = {
+				death = yes
+			}
+		}
+		
+		CKU_bourgogne_minor_4 = {
+			name = "Jean"
+			religion = catholic
+			culture = french
+			dynasty = CKU_crequy
+			trait= education_martial_2
+			father = CKU_bourgogne_minor_3
+			1395.1.1 = {
+				birth = yes
+			}
+		}
+		
+		CKU_bourgogne_minor_5 = {
+			name = "Jacqueline"
+			female = yes
+			religion = catholic
+			culture = french
+			1420.1.1 = {
+				birth = yes
 			}
 		}
 	# }
@@ -224,13 +549,75 @@
 # Bretagne = {
 	# Montfort {
 		CKU_montfort_1 = {
-			name = "Francis"
+			name = "Jean"
 			religion = catholic
 			culture = french
 			dynasty = 4003
-			1414.1.1 = {
+			1339.1.1 = {
+				birth = yes
+			}
+			1399.11.1 = {
+				death = yes
+			}
+		}
+		CKU_montfort_2 = {
+			name = "Jean"
+			religion = catholic
+			culture = french
+			dynasty = 4003
+			father = CKU_montfort_1
+			1389.12.29 = {
+				birth = yes
+			}
+			1442.8.29 = {
+				death = yes
+			}
+		}
+		CKU_montfort_3 = {
+			name = "François"
+			religion = catholic
+			culture = french
+			dynasty = 4003
+			father = CKU_montfort_2
+			1414.5.11 = {
+				birth = yes
+			}
+			1442.10.30 = {
+				add_spouse = CKU_scottish_3
+			}
+		}
+		CKU_montfort_4 = {
+			name = "Marguerite"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = 4003
+			father = CKU_montfort_3
+			mother = CKU_scottish_3
+			1443.1.1 = {
 				birth = yes
 			}
 		}
+		CKU_montfort_5 = {
+			name = "Arthur"
+			religion = catholic
+			culture = french
+			dynasty = 4003
+			father = CKU_montfort_1
+			trait = ambitious
+			trait = education_martial_prowess_3
+			trait = blademaster_2
+			1393.8.24 = {
+				birth = yes
+			}
+			1399.11.1 = {
+				#add_pressed_claim = # earldom of richmond, needs to be added to english realm first
+			}
+		}
+	# }
+# }
+
+# Walloon = {
+	# Luxembourg {
 	# }
 # }

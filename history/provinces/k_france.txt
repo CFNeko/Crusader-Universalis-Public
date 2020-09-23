@@ -683,10 +683,10 @@
 	holding = castle_holding
 }
 2129 = {	#GRAVELINES
-	holding = church_holding
+	holding = city_holding
 }
 2133 = {	#SAINT OMER
-	holding = city_holding
+	holding = church_holding
 }
 
 ###c_lille

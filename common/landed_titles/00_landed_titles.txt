@@ -5584,13 +5584,7 @@ e_germany = {
 			c_bouillon = {
 				color = { 100 110 180 }
 				color2 = { 255 255 255 }
-
-				b_bouillon = {
-					province = 2091
-
-					color = { 100 110 180 }
-					color2 = { 255 255 255 }
-				}
+				
 				b_chiny = {
 					province = 2686
 
@@ -5599,6 +5593,12 @@ e_germany = {
 				}
 				b_saint_hubert = {
 					province = 2687
+
+					color = { 100 110 180 }
+					color2 = { 255 255 255 }
+				}
+				b_bouillon = {
+					province = 2091
 
 					color = { 100 110 180 }
 					color2 = { 255 255 255 }
@@ -5738,7 +5738,13 @@ e_germany = {
 			c_cambray = {
 				color = { 95 80 135 }
 				color2 = { 255 255 255 }
-			
+				
+				b_valenciennes = {
+					province = 2119
+
+					color = { 95 80 135 }
+					color2 = { 255 255 255 }
+				}
 				b_cambrai = {
 					province = 2118
 
@@ -5747,12 +5753,6 @@ e_germany = {
 				}
 				b_malboden = {
 					province = 2121
-
-					color = { 95 80 135 }
-					color2 = { 255 255 255 }
-				}
-				b_valenciennes = {
-					province = 2119
 
 					color = { 95 80 135 }
 					color2 = { 255 255 255 }
@@ -47680,14 +47680,14 @@ e_france = {
 				color = { 80 90 170 }
 				color2 = { 255 255 255 }
 				
-				b_calais = {
-					province = 2130
+				b_grevelines = {
+					province = 2129
 					
 					color = { 80 90 170 }
 					color2 = { 255 255 255 }
 				}
-				b_grevelines = {
-					province = 2129
+				b_calais = {
+					province = 2130
 					
 					color = { 80 90 170 }
 					color2 = { 255 255 255 }

@@ -8,9 +8,24 @@ CKU_bar = {
 	culture = ligurian
 }
 
+CKU_bueil = {
+	name = "dynn_bueil"
+	culture = french
+}
+
+CKU_bourgogne_nevers = {
+	name = "dynn_bourgogne_nevers"
+	culture = french
+}
+
 CKU_bueri = {
 	name = "dynn_bueri"
 	culture = tuscan
+}
+
+CKU_crequy = {
+	name = "dynn_crequy"
+	culture = french
 }
 
 CKU_cubello = {
@@ -23,6 +38,11 @@ CKU_de_bardi = {
 	culture = tuscan
 }
 
+CKU_luxembourg = {
+	name = "dynn_luxembourg"
+	culture = walloon
+}
+
 CKU_de_medici = {
 	name = "dynn_de_Medici"
 	culture = florentine
@@ -33,6 +53,11 @@ CKU_foscari = {
 	culture = venetian
 }
 
+CKU_lalaing = {
+	name = "dynn_lalaing"
+	culture = flemish
+}
+
 CKU_lascaris = {
 	name = "dynn_lascaris"
 	culture = lombard
@@ -41,6 +66,11 @@ CKU_lascaris = {
 CKU_osman = {
 	name = "dynn_osman"
 	culture = turkish
+}
+
+CKU_valois_bourgogne = {
+	name = "dynn_valois_bourgogne"
+	culture = "french"
 }
 
 CKU_von_Walsee = {

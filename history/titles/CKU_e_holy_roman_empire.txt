@@ -167,6 +167,41 @@
 				}
 			}
 		#}
+		# Price-Bishopric Liège = {
+			c_liege = {
+				1440.1.1 = {
+					government = theocracy_government
+					holder = CKU_rhenish_bishop_1
+					liege = "e_hre"
+				}
+			}
+			b_couvin = {
+				1440.1.1 = {
+					holder = CKU_rhenish_bishop_1
+					liege = "e_hre"
+				}
+			}
+			b_bouillon = {
+				1440.1.1 = {
+					holder = CKU_rhenish_bishop_1
+					liege = "e_hre"
+				}
+			}
+			b_saint_hubert = {
+				1440.1.1 = {
+					holder = CKU_rhenish_bishop_1
+					liege = "e_hre"
+				}
+			}
+		#}
+		# Price-Bishopric Cambrésis = {
+			b_cambrai = {
+				1440.1.1 = {
+					holder = CKU_french_bishop_1
+					liege = "e_hre"
+				}
+			}
+		#}
 		# Hohenzollern Possessions = {
 			d_ostmark = {
 				1440.1.1 = {
@@ -547,7 +582,7 @@
 					liege = "e_hre"
 				}
 			}
-			c_aachen = {
+			b_aachen = {
 				1440.1.1 = {
 					holder = CKU_rhenish_major_1
 					liege = "e_hre"

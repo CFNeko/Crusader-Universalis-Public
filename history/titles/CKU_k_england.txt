@@ -39,3 +39,9 @@ c_sable = {
 		holder = CKU_english_1
 	}
 }
+
+b_calais = {
+	1440.1.1 = {
+		holder = CKU_english_1
+	}
+}

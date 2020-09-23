@@ -27,14 +27,13 @@
 	holding = castle_holding
 }
 2686 = {	#CHINY
-	holding = none
-	
+	holding = castle_holding
 }
 2687 = {	#SAINT HUBERT
 	holding = church_holding
 }
 2095 = {	#VIRTON
-	holding = none
+	holding = city_holding
 	
 }
 
@@ -110,10 +109,10 @@
 2118 = {	#CAMBRAI
 	culture = walloon
 	religion = catholic
-	holding = castle_holding
+	holding = church_holding
 }
 2121 = {	# MALBODEN
-	holding = church_holding
+	holding = castle_holding
 }
 2119 = {	#VALENCIENNES
 	holding = city_holding

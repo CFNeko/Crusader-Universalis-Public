@@ -3,7 +3,7 @@
 	
 	# Misc
 	culture = icelandic
-	religion = catholic
+	religion = norse_pagan
 	terrain = arctic
 	
 	# History
@@ -15,7 +15,7 @@
 	
 	# Misc
 	culture = icelandic
-	religion = catholic
+	religion = norse_pagan
 	terrain = arctic
 	
 	# History
@@ -27,7 +27,7 @@
 	
 	# Misc
 	culture = icelandic
-	religion = catholic
+	religion = norse_pagan
 	terrain = arctic
 	
 	# History
@@ -39,7 +39,7 @@
 	
 	# Misc
 	culture = icelandic
-	religion = catholic
+	religion = norse_pagan
 	terrain = arctic
 	
 	# History
@@ -51,7 +51,7 @@
 	
 	# Misc
 	culture = icelandic
-	religion = catholic
+	religion = norse_pagan
 	terrain = arctic
 	
 	# History
@@ -118,7 +118,7 @@
 	
 	# Misc
 	culture = norwegian
-	religion = catholic
+	religion = norse_pagan
 	
 	
 }
@@ -127,7 +127,7 @@
 386 = {	
 	# Misc
 	culture = norwegian
-	religion = catholic
+	religion = norse_pagan
 	
 	# History
 	

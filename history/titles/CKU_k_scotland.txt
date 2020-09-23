@@ -1,5 +1,5 @@
 k_scotland = {
 	1440.1.1 = {
-		holder = CKU_scottish_1
+		holder = CKU_scottish_4
 	}
 }

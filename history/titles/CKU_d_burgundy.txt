@@ -1,54 +1,163 @@
 d_burgundy = {
 	1440.1.1 = {
-		holder = CKU_bourgogne_1
-		liege = 0
+		holder = CKU_bourgogne_3
+		liege = k_france
 	}
 }
+	# County of Nevers and Rethel  = {
+		c_nevers = {
+			1440.1.1 = {
+				holder = CKU_bourgogne_13
+				liege = d_burgundy
+			}
+		}
+		c_rethel = {
+			1440.1.1 = {
+				holder = CKU_bourgogne_13
+			}
+		}
+	#}
+	# Abbey of Vézelay  = {
+		c_avalois = {
+			1440.1.1 = {
+				holder = CKU_french_abbot_1
+				liege = d_burgundy
+			}
+		}
+	#}
 
 d_upper_burgundy = {
 	1440.1.1 = {
-		holder = CKU_bourgogne_1
-	}
-}
-
-d_luxembourg = {
-	1440.1.1 = {
-		holder = CKU_bourgogne_1
+		holder = CKU_bourgogne_3
 	}
 }
 
 d_brabant = {
 	1440.1.1 = {
-		holder = CKU_bourgogne_1
+		holder = CKU_bourgogne_3
 	}
 }
 
 d_holland = {
 	1440.1.1 = {
-		holder = CKU_bourgogne_1
+		holder = CKU_bourgogne_3
 	}
 }
 
 d_flanders = {
 	1440.1.1 = {
-		holder = CKU_bourgogne_1
+		holder = CKU_bourgogne_3
+	}
+}
+
+d_luxembourg = {
+	1440.1.1 = {
+		holder = CKU_bourgogne_3
+	}
+}
+	# Duchy of Luxembourg = {
+		c_luxembourg = {
+			1440.1.1 = {
+				holder = CKU_bourgogne_7 # Governor
+				liege = d_burgundy
+			}
+		}
+		c_bouillon = {
+			1440.1.1 = {
+				holder = CKU_bourgogne_7 # Governor
+			}
+		}
+	#}
+
+c_holland = {
+	1440.1.1 = {
+		holder = CKU_bourgogne_minor_1 # Governor
+		liege = d_burgundy
+	}
+}
+
+c_westfriesland = { # No longer existed since 1200, should be merged with c_holland
+	1440.1.1 = {
+		holder = CKU_bourgogne_minor_1 # Governor
+	}
+}
+
+c_zeeland = {
+	1440.1.1 = {
+		holder = CKU_bourgogne_minor_1 # Governor
+	}
+}
+
+c_aachen = {
+	1440.1.1 = {
+		holder = CKU_bourgogne_3
 	}
 }
 
 c_amiens = {
 	1440.1.1 = {
-		holder = CKU_bourgogne_1
+		holder = CKU_bourgogne_3
 	}
 }
 
-c_clermont = {
+c_vermandois = {
 	1440.1.1 = {
-		holder = CKU_bourgogne_1
+		holder = CKU_bourgogne_3
 	}
 }
 
-c_sancerre = {
+b_grevelines = {
 	1440.1.1 = {
-		holder = CKU_bourgogne_1
+		holder = CKU_bourgogne_8
+		liege = d_burgundy
+	}
+}
+
+b_saint_omer = {
+	1440.1.1 = {
+		holder = CKU_bourgogne_8
+		liege = d_burgundy
+	}
+}
+
+b_mons = {
+	1440.1.1 = {
+		holder = CKU_bourgogne_3
+	}
+}
+
+b_valenciennes = {
+	1440.1.1 = {
+		holder = CKU_bourgogne_3
+	}
+}
+
+b_malboden = {
+	1440.1.1 = {
+		holder = CKU_bourgogne_3
+	}
+}
+
+b_namur = {
+	1440.1.1 = {
+		holder = CKU_bourgogne_7 # Governor
+	}
+}
+
+b_charleroi = {
+	1440.1.1 = {
+		holder = CKU_bourgogne_3
+	}
+}
+
+b_la_roche = {
+	1440.1.1 = {
+		holder = CKU_bourgogne_8
+	}
+}
+
+b_bar_sur_seine = {
+	1440.1.1 = {
+		holder = CKU_bourgogne_3
 	}
 }

@@ -134,6 +134,11 @@
 					holder = CKU_bourbon_2
 				}
 			}
+			c_clermont = {
+				1440.1.1 = {
+					holder = CKU_bourbon_2
+				}
+			}
 		#}
 		# Duchy of Albret = {
 			c_limousin = {
@@ -148,12 +153,35 @@
 				}
 			}
 		#}
-
 		# Duchy of Brittany = {
 			d_brittany = {
 				1440.1.1 = {
-					holder = CKU_montfort_1
+					holder = CKU_montfort_3
 					liege = 0
+				}
+			}
+		#}
+		# County of Tonnerrois = {
+			c_tonnerrois = {
+				1435.9.21 = {
+					holder = CKU_montfort_5
+					liege = k_france
+				}
+			}
+		#}
+		# County of Sancerre = {
+			c_sancerre = {
+				1440.1.1 = {
+					holder = CKU_sancerre_1
+					liege = k_france
+				}
+			}
+		#}
+		# Tournaisis = {
+			b_tournai = {
+				1440.1.1 = {
+					holder = CKU_francien_minor_2
+					liege = k_france
 				}
 			}
 		#}

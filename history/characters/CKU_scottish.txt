@@ -1,10 +1,46 @@
 ﻿
 # Scotland {
 	CKU_scottish_1 = {
-		name = "Scotsman"
+		name = "James"
 		religion = catholic
 		culture = scottish
-		1430.1.1 = {
+		dynasty = 3134
+		1394.7.1 = {
+			birth = yes
+		}
+		1427.2.27 = {
+			death = yes
+		}
+	}
+	CKU_scottish_2 = {
+		name = "Margaret"
+		female = yes
+		religion = catholic
+		culture = scottish
+		dynasty = 3134
+		father = CKU_scottish_1
+		1424.12.25 = {
+			birth = yes
+		}
+	}
+	CKU_scottish_3 = {
+		name = "Isabella"
+		female = yes
+		religion = catholic
+		culture = scottish
+		dynasty = 3134
+		father = CKU_scottish_1
+		1424.12.25 = {
+			birth = yes
+		}
+	}
+	CKU_scottish_4 = {
+		name = "James"
+		religion = catholic
+		culture = scottish
+		dynasty = 3134
+		father = CKU_scottish_1
+		1430.10.16 = {
 			birth = yes
 		}
 	}
