@@ -21,6 +21,12 @@
 				culture = franconian #CTU_saxon
 				dynasty = 12476
 				father = CKU_hohenzollern_1
+				martial = 9 #der Eiserne
+				trait = zealous
+				trait = vengeful
+				trait = wrathful
+				trait = education_martial_3
+				trait = depressed_1 #no kids
 				give_nickname = nick_irontooth
 				1413.1.1 = {
 					birth = yes
@@ -36,6 +42,12 @@
 				culture = franconian #CTU_saxon
 				dynasty = 12476
 				father = CKU_hohenzollern_1
+				diplomacy = 9 #guaranteeing him some success
+				trait = ambitious
+				trait = greedy
+				trait = impatient
+				trait = education_martial_3
+				trait = physique_good_2
 				1414.1.1 = {
 					birth = yes
 				}
