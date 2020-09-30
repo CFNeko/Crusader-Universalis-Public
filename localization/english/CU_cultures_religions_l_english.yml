@@ -26,6 +26,20 @@
  swiss:0 "Swiss"
  swiss_collective_noun:0 "Swiss"
 
+ # LATIN
+ emilian: "Emilian"
+ emilian_collective_noun: "Emilian"
+ ligurian: "Ligurian"
+ ligurian_collective_noun: "Ligurian"
+ neapolitan: "Neapolitan"
+ neapolitan_collective_noun: "Neapolitan"
+ piedmontese: "Piedmontese"
+ piedmontese_collective_noun: "Piedmontese"
+ tuscan: "Tuscan"
+ tuscan_collective_noun: "Tuscan"
+ venetian: "Venetian"
+ venetian_collective_noun: "Venetian"
+
  # SLAVIC
  sorbian:0 "Sorbian"
  sorbian_collective_noun:0 "Sorbians"

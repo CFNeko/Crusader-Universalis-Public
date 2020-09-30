@@ -1,10 +1,46 @@
-﻿CKU_adorno = {
+﻿CKU_luxembourg = {
+	name = "dynn_luxembourg"
+	culture = french
+}
+
+CKU_tour_auvergene = {
+	name = "dynn_tour_auvergene"
+	culture = french
+}
+
+CKU_valois_bourgogne = {
+	name = "dynn_valois_bourgogne"
+	culture = "french"
+}
+
+CKU_josne = {
+	name = "dynn_josne"
+	culture = "french"
+}
+
+
+CKU_adorno = {
 	name = "dynn_adorno"
 	culture = ligurian
 }
 
+CKU_aviz = {
+	name = "dynn_aviz"
+	culture = portuguese
+}
+
+CKU_arrigucci = {
+	name = "dynn_arrigucci"
+	culture = tuscan
+}
+
 CKU_bar = {
 	name = "dynn_bar"
+	culture = ligurian
+}
+
+CKU_berry = {
+	name = "dynn_berry"
 	culture = ligurian
 }
 
@@ -13,18 +49,23 @@ CKU_bueil = {
 	culture = french
 }
 
-CKU_bourgogne_nevers = {
-	name = "dynn_bourgogne_nevers"
-	culture = french
-}
-
 CKU_bueri = {
 	name = "dynn_bueri"
 	culture = tuscan
 }
 
+CKU_clyte = {
+	name = "dynn_clyte"
+	culture = french
+}
+
 CKU_crequy = {
 	name = "dynn_crequy"
+	culture = french
+}
+
+CKU_croy = {
+	name = "dynn_croy"
 	culture = french
 }
 
@@ -33,14 +74,24 @@ CKU_cubello = {
 	culture = sardinian
 }
 
+CKU_dampierre_flanders = {
+	name = "dynn_dampierre_flanders"
+	culture = sardinian
+}
+
 CKU_de_bardi = {
 	name = "dynn_de_bardi"
 	culture = tuscan
 }
 
-CKU_luxembourg = {
-	name = "dynn_luxembourg"
-	culture = walloon
+CKU_hunyadi = {
+	name = "dynn_hunyadi"
+	culture = polish
+}
+
+CKU_jagiellon = {
+	name = "dynn_jagiellon"
+	culture = polish
 }
 
 CKU_de_medici = {
@@ -68,9 +119,19 @@ CKU_osman = {
 	culture = turkish
 }
 
-CKU_valois_bourgogne = {
-	name = "dynn_valois_bourgogne"
-	culture = "french"
+CKU_palatinate_neumarkt = {
+	name = "dynn_palatinate_neumarkt"
+	culture = bavarian
+}
+
+CKU_spina = {
+	name = "dynn_spina"
+	culture = tuscan
+}
+
+CKU_visconti = {
+	name = "dynn_Visconti"
+	culture = "italian"
 }
 
 CKU_von_Walsee = {
@@ -87,5 +148,11 @@ CKU_bogdan = {
 CKU_mecklenburg = {
 	prefix = "dynnp_von"
 	name = "dynn_Mecklenburg"
+	culture = "pommeranian"
+}
+
+CKU_mecklenburg_werle = {
+	prefix = "dynnp_von"
+	name = "dynn_Mecklenburg_werle"
 	culture = "pommeranian"
 }

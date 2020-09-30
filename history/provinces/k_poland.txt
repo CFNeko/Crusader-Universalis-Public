@@ -5,6 +5,10 @@
 	culture = polish
 	religion = slavic_pagan
 	holding = tribal_holding
+	1440.1.1 = {
+		religion = catholic
+		holding = castle_holding
+	}
 	
 }
 440 = {		#Olsztyn
@@ -31,6 +35,10 @@
 	culture = polish
 	religion = slavic_pagan
 	holding = tribal_holding
+	1440.1.1 = {
+		religion = catholic
+		holding = castle_holding
+	}
 	
 
 }
@@ -55,6 +63,10 @@
 	culture = polish
 	religion = slavic_pagan
 	holding = tribal_holding
+	1440.1.1 = {
+		religion = catholic
+		holding = castle_holding
+	}
 	
 }
 4961 = {	#Opatow
@@ -78,6 +90,10 @@
 	culture = polish
 	religion = slavic_pagan
 	holding = tribal_holding
+	1440.1.1 = {
+		religion = catholic
+		holding = castle_holding
+	}
 	
 }
 4952 = {	#Lukow
@@ -89,6 +105,10 @@
 	culture = polish
 	religion = slavic_pagan
 	holding = tribal_holding
+	1440.1.1 = {
+		religion = catholic
+		holding = castle_holding
+	}
 	
 }
 4954 = {	#Opoczno
@@ -107,6 +127,10 @@
 	culture = polish
 	religion = slavic_pagan
 	holding = tribal_holding
+	1440.1.1 = {
+		religion = catholic
+		holding = castle_holding
+	}
 	
 }
 4958 = {	#Parczew
@@ -125,6 +149,10 @@
 	culture = polish
 	religion = slavic_pagan
 	holding = tribal_holding
+	1440.1.1 = {
+		religion = catholic
+		holding = castle_holding
+	}
 	
 }
 4966 = {	#Mielec
@@ -141,6 +169,10 @@
 	culture = polish
 	religion = slavic_pagan
 	holding = tribal_holding
+	1440.1.1 = {
+		religion = catholic
+		holding = castle_holding
+	}
 	
 }
 4901 = {	#Miedzyrzecz
@@ -164,6 +196,10 @@
 	culture = polish
 	religion = slavic_pagan
 	holding = tribal_holding
+	1440.1.1 = {
+		religion = catholic
+		holding = castle_holding
+	}
 	
 }
 4906 = {	#Sroda
@@ -183,6 +219,10 @@
 	culture = polish
 	religion = slavic_pagan
 	holding = tribal_holding
+	1440.1.1 = {
+		religion = catholic
+		holding = castle_holding
+	}
 	
 }
 4910 = {	#Kozmin
@@ -198,6 +238,10 @@
 	culture = polish
 	religion = slavic_pagan
 	holding = tribal_holding
+	1440.1.1 = {
+		religion = catholic
+		holding = castle_holding
+	}
 	
 }
 4913 = {	#Koscian
@@ -214,6 +258,10 @@
 	culture = polish
 	religion = slavic_pagan
 	holding = tribal_holding
+	1440.1.1 = {
+		religion = catholic
+		holding = castle_holding
+	}
 	
 }
 4916 = {	#Zlotow
@@ -229,6 +277,10 @@
 	culture = saxon
 	religion = slavic_pagan
 	holding = tribal_holding
+	1440.1.1 = {
+		religion = catholic
+		holding = castle_holding
+	}
 	
 }
 3142 = {	#Oderfrankfurt (Zliwitz)
@@ -249,6 +301,10 @@
 	culture = polish
 	religion = slavic_pagan
 	holding = tribal_holding
+	1440.1.1 = {
+		religion = catholic
+		holding = castle_holding
+	}
 	
 }
 4933 = {	#Wyszogrod
@@ -269,6 +325,10 @@
 	culture = polish
 	religion = slavic_pagan
 	holding = tribal_holding
+	1440.1.1 = {
+		religion = catholic
+		holding = castle_holding
+	}
 	
 }
 4936 = {	#Warszawa
@@ -291,6 +351,10 @@
 	culture = polish
 	religion = slavic_pagan	
 	holding = tribal_holding
+	1440.1.1 = {
+		religion = catholic
+		holding = castle_holding
+	}
 	
 }
 4941 = {	#Rawa
@@ -310,6 +374,10 @@
 	culture = polish
 	religion = slavic_pagan
 	holding = tribal_holding
+	1440.1.1 = {
+		religion = catholic
+		holding = castle_holding
+	}
 	
 }
 4944 = {	#Wizna
@@ -325,6 +393,10 @@
 	culture = polish
 	religion = slavic_pagan
 	holding = tribal_holding
+	1440.1.1 = {
+		religion = catholic
+		holding = castle_holding
+	}
 	
 }
 4947 = {	#Nur
@@ -345,6 +417,10 @@
 	culture = silesian
 	religion = slavic_pagan
 	holding = tribal_holding
+	1440.1.1 = {
+		religion = catholic
+		holding = castle_holding
+	}
 	
 }
 3053 = {	#Kreuzburg / Kluczbork
@@ -361,6 +437,10 @@
 	culture = silesian
 	religion = slavic_pagan
 	holding = tribal_holding
+	1440.1.1 = {
+		religion = catholic
+		holding = castle_holding
+	}
 	
 }
 3055 = {	#Olawa
@@ -377,6 +457,10 @@
 	culture = silesian
 	religion = slavic_pagan
 	holding = tribal_holding
+	1440.1.1 = {
+		religion = catholic
+		holding = castle_holding
+	}
 	
 }
 3050 = {	#Glogowek
@@ -393,6 +477,10 @@
 	culture = silesian
 	religion = slavic_pagan
 	holding = tribal_holding
+	1440.1.1 = {
+		religion = catholic
+		holding = castle_holding
+	}
 	
 }
 3041 = {	#Bielsko
@@ -405,6 +493,10 @@
 	culture = silesian
 	religion = slavic_pagan
 	holding = tribal_holding
+	1440.1.1 = {
+		religion = catholic
+		holding = castle_holding
+	}
 	
 }
 3043 = {	#Rybnik
@@ -417,6 +509,10 @@
 	culture = silesian
 	religion = slavic_pagan
 	holding = tribal_holding
+	1440.1.1 = {
+		religion = catholic
+		holding = castle_holding
+	}
 	
 }
 3054 = {	#Lubliniec
@@ -430,6 +526,10 @@
 	culture = silesian
 	religion = slavic_pagan
 	holding = tribal_holding
+	1440.1.1 = {
+		religion = catholic
+		holding = castle_holding
+	}
 	
 }
 3057 = {	#Bardo
@@ -442,6 +542,10 @@
 	culture = silesian
 	religion = slavic_pagan
 	holding = tribal_holding
+	1440.1.1 = {
+		religion = catholic
+		holding = castle_holding
+	}
 	
 }
 3062 = {	#Olesnica
@@ -454,6 +558,10 @@
 	culture = silesian
 	religion = slavic_pagan
 	holding = tribal_holding
+	1440.1.1 = {
+		religion = catholic
+		holding = castle_holding
+	}
 	
 }
 3146 = {	#Siedlischo
@@ -470,6 +578,10 @@
 	culture = sorbian
 	religion = slavic_pagan
 	holding = tribal_holding
+	1440.1.1 = {
+		religion = catholic
+		holding = castle_holding
+	}
 	
 }
 3139 = {	#Gubin
@@ -486,6 +598,10 @@
 	culture = sorbian
 	religion = slavic_pagan
 	holding = tribal_holding
+	1440.1.1 = {
+		religion = catholic
+		holding = castle_holding
+	}
 	
 }
 3066 = {	#Zagan
@@ -501,6 +617,10 @@
 	culture = sorbian
 	religion = slavic_pagan
 	holding = tribal_holding
+	1440.1.1 = {
+		religion = catholic
+		holding = castle_holding
+	}
 	
 }
 3069 = {	#Wlen
@@ -517,6 +637,10 @@
 	culture = silesian
 	religion = slavic_pagan
 	holding = tribal_holding
+	1440.1.1 = {
+		religion = catholic
+		holding = castle_holding
+	}
 	
 }
 3063 = {	#Glogow
@@ -534,6 +658,10 @@
 	culture = polish
 	religion = slavic_pagan
 	holding = tribal_holding
+	1440.1.1 = {
+		religion = catholic
+		holding = castle_holding
+	}
 	
 }
 4919 = {	#Wloclawek
@@ -554,6 +682,10 @@
 	culture = polish
 	religion = slavic_pagan
 	holding = tribal_holding
+	1440.1.1 = {
+		religion = catholic
+		holding = castle_holding
+	}
 	
 }
 4923 = {	#Michalowo
@@ -565,6 +697,10 @@
 	culture = polish
 	religion = slavic_pagan
 	holding = tribal_holding
+	1440.1.1 = {
+		religion = catholic
+		holding = castle_holding
+	}
 	
 }
 4925 = {	#Lodz
@@ -579,6 +715,10 @@
 	culture = polish
 	religion = slavic_pagan
 	holding = tribal_holding
+	1440.1.1 = {
+		religion = catholic
+		holding = castle_holding
+	}
 	
 }
 4927 = {	#Piotrkow
@@ -602,6 +742,10 @@
 	culture = polish
 	religion = slavic_pagan
 	holding = tribal_holding
+	1440.1.1 = {
+		religion = catholic
+		holding = castle_holding
+	}
 	
 }
 4932 = {	#Grabow

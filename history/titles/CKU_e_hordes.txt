@@ -1,0 +1,69 @@
+#Crimea = {
+	d_crimea = {
+		1440.1.1 = {
+			holder = CKU_crimea_1
+			liege = 0
+		}
+	}
+	d_azov = {
+		1440.1.1 = {
+			holder = CKU_crimea_1
+		}
+	}
+	d_don_valley = {
+		1440.1.1 = {
+			holder = CKU_crimea_1
+		}
+	}
+	d_levedia = {
+		1440.1.1 = {
+			holder = CKU_crimea_1
+		}
+	}
+#}
+#Kazan = {
+	d_kazan = {
+		1440.1.1 = {
+			holder = CKU_kazan_1
+		}
+	}
+	d_mordvinia = {
+		1440.1.1 = {
+			holder = CKU_kazan_1
+		}
+	}
+	d_volga_bulgaria = {
+		1440.1.1 = {
+			holder = CKU_kazan_1
+		}
+	}
+#}
+
+#Golden Horde = {
+	k_caspian_steppe = {
+		1440.1.1 = {
+			holder = CKU_golden_horde_1
+			name = CKU_golden_horde
+		}
+	}
+	d_itil = {
+		1440.1.1 = {
+			holder = CKU_golden_horde_1
+		}
+	}
+	d_khazaria = {
+		1440.1.1 = {
+			holder = CKU_golden_horde_1
+		}
+	}
+	k_mordvinia = {
+		1440.1.1 = {
+			holder = CKU_golden_horde_1
+		}
+	}
+	c_sarysyn = {
+		1440.1.1 = {
+			holder = CKU_golden_horde_1
+		}
+	}
+#}

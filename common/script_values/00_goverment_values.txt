@@ -96,8 +96,4 @@ war_declaration_rights_allowed_cost_reduction_tooltip = {
 max_contract_changes = 3
 
 #republic government values
-exempt_republican_tax = 0
-low_republican_tax = 0.25
-normal_republican_tax = 0.40
-high_republican_tax = 0.55
-extortionate_republican_tax = 0.70
+governorship_tax_increase = 0.25

@@ -192,6 +192,9 @@ CKU_montferrat_6_0 = {
 
 	female = yes
 
+	father = CKU_savoy_2
+	mother = CKU_savoy_2_1
+
 	1392.7.16 = {
 		birth = yes
 	}
@@ -273,6 +276,9 @@ CKU_montferrat_9 = {
 	mother = CKU_montferrat_6_0
 	1412.6.24 = {
 		birth = yes
+	}
+	1458.1.1 = {
+		add_spouse = CKU_savoy_15
 	}
 	1464.1.19 = {
 		death = yes

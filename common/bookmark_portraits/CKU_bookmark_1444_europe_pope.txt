@@ -1,10 +1,11 @@
 # Auto generated file, do not edit manually. Created using console command dump_bookmark_portraits
 # History database id:CKU_italian_1
-bookmark_europe_1444_pope={
+bookmark_1444_europe_pope={
 	type=male
 	id=1214862846
 	age=0.610000
-	genes={ 		hair_color={ 15 237 200 193 }
+	genes={ 		
+		hair_color={ 15 237 200 193 }
  		skin_color={ 71 95 132 103 }
  		eye_color={ 65 170 74 132 }
  		gene_chin_forward={ "chin_forward_neg" 135 "chin_forward_neg" 121 }

@@ -2,7 +2,7 @@
 ##d_venice ###################################
 ###c_venezia
 2517 = {	#VENEZIA
-	culture = cisalpine
+	culture = venetian
 	religion = catholic
 	holding = castle_holding
 	#
@@ -12,13 +12,14 @@
 
 ###c_veneto
 2506 = {	#MESTRE
-	culture = cisalpine
+	culture = venetian
 	religion = catholic
 	holding = castle_holding
 }
 
 2504 = {	#CHIOGGIA
 	holding = city_holding
+	culture = venetian
 }
 
 

@@ -1,0 +1,86 @@
+#Novgorod = {
+	k_novgorod = {
+		1440.1.1 = {
+			holder = CKU_russian_major_1
+			government = republic_government
+		}
+	}
+	k_bjarmaland = {
+		1440.1.1 = {
+			holder = CKU_russian_major_1
+		}
+	}
+	d_karelia = {
+		1440.1.1 = {
+			holder = CKU_russian_major_1
+		}
+	}
+	d_guoldat = {
+		1440.1.1 = {
+			holder = CKU_russian_major_1
+		}
+	}
+#}
+# Pskov = {
+	c_pskov = {
+		1440.1.1 = {
+			holder = CKU_russian_major_2
+			government = republic_government
+			liege = k_opolye
+		}
+	}
+#}
+# Muscovy = {
+	k_opolye = {
+		1440.1.1 = {
+			holder = CKU_rurikid_1
+			name = CKU_muscovy
+		}
+	}
+	d_vologda = {
+		1440.1.1 = {
+			holder = CKU_rurikid_1
+		}
+	}
+	d_martyuba = {
+		1440.1.1 = {
+			holder = CKU_rurikid_1
+		}
+	}
+	c_beloozero = {
+		1440.1.1 = {
+			holder = CKU_rurikid_1
+		}
+	}
+	c_bezichi = {
+		1440.1.1 = {
+			holder = CKU_rurikid_1
+		}
+	}
+	c_totma = {
+		1440.1.1 = {
+			holder = CKU_rurikid_1
+		}
+	}
+	c_ustyug = {
+		1440.1.1 = {
+			holder = CKU_rurikid_1
+		}
+	}
+#}
+# Odoyev = {
+	d_novosil = {
+		1440.1.1 = {
+			holder = CKU_rurikid_2
+			liege = 0
+		}
+	}
+#}
+# Ryazan = {
+	d_ryazan = {
+		1440.1.1 = {
+			holder = CKU_rurikid_3
+			liege = 0
+		}
+	}
+#}

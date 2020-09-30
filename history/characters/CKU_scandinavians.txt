@@ -15,7 +15,7 @@
 		name = "Christopher"
 		religion = catholic
 		culture = danish
-		dynasty = 217
+		dynasty = CKU_palatinate_neumarkt
 		1416.1.1 = {
 			birth = yes
 		}

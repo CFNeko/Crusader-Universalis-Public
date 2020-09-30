@@ -286,16 +286,17 @@ special_contract = {
 			parent = special_contract_none
 			position = { 2 3 }
 			
-			tax_factor = palatinate_contract_taxes
-			levies_factor = palatinate_contract_levies
+			tax = governorship_tax_increase
 			
 			liege_modifier = {
-				monthly_prestige_gain_mult = 0.05
+				domain_limit = -1
 			}
 			
 			vassal_modifier = {
-				prestige = 1
+				domain_tax_mult = 0.10
+				ai_war_chance = 0
 			}
+			
 			
 			flag = forced_into_stadholder
 			

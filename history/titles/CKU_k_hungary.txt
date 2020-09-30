@@ -1,5 +1,0 @@
-k_hungary = {
-	1440.1.1 = {
-		holder = CKU_hungarian_1
-	}
-}

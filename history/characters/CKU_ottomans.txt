@@ -1,5 +1,6 @@
 CKU_ottomans_1 = {
 	name = "Mehmed II"
+	dna = CKU_ottomans_1_dna
 	dynasty = CKU_osman
 	martial = 3
 	diplomacy = 6

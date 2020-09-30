@@ -127,8 +127,7 @@
 	special_building = palace_of_aachen_01
 }
 2448 = {	#LIMBOURG
-	holding = none
-	
+	holding = city_holding
 }
 2093 = {	#DUREN
 	holding = city_holding

@@ -340,6 +340,10 @@
 	culture = saxon
 	religion = slavic_pagan
 	holding = tribal_holding
+	1440.1.1 = {
+		religion = catholic
+		holding = castle_holding
+	}
 	
 	
 }
@@ -382,6 +386,10 @@
 	culture = saxon
 	religion = slavic_pagan
 	holding = tribal_holding
+	1440.1.1 = {
+		religion = catholic
+		holding = castle_holding
+	}
 	
 	
 }
@@ -401,6 +409,10 @@
 	culture = saxon
 	religion = slavic_pagan
 	holding = tribal_holding
+	1440.1.1 = {
+		religion = catholic
+		holding = castle_holding
+	}
 	
 	
 }
@@ -414,6 +426,10 @@
 	culture = saxon
 	religion = slavic_pagan
 	holding = tribal_holding
+	1440.1.1 = {
+		religion = catholic
+		holding = castle_holding
+	}
 	
 	
 }
@@ -438,6 +454,10 @@
 	culture = saxon
 	religion = slavic_pagan
 	holding = tribal_holding
+	1440.1.1 = {
+		religion = catholic
+		holding = castle_holding
+	}
 	
 }
 3141 = {	#KAMENZ
@@ -454,6 +474,10 @@
 	culture = sorbian
 	religion = slavic_pagan
 	holding = tribal_holding
+	1440.1.1 = {
+		religion = catholic
+		holding = castle_holding
+	}
 	
 }
 3032 = {	#BAUTZEN
@@ -470,6 +494,10 @@
 	culture = saxon
 	religion = slavic_pagan
 	holding = tribal_holding
+	1440.1.1 = {
+		religion = catholic
+		holding = castle_holding
+	}
 	
 }
 3178 = {	#DAHME
@@ -482,6 +510,10 @@
 	culture = saxon
 	religion = slavic_pagan
 	holding = tribal_holding
+	1440.1.1 = {
+		religion = catholic
+		holding = castle_holding
+	}
 	
 	
 }
@@ -506,6 +538,10 @@
 	culture = saxon
 	religion = slavic_pagan
 	holding = tribal_holding
+	1440.1.1 = {
+		religion = catholic
+		holding = castle_holding
+	}
 	
 	
 	
@@ -527,6 +563,10 @@
 	culture = sorbian
 	religion = slavic_pagan
 	holding = tribal_holding
+	1440.1.1 = {
+		religion = catholic
+		holding = castle_holding
+	}
 	
 }
 3138 = {	#FORST
@@ -540,6 +580,10 @@
 	culture = saxon
 	religion = slavic_pagan
 	holding = tribal_holding
+	1440.1.1 = {
+		religion = catholic
+		holding = castle_holding
+	}
 	# Christianity only arrived with the Danish king Valdemar I
 	
 	
@@ -610,6 +654,10 @@
 	culture = saxon
 	religion = catholic
 	holding = tribal_holding
+	1440.1.1 = {
+		religion = catholic
+		holding = castle_holding
+	}
 	
 	
 }

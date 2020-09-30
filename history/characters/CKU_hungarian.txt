@@ -4,7 +4,8 @@
 		name = "Janos"
 		religion = catholic
 		culture = hungarian
-		1430.1.1 = {
+		dynasty = CKU_hunyadi
+		1406.1.1 = {
 			birth = yes
 		}
 	}

@@ -1,0 +1,33 @@
+# Crimea = {
+	CKU_crimea_1 = {
+		name = "Haji"
+		dynasty = 11100
+		religion = muwalladi
+		culture = mongol
+		1400.1.1 = {
+			birth = yes
+		}
+	}
+#}
+# Kazan = {
+	CKU_kazan_1 = {
+		name = "Ulugh Mohammad"
+		dynasty = 11100
+		religion = muwalladi
+		culture = mongol
+		1400.1.1 = {
+			birth = yes
+		}
+	}
+#}
+# Golden Horde = {
+	CKU_golden_horde_1 = {
+		name = "Küchük Mohammad"
+		dynasty = 11100
+		religion = muwalladi
+		culture = mongol
+		1400.1.1 = {
+			birth = yes
+		}
+	}
+#}

@@ -31,3 +31,27 @@
 		}
 	}
 #}
+# Balkans = {
+	CKU_serbian_1 = {
+		name = "Stephen"
+		religion = orthodox
+		culture = serbian
+		1410.1.1 = {
+			birth = yes
+		}
+		1447.1.1 = {
+			death = yes
+		}
+	}
+	CKU_bosnian_1 = {
+		name = "Stephen"
+		religion = orthodox
+		culture = bosnian
+		1410.1.1 = {
+			birth = yes
+		}
+		1447.1.1 = {
+			death = yes
+		}
+	}
+#}

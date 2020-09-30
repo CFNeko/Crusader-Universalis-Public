@@ -2,49 +2,55 @@
 ##d_sicily ###################################
 ###c_palermo
 2635 = {	#PALERMO
-	culture = greek
-	religion = orthodox
+	culture = sicilian
+	religion = catholic
 	holding = castle_holding
 	
 	
 }
 2636 = {	#TRAPANI
 	holding = city_holding
+	culture = sicilian
 }
 2645 = {	#CALATAFIMI
 	holding = none
+	culture = sicilian
 	#Void to leave empty holdings
 }
 2644 = {	#MAZARA
 	holding = none
+	culture = sicilian
 	
 }
 
 ###c_messina
 2633 = {	#MESSINA
-	culture = greek
-	religion = orthodox
+	culture = sicilian
+	religion = catholic
 	holding = castle_holding
 	
 	
 }
 2634 = {	#CEFALU
 	holding = city_holding
+	culture = sicilian
 }
 2639 = {	#CATANIA
 	holding = church_holding
+	culture = sicilian
 }
 
 ###c_siracusa
 2638 = {	#SYRACUSE
-	culture = greek
-	religion = orthodox
+	culture = sicilian
+	religion = catholic
 	holding = castle_holding
 	
 	
 }
 2643 = {	#LENTINI
 	holding = none
+	culture = sicilian
 }
 2642 = {	#CALTAGIRONE
 	holding = city_holding
@@ -52,23 +58,25 @@
 
 ###c_agrigento
 2637 = {	#AGRICENTO
-	culture = greek
-	religion = orthodox
+	culture = sicilian
+	religion = catholic
 	holding = castle_holding
 	
 	
 }
 2640 = {	#CASTROGIOVANNI
 	holding = none
+	culture = sicilian
 }
 2641 = {	#CALTANISETTA
 	holding = city_holding
+	culture = sicilian
 }
 
 ###c_malta
 2646 = {	#MALTA
-	culture = greek
-	religion = orthodox
+	culture = sicilian
+	religion = catholic
 	holding = castle_holding
 	
 	
@@ -77,25 +85,28 @@
 ##d_benevento ###################################
 ###c_benevento
 2609 = {	#BENEVENTO
-	culture = lombard
+	culture = neapolitan
 	religion = catholic
 	holding = castle_holding
 	
 }
 2669 = {	#ALIFE
 	holding = none
+	culture = neapolitan
 }
 2607 = {	#ISERNIA
 	holding = church_holding
+	culture = neapolitan
 }
 2615 = {	#MELFI
 	holding = none
+	culture = neapolitan
 	
 }
 
 ###c_foggia
 2610 = {	#LUCERA
-	culture = lombard
+	culture = neapolitan
 	religion = catholic
 	holding = castle_holding
 	
@@ -103,38 +114,42 @@
 }
 2605 = {	#LARINO
 	holding = none
+	culture = neapolitan
 }
 
 ##d_capua ###################################
 ###c_capua
 2606 = {	#CAPUA
-	culture = lombard
+	culture = neapolitan
 	religion = catholic
 	holding = castle_holding
 	
 }
 2593 = {	#GAETA
 	holding = city_holding
+	culture = neapolitan
 }
 2602 = {	#CASSINO
 	holding = none
+	culture = neapolitan
 }
 
 ###c_napoli
 2608 = {	#NAPOLI
-	culture = greek
-	religion = orthodox
+	culture = neapolitan
+	religion = catholic
 	holding = castle_holding
 	
 }
 2611 = {	#AMALFI
 	holding = city_holding
+	culture = neapolitan
 }
 
 ##d_apulia ###################################
 ###c_apulia
 2619 = {	#TRANI
-	culture = lombard
+	culture = neapolitan
 	religion = catholic
 	holding = castle_holding
 	
@@ -144,41 +159,46 @@
 }
 2618 = {	#VENOSA
 	holding = none
+	culture = neapolitan
 	#void to leave some empty holdings
 }
 2617 = {	#ACERENZA
 	holding = church_holding
+	culture = neapolitan
 }
 
 ###c_bari
 2623 = {	#BARI
-	culture = lombard
+	culture = neapolitan
 	religion = catholic
 	holding = castle_holding
 	
 }
 2624 = {	#MATERA
 	holding = church_holding
+	culture = neapolitan
 }
 2621 = {	#TARANTO
 	holding = city_holding
+	culture = neapolitan
 }
 
 ###c_lecce
 2622 = {	#BRINDISI
-	culture = greek
-	religion = orthodox
+	culture = neapolitan
+	religion = catholic
 	holding = castle_holding
 	
 }
 2620 = {	#ORLANTO
 	holding = none
+	culture = greek
 }
 
 ##d_salerno ###################################
 ###c_salerno
 2612 = {	#SALERNO
-	culture = lombard
+	culture = neapolitan
 	religion = catholic
 	holding = castle_holding
 	
@@ -188,51 +208,56 @@
 }
 2616 = {	#POTENZA
 	holding = none
+	culture = neapolitan
 }
 
 ###c_camarda
 2631 = {	#CAMARDA
-	culture = lombard
+	culture = neapolitan
 	religion = catholic
 	holding = castle_holding
 	
 }
 2632 = {	#STIGLIANO
 	holding = none
+	culture = neapolitan
 }
 
 ##d_calabria ###################################
 ###c_reggio_calabria
 2627 = {
-	culture = greek
-	religion = orthodox
+	culture = sicilian
+	religion = catholic
 	holding = castle_holding
 	
 	
 }
 2626 = {	#SQUILLUCE
 	holding = city_holding
+	culture = neapolitan
 }
 
 ###c_cosenza
 2628 = {	#COSENZA
-	culture = greek
-	religion = orthodox
+	culture = neapolitan
+	religion = catholic
 	holding = castle_holding
 	
 }
 2630 = {	#CASTROVILLARI
 	holding = none
+	culture = neapolitan
 	
 }
 
 ###c_rossano
 2629 = {	#ROSSANO
-	culture = greek
-	religion = orthodox
+	culture = neapolitan
+	religion = catholic
 	holding = castle_holding
 	
 }
 2625 = {	#COTRONE
 	holding = church_holding
+	culture = neapolitan
 }

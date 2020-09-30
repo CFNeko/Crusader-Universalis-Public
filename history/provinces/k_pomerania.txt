@@ -5,6 +5,10 @@
 	culture = pommeranian
 	religion = slavic_pagan
 	holding = tribal_holding
+	1440.1.1 = {
+		religion = catholic
+		holding = castle_holding
+	}
 	
 	
 }
@@ -22,6 +26,10 @@
 	culture = pommeranian
 	religion = slavic_pagan
 	holding = tribal_holding
+	1440.1.1 = {
+		religion = catholic
+		holding = castle_holding
+	}
 	
 	
 }
@@ -43,6 +51,10 @@
 	culture = pommeranian
 	religion = slavic_pagan
 	holding = tribal_holding
+	1440.1.1 = {
+		religion = catholic
+		holding = castle_holding
+	}
 	
 	
 }
@@ -55,6 +67,10 @@
 	culture = pommeranian
 	religion = slavic_pagan
 	holding = tribal_holding
+	1440.1.1 = {
+		religion = catholic
+		holding = castle_holding
+	}
 	
 	
 }
@@ -72,6 +88,10 @@
 	culture = pommeranian
 	religion = slavic_pagan
 	holding = tribal_holding
+	1440.1.1 = {
+		religion = catholic
+		holding = castle_holding
+	}
 	
 	
 }
@@ -88,6 +108,10 @@
 	culture = pommeranian
 	religion = slavic_pagan
 	holding = tribal_holding
+	1440.1.1 = {
+		religion = catholic
+		holding = castle_holding
+	}
 	
 	
 }
@@ -109,6 +133,10 @@
 	culture = pommeranian
 	religion = slavic_pagan
 	holding = tribal_holding
+	1440.1.1 = {
+		religion = catholic
+		holding = castle_holding
+	}
 	
 	
 }
@@ -130,6 +158,10 @@
 	culture = pommeranian
 	religion = slavic_pagan
 	holding = tribal_holding
+	1440.1.1 = {
+		religion = catholic
+		holding = castle_holding
+	}
 	
 	
 }
@@ -150,6 +182,10 @@
 	culture = pommeranian
 	religion = slavic_pagan
 	holding = tribal_holding
+	1440.1.1 = {
+		religion = catholic
+		holding = castle_holding
+	}
 	
 	
 }
@@ -162,6 +198,10 @@
 	culture = pommeranian
 	religion = slavic_pagan
 	holding = tribal_holding
+	1440.1.1 = {
+		religion = catholic
+		holding = castle_holding
+	}
 	
 	
 }
@@ -181,6 +221,10 @@
 	culture = pommeranian
 	religion = slavic_pagan
 	holding = tribal_holding
+	1440.1.1 = {
+		religion = catholic
+		holding = castle_holding
+	}
 	
 	
 }
@@ -201,6 +245,10 @@
 	culture = pommeranian
 	religion = slavic_pagan
 	holding = tribal_holding
+	1440.1.1 = {
+		religion = catholic
+		holding = castle_holding
+	}
 	
 	
 }
@@ -214,6 +262,10 @@
 	culture = pommeranian
 	religion = slavic_pagan
 	holding = tribal_holding
+	1440.1.1 = {
+		religion = catholic
+		holding = castle_holding
+	}
 	
 	
 }
@@ -226,6 +278,10 @@
 	culture = pommeranian
 	religion = slavic_pagan
 	holding = tribal_holding
+	1440.1.1 = {
+		religion = catholic
+		holding = castle_holding
+	}
 	
 	
 }
@@ -239,6 +295,10 @@
 	culture = pommeranian
 	religion = slavic_pagan
 	holding = tribal_holding
+	1440.1.1 = {
+		religion = catholic
+		holding = castle_holding
+	}
 	
 	
 }
@@ -258,6 +318,10 @@
 	culture = pommeranian
 	religion = slavic_pagan
 	holding = tribal_holding
+	1440.1.1 = {
+		religion = catholic
+		holding = castle_holding
+	}
 	
 	
 }
@@ -278,6 +342,10 @@
 	culture = pommeranian
 	religion = slavic_pagan
 	holding = tribal_holding
+	1440.1.1 = {
+		religion = catholic
+		holding = castle_holding
+	}
 	
 	
 }
@@ -293,6 +361,10 @@
 	culture = pommeranian
 	religion = slavic_pagan
 	holding = tribal_holding
+	1440.1.1 = {
+		religion = catholic
+		holding = castle_holding
+	}
 	
 	
 }
@@ -308,6 +380,10 @@
 	culture = pommeranian
 	religion = slavic_pagan
 	holding = tribal_holding
+	1440.1.1 = {
+		religion = catholic
+		holding = castle_holding
+	}
 	
 	
 }
@@ -320,6 +396,10 @@
 	culture = pommeranian
 	religion = slavic_pagan
 	holding = tribal_holding
+	1440.1.1 = {
+		religion = catholic
+		holding = castle_holding
+	}
 	
 	
 }

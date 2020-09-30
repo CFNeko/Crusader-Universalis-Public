@@ -228,5 +228,14 @@
 			holder = CKU_jagiellon_1
 		}
 	}
-	
+	c_samar = {
+		1440.1.1 = {
+			holder = CKU_jagiellon_1
+		}
+	}
+	c_oskol = {
+		1440.1.1 = {
+			holder = CKU_jagiellon_1
+		}
+	}
 #}

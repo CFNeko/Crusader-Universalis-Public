@@ -329,6 +329,9 @@
 		pass_cost = {
 			prestige = change_succession_law_prestige_cost
 		}
+		ai_will_do = {
+			value = 0
+		}
 	}
 
 	bishop_theocratic_succession_law = {

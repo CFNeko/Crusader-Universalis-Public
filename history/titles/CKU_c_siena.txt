@@ -1,6 +1,0 @@
-c_siena = {
-	government = republic_government
-	1358.1.1 = {
-		holder = 413017
-	}
-}

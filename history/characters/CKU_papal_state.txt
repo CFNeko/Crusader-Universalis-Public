@@ -1,5 +1,6 @@
 ﻿CKU_papal_state_1 = {
 	name = "Eugenio IV"
+	dna = CKU_papal_state_1_dna
 	dynasty = 442
 	martial = 3
 	diplomacy = 6

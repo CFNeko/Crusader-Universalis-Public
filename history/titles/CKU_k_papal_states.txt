@@ -47,3 +47,8 @@ c_viterbo = {
 		holder = CKU_papal_state_1
 	}
 }
+c_venaissin = {
+	1442.1.1 = {
+		holder = CKU_papal_state_1
+	}
+}

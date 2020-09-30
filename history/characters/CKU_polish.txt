@@ -1,6 +1,6 @@
-﻿
-CKU_polish_1 = {
+﻿CKU_polish_1 = {
 	name = "Regent"
+	dynasty = CKU_jagiellon
 	martial = 3
 	diplomacy = 6
 	intrigue = 4

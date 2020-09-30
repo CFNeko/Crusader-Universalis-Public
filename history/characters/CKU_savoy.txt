@@ -1,4 +1,4 @@
-CKU_savoy_0 = {
+CKU_savoy_1 = {
 	name = Bianca
 	dynasty = 240
 	female = yes
@@ -20,7 +20,295 @@ CKU_savoy_0 = {
 	}
 }
 
-CKU_savoy_1 = {
+CKU_savoy_2 = {
+	name = "Amedeo VII"
+	dynasty = 240
+	martial = 3
+	diplomacy = 6
+	intrigue = 4
+	stewardship = 7
+	religion = "catholic"
+	culture = venetian
+	trait = wrathful
+	trait = deceitful
+	trait = arrogant
+	trait = education_martial_3
+
+	father = 462155
+	1360.2.25 = {
+		birth = yes
+	}
+	1377.1.1 = {
+		add_spouse = CKU_savoy_2_1
+	}
+	1391.11.1 = {
+		death = yes
+	}
+}
+
+CKU_savoy_2_1 = {
+	name = "Bona"
+	dynasty = 240
+	martial = 3
+	diplomacy = 6
+	intrigue = 4
+	stewardship = 7
+	religion = "catholic"
+	culture = venetian
+	trait = wrathful
+	trait = deceitful
+	trait = arrogant
+	trait = education_martial_3
+	dynasty = CKU_berry
+
+	female = yes
+	1362.2.25 = {
+		birth = yes
+	}
+	1435.12.30 = {
+		death = yes
+	}
+}
+
+CKU_savoy_3 = {
+	name = "Amedeo VIII"
+	dynasty = 240
+	martial = 3
+	diplomacy = 6
+	intrigue = 4
+	stewardship = 7
+	religion = "catholic"
+	culture = venetian
+	trait = wrathful
+	trait = deceitful
+	trait = arrogant
+	trait = education_martial_3
+
+	father = CKU_savoy_2
+	mother = CKU_savoy_2_1
+	1383.9.4 = {
+		birth = yes
+	}
+	1401.5.6 = {
+		add_spouse = CKU_savoy_3_1
+	}
+	1451.1.7 = {
+		death = yes
+	}
+}
+
+CKU_savoy_3_1 = {
+	name = "Marie"
+	female = yes
+	dynasty = CKU_valois_bourgogne
+	martial = 3
+	diplomacy = 6
+	intrigue = 4
+	stewardship = 7
+	religion = "catholic"
+	culture = venetian
+	trait = wrathful
+	trait = deceitful
+	trait = arrogant
+	trait = education_martial_3
+
+	father = CKU_bourgogne_1
+	1386.9.1 = {
+		birth = yes
+	}
+	1401.5.6 = {
+		add_spouse = CKU_savoy_3_1
+	}
+	1422.10.2 = {
+		death = yes
+	}
+}
+
+CKU_savoy_4 = {
+	name = "Bona"
+	dynasty = 240
+	martial = 3
+	diplomacy = 6
+	intrigue = 4
+	stewardship = 7
+	religion = "catholic"
+	culture = venetian
+	trait = wrathful
+	trait = deceitful
+	trait = arrogant
+	trait = education_martial_3
+
+	female = yes
+
+	father = CKU_savoy_2
+	mother = CKU_savoy_2_1
+	1388.10.11 = {
+		birth = yes
+	}
+	1412.11.3 = {
+		add_spouse = CKU_savoy_4_1
+	}
+	1432.3.4 = {
+		death = yes
+	}
+}
+
+CKU_savoy_4_1 = {
+	name = "Ludovico I"
+	dynasty = 240
+	martial = 3
+	diplomacy = 6
+	intrigue = 4
+	stewardship = 7
+	religion = "catholic"
+	culture = venetian
+	trait = wrathful
+	trait = deceitful
+	trait = arrogant
+	trait = education_martial_3
+
+	female = yes
+
+	father = CKU_savoy_2
+	mother = CKU_savoy_2_1
+	1388.10.11 = {
+		birth = yes
+	}
+	1412.11.3 = {
+		add_spouse = CKU_savoy_4
+	}
+	1432.3.4 = {
+		death = yes
+	}
+}
+
+CKU_savoy_5 = {
+	name = "Margherita"
+	dynasty = 240
+	martial = 3
+	diplomacy = 6
+	intrigue = 4
+	stewardship = 7
+	religion = "catholic"
+	culture = venetian
+	trait = wrathful
+	trait = deceitful
+	trait = arrogant
+	trait = education_martial_3
+
+	father = CKU_savoy_3
+	mother = CKU_savoy_3_1
+
+	female = yes
+	1405.1.1 = {
+		birth = yes
+	}
+	1418.1.1 = {
+		death = yes
+	}
+}
+
+CKU_savoy_6 = {
+	name = "Antonio"
+	dynasty = 240
+	martial = 3
+	diplomacy = 6
+	intrigue = 4
+	stewardship = 7
+	religion = "catholic"
+	culture = venetian
+	trait = wrathful
+	trait = deceitful
+	trait = arrogant
+	trait = education_martial_3
+
+	father = CKU_savoy_3
+	mother = CKU_savoy_3_1
+
+	1408.1.1 = {
+		birth = yes
+	}
+	1408.1.1 = {
+		death = yes
+	}
+}
+
+CKU_savoy_7 = {
+	name = "Antonio"
+	dynasty = 240
+	martial = 3
+	diplomacy = 6
+	intrigue = 4
+	stewardship = 7
+	religion = "catholic"
+	culture = venetian
+	trait = wrathful
+	trait = deceitful
+	trait = arrogant
+	trait = education_martial_3
+
+	father = CKU_savoy_3
+	mother = CKU_savoy_3_1
+
+	1409.1.1 = {
+		birth = yes
+	}
+	1409.1.1 = {
+		death = yes
+	}
+}
+
+CKU_savoy_8 = {
+	name = "Maria"
+	dynasty = 240
+	martial = 3
+	diplomacy = 6
+	intrigue = 4
+	stewardship = 7
+	religion = "catholic"
+	culture = venetian
+	trait = wrathful
+	trait = deceitful
+	trait = arrogant
+	trait = education_martial_3
+
+	father = CKU_savoy_3
+	mother = CKU_savoy_3_1
+
+	female = yes
+	1411.1.1 = {
+		birth = yes
+	}
+	1469.2.22 = {
+		death = yes
+	}
+}
+
+CKU_savoy_9 = {
+	name = "Amedeo"
+	dynasty = 240
+	martial = 3
+	diplomacy = 6
+	intrigue = 4
+	stewardship = 7
+	religion = "catholic"
+	culture = venetian
+	trait = wrathful
+	trait = deceitful
+	trait = arrogant
+	trait = education_martial_3
+
+	father = CKU_savoy_3
+	mother = CKU_savoy_3_1
+	1412.1.1 = {
+		birth = yes
+	}
+	1431.1.29 = {
+		death = yes
+	}
+}
+
+CKU_savoy_10 = {
 	name = "Ludovico"
 	dynasty = 240
 	martial = 3
@@ -33,16 +321,22 @@ CKU_savoy_1 = {
 	trait = deceitful
 	trait = arrogant
 	trait = education_martial_3
+
+	father = CKU_savoy_3
+	mother = CKU_savoy_3_1
 	1413.2.21 = {
 		birth = yes
+	}
+	1434.1.1 = {
+		add_spouse = CKU_savoy_10_1
 	}
 	1465.1.29 = {
 		death = yes
 	}
 }
 
-CKU_savoy_1 = {
-	name = "Ludovico"
+CKU_savoy_10_1 = {
+	name = "Anna di Cipro"
 	dynasty = 240
 	martial = 3
 	diplomacy = 6
@@ -54,10 +348,295 @@ CKU_savoy_1 = {
 	trait = deceitful
 	trait = arrogant
 	trait = education_martial_3
-	1413.2.21 = {
+
+	female = yes
+
+	1419.9.24 = {
 		birth = yes
 	}
-	1465.1.29 = {
+	1434.1.1 = {
+		add_spouse = CKU_savoy_10
+	}
+	1462.11.11 = {
+		death = yes
+	}
+}
+
+CKU_savoy_11 = {
+	name = "Bona"
+	dynasty = 240
+	martial = 3
+	diplomacy = 6
+	intrigue = 4
+	stewardship = 7
+	religion = "catholic"
+	culture = venetian
+	trait = wrathful
+	trait = deceitful
+	trait = arrogant
+	trait = education_martial_3
+
+	father = CKU_savoy_3
+	mother = CKU_savoy_3_1
+	1415.2.21 = {
+		birth = yes
+	}
+	1430.1.29 = {
+		death = yes
+	}
+}
+
+CKU_savoy_12 = {
+	name = "Filippo"
+	dynasty = 240
+	martial = 3
+	diplomacy = 6
+	intrigue = 4
+	stewardship = 7
+	religion = "catholic"
+	culture = venetian
+	trait = wrathful
+	trait = deceitful
+	trait = arrogant
+	trait = education_martial_3
+
+	father = CKU_savoy_3
+	mother = CKU_savoy_3_1
+	1417.2.21 = {
+		birth = yes
+	}
+	1444.1.29 = {
+		death = yes
+	}
+}
+
+CKU_savoy_13 = {
+	name = "Margherita"
+	dynasty = 240
+	martial = 3
+	diplomacy = 6
+	intrigue = 4
+	stewardship = 7
+	religion = "catholic"
+	culture = venetian
+	trait = wrathful
+	trait = deceitful
+	trait = arrogant
+	trait = education_martial_3
+
+	female = yes
+
+	father = CKU_savoy_3
+	mother = CKU_savoy_3_1
+	1420.8.7 = {
+		birth = yes
+	}
+	1479.9.30 = {
+		death = yes
+	}
+}
+
+CKU_savoy_14 = {
+	name = "Amedeo IX"
+	dynasty = 240
+	martial = 3
+	diplomacy = 6
+	intrigue = 4
+	stewardship = 7
+	religion = "catholic"
+	culture = venetian
+	trait = wrathful
+	trait = deceitful
+	trait = arrogant
+	trait = education_martial_3
+
+	father = CKU_savoy_10
+	mother = CKU_savoy_10_1
+	1435.2.1 = {
+		birth = yes
+	}
+	1472.3.30 = {
+		death = yes
+	}
+}
+
+CKU_savoy_13 = {
+	name = "Maria"
+	dynasty = 240
+	martial = 3
+	diplomacy = 6
+	intrigue = 4
+	stewardship = 7
+	religion = "catholic"
+	culture = venetian
+	trait = wrathful
+	trait = deceitful
+	trait = arrogant
+	trait = education_martial_3
+
+	female = yes
+
+	father = CKU_savoy_10
+	mother = CKU_savoy_10_1
+	1436.1.1 = {
+		birth = yes
+	}
+	1437.1.1 = {
+		death = yes
+	}
+}
+
+CKU_savoy_14 = {
+	name = "Luigi Ludovico"
+	dynasty = 240
+	martial = 3
+	diplomacy = 6
+	intrigue = 4
+	stewardship = 7
+	religion = "catholic"
+	culture = venetian
+	trait = wrathful
+	trait = deceitful
+	trait = arrogant
+	trait = education_martial_3
+
+	father = CKU_savoy_10
+	mother = CKU_savoy_10_1
+	1436.6.5 = {
+		birth = yes
+	}
+	1482.8.1 = {
+		death = yes
+	}
+}
+
+CKU_savoy_15 = {
+	name = "Margherita"
+	dynasty = 240
+	martial = 3
+	diplomacy = 6
+	intrigue = 4
+	stewardship = 7
+	religion = "catholic"
+	culture = venetian
+	trait = wrathful
+	trait = deceitful
+	trait = arrogant
+	trait = education_martial_3
+
+	female = yes
+
+	father = CKU_savoy_10
+	mother = CKU_savoy_10_1
+	1439.1.1 = {
+		birth = yes
+	}
+	1458.1.1 = {
+		add_spouse = CKU_montferrat_9
+	}
+	1483.3.9 = {
+		death = yes
+	}
+}
+
+CKU_savoy_16 = {
+	name = "Carlotta"
+	dynasty = 240
+	martial = 3
+	diplomacy = 6
+	intrigue = 4
+	stewardship = 7
+	religion = "catholic"
+	culture = venetian
+	trait = wrathful
+	trait = deceitful
+	trait = arrogant
+	trait = education_martial_3
+
+	female = yes
+
+	father = CKU_savoy_10
+	mother = CKU_savoy_10_1
+
+	1441.1.1 = {
+		birth = yes
+	}
+	1483.1.1 = {
+		death = yes
+	}
+}
+
+CKU_savoy_17 = {
+	name = "Giano"
+	dynasty = 240
+	martial = 3
+	diplomacy = 6
+	intrigue = 4
+	stewardship = 7
+	religion = "catholic"
+	culture = venetian
+	trait = wrathful
+	trait = deceitful
+	trait = arrogant
+	trait = education_martial_3
+
+	father = CKU_savoy_10
+	mother = CKU_savoy_10_1
+
+	1440.1.1 = {
+		birth = yes
+	}
+	1491.12.22 = {
+		death = yes
+	}
+}
+
+CKU_savoy_18 = {
+	name = "Aimone"
+	dynasty = 240
+	martial = 3
+	diplomacy = 6
+	intrigue = 4
+	stewardship = 7
+	religion = "catholic"
+	culture = venetian
+	trait = wrathful
+	trait = deceitful
+	trait = arrogant
+	trait = education_martial_3
+
+	father = CKU_savoy_10
+	mother = CKU_savoy_10_1
+
+	1442.1.1 = {
+		birth = yes
+	}
+	1443.1.1 = {
+		death = yes
+	}
+}
+
+CKU_savoy_19 = {
+	name = "Filippo II"
+	dynasty = 240
+	martial = 3
+	diplomacy = 6
+	intrigue = 4
+	stewardship = 7
+	religion = "catholic"
+	culture = venetian
+	trait = wrathful
+	trait = deceitful
+	trait = arrogant
+	trait = education_martial_3
+
+	father = CKU_savoy_10
+	mother = CKU_savoy_10_1
+
+	1443.2.5 = {
+		birth = yes
+	}
+	1497.11.7 = {
 		death = yes
 	}
 }

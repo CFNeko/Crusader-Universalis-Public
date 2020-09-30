@@ -4,6 +4,7 @@
 	# Misc
 	culture = hungarian
 	religion = tengri_pagan
+1440.1.1 = { religion = catholic }
 	
 	# History
 	
@@ -17,6 +18,7 @@
 	# Misc
 	culture = hungarian
 	religion = tengri_pagan
+1440.1.1 = { religion = catholic }
 	
 	# History
 	
@@ -30,6 +32,7 @@
 	# Misc
 	culture = hungarian
 	religion = tengri_pagan
+1440.1.1 = { religion = catholic }
 	
 	# History
 	
@@ -43,6 +46,7 @@
 	# Misc
 	culture = hungarian
 	religion = tengri_pagan
+1440.1.1 = { religion = catholic }
 	
 	# History
 	
@@ -56,6 +60,7 @@
 	# Misc
 	culture = hungarian
 	religion = tengri_pagan
+1440.1.1 = { religion = catholic }
 	
 	# History
 	
@@ -68,6 +73,7 @@
 	
 	culture = hungarian
 	religion = tengri_pagan
+1440.1.1 = { religion = catholic }
 	
 	# History
 	
@@ -81,6 +87,7 @@
 	# Misc
 	culture = hungarian
 	religion = tengri_pagan
+1440.1.1 = { religion = catholic }
 	
 	# History
 	
@@ -94,6 +101,7 @@
 	# Misc
 	culture = slovak
 	religion = slavic_pagan
+1440.1.1 = { religion = catholic }
 	
 	# History
 	
@@ -107,6 +115,7 @@
 	# Misc
 	culture = slovak
 	religion = slavic_pagan
+1440.1.1 = { religion = catholic }
 	
 	# History
 	
@@ -120,6 +129,7 @@
 	# Misc
 	culture = slovak # White Croats
 	religion = slavic_pagan
+1440.1.1 = { religion = catholic }
 	
 	# History
 	
@@ -133,6 +143,7 @@
 	# Misc
 	culture = hungarian # White Croats
 	religion = slavic_pagan
+1440.1.1 = { religion = catholic }
 	
 	# History
 	
@@ -146,6 +157,7 @@
 	# Misc
 	culture = slovak # White Croats
 	religion = slavic_pagan
+1440.1.1 = { religion = catholic }
 	
 	# History
 	
@@ -159,6 +171,7 @@
 	# Misc
 	culture = ruthenian
 	religion = tengri_pagan
+1440.1.1 = { religion = catholic }
 	
 	# History
 	
@@ -172,6 +185,7 @@
 	# Misc
 	culture = hungarian
 	religion = tengri_pagan
+1440.1.1 = { religion = catholic }
 	
 	# History
 	
@@ -219,6 +233,7 @@
 3802 = {	#3802 - Cegled
 	culture = hungarian
 	religion = tengri_pagan
+1440.1.1 = { religion = catholic }
 	
 	# History
 	
@@ -231,6 +246,7 @@
 3803 = {	#3803 - Buda
 	culture = hungarian
 	religion = tengri_pagan
+1440.1.1 = { religion = catholic }
 	
 	# History
 	
@@ -242,6 +258,7 @@
 3804 = {	#3804 - Kecskemet
 	culture = hungarian
 	religion = tengri_pagan
+1440.1.1 = { religion = catholic }
 	
 	# History
 	
@@ -776,6 +793,7 @@
 	# Misc
 	culture = hungarian
 	religion = tengri_pagan
+1440.1.1 = { religion = catholic }
 	
 	# History
 	
@@ -796,6 +814,7 @@
 	# Misc
 	culture = hungarian
 	religion = tengri_pagan
+1440.1.1 = { religion = catholic }
 	
 	# History
 	
@@ -864,6 +883,7 @@
 	# Misc
 	culture = hungarian
 	religion = tengri_pagan
+1440.1.1 = { religion = catholic }
 	
 	# History
 	
@@ -956,6 +976,7 @@
 	# Misc
 	culture = slovak # White Croats
 	religion = slavic_pagan
+1440.1.1 = { religion = catholic }
 	
 	# History
 	
@@ -991,6 +1012,7 @@
 3889 = {	#3889 - Szabolcs
 	culture = hungarian
 	religion = tengri_pagan
+1440.1.1 = { religion = catholic }
 	
 	# History
 	
@@ -1059,6 +1081,7 @@
 	# Misc
 	culture = hungarian # White Croats
 	religion = slavic_pagan
+1440.1.1 = { religion = catholic }
 	
 	# History
 	
@@ -1112,6 +1135,7 @@
 	# Misc
 	culture = hungarian
 	religion = tengri_pagan
+1440.1.1 = { religion = catholic }
 	
 	# History
 	
@@ -1132,6 +1156,7 @@
 	# Misc
 	culture = hungarian
 	religion = tengri_pagan
+1440.1.1 = { religion = catholic }
 	
 	# History
 	
@@ -1152,6 +1177,7 @@
 	# Misc
 	culture = hungarian
 	religion = tengri_pagan
+1440.1.1 = { religion = catholic }
 	
 	# History
 	
@@ -1258,6 +1284,7 @@
 	# Misc
 	culture = hungarian
 	religion = tengri_pagan
+1440.1.1 = { religion = catholic }
 	
 	# History
 	
@@ -1305,6 +1332,7 @@
 	# Misc
 	culture = hungarian
 	religion = tengri_pagan
+1440.1.1 = { religion = catholic }
 	
 	# History
 	
@@ -1366,6 +1394,7 @@
 	# Misc
 	culture = hungarian
 	religion = tengri_pagan
+1440.1.1 = { religion = catholic }
 	
 	# History
 	
@@ -1445,6 +1474,7 @@
 	# Misc
 	culture = hungarian
 	religion = tengri_pagan
+1440.1.1 = { religion = catholic }
 	
 	# History
 	
@@ -1465,6 +1495,7 @@
 	# Misc
 	culture = hungarian
 	religion = tengri_pagan
+1440.1.1 = { religion = catholic }
 	
 	# History
 	
@@ -1477,6 +1508,7 @@
 	# Misc
 	culture = hungarian
 	religion = tengri_pagan
+1440.1.1 = { religion = catholic }
 	
 	# History
 	
@@ -1532,6 +1564,7 @@
 	# Misc
 	culture = hungarian
 	religion = tengri_pagan
+1440.1.1 = { religion = catholic }
 	
 	# History
 	
@@ -1545,6 +1578,7 @@
 	# Misc
 	culture = hungarian
 	religion = tengri_pagan
+1440.1.1 = { religion = catholic }
 	
 	# History
 	
@@ -1558,6 +1592,7 @@
 	# Misc
 	culture = hungarian
 	religion = tengri_pagan
+1440.1.1 = { religion = catholic }
 	
 	# History
 	
@@ -1598,6 +1633,7 @@
 	# Misc
 	culture = hungarian # White Croats
 	religion = slavic_pagan
+1440.1.1 = { religion = catholic }
 	
 	# History
 	
@@ -1611,6 +1647,7 @@
 	# Misc
 	culture = hungarian
 	religion = slavic_pagan
+1440.1.1 = { religion = catholic }
 	
 	# History
 	

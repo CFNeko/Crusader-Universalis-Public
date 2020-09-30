@@ -1,10 +1,12 @@
 ﻿
 # England {
 	CKU_english_1 = {
-		name = "Timmy"
+		name = "Henri"
+		dynasty = 100058
+		dna = CKU_english_1_dna
 		religion = catholic
 		culture = english
-		1430.1.1 = {
+		1421.12.6 = {
 			birth = yes
 		}
 	}

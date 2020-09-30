@@ -22,7 +22,7 @@
 				dynasty = 12476
 				father = CKU_hohenzollern_1
 				give_nickname = nick_irontooth
-				1413.1.1 = {
+				1413.11.19 = {
 					birth = yes
 				}
 				1471.1.1 = {
@@ -181,7 +181,7 @@
 			trait = calm
 			trait = shy
 			trait = education_diplomacy_3
-			1415.1.1 = {
+			1415.9.21 = {
 				birth = yes
 			}
 		}
@@ -686,7 +686,7 @@
 			name = "Philip"
 			religion = catholic
 			culture = rhenish
-			dynasty = 263
+			#dynasty = 263
 			1418.1.1 = {
 				birth = yes #unknown
 			}
@@ -788,7 +788,7 @@
 			name = "Lodewijk"
 			religion = catholic
 			culture = flemish
-			dynasty = 92
+			dynasty = CKU_dampierre_flanders
 			1330.10.25 = {
 				birth = yes
 			}
@@ -801,7 +801,7 @@
 			female = yes
 			religion = catholic
 			culture = flemish
-			dynasty = 92
+			dynasty = CKU_dampierre_flanders
 			father = CKU_flemish_1
 			1350.4.13 = {
 				birth = yes
@@ -901,7 +901,7 @@
 			name = "Albert"
 			religion = catholic
 			culture = pommeranian
-			dynasty = CKU_mecklenburg
+			dynasty = CKU_mecklenburg_werle
 			1438.1.1 = {
 				birth = yes #unknown
 			}

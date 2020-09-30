@@ -1,139 +1,141 @@
-k_venice = {
-	government = republic_government
-	1440.1.1 = {
-		holder = CKU_venice_1
+#Venice = {
+	k_venice = {
+		government = republic_government
+		1440.1.1 = {
+			holder = CKU_venice_1
+		}
 	}
-}
-
-d_venice = {
-	1440.1.1 = {
-		holder = CKU_venice_1
+	
+	d_venice = {
+		1440.1.1 = {
+			holder = CKU_venice_1
+		}
 	}
-}
-
-c_venezia = {
-	1440.1.1 = {
-		holder = CKU_venice_1
+	
+	c_venezia = {
+		1440.1.1 = {
+			holder = CKU_venice_1
+		}
 	}
-}
-
-c_veneto = {
-	1440.1.1 = {
-		holder = CKU_venice_1
+	
+	c_veneto = {
+		1440.1.1 = {
+			holder = CKU_venice_1
+		}
 	}
-}
-
-c_padua = {
-	1440.1.1 = {
-		holder = CKU_venice_1
+	
+	c_padua = {
+		1440.1.1 = {
+			holder = CKU_venice_1
+		}
 	}
-}
-
-c_treviso = {
-	1440.1.1 = {
-		holder = CKU_venice_1
+	
+	c_treviso = {
+		1440.1.1 = {
+			holder = CKU_venice_1
+		}
 	}
-}
-
-c_verona = {
-	1440.1.1 = {
-		holder = CKU_venice_1
+	
+	c_verona = {
+		1440.1.1 = {
+			holder = CKU_venice_1
+		}
 	}
-}
-
-c_polesine = {
-	1440.1.1 = {
-		holder = CKU_venice_1
+	
+	c_polesine = {
+		1440.1.1 = {
+			holder = CKU_venice_1
+		}
 	}
-}
-
-c_aquileia = {
-	1440.1.1 = {
-		holder = CKU_venice_1
+	
+	c_aquileia = {
+		1440.1.1 = {
+			holder = CKU_venice_1
+		}
 	}
-}
-
-c_friuli = {
-	1440.1.1 = {
-		holder = CKU_venice_1
+	
+	c_friuli = {
+		1440.1.1 = {
+			holder = CKU_venice_1
+		}
 	}
-}
-
-c_pula = {
-	1440.1.1 = {
-		holder = CKU_venice_1
+	
+	c_pula = {
+		1440.1.1 = {
+			holder = CKU_venice_1
+		}
 	}
-}
-
-c_cherso = {
-	1440.1.1 = {
-		holder = CKU_venice_1
+	
+	c_cherso = {
+		1440.1.1 = {
+			holder = CKU_venice_1
+		}
 	}
-}
-
-c_lika = {
-	1440.1.1 = {
-		holder = CKU_venice_1
+	
+	c_lika = {
+		1440.1.1 = {
+			holder = CKU_venice_1
+		}
 	}
-}
-
-c_zadar = {
-	1440.1.1 = {
-		holder = CKU_venice_1
+	
+	c_zadar = {
+		1440.1.1 = {
+			holder = CKU_venice_1
+		}
 	}
-}
-
-c_pagania = {
-	1440.1.1 = {
-		holder = CKU_venice_1
+	
+	c_pagania = {
+		1440.1.1 = {
+			holder = CKU_venice_1
+		}
 	}
-}
-
-c_buthrotum = {
-	1440.1.1 = {
-		holder = CKU_venice_1
+	
+	c_buthrotum = {
+		1440.1.1 = {
+			holder = CKU_venice_1
+		}
 	}
-}
-
-c_cremona = {
-	1440.1.1 = {
-		holder = CKU_venice_1
+	
+	c_cremona = {
+		1440.1.1 = {
+			holder = CKU_venice_1
+		}
 	}
-}
-
-c_brescia = {
-	1440.1.1 = {
-		holder = CKU_venice_1
+	
+	c_brescia = {
+		1440.1.1 = {
+			holder = CKU_venice_1
+		}
 	}
-}
-
-c_cetina = {
-	1440.1.1 = {
-		holder = CKU_venice_1
+	
+	c_cetina = {
+		1440.1.1 = {
+			holder = CKU_venice_1
+		}
 	}
-}
-
-c_knin = {
-	1440.1.1 = {
-		holder = CKU_venice_1
+	
+	c_knin = {
+		1440.1.1 = {
+			holder = CKU_venice_1
+		}
 	}
-}
-
-c_ravenna = {
-	1440.1.1 = {
-		holder = CKU_venice_1
+	
+	c_ravenna = {
+		1440.1.1 = {
+			holder = CKU_venice_1
+		}
 	}
-}
-
-c_naxos = {
-	1440.1.1 = {
-		holder = CKU_naxos_1
-		liege = k_venice
+	
+	c_naxos = {
+		1440.1.1 = {
+			holder = CKU_naxos_1
+			liege = k_venice
+		}
 	}
-}
-
-c_euboea = {
-	1440.1.1 = {
-		holder = CKU_venice_1
+	
+	c_euboea = {
+		1440.1.1 = {
+			holder = CKU_venice_1
+		}
 	}
-}
+#}

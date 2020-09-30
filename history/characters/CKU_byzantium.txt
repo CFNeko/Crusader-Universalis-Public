@@ -1,5 +1,6 @@
 CKU_byzantium_1 = {
 	name = "John VIII"
+	dna = CKU_byzantium_1_dna
 	religion = orthodox
 	culture = greek
 	trait = generous

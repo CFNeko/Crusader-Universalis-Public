@@ -38,7 +38,7 @@
 
 ###c_nice
 2021 = {	#NICE
-	culture = cisalpine
+	culture = occitan
 	religion = catholic
 	holding = castle_holding
 }
@@ -82,7 +82,7 @@
 ##d_savoie ###################################
 ###c_savoie
 2031 = {	#MOUTIERS
-	culture = cisalpine
+	culture = occitan
 	religion = catholic
 	holding = castle_holding
 }
@@ -100,7 +100,7 @@
 
 ###c_aosta
 2039 = {	#AOSTA
-	culture = cisalpine
+	culture = occitan
 	religion = catholic
 	holding = castle_holding
 }
@@ -129,16 +129,18 @@
 
 ###c_canavese
 2040 = {	#IVREA
-	culture = cisalpine
+	culture = piedmontese
 	religion = catholic
 	holding = castle_holding
 }
 2042 = {	#PINEROLO
 	holding = none
+	culture = piedmontese
 	
 }
 2456 = {	#CANAVESE = SUSA
 	holding = city_holding
+	culture = piedmontese
 }
 
 ##d_dauphine ###################################

@@ -9,7 +9,7 @@
 			}
 		}
 	}
-		# Archduchy of Austria = {
+	# Archduchy of Austria = {
 			k_austria = {
 				1439.1.1 = {
 					holder = CKU_austrian_3
@@ -122,7 +122,22 @@
 		#}
 		# Electoral Mainz = {
 			c_mainz = {
-				1440.1.1 = {
+				1346.1.1 = {
+					government = theocracy_government
+					holder = 462368
+					liege = "e_hre"
+				}
+				1381.1.1 = {
+					government = theocracy_government
+					holder = CKU_nassau_5
+					liege = "e_hre"
+				}
+				1397.1.1 = {
+					government = theocracy_government
+					holder = CKU_nassau_8
+					liege = "e_hre"
+				}
+				1434.1.1 = {
 					government = theocracy_government
 					holder = CKU_swabian_bishop_1
 					liege = "e_hre"
@@ -305,6 +320,44 @@
 					}
 				}
 			#}
+		#}
+		# Nassau Possessions = {
+			c_nassau = {
+				1344.1.1 = {
+					holder = 462364
+					liege = "e_hre"
+				}
+				1370.1.17 = {
+					holder = 462365
+					liege = "e_hre"
+				}
+				1386.1.1 = {
+					holder = CKU_nassau_7
+					liege = "e_hre"
+				}
+				1393.11.7 = {
+					holder = CKU_nassau_9
+					liege = "e_hre"
+				}
+				1426.7.26 = {
+					holder = CKU_nassau_11
+					liege = "e_hre"
+				}
+			}
+			c_saarbrucken = {
+				1381.1.1 = {
+					holder = CKU_nassau_17
+					liege = d_upper_lorraine
+				}
+				1429.7.2 = {
+					holder = CKU_nassau_20
+					liege = d_upper_lorraine
+				}
+				1442.4.4 = {
+					holder = CKU_nassau_23
+					liege = d_upper_lorraine
+				}
+			}
 		#}
 		# Bavarian/Austrian Minors = {
 			c_salzburg = {
@@ -555,6 +608,12 @@
 					liege = "e_hre"
 				}
 			}
+			c_sayn = {
+				1440.1.1 = {
+					holder = CKU_rhenish_2
+					liege = "e_hre"
+				}
+			}
 			c_kassel = {
 				1440.1.1 = {
 					holder = CKU_rhenish_1
@@ -570,19 +629,7 @@
 					holder = CKU_rhenish_1
 				}
 			}
-			c_nassau = {
-				1440.1.1 = {
-					holder = CKU_rhenish_2
-					liege = "e_hre"
-				}
-			}
-			c_sayn = {
-				1440.1.1 = {
-					holder = CKU_rhenish_2
-					liege = "e_hre"
-				}
-			}
-			b_aachen = {
+			c_aachen = {
 				1440.1.1 = {
 					holder = CKU_rhenish_major_1
 					liege = "e_hre"
@@ -991,6 +1038,16 @@
 			}
 		}
 		d_istria = {
+			1440.1.1 = {
+				holder = 0
+			}
+		}
+		d_pommerania = {
+			1440.1.1 = {
+				holder = 0
+			}
+		}
+		d_nordmark = {
 			1440.1.1 = {
 				holder = 0
 			}

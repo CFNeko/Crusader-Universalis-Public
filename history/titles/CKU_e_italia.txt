@@ -1,0 +1,146 @@
+#Florence = {
+	c_firenze = {
+		government = republic_government
+		1434.10.6 = {
+			holder = CKU_florence_1
+			liege = e_hre
+		}
+	}
+
+	c_arezzo = {
+		1434.10.6 = {
+			holder = CKU_florence_1
+			liege = e_hre
+		}
+	}
+
+	c_pisa = {
+		1434.10.6 = {
+			holder = CKU_florence_1
+			liege = e_hre
+		}
+	}
+#}
+#Milan = {
+	d_lombardia = {
+		1339.8.1 = {
+			holder = 463147
+		}
+		1354.10.5 = {
+			holder = 463151
+		}
+		1378.8.4 = {
+			holder = 463152
+		}
+		1395.1.1 = {
+			holder = CKU_milan_0
+		}
+		1402.1.1 = {
+			holder = CKU_milan_02
+		}
+		1412.5.16 = {
+			holder = CKU_milan_1
+			liege = "e_hre"
+		}
+	}
+	
+	c_como = {
+		1412.1.1 = {
+			holder = CKU_milan_1
+		}
+	}
+	
+	c_cremona = {
+		1412.1.1 = {
+			holder = CKU_milan_1
+		}
+	}
+	
+	c_novara = {
+		1412.1.1 = {
+			holder = CKU_milan_1
+		}
+	}
+	
+	c_pavia = {
+		1412.1.1 = {
+			holder = CKU_milan_1
+		}
+	}
+	
+	c_parma = {
+		1412.1.1 = {
+			holder = CKU_milan_1
+		}
+	}
+	
+	c_tortona = {
+		1412.1.1 = {
+			holder = CKU_milan_1
+		}
+	}
+#}
+#Monferrat = {
+	c_monferrato = {
+		1338.1.1 = {
+			holder = 465523
+		}
+		1372.4.19 = {
+			holder = CKU_montferrat_1
+		}
+		1378.1.1 = {
+			holder = CKU_montferrat_2
+		}
+		1381.8.25 = {
+			holder = CKU_montferrat_3
+		}
+		1418.1.1 = {
+			holder = CKU_montferrat_6
+			liege = "d_savoie"
+		}
+		1445.3.12 = {
+			holder = CKU_montferrat_9
+		}
+	}
+#}
+#Savoy = {
+	d_savoie = {
+		1440.1.6 = {
+			holder = CKU_savoy_10
+			liege = "e_hre"
+		}
+	}
+	
+	c_cuneo = {
+		1440.1.6 = {
+			holder = CKU_savoy_10
+		}
+	}
+	
+	c_turin = {
+		1440.1.6 = {
+			holder = CKU_savoy_10
+		}
+	}
+	
+	c_bresse = {
+		1440.1.6 = {
+			holder = CKU_savoy_10
+		}
+	}
+	
+	b_monaco = {
+		1440.1.6 = {
+			holder = CKU_savoy_10
+		}
+	}
+#}
+#Siena = {
+	c_siena = {
+		government = republic_government
+		1358.1.1 = {
+			holder = 413017
+			liege = e_hre
+		}
+	}
+#}

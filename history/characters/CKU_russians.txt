@@ -1,0 +1,40 @@
+#  = {
+	CKU_russian_major_1 = {
+		religion = orthodox
+		culture = russian
+		1410.1.1 = {
+			birth = yes
+		}
+	}
+	CKU_russian_major_2 = {
+		religion = orthodox
+		culture = russian
+		1410.1.1 = {
+			birth = yes
+		}
+	}
+	CKU_rurikid_1 = {
+		name = "Vasily"
+		dna = CKU_rurikid_1_dna
+		religion = orthodox
+		culture = russian
+		dynasty = 705
+		1415.3.10 = {
+			birth = yes
+		}
+	}
+	CKU_rurikid_2 = {
+		religion = orthodox
+		culture = russian
+		1410.1.1 = {
+			birth = yes
+		}
+	}
+	CKU_rurikid_3 = {
+		religion = orthodox
+		culture = russian
+		1410.1.1 = {
+			birth = yes
+		}
+	}
+#}

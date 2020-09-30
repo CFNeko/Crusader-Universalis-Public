@@ -1,6 +1,6 @@
 ﻿CKU_milan_0 = {
 	name = "Gian Galeazzo"
-	dynasty = 234
+	dynasty = CKU_visconti
 	martial = 3
 	diplomacy = 6
 	intrigue = 4
@@ -27,7 +27,7 @@
 
 CKU_milan_01 = {
 	name = "Caterina"
-	dynasty = 234
+	dynasty = CKU_visconti
 	martial = 3
 	diplomacy = 6
 	intrigue = 4
@@ -51,7 +51,7 @@ CKU_milan_01 = {
 
 CKU_milan_02 = {
 	name = "Giovanni Maria"
-	dynasty = 234
+	dynasty = CKU_visconti
 	martial = 3
 	diplomacy = 6
 	intrigue = 4
@@ -74,7 +74,7 @@ CKU_milan_02 = {
 
 CKU_milan_1 = {
 	name = "Filippo Maria"
-	dynasty = 234
+	dynasty = CKU_visconti
 	martial = 3
 	diplomacy = 6
 	intrigue = 4
@@ -90,8 +90,11 @@ CKU_milan_1 = {
 	1392.9.3 = {
 		birth = yes
 	}
-	1412 = {
+	1412.1.1 = {
 		add_spouse = CKU_milan_1_1
+	}
+	1428.1.1 = {
+		add_spouse = CKU_savoy_8
 	}
 	1447.8.13 = {
 		death = yes
@@ -115,5 +118,8 @@ CKU_milan_1_1 = {
 
 	1372.1.1 = {
 		birth = yes
+	}
+	1418.9.13 = {
+		death = yes
 	}
 }

@@ -2,6 +2,7 @@
 # Andalusian {
 	CKU_granadan_1 = {
 		culture = andalusian
+		dynasty = 101904
 		1430.1.1 = {
 			birth = yes
 		}

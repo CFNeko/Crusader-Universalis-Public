@@ -1,0 +1,1154 @@
+﻿# Nassau (Walramian Line) = {
+	# Nassau-Wiesbaden {
+		CKU_nassau_0 = {
+			name = "Friedrich"
+			dynasty = 263
+			religion = "catholic"
+			culture = franconian
+			father = 462364
+			mother = 487027
+			1335.1.1 = {
+				birth = yes
+			}
+			1371.1.1 = {
+				death = yes
+			}
+		}
+		CKU_nassau_1 = {
+			name = "Agnes"
+			female = yes
+			dynasty = 263
+			religion = "catholic"
+			culture = franconian
+			father = 462364
+			mother = 487027
+			1336.1.1 = {
+				birth = yes
+			}
+			1376.1.1 = {
+				death = yes
+			}
+		}
+		CKU_nassau_2 = {
+			name = "Johann"
+			dynasty = 263
+			religion = "catholic"
+			culture = franconian
+			father = 462364
+			mother = 487027
+			1353.1.1 = {
+				birth = yes
+			}
+			1419.1.1 = {
+				death = yes
+			}
+		}
+		CKU_nassau_3 = {
+			name = "Margarethe"
+			female = yes
+			dynasty = 263
+			religion = "catholic"
+			culture = franconian
+			father = 462364
+			mother = 487027
+			1351.1.1 = {
+				birth = yes
+			}
+			1379.1.1 = {
+				death = yes
+			}
+		}
+		CKU_nassau_4 = {
+			name = "Elisabeth"
+			female = yes
+			dynasty = 263
+			religion = "catholic"
+			culture = franconian
+			father = 462364
+			mother = 487027
+			1345.1.1 = {
+				birth = yes
+			}
+			1389.2.1 = {
+				death = yes
+			}
+		}
+		CKU_nassau_5 = {
+			name = "Adolf"
+			dynasty = 263
+			religion = "catholic"
+			culture = franconian
+			father = 462364
+			mother = 487027
+			1353.1.1 = {
+				birth = yes
+			}
+			1390.2.6 = {
+				death = yes
+			}
+		}
+		CKU_nassau_6 = {
+			name = "Katharina"
+			female = yes
+			dynasty = 263
+			religion = "catholic"
+			culture = franconian
+			father = 462364
+			mother = 487027
+			1362.1.1 = {
+				birth = yes
+			}
+			1403.3.21 = {
+				death = yes
+			}
+		}
+		CKU_nassau_7 = {
+			name = "Walram"
+			dynasty_house = house_nassau_wiesbaden
+			religion = "catholic"
+			culture = franconian
+			father = 462364
+			mother = 487027
+			1354.1.1 = {
+				birth = yes
+			}
+			1393.11.7 = {
+				death = yes
+			}
+		}
+		CKU_nassau_8 = {
+			name = "Johann"
+			dynasty = 263
+			religion = "catholic"
+			culture = franconian
+			father = 462364
+			mother = 487027
+			1360.1.1 = {
+				birth = yes
+			}
+			1419.9.23 = {
+				death = yes
+			}
+		}
+		CKU_nassau_9 = {
+			name = "Adolf"
+			dynasty_house = house_nassau_wiesbaden
+			religion = "catholic"
+			culture = franconian
+			father = CKU_nassau_7
+			#mother = ???
+			# Married Bertha von Westerburg
+			1386.1.1 = {
+				birth = yes
+			}
+			1426.7.26 = {
+				death = yes
+			}
+		}
+		CKU_nassau_10 = {
+			name = "Margarethe"
+			female = yes
+			dynasty_house = house_nassau_wiesbaden
+			religion = "catholic"
+			culture = franconian
+			father = CKU_nassau_7
+			#mother = ???
+			# Married Count Heinrich VII of Waldeck
+			1375.1.1 = {
+				birth = yes
+			}
+			1440.1.1 = {
+				death = yes
+			}
+		}
+		CKU_nassau_11 = {
+			name = "Johann"
+			dynasty_house = house_nassau_wiesbaden
+			religion = "catholic"
+			culture = franconian
+			father = CKU_nassau_9
+			#mother = ???
+			# Married Maria von Nassau-Siegen
+			1419.1.1 = {
+				birth = yes
+			}
+			1437.1.1 = {
+				add_spouse = CKU_nassau_47
+			}
+		}
+		CKU_nassau_12 = {
+			name = "Anna"
+			female = yes
+			dynasty_house = house_nassau_wiesbaden
+			religion = "catholic"
+			culture = franconian
+			father = CKU_nassau_9
+			#mother = ???
+			# Married Everhard von Eppstein
+			1421.1.1 = {
+				birth = yes
+			}
+		}
+		CKU_nassau_13 = {
+			name = "Margarethe"
+			female = yes
+			dynasty_house = house_nassau_wiesbaden
+			religion = "catholic"
+			culture = franconian
+			father = CKU_nassau_9
+			#mother = ???
+			1420.1.1 = {
+				birth = yes
+			}
+		}
+		CKU_nassau_14 = {
+			name = "Adolf"
+			dynasty_house = house_nassau_wiesbaden
+			religion = "catholic"
+			culture = franconian
+			father = CKU_nassau_9
+			#mother = ???
+			1423.1.1 = {
+				birth = yes
+			}
+		}
+		CKU_nassau_15 = {
+			name = "Agnes"
+			female = yes
+			dynasty_house = house_nassau_wiesbaden
+			religion = "catholic"
+			culture = franconian
+			father = CKU_nassau_9
+			#mother = ???
+			# Married Conrad von Bickenbach
+			1428.1.1 = {
+				birth = yes
+			}
+		}
+		
+		######### Minor Characters Employed by Nassau-Wiesbaden #########
+		CKU_nassau_minor_1 = {
+			name = "Agnes"
+			female = yes
+			religion = "catholic"
+			culture = rhenish
+			1333.1.1 = {
+				birth = yes
+			}
+			1360.1.1 = {
+				add_spouse = 462365
+			}
+			1386.1.1 = {
+				death = yes
+			}
+		}
+		
+	# }
+	# Nassau-Weilburg {
+		CKU_nassau_16 = {
+			name = "Johanna"
+			female = yes
+			dynasty = 263
+			religion = "catholic"
+			culture = franconian
+			father = 462366
+			mother = 462367
+			# Married Hermann II von Hessen
+			1362.1.1 = {
+				birth = yes
+			}
+			1383.1.1 = {
+				death = yes
+			}
+		}
+		CKU_nassau_17 = {
+			name = "Philipp"
+			dynasty_house = house_nassau_weilburg
+			religion = "catholic"
+			culture = franconian
+			father = 462366
+			mother = 462367
+			# Married Anna von Hohenlohe-Weikersheim
+			# Married Elisabeth von Lothringen
+			1368.1.1 = {
+				birth = yes
+			}
+			1429.7.2 = {
+				death = yes
+			}
+		}
+		CKU_nassau_18 = {
+			name = "Margarete"
+			female = yes
+			dynasty = 263
+			religion = "catholic"
+			culture = franconian
+			father = 462366
+			mother = 462367
+			# Married Friedrich von Veldenz
+			1371.1.1 = {
+				birth = yes
+			}
+			1427.1.22 = {
+				death = yes
+			}
+		}
+		CKU_nassau_19 = {
+			name = "Schonette"
+			female = yes
+			dynasty = 263
+			religion = "catholic"
+			culture = franconian
+			father = 462366
+			mother = 462367
+			# Married Otto von Braunschweig
+			1375.1.1 = {
+				birth = yes
+			}
+			1436.4.25 = {
+				death = yes
+			}
+		}
+		CKU_nassau_20 = {
+			name = "Philipp"
+			dynasty_house = house_nassau_weilburg
+			religion = "catholic"
+			culture = franconian
+			father = CKU_nassau_17
+			#mother = Anna von Hohenlohe-Weikersheim
+			1388.1.1 = {
+				birth = yes
+			}
+			1416.7.2 = {
+				death = yes
+			}
+		}
+		CKU_nassau_21 = {
+			name = "Johanna"
+			female = yes
+			dynasty_house = house_nassau_weilburg
+			religion = "catholic"
+			culture = franconian
+			father = CKU_nassau_17
+			#mother = Anna von Hohenlohe-Weikersheim
+			# Married Georg von Henneberg-Römhild
+			1400.1.1 = {
+				birth = yes
+			}
+		}
+		CKU_nassau_22 = {
+			name = "Philipp"
+			dynasty_house = house_nassau_weilburg
+			religion = "catholic"
+			culture = franconian
+			father = CKU_nassau_17
+			#mother = Elisabeth von Lothringen
+			# Married Margarethe von Loon-Heinsberg
+			1418.3.12 = {
+				birth = yes
+			}
+		}
+		CKU_nassau_23 = {
+			name = "Johann"
+			dynasty_house = house_nassau_weilburg
+			religion = "catholic"
+			culture = franconian
+			father = CKU_nassau_17
+			#mother = Elisabeth von Lothringen
+			1423.4.4 = {
+				birth = yes
+			}
+		}
+		CKU_nassau_24 = {
+			name = "Johanna"
+			female = yes
+			dynasty_house = house_nassau_weilburg
+			religion = "catholic"
+			culture = franconian
+			father = CKU_nassau_17
+			#mother = Elisabeth von Lothringen
+			# Married Gerhard von Rodemachern
+			1426.4.26 = {
+				birth = yes
+			}
+		}
+		CKU_nassau_25 = {
+			name = "Johann"
+			dynasty_house = house_nassau_weilburg
+			religion = "catholic"
+			culture = franconian
+			father = CKU_nassau_22
+			#mother = Margarethe von Loon-Heinsberg
+			1441.6.27 = {
+				birth = yes
+			}
+		}
+		
+		######### Minor Characters Employed by Nassau-Wiesbaden #########
+		CKU_nassau_minor_2 = {
+			name = "Agnes"
+			female = yes
+			religion = "catholic"
+			culture = rhenish
+			1333.1.1 = {
+				birth = yes
+			}
+			1360.1.1 = {
+				add_spouse = 462365
+			}
+			1386.1.1 = {
+				death = yes
+			}
+		}
+		
+	# }
+# }
+# Nassau (Ottonian Line) = {
+	# Nassau-Siegen {
+		CKU_nassau_26 = {
+			name = "Heinrich"
+			dynasty_house = house_nassau_siegen
+			religion = "catholic"
+			culture = franconian
+			father = 30711
+			#mother = Agnes of Leiningen
+			# Married Adelheid von Heinsberg
+			1270.1.1 = {
+				birth = yes
+			}
+			1343.1.1 = {
+				death = yes
+			}
+		}
+		CKU_nassau_27 = {
+			name = "Mathilda"
+			female = yes
+			dynasty = 263
+			religion = "catholic"
+			culture = franconian
+			father = 30711
+			#mother = Agnes of Leiningen
+			# Married Gerhard of Schöneck
+			1270.1.1 = {
+				birth = yes
+			}
+			1319.1.1 = {
+				death = yes
+			}
+		}
+		CKU_nassau_28 = {
+			name = "Emich"
+			dynasty = 263
+			religion = "catholic"
+			culture = franconian
+			father = 30711
+			#mother = Agnes of Leiningen
+			# Married Anna von Hohenzollern
+			1270.1.1 = {
+				birth = yes
+			}
+			1334.1.1 = {
+				death = yes
+			}
+		}
+		CKU_nassau_29 = {
+			name = "Otto"
+			dynasty = 263
+			religion = "catholic"
+			culture = franconian
+			father = 30711
+			#mother = Agnes of Leiningen
+			1270.1.1 = {
+				birth = yes
+			}
+			1302.1.1 = {
+				death = yes
+			}
+		}
+		CKU_nassau_30 = {
+			name = "Heinrich"
+			dynasty = 263
+			religion = "catholic"
+			culture = franconian
+			father = 30711
+			#mother = Agnes of Leiningen
+			1270.1.1 = {
+				birth = yes
+			}
+			1328.8.10 = {
+				death = yes
+			}
+		}
+		CKU_nassau_31 = {
+			name = "Gertrud"
+			female = yes
+			dynasty = 263
+			religion = "catholic"
+			culture = franconian
+			father = 30711
+			#mother = Agnes of Leiningen
+			1270.1.1 = {
+				birth = yes
+			}
+			1359.1.1 = {
+				death = yes
+			}
+		}
+		CKU_nassau_32 = {
+			name = "Agnes"
+			female = yes
+			dynasty_house = house_nassau_siegen
+			religion = "catholic"
+			culture = franconian
+			father = CKU_nassau_26
+			#mother = Adelheid von Heinsberg
+			# Married Gerlach II of Isenburg-Limburg
+			1305.1.1 = {
+				birth = yes
+			}
+			1355.1.1 = {
+				death = yes
+			}
+		}
+		CKU_nassau_33 = {
+			name = "Otto"
+			dynasty_house = house_nassau_dillenburg
+			religion = "catholic"
+			culture = franconian
+			father = CKU_nassau_26
+			#mother = Adelheid von Heinsberg
+			# Married Adelheid von Vianden
+			1305.1.1 = {
+				birth = yes
+			}
+			1350.1.1 = {
+				death = yes
+			}
+		}
+		CKU_nassau_34 = {
+			name = "Heinrich"
+			dynasty_house = house_nassau_beilstein
+			religion = "catholic"
+			culture = franconian
+			father = CKU_nassau_26
+			#mother = Adelheid von Heinsberg
+			# Married Meyna von Westerburg
+			1307.1.1 = {
+				birth = yes
+			}
+			1378.2.24 = {
+				death = yes
+			}
+		}
+	# }
+	# Nassau-Dillenburg {
+		CKU_nassau_35 = {
+			name = "Johann"
+			dynasty_house = house_nassau_dillenburg
+			religion = "catholic"
+			culture = franconian
+			father = CKU_nassau_33
+			#mother = Adelheid von Vianden
+			# Married Margarethe von der Mark
+			1339.1.1 = {
+				birth = yes
+			}
+			1416.9.4 = {
+				death = yes
+			}
+		}
+		CKU_nassau_36 = {
+			name = "Heinrich"
+			dynasty_house = house_nassau_dillenburg
+			religion = "catholic"
+			culture = franconian
+			father = CKU_nassau_33
+			#mother = Adelheid von Vianden
+			1340.1.1 = {
+				birth = yes
+			}
+			1402.9.5 = {
+				death = yes
+			}
+		}
+		CKU_nassau_37 = {
+			name = "Otto"
+			dynasty_house = house_nassau_dillenburg
+			religion = "catholic"
+			culture = franconian
+			father = CKU_nassau_33
+			#mother = Adelheid von Vianden
+			1341.1.1 = {
+				birth = yes
+			}
+			1384.1.1 = {
+				death = yes
+			}
+		}
+		CKU_nassau_38 = {
+			name = "Adelheid"
+			dynasty_house = house_nassau_dillenburg
+			religion = "catholic"
+			culture = franconian
+			father = CKU_nassau_33
+			#mother = Adelheid von Vianden
+			1345.1.1 = {
+				birth = yes
+			}
+			1381.1.1 = {
+				death = yes
+			}
+		}
+		CKU_nassau_39 = {
+			name = "Adolf"
+			dynasty_house = house_nassau_dillenburg
+			religion = "catholic"
+			culture = franconian
+			father = CKU_nassau_35
+			#mother = Margarethe von der Mark
+			# Married Jutta von Diez
+			# Married Kunigunde von Isenburg-Limburg
+			1362.1.1 = {
+				birth = yes
+			}
+			1420.6.12 = {
+				death = yes
+			}
+		}
+		CKU_nassau_40 = {
+			name = "Johann"
+			dynasty_house = house_nassau_dillenburg
+			religion = "catholic"
+			culture = franconian
+			father = CKU_nassau_35
+			#mother = Margarethe von der Mark
+			1362.1.1 = {
+				birth = yes
+			}
+			1443.5.1 = {
+				death = yes
+			}
+		}
+		CKU_nassau_41 = {
+			name = "Engelbert"
+			dynasty_house = house_nassau_dillenburg
+			religion = "catholic"
+			culture = franconian
+			father = CKU_nassau_35
+			#mother = Margarethe von der Mark
+			# Married Johanna van Polanen
+			1370.1.1 = {
+				birth = yes
+			}
+			1442.6.3 = {
+				death = yes
+			}
+		}
+		CKU_nassau_42 = {
+			name = "Johann"
+			dynasty_house = house_nassau_dillenburg
+			religion = "catholic"
+			culture = franconian
+			father = CKU_nassau_35
+			#mother = Margarethe von der Mark
+			1375.1.1 = {
+				birth = yes
+			}
+			1430.4.14 = {
+				death = yes
+			}
+		}
+		CKU_nassau_43 = {
+			name = "Jutta"
+			female = yes
+			dynasty_house = house_nassau_dillenburg
+			religion = "catholic"
+			culture = franconian
+			father = CKU_nassau_39
+			#mother = Jutta von Diez
+			1385.1.1 = {
+				birth = yes
+			}
+			1424.8.2 = {
+				death = yes
+			}
+		}
+		CKU_nassau_44 = {
+			name = "Johann"
+			dynasty_house = house_nassau_dillenburg
+			religion = "catholic"
+			culture = franconian
+			father = CKU_nassau_41
+			#mother = Johanna van Polanen
+			# Married Maria von Loon-Heinsberg
+			1410.8.1 = {
+				birth = yes
+			}
+			1430.8.4 = {
+				effect = {
+					vassal_contract_set_obligation_level = {
+						type = special_contract
+						level = 4
+					}
+				}
+			}
+		}
+		CKU_nassau_45 = {
+			name = "Heinrich"
+			dynasty_house = house_nassau_dillenburg
+			religion = "catholic"
+			culture = franconian
+			father = CKU_nassau_41
+			#mother = Johanna van Polanen
+			# Married Genoveva von Virneburg
+			1414.1.7 = {
+				birth = yes
+			}
+		}
+		CKU_nassau_46 = {
+			name = "Margarethe"
+			female = yes
+			dynasty_house = house_nassau_dillenburg
+			religion = "catholic"
+			culture = franconian
+			father = CKU_nassau_41
+			#mother = Johanna van Polanen
+			# Married Dietrich von Sayn
+			1415.1.1 = {
+				birth = yes
+			}
+		}
+		CKU_nassau_47 = {
+			name = "Maria"
+			female = yes
+			dynasty_house = house_nassau_dillenburg
+			religion = "catholic"
+			culture = franconian
+			father = CKU_nassau_41
+			#mother = Johanna van Polanen
+			# Married Johann von Nassau-Wiesbaden
+			1418.2.2 = {
+				birth = yes
+			}
+		}
+		CKU_nassau_48 = {
+			name = "Anna"
+			female = yes
+			dynasty_house = house_nassau_dillenburg
+			religion = "catholic"
+			culture = franconian
+			father = CKU_nassau_44
+			#mother = Maria von Loon-Heinsberg
+			1441.1.1 = {
+				birth = yes
+			}
+		}
+		CKU_nassau_49 = {
+			name = "Johanna"
+			female = yes
+			dynasty_house = house_nassau_dillenburg
+			religion = "catholic"
+			culture = franconian
+			father = CKU_nassau_44
+			#mother = Maria von Loon-Heinsberg
+			1444.1.1 = {
+				birth = yes
+			}
+		}
+	# }
+	# Nassau-Beilstein {
+		CKU_nassau_50 = {
+			name = "Adelheid"
+			female = yes
+			dynasty_house = house_nassau_beilstein
+			religion = "catholic"
+			culture = franconian
+			father = CKU_nassau_34
+			#mother = Meyna von Westerburg
+			# Married Heinrich von Kronberg
+			1342.1.1 = {
+				birth = yes
+			}
+			1365.1.1 = {
+				death = yes
+			}
+		}
+		CKU_nassau_51 = {
+			name = "Heinrich"
+			dynasty_house = house_nassau_beilstein
+			religion = "catholic"
+			culture = franconian
+			father = CKU_nassau_34
+			#mother = Meyna von Westerburg
+			# Married Katharina von Randerode
+			1340.1.1 = {
+				birth = yes
+			}
+			1412.10.8 = {
+				death = yes
+			}
+		}
+		CKU_nassau_52 = {
+			name = "Reinhard"
+			dynasty_house = house_nassau_beilstein
+			religion = "catholic"
+			culture = franconian
+			father = CKU_nassau_34
+			#mother = Meyna von Westerburg
+			1374.1.1 = {
+				birth = yes
+			}
+			1418.4.17 = {
+				death = yes
+			}
+		}
+		CKU_nassau_53 = {
+			name = "Katharina"
+			female = yes
+			dynasty_house = house_nassau_beilstein
+			religion = "catholic"
+			culture = franconian
+			father = CKU_nassau_51
+			#mother = Katharina von Randerode
+			# Married Reinhard II von Hanau
+			1385.1.1 = {
+				birth = yes
+			}
+		}
+		CKU_nassau_54 = {
+			name = "Johann"
+			dynasty_house = house_nassau_beilstein
+			religion = "catholic"
+			culture = franconian
+			father = CKU_nassau_51
+			#mother = Katharina von Randerode
+			# Married Metze von Isenburg
+			1386.1.1 = {
+				birth = yes
+			}
+		}
+		CKU_nassau_55 = {
+			name = "Wilhelm"
+			dynasty_house = house_nassau_beilstein
+			religion = "catholic"
+			culture = franconian
+			father = CKU_nassau_51
+			#mother = Katharina von Randerode
+			1388.1.1 = {
+				birth = yes
+			}
+			1430.4.18 = {
+				death = yes
+			}
+		}
+		CKU_nassau_56 = {
+			name = "Heinrich"
+			dynasty_house = house_nassau_beilstein
+			religion = "catholic"
+			culture = franconian
+			father = CKU_nassau_51
+			#mother = Katharina von Randerode
+			1390.1.1 = {
+				birth = yes
+			}
+		}
+		CKU_nassau_57 = {
+			name = "Margarethe"
+			female = yes
+			dynasty_house = house_nassau_beilstein
+			religion = "catholic"
+			culture = franconian
+			father = CKU_nassau_54
+			#mother = Metze von Isenburg
+			# Married Johann von Schöneck
+			1416.1.1 = {
+				birth = yes
+			}
+		}
+		CKU_nassau_58 = {
+			name = "Philipp"
+			dynasty_house = house_nassau_beilstein
+			religion = "catholic"
+			culture = franconian
+			father = CKU_nassau_54
+			#mother = Metze von Isenburg
+			1420.1.1 = {
+				birth = yes
+			}
+		}
+	# }
+	# Nassau-Hadamar {
+		CKU_nassau_59 = {
+			name = "Jutta"
+			female = yes
+			dynasty = 263
+			religion = "catholic"
+			culture = franconian
+			father = CKU_nassau_28
+			#mother = Anna von Hohenzollern
+			# Married Gerhard von Dietz
+			1295.1.1 = {
+				birth = yes
+			}
+			1370.10.10 = {
+				death = yes
+			}
+		}
+		CKU_nassau_60 = {
+			name = "Friedrich"
+			dynasty = 263
+			religion = "catholic"
+			culture = franconian
+			father = CKU_nassau_28
+			#mother = Anna von Hohenzollern
+			1297.1.1 = {
+				birth = yes
+			}
+			1314.1.1 = {
+				death = yes
+			}
+		}
+		CKU_nassau_61 = {
+			name = "Anna"
+			female = yes
+			dynasty = 263
+			religion = "catholic"
+			culture = franconian
+			father = CKU_nassau_28
+			#mother = Anna von Hohenzollern
+			# Married Kuno II von Falkenstein
+			1299.1.1 = {
+				birth = yes
+			}
+			1329.1.1 = {
+				death = yes
+			}
+		}
+		CKU_nassau_62 = {
+			name = "Emich"
+			dynasty = 263
+			religion = "catholic"
+			culture = franconian
+			father = CKU_nassau_28
+			#mother = Anna von Hohenzollern
+			1305.1.1 = {
+				birth = yes
+			}
+			1359.1.1 = {
+				death = yes
+			}
+		}
+		CKU_nassau_63 = {
+			name = "Johann"
+			dynasty = 263
+			religion = "catholic"
+			culture = franconian
+			father = CKU_nassau_28
+			#mother = Anna von Hohenzollern
+			# Married Elisabeth von Waldeck
+			1305.1.1 = {
+				birth = yes
+			}
+			1365.1.20 = {
+				death = yes
+			}
+		}
+		CKU_nassau_64 = {
+			name = "Margarethe"
+			female = yes
+			dynasty = 263
+			religion = "catholic"
+			culture = franconian
+			father = CKU_nassau_28
+			#mother = Anna von Hohenzollern
+			# Married Rudolf II von Hohenburg
+			1306.1.1 = {
+				birth = yes
+			}
+			1370.1.30 = {
+				death = yes
+			}
+		}
+		CKU_nassau_65 = {
+			name = "Agnes"
+			female = yes
+			dynasty = 263
+			religion = "catholic"
+			culture = franconian
+			father = CKU_nassau_28
+			#mother = Anna von Hohenzollern
+			1307.1.1 = {
+				birth = yes
+			}
+			1338.1.1 = {
+				death = yes
+			}
+		}
+		CKU_nassau_66 = {
+			name = "Helena"
+			female = yes
+			dynasty = 263
+			religion = "catholic"
+			culture = franconian
+			father = CKU_nassau_28
+			#mother = Anna von Hohenzollern
+			1309.1.1 = {
+				birth = yes
+			}
+			1350.1.1 = {
+				death = yes
+			}
+		}
+		CKU_nassau_67 = {
+			name = "Emich"
+			dynasty = 263
+			religion = "catholic"
+			culture = franconian
+			father = CKU_nassau_63
+			#mother = Elisabeth von Waldeck
+			1331.1.1 = {
+				birth = yes
+			}
+			1343.6.8 = {
+				death = yes
+			}
+		}
+		CKU_nassau_68 = {
+			name = "Anna"
+			female = yes
+			dynasty = 263
+			religion = "catholic"
+			culture = franconian
+			father = CKU_nassau_63
+			#mother = Elisabeth von Waldeck
+			# Married Ruprecht von Nassau-Sonnenberg
+			1345.1.1 = {
+				birth = yes
+			}
+			1362.1.1 = {
+				add_spouse = 462375
+			}
+			1404.1.21 = {
+				death = yes
+			}
+		}
+		CKU_nassau_69 = {
+			name = "Johann"
+			dynasty = 263
+			religion = "catholic"
+			culture = franconian
+			father = CKU_nassau_63
+			#mother = Elisabeth von Waldeck
+			1341.1.1 = {
+				birth = yes
+			}
+			1362.1.1 = {
+				death = yes
+			}
+		}
+		CKU_nassau_70 = {
+			name = "Elichin"
+			female = yes
+			dynasty = 263
+			religion = "catholic"
+			culture = franconian
+			father = CKU_nassau_63
+			#mother = Elisabeth von Waldeck
+			# Married Frederik VII von Castell
+			1344.1.1 = {
+				birth = yes
+			}
+			1416.1.1 = {
+				death = yes
+			}
+		}
+		CKU_nassau_71 = {
+			name = "Elisabeth"
+			female = yes
+			dynasty = 263
+			religion = "catholic"
+			culture = franconian
+			father = CKU_nassau_63
+			#mother = Elisabeth von Waldeck
+			1352.1.1 = {
+				birth = yes
+			}
+			1413.1.1 = {
+				death = yes
+			}
+		}
+		CKU_nassau_72 = {
+			name = "Emich"
+			dynasty = 263
+			religion = "catholic"
+			culture = franconian
+			father = CKU_nassau_63
+			#mother = Elisabeth von Waldeck
+			1337.1.1 = {
+				birth = yes
+			}
+			1358.1.1 = {
+				death = yes
+			}
+		}
+		CKU_nassau_73 = {
+			name = "Adelheid"
+			female = yes
+			dynasty = 263
+			religion = "catholic"
+			culture = franconian
+			father = CKU_nassau_63
+			#mother = Elisabeth von Waldeck
+			# Married Wilhelm von Castell
+			1345.1.1 = {
+				birth = yes
+			}
+			1390.1.1 = {
+				death = yes
+			}
+		}
+		CKU_nassau_74 = {
+			name = "Emich"
+			dynasty = 263
+			religion = "catholic"
+			culture = franconian
+			father = CKU_nassau_63
+			#mother = Elisabeth von Waldeck
+			1340.1.1 = {
+				birth = yes
+			}
+			1394.1.1 = {
+				death = yes
+			}
+		}
+		CKU_nassau_75 = {
+			name = "Helena"
+			female = yes
+			dynasty = 263
+			religion = "catholic"
+			culture = franconian
+			father = CKU_nassau_63
+			#mother = Elisabeth von Waldeck
+			1338.1.1 = {
+				birth = yes
+			}
+			1344.1.1 = {
+				death = yes
+			}
+		}
+		CKU_nassau_76 = {
+			name = "Heinrich"
+			dynasty = 263
+			religion = "catholic"
+			culture = franconian
+			father = CKU_nassau_63
+			#mother = Elisabeth von Waldeck
+			1353.1.1 = {
+				birth = yes
+			}
+			1369.1.1 = {
+				death = yes
+			}
+		}
+	# }
+# }

@@ -1,0 +1,42 @@
+﻿# Burgundians
+house_bourgogne_nevers = {
+	name = "dynn_bourgogne_nevers"
+	dynasty = CKU_valois_bourgogne
+}
+
+# Nassau
+house_nassau_wiesbaden = {
+	name = "dynn_nassau_wiesbaden"
+	dynasty = 263
+}
+
+house_nassau_weilburg = {
+	name = "dynn_nassau_weilburg"
+	dynasty = 263
+}
+
+house_nassau_siegen = {
+	name = "dynn_nassau_siegen"
+	dynasty = 263
+}
+
+house_nassau_beilstein = {
+	name = "dynn_nassau_beilstein"
+	dynasty = 263
+}
+
+house_nassau_dillenburg = {
+	name = "dynn_nassau_dillenburg"
+	dynasty = 263
+}
+
+# Luxembourg
+house_luxembourg_bohemia = {
+	name = "dynn_luxembourg_bohemia"
+	dynasty = CKU_luxembourg
+}
+
+house_luxembourg_ligny = {
+	name = "dynn_luxembourg_ligny"
+	dynasty = CKU_luxembourg
+}

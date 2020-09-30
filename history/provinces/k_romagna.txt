@@ -2,59 +2,68 @@
 ##d_romagna ###################################
 ###c_ravenna
 2546 = {	#RAVENNA
-	culture = cisalpine
+	culture = emilian
 	religion = catholic
 	holding = church_holding
 	
 }
 2549 = {	#IMOLA
 	holding = castle_holding
+	culture = emilian
 }
 2548 = {	#FORLI
 	holding = city_holding
+	culture = emilian
 }
 2547 = {	#RIMINI
 	holding = city_holding
+	culture = emilian
 }
 
 ###c_bologna
 2542 = {	#BOLOGNA
-	culture = cisalpine
+	culture = emilian
 	religion = catholic
 	holding = castle_holding
 }
 2529 = {	#CONA
 	holding = none
+	culture = emilian
 }
 2550 = {	#MONTE SOLE
 	holding = none
+	culture = emilian
 }
 
 ###c_ferrara
 2527 = {	#FERRARA
-	culture = cisalpine
+	culture = emilian
 	religion = catholic
 	holding = castle_holding
 }
 2526 = {	#POMPOSA
 	holding = church_holding
+	culture = emilian
 }
 2528 = {	#COMACCHIO
 	holding = city_holding
+	culture = emilian
 }
 
 ###c_casentino
 2553 = {	#CASENTINO
-	culture = cisalpine
+	culture = emilian
 	religion = catholic
 	holding = castle_holding
 	
 }
 2552 = {	#MONTEFELTRO
 	holding = none
+	culture = emilian
 }
 2551 = {	#CAMALDOLI
 	holding = none
+	culture = emilian
 	1010 = {
 		holding = church_holding
 	}
@@ -106,7 +115,7 @@
 ##d_spoleto ###################################
 ###c_spoleto
 2585 = {	#SPOLETO
-	culture = lombard
+	culture = italian
 	religion = catholic
 	holding = castle_holding
 	
@@ -120,7 +129,7 @@
 
 ###c_orvieto
 2568 = {	#ORVIETO
-	culture = lombard
+	culture = italian
 	religion = catholic
 	holding = castle_holding
 	
@@ -131,7 +140,7 @@
 
 ###c_teramo
 2596 = {	#TERAMO
-	culture = lombard
+	culture = italian
 	religion = catholic
 	holding = castle_holding
 	
@@ -142,7 +151,7 @@
 
 ###c_lanciano
 2604 = {	#LANCIANO
-	culture = lombard
+	culture = italian
 	religion = catholic
 	holding = castle_holding
 	
@@ -153,7 +162,7 @@
 
 ###c_abruzzi
 2600 = {	#AVEZZANO
-	culture = lombard
+	culture = italian
 	religion = catholic
 	holding = castle_holding
 	

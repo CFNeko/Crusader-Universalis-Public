@@ -34,12 +34,12 @@
 ###c_cagliari
 2653 = {	#CAGLIARI
 	culture = sardinian
-	religion = orthodox
+	religion = catholic
 	
 }
 2654 = {	#IGLESIAS
 	culture = sardinian
-	religion = orthodox
+	religion = catholic
 	holding = church_holding
 	#
 	special_building_slot = argentiera_mines_01
@@ -52,7 +52,7 @@
 ###c_arborea
 2659 = {	#ORISTANO
 	culture = sardinian
-	religion = orthodox
+	religion = catholic
 	holding = castle_holding
 	
 }
@@ -63,7 +63,7 @@
 ###c_gallura
 2658 = {	#OLBIA
 	culture = sardinian
-	religion = orthodox
+	religion = catholic
 	holding = castle_holding
 	
 }
@@ -75,7 +75,7 @@
 ###c_logudoro
 2662 = {	#SASSARI
 	culture = sardinian
-	religion = orthodox
+	religion = catholic
 	holding = castle_holding
 	
 }
@@ -93,7 +93,7 @@
 ###c_tortoli
 2656 = {	#TORTOLI
 	culture = sardinian
-	religion = orthodox
+	religion = catholic
 	holding = castle_holding
 	
 }

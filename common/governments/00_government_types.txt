@@ -28,12 +28,6 @@ republic_government = {
 	primary_holding = city_holding
 	valid_holdings = { castle_holding }
 	required_county_holdings = { city_holding castle_holding church_holding }
-	
-	vassal_contract = {
-		republican_government_taxes
-		feudal_government_levies
-		republican_special_contract
-	}
 
 	ai = {
 		arrange_marriage = no

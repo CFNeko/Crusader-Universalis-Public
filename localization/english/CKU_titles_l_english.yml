@@ -6,8 +6,12 @@
  k_prussia: "Prussia"
  k_prussia_adj: "Prussian"
 
+
  CKU_teutonic_order: "Teutonic Order"
-CKU_livonian_order: "Livonian Confederation"
+ CKU_livonian_order: "Livonian Confederation"
  CKU_brandenburg: "Brandenburg"
+ CKU_Serbia: "Serbia"
+ CKU_muscovy: "Muscovy"
+ CKU_golden_horde: "Golden Horde"
 
  hre_law_1: "Princely Privileges"

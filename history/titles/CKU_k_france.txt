@@ -5,6 +5,16 @@
 			holder = CKU_francien_1
 		}
 	}
+	d_dauphine = {
+		1440.1.1 = {
+			holder = CKU_francien_1
+		}
+	}
+	d_provence = {
+		1440.1.1 = {
+			holder = CKU_francien_1
+		}
+	}
 	c_tourraine = {
 		1440.1.1 = {
 			holder = CKU_francien_1
@@ -23,11 +33,21 @@
 			}
 			d_bar = {
 				1440.1.1 = {
+					holder = CKU_anjou_1
+				}
+			}
+			c_briey = {
+				1440.1.1 = {
 					holder = CKU_anjou_2
-					liege = k_france
+					liege = d_bar
 				}
 			}
 			c_provence = {
+				1440.1.1 = {
+					holder = CKU_anjou_1
+				}
+			}
+			c_nice = {
 				1440.1.1 = {
 					holder = CKU_anjou_1
 				}
@@ -127,6 +147,12 @@
 			d_auvergne = {
 				1440.1.1 = {
 					holder = CKU_bourbon_2
+				}
+			}
+			c_auvergne = {
+				1440.1.1 = {
+					holder = CKU_tour_auvergne_1
+					liege = d_bourbon
 				}
 			}
 			c_forez = {

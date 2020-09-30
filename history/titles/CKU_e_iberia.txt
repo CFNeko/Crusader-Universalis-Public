@@ -1,0 +1,74 @@
+# Crown of Castille = {
+	k_castille = {
+		1440.1.1 = {
+			holder = CKU_castille_1
+		}
+	}
+
+	k_leon = {
+		1440.1.1 = {
+			holder = CKU_castille_1
+		}
+	}
+
+	k_spanish_galicia = {
+		1440.1.1 = {
+			holder = CKU_castille_1
+		}
+	}
+#}
+# Kingdom of Aragon = {
+	k_aragon = {
+		1440.1.1 = {
+			holder = CKU_aragorn_1
+		}
+	}
+
+	#Sardinia = {
+		k_sardinia = {
+			1440.1.1 = {
+				holder = CKU_aragorn_1
+			}
+		}
+
+		c_arborea = { 
+			1427.9.9 = { 
+				holder = CKU_sardinia_1 
+			} 
+		}		 
+		b_oristano = { 
+			1427.9.9 = { 
+				holder = CKU_sardinia_1 
+			} 
+		} 
+	#}
+	
+	k_sicily = {
+		1440.1.1 = {
+			holder = CKU_aragorn_1
+		}
+	}
+#}
+# Kingdom of Portugal = {
+
+	k_portugal = {
+		1440.1.1 = {
+			holder = CKU_portugal_1
+		}
+	}
+	
+#}
+# Kingdom of Navarra = {
+	k_navarra = {
+		1440.1.1 = {
+			holder = CKU_aragorn_2
+		}
+	}
+#}
+# Emirate of Granada = {
+	k_andalusia = {
+		1440.1.1 = {
+			holder = CKU_granada_1
+		}
+	}
+#}
