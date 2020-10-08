@@ -2,7 +2,7 @@
 # History database id:CKU_francien_1
 bookmark_1444_europe_france={
 	type=male
-	id=2047085216
+	id=0
 	age=0.415000
 	genes={ 		
 		hair_color={ 118 201 213 203 }
@@ -109,9 +109,10 @@ bookmark_1444_europe_france={
  		eye_accessory={ "normal_eyes" 186 "normal_eyes" 186 }
  		teeth_accessory={ "normal_teeth" 0 "normal_teeth" 0 }
  		eyelashes_accessory={ "normal_eyelashes" 5 "normal_eyelashes" 5 }
- 		clothes={ "western_high_nobility_clothes" 0 "most_clothes" 0 }
- 		headgear={ "western_imperial" 0 "no_headgear" 0 }
+ 		clothes={ "western_imperial_clothes" 24 "most_clothes" 0 }
+ 		headgear={ "dde_hre_royalty" 240 "no_headgear" 0 }
  		legwear={ "western_common_legwear" 0 "all_legwear" 0 }
+ 		cloaks={ "western_royalty" 0 "no_cloak" 0 }
 	}
 	entity={ 0 0 }
 }

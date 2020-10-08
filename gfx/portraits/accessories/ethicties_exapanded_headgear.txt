@@ -1,0 +1,45 @@
+﻿# These assets are then used in the genes (game/common/genes/..) at the bottom of the file. 
+
+	#set_tags = "no_hair"
+	#set_tags = "no_beard"
+	#set_tags = "crown"
+	#set_tags = "cap"
+	#set_tags = "hat"
+	#set_tags = "hood_beard"
+	#set_tags = "cap_02"
+	#set_tags = "helmet"
+	#set_tags = "headdress"
+	#set_tags = "cap,cap_02"
+	#set_tags = "aventail"
+
+
+## Turkic cultural
+
+male_headgear_secular_cuman_war_helmet_01 = {
+	set_tags = "no_hair"
+	set_tags = "no_beard"
+	set_tags = "aventail"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_cuman_war_helmet_01_entity 	 }		
+}
+
+male_headgear_secular_cuman_common_01 = {	
+	set_tags = "crown"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_cuman_common_01_entity 	 }		
+}
+
+male_headgear_secular_cuman_common_02 = {	
+	set_tags = "crown"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_cuman_common_02_entity 	 }		
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -124,7 +124,11 @@ CKU_florence_3 = {
 	stewardship = 2
 	learning = 8	
 	dynasty = CKU_de_medici
+
 	1421.6.3 = {
 		birth = yes
+	}
+	1463.11.1 = {
+		death = yes
 	}
 }

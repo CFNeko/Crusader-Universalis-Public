@@ -1,0 +1,11 @@
+CKU_governor_government = {
+	valid_holdings = { castle_holding }
+
+	ai = {
+		arrange_marriage = no
+		use_goals = no
+	}
+
+	vassal_contract = { CKU_governor_government_obligations }
+	color = hsv{ 0.50 1.00 0.98 }
+}

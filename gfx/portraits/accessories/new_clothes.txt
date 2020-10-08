@@ -1,0 +1,40 @@
+﻿## these assets are then used in the genes (game/common/genes/..) at the bottom of the file. 
+
+
+
+## Ayyubid ##
+
+## Commoner Clothes ##
+
+female_clothes_secular_indian_nobility_01_common = {
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = female_clothes_secular_indian_nobility_01_common_entity }
+}
+
+female_clothes_secular_indian_nobility_02_common = {
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = female_clothes_secular_indian_nobility_02_common_entity }
+}
+
+
+## Low Nobility Clothes ##
+
+
+## High Nobility Clothes ##
+
+
+
+## War Nobility Clothes ##
+
+male_clothes_secular_ayyubid_war_nobility_01 = {
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = male_clothes_secular_ayyubid_war_nobility_01_low_entity }
+}
+
+
+
+
+
+
+##########################################################################
+
+
+
+

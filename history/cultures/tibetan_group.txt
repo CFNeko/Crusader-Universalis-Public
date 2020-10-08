@@ -1,9 +1,11 @@
+# Tibetan Group
 # Zhangzhun
 # Tsangpa
-# Kirati
 # Lhomon
 # Bodpa
 # Sumpa
+
+# Kirati - In separate file
 
 867.1.1 = {
 	discover_innovation = innovation_barracks
@@ -82,6 +84,7 @@
 
 1400.1.1. = {
 	#50 years after count Flandy's 1350 innovation tree, Late Medieval free
+	join_era = culture_era_early_modern
 	#
 	discover_innovation = innovation_court_officials
 	discover_innovation = innovation_cranes

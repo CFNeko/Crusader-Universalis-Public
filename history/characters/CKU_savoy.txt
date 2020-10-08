@@ -1,5 +1,5 @@
 CKU_savoy_1 = {
-	name = Bianca
+	name = "Bianca"
 	dynasty = 240
 	female = yes
 	martial = 3
@@ -7,7 +7,7 @@ CKU_savoy_1 = {
 	intrigue = 4
 	stewardship = 7
 	religion = "catholic"
-	culture = venetian
+	culture = piedmontese
 	trait = wrathful
 	trait = deceitful
 	trait = arrogant
@@ -28,7 +28,7 @@ CKU_savoy_2 = {
 	intrigue = 4
 	stewardship = 7
 	religion = "catholic"
-	culture = venetian
+	culture = piedmontese
 	trait = wrathful
 	trait = deceitful
 	trait = arrogant
@@ -39,33 +39,9 @@ CKU_savoy_2 = {
 		birth = yes
 	}
 	1377.1.1 = {
-		add_spouse = CKU_savoy_2_1
+		add_spouse = CKU_valois_6
 	}
 	1391.11.1 = {
-		death = yes
-	}
-}
-
-CKU_savoy_2_1 = {
-	name = "Bona"
-	dynasty = 240
-	martial = 3
-	diplomacy = 6
-	intrigue = 4
-	stewardship = 7
-	religion = "catholic"
-	culture = venetian
-	trait = wrathful
-	trait = deceitful
-	trait = arrogant
-	trait = education_martial_3
-	dynasty = CKU_berry
-
-	female = yes
-	1362.2.25 = {
-		birth = yes
-	}
-	1435.12.30 = {
 		death = yes
 	}
 }
@@ -78,14 +54,14 @@ CKU_savoy_3 = {
 	intrigue = 4
 	stewardship = 7
 	religion = "catholic"
-	culture = venetian
+	culture = piedmontese
 	trait = wrathful
 	trait = deceitful
 	trait = arrogant
 	trait = education_martial_3
 
 	father = CKU_savoy_2
-	mother = CKU_savoy_2_1
+	mother = CKU_valois_6
 	1383.9.4 = {
 		birth = yes
 	}
@@ -106,7 +82,7 @@ CKU_savoy_3_1 = {
 	intrigue = 4
 	stewardship = 7
 	religion = "catholic"
-	culture = venetian
+	culture = piedmontese
 	trait = wrathful
 	trait = deceitful
 	trait = arrogant
@@ -132,7 +108,7 @@ CKU_savoy_4 = {
 	intrigue = 4
 	stewardship = 7
 	religion = "catholic"
-	culture = venetian
+	culture = piedmontese
 	trait = wrathful
 	trait = deceitful
 	trait = arrogant
@@ -141,7 +117,7 @@ CKU_savoy_4 = {
 	female = yes
 
 	father = CKU_savoy_2
-	mother = CKU_savoy_2_1
+	mother = CKU_valois_6
 	1388.10.11 = {
 		birth = yes
 	}
@@ -161,7 +137,7 @@ CKU_savoy_4_1 = {
 	intrigue = 4
 	stewardship = 7
 	religion = "catholic"
-	culture = venetian
+	culture = piedmontese
 	trait = wrathful
 	trait = deceitful
 	trait = arrogant
@@ -170,7 +146,7 @@ CKU_savoy_4_1 = {
 	female = yes
 
 	father = CKU_savoy_2
-	mother = CKU_savoy_2_1
+	mother = CKU_valois_6
 	1388.10.11 = {
 		birth = yes
 	}
@@ -190,7 +166,7 @@ CKU_savoy_5 = {
 	intrigue = 4
 	stewardship = 7
 	religion = "catholic"
-	culture = venetian
+	culture = piedmontese
 	trait = wrathful
 	trait = deceitful
 	trait = arrogant
@@ -216,7 +192,7 @@ CKU_savoy_6 = {
 	intrigue = 4
 	stewardship = 7
 	religion = "catholic"
-	culture = venetian
+	culture = piedmontese
 	trait = wrathful
 	trait = deceitful
 	trait = arrogant
@@ -241,7 +217,7 @@ CKU_savoy_7 = {
 	intrigue = 4
 	stewardship = 7
 	religion = "catholic"
-	culture = venetian
+	culture = piedmontese
 	trait = wrathful
 	trait = deceitful
 	trait = arrogant
@@ -266,7 +242,7 @@ CKU_savoy_8 = {
 	intrigue = 4
 	stewardship = 7
 	religion = "catholic"
-	culture = venetian
+	culture = piedmontese
 	trait = wrathful
 	trait = deceitful
 	trait = arrogant
@@ -292,7 +268,7 @@ CKU_savoy_9 = {
 	intrigue = 4
 	stewardship = 7
 	religion = "catholic"
-	culture = venetian
+	culture = piedmontese
 	trait = wrathful
 	trait = deceitful
 	trait = arrogant
@@ -316,7 +292,7 @@ CKU_savoy_10 = {
 	intrigue = 4
 	stewardship = 7
 	religion = "catholic"
-	culture = venetian
+	culture = piedmontese
 	trait = wrathful
 	trait = deceitful
 	trait = arrogant
@@ -343,7 +319,7 @@ CKU_savoy_10_1 = {
 	intrigue = 4
 	stewardship = 7
 	religion = "catholic"
-	culture = venetian
+	culture = piedmontese
 	trait = wrathful
 	trait = deceitful
 	trait = arrogant
@@ -370,7 +346,7 @@ CKU_savoy_11 = {
 	intrigue = 4
 	stewardship = 7
 	religion = "catholic"
-	culture = venetian
+	culture = piedmontese
 	trait = wrathful
 	trait = deceitful
 	trait = arrogant
@@ -394,7 +370,7 @@ CKU_savoy_12 = {
 	intrigue = 4
 	stewardship = 7
 	religion = "catholic"
-	culture = venetian
+	culture = piedmontese
 	trait = wrathful
 	trait = deceitful
 	trait = arrogant
@@ -418,7 +394,7 @@ CKU_savoy_13 = {
 	intrigue = 4
 	stewardship = 7
 	religion = "catholic"
-	culture = venetian
+	culture = piedmontese
 	trait = wrathful
 	trait = deceitful
 	trait = arrogant
@@ -444,7 +420,7 @@ CKU_savoy_14 = {
 	intrigue = 4
 	stewardship = 7
 	religion = "catholic"
-	culture = venetian
+	culture = piedmontese
 	trait = wrathful
 	trait = deceitful
 	trait = arrogant
@@ -460,7 +436,7 @@ CKU_savoy_14 = {
 	}
 }
 
-CKU_savoy_13 = {
+CKU_savoy_15 = {
 	name = "Maria"
 	dynasty = 240
 	martial = 3
@@ -468,7 +444,7 @@ CKU_savoy_13 = {
 	intrigue = 4
 	stewardship = 7
 	religion = "catholic"
-	culture = venetian
+	culture = piedmontese
 	trait = wrathful
 	trait = deceitful
 	trait = arrogant
@@ -486,7 +462,7 @@ CKU_savoy_13 = {
 	}
 }
 
-CKU_savoy_14 = {
+CKU_savoy_16 = {
 	name = "Luigi Ludovico"
 	dynasty = 240
 	martial = 3
@@ -494,7 +470,7 @@ CKU_savoy_14 = {
 	intrigue = 4
 	stewardship = 7
 	religion = "catholic"
-	culture = venetian
+	culture = piedmontese
 	trait = wrathful
 	trait = deceitful
 	trait = arrogant
@@ -510,7 +486,7 @@ CKU_savoy_14 = {
 	}
 }
 
-CKU_savoy_15 = {
+CKU_savoy_17 = {
 	name = "Margherita"
 	dynasty = 240
 	martial = 3
@@ -518,7 +494,7 @@ CKU_savoy_15 = {
 	intrigue = 4
 	stewardship = 7
 	religion = "catholic"
-	culture = venetian
+	culture = piedmontese
 	trait = wrathful
 	trait = deceitful
 	trait = arrogant
@@ -539,7 +515,7 @@ CKU_savoy_15 = {
 	}
 }
 
-CKU_savoy_16 = {
+CKU_savoy_18 = {
 	name = "Carlotta"
 	dynasty = 240
 	martial = 3
@@ -547,7 +523,7 @@ CKU_savoy_16 = {
 	intrigue = 4
 	stewardship = 7
 	religion = "catholic"
-	culture = venetian
+	culture = piedmontese
 	trait = wrathful
 	trait = deceitful
 	trait = arrogant
@@ -566,7 +542,7 @@ CKU_savoy_16 = {
 	}
 }
 
-CKU_savoy_17 = {
+CKU_savoy_19 = {
 	name = "Giano"
 	dynasty = 240
 	martial = 3
@@ -574,7 +550,7 @@ CKU_savoy_17 = {
 	intrigue = 4
 	stewardship = 7
 	religion = "catholic"
-	culture = venetian
+	culture = piedmontese
 	trait = wrathful
 	trait = deceitful
 	trait = arrogant
@@ -591,7 +567,7 @@ CKU_savoy_17 = {
 	}
 }
 
-CKU_savoy_18 = {
+CKU_savoy_20 = {
 	name = "Aimone"
 	dynasty = 240
 	martial = 3
@@ -599,7 +575,7 @@ CKU_savoy_18 = {
 	intrigue = 4
 	stewardship = 7
 	religion = "catholic"
-	culture = venetian
+	culture = piedmontese
 	trait = wrathful
 	trait = deceitful
 	trait = arrogant
@@ -616,7 +592,7 @@ CKU_savoy_18 = {
 	}
 }
 
-CKU_savoy_19 = {
+CKU_savoy_21 = {
 	name = "Filippo II"
 	dynasty = 240
 	martial = 3
@@ -624,7 +600,7 @@ CKU_savoy_19 = {
 	intrigue = 4
 	stewardship = 7
 	religion = "catholic"
-	culture = venetian
+	culture = piedmontese
 	trait = wrathful
 	trait = deceitful
 	trait = arrogant
@@ -637,6 +613,24 @@ CKU_savoy_19 = {
 		birth = yes
 	}
 	1497.11.7 = {
+		death = yes
+	}
+}
+
+CKU_savoy_20 = {
+	name = "Margherita"
+	dynasty = 240
+	religion = "catholic"
+	culture = venetian
+
+	father = CKU_savoy_3
+	mother = CKU_savoy_3_1
+
+	female = yes
+	1420.8.7 = {
+		birth = yes
+	}
+	1479.9.30 = {
 		death = yes
 	}
 }

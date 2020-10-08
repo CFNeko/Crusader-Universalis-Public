@@ -118,7 +118,7 @@ feudal_government_levies = {
 special_contract = {
 	display_mode = radiobutton
 	is_shown = {
-		scope:vassal.primary_title.tier >= tier_duchy
+		scope:vassal.primary_title.tier >= tier_county #tier_duchy
 	}
 	obligation_levels = {
 		special_contract_none = {
@@ -126,7 +126,7 @@ special_contract = {
 			default = yes
 			
 			ai_vassal_desire =  {
-				value = 0
+				value = 1
 				if = {
 					limit = {
 						scope:vassal = {
@@ -289,7 +289,7 @@ special_contract = {
 			tax = governorship_tax_increase
 			
 			liege_modifier = {
-				domain_limit = -1
+				domain_limit = -0.5
 			}
 			
 			vassal_modifier = {
@@ -299,18 +299,13 @@ special_contract = {
 			
 			
 			flag = forced_into_stadholder
+
+			ai_vassal_desire =  {
+				value = 0
+			}
 			
 			ai_liege_desire =  {
 				value = 10
-				if = {
-					limit = {
-						scope:vassal = {
-							vassal_contract_obligation_level:feudal_government_taxes < feudal_tax_low_level
-							vassal_contract_obligation_level:feudal_government_levies < feudal_levies_low_level
-						}
-					}
-					add = @ai_standard_liege_desire
-				}
 			}
 		}
 	}

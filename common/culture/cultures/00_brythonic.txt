@@ -637,6 +637,7 @@
 			{ name = mercenary_company_bodyguards_of_gwendolen }
 		}
 	}
+
 	cumbrian = {
 		graphical_cultures = {
 			scottish_coa_gfx

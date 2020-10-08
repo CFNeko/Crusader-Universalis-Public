@@ -1,0 +1,18 @@
+CKU_governor_government_obligations = {
+	obligation_levels = {
+		default = {
+			levies = 0.1
+			tax = governorship_tax_increase
+			
+			liege_modifier = {
+				domain_limit = -0.5
+			}
+			vassal_modifier = {
+				capital_province_modifier = {
+					monthly_income = 1
+				}
+				monthly_income = -1
+			}
+		}
+	}
+}

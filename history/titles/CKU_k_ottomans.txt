@@ -4,6 +4,18 @@ k_ottoman = {
 	}
 }
 
+k_nikaea = {
+	1444.8.1 = {
+		holder = CKU_ottomans_1
+	}
+}
+
+d_bucellaria = {
+	1444.8.1 = {
+		holder = CKU_ottomans_1
+	}
+}
+
 d_bulgaria = {
 	1444.8.1 = {
 		holder = CKU_ottomans_1
@@ -82,8 +94,91 @@ c_adrianopolis = {
 	}
 }
 
+c_antipatreia = {
+	1444.8.1 = {
+		holder = CKU_ottomans_1
+	}
+}
+
+c_avlonas = {
+	1444.8.1 = {
+		holder = CKU_ottomans_1
+	}
+}
+
+c_caria = {
+	1444.8.1 = {
+		holder = CKU_ottomans_1
+	}
+}
+
+c_epeiros = {
+	1444.8.1 = {
+		holder = CKU_ottomans_1
+	}
+}
+
+c_germa = {
+	1444.8.1 = {
+		holder = CKU_ottomans_1
+	}
+}
+
+c_honorias = {
+	1444.8.1 = {
+		holder = CKU_ottomans_1
+	}
+}
+
 c_kalliopolis = {
 	1444.8.1 = {
+		holder = CKU_ottomans_1
+	}
+}
+
+c_lycia = {
+	1444.8.1 = {
+		holder = CKU_ottomans_1
+	}
+}
+
+c_metzovo = {
+	1444.8.1 = {
+		holder = CKU_ottomans_1
+	}
+}
+
+c_pacatiana = {
+	1444.8.1 = {
+		holder = CKU_ottomans_1
+	}
+}
+
+c_philomelium = {
+	1444.8.1 = {
+		holder = CKU_ottomans_1
+	}
+}
+
+c_pisidia = {
+	1444.8.1 = {
+		holder = CKU_ottomans_1
+	}
+}
+
+c_vidin = {
+	1422.1.1 = {
+		holder = CKU_ottomans_1
+	}
+}
+
+b_korakesion = {
+	1422.1.1 = {
+		holder = CKU_ottomans_1
+	}
+}
+b_side = {
+	1422.1.1 = {
 		holder = CKU_ottomans_1
 	}
 }

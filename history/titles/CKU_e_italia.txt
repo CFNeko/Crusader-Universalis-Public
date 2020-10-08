@@ -1,25 +1,28 @@
 #Florence = {
-	c_firenze = {
+c_firenze = {
+	government = republic_government
+	1434.10.6 = {
 		government = republic_government
-		1434.10.6 = {
-			holder = CKU_florence_1
-			liege = e_hre
-		}
+		holder = CKU_florence_1
+		liege = e_hre
 	}
+}
 
-	c_arezzo = {
-		1434.10.6 = {
-			holder = CKU_florence_1
-			liege = e_hre
-		}
+c_arezzo = {
+	government = republic_government
+	1434.10.6 = {
+		holder = CKU_florence_1
+		liege = e_hre
 	}
+}
 
-	c_pisa = {
-		1434.10.6 = {
-			holder = CKU_florence_1
-			liege = e_hre
-		}
+c_pisa = {
+	government = republic_government
+	1434.10.6 = {
+		holder = CKU_florence_1
+		liege = e_hre
 	}
+}
 #}
 #Milan = {
 	d_lombardia = {
@@ -129,6 +132,12 @@
 		}
 	}
 	
+	c_nice = {
+		1440.1.6 = {
+			holder = CKU_savoy_10
+		}
+	}
+	
 	b_monaco = {
 		1440.1.6 = {
 			holder = CKU_savoy_10
@@ -143,4 +152,11 @@
 			liege = e_hre
 		}
 	}
+	#c_orbetello = {
+	#	government = republic_government
+	#	1414.1.1 = {
+	#		holder = 413017
+	#		liege = e_hre
+	#	}
+	#}
 #}

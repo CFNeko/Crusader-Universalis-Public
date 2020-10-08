@@ -1,17 +1,26 @@
-
 #France {
 	k_france = {
 		1440.1.1 = {
 			holder = CKU_francien_1
+			succession_laws = {
+				male_only_law
+				single_heir_succession_law
+			}
 		}
 	}
 	d_dauphine = {
-		1440.1.1 = {
-			holder = CKU_francien_1
+		1423.7.3 = {
+			holder = CKU_valois_21
+			liege = k_france
 		}
 	}
 	d_provence = {
 		1440.1.1 = {
+			holder = CKU_francien_1
+		}
+	}
+	d_champagne = {
+		1422.10.21 = {
 			holder = CKU_francien_1
 		}
 	}
@@ -27,12 +36,24 @@
 	}
 		# Duchy of Anjou = {
 			d_anjou = {
-				1440.1.1 = {
+				1434.11.12 = {
 					holder = CKU_anjou_1
+					#liege = k_france
 				}
 			}
 			d_bar = {
-				1440.1.1 = {
+				1430.6.26 = {
+					holder = CKU_anjou_1
+					liege = k_france
+				}
+			}
+			c_provence = {
+				1434.11.12 = {
+					holder = CKU_anjou_1
+				}
+			}
+			c_forcalquier = {
+				1434.11.12 = {
 					holder = CKU_anjou_1
 				}
 			}
@@ -40,16 +61,6 @@
 				1440.1.1 = {
 					holder = CKU_anjou_2
 					liege = d_bar
-				}
-			}
-			c_provence = {
-				1440.1.1 = {
-					holder = CKU_anjou_1
-				}
-			}
-			c_nice = {
-				1440.1.1 = {
-					holder = CKU_anjou_1
 				}
 			}
 			d_upper_lorraine = {
@@ -61,79 +72,68 @@
 		# Duchy of Orleans = {
 			d_orleans = {
 				1440.1.1 = {
-					holder = CKU_orleans_1
+					holder = CKU_orleans_2
 					liege = k_france
 				}
 			}
-			c_valois = {
+			d_valois = {
 				1440.1.1 = {
-					holder = CKU_orleans_1
-				}
-			}
-			c_montargis = {
-				1440.1.1 = {
-					holder = CKU_orleans_1
-				}
-			}
-			c_blois = {
-				1440.1.1 = {
-					holder = CKU_orleans_1
-				}
-			}
-			c_orleans = {
-				1440.1.1 = {
-					holder = CKU_orleans_1
-				}
-			}
-			c_vendome = {
-				1440.1.1 = {
-					holder = CKU_orleans_1
+					holder = CKU_orleans_2
 				}
 			}
 			c_angouleme = {
-				1440.1.1 = {
-					holder = CKU_orleans_1
+				1407.11.23 = {
+					holder = CKU_orleans_6
+					liege = k_france
+				}
+			}
+			c_blois = { # Governor
+				1436.1.1 = {
+					holder = CKU_orleans_5
+					liege = d_orleans
 				}
 			}
 		#}
-		# Duchy of Armagnac = {
-			c_brie_francaise = {
-				1440.1.1 = {
-					holder = CKU_bourbon_1
+		# County of Armagnac = {
+			c_armagnac = {
+				1418.1.1 = {
+					holder = CKU_armagnac_2
 					liege = k_france
 				}
 			}
 			c_la_marche = {
-				1440.1.1 = {
-					holder = CKU_bourbon_1
-				}
-			}
-			c_rouergue = {
-				1440.1.1 = {
-					holder = CKU_bourbon_1
-				}
-			}
-			c_armagnac = {
-				1440.1.1 = {
-					holder = CKU_bourbon_1
+				1438.1.1 = {
+					holder = CKU_armagnac_10
+					liege = d_bourbon
 				}
 			}
 		#}
 		# Duchy of Foix = {
-			d_armagnac = {
-				1440.1.1 = {
-					holder = CKU_foix_1
+			c_foix = {
+				1436.5.4 = {
+					holder = CKU_foix_6
 					liege = k_france
 				}
 			}
-			c_foix = {
-				1440.1.1 = {
-					holder = CKU_foix_1
+			c_bigorre = {
+				1436.5.4 = {
+					holder = CKU_foix_6
 				}
 			}
-			c_carcassonne = {
-				1440.1.1 = {
-					holder = CKU_foix_1
+			c_bearn = {
+				1436.5.4 = {
+					holder = CKU_foix_6
+				}
+			}
+			c_marsan = {
+				1436.5.4 = {
+					holder = CKU_foix_6
+				}
+			}
+			c_comminges = { #Only for his life, the title is pledged towards Charles VII de Valois
+				1419.1.1 = {
+					holder = CKU_foix_12
+					liege = k_france
 				}
 			}
 		#}
@@ -144,15 +144,9 @@
 					liege = k_france
 				}
 			}
-			d_auvergne = {
+			c_clermont = {
 				1440.1.1 = {
 					holder = CKU_bourbon_2
-				}
-			}
-			c_auvergne = {
-				1440.1.1 = {
-					holder = CKU_tour_auvergne_1
-					liege = d_bourbon
 				}
 			}
 			c_forez = {
@@ -160,9 +154,33 @@
 					holder = CKU_bourbon_2
 				}
 			}
-			c_clermont = {
+			d_auvergne = {
 				1440.1.1 = {
 					holder = CKU_bourbon_2
+				}
+			}
+			c_auvergne = {
+				1437.1.1 = {
+					holder = CKU_tour_auvergne_1
+					liege = d_bourbon
+				}
+			}
+			c_clermont_sur_allier = {
+				1440.1.1 = {
+					holder = CKU_bourbon_18
+					liege = d_bourbon
+				}
+			}
+			c_clermont = {
+				1427.1.1 = {
+					holder = CKU_bourbon_3
+					liege = d_valois
+				}
+			}
+			c_vendome = {
+				1403.1.1 = {
+					holder = CKU_bourbon_31
+					liege = d_orleans
 				}
 			}
 		#}
@@ -199,11 +217,105 @@
 			c_sancerre = {
 				1440.1.1 = {
 					holder = CKU_sancerre_1
+					liege = d_orleans
+				}
+			}
+		#}
+		# Count of Montfort = {
+			b_montfort = {
+				1427.2.15 = {
+					holder = CKU_montfort_3
+				}
+			}
+		#}
+		# Count of Étampes = {
+			b_etampes = {
+				1442.1.1 = {
+					holder = CKU_bourgogne_14
+					liege = c_ile_de_france
+				}
+			}
+		#}
+		# Count of Dreux = {
+			b_dreux = {
+				1442.1.1 = {
+					holder = CKU_albret_13
+					liege = c_chartres
+				}
+			}
+		#}
+		# Viscount of Tartas = {
+			b_tartas = {
+				1425.1.1 = {
+					holder = CKU_albret_11
 					liege = k_france
 				}
 			}
 		#}
-		# Tournaisis = {
+		
+		
+		
+		# Archdiocese of Reims = {
+			c_reims = {
+				1444.4.4 = {
+					government = theocracy_government
+					holder = CKU_francien_minor_7
+					liege = k_france
+				}
+			}
+		#}
+		# Archdiocese of Reims = {
+			c_lyon = {
+				1444.6.6 = {
+					government = theocracy_government
+					holder = CKU_bourbon_5
+					liege = d_dauphine
+				}
+			}
+		#}
+		
+		
+		
+		# Governorship of Ile de France = {
+			c_ile_de_france = {
+				1397.1.1 = {
+					government = CKU_governor_government
+					holder = CKU_artois_5
+					liege = k_france
+				}
+			}
+		#}
+		# Governorship of Brie Francaise = {
+			c_brie_francaise = {
+				1397.1.1 = {
+					government = CKU_governor_government
+					holder = CKU_artois_5
+					liege = k_france
+				}
+			}
+		#}
+		# Governorship of Languedoc = {
+			d_languedoc = {
+				1440.1.1 = {
+					government = CKU_governor_government
+					holder = CKU_anjou_13
+					liege = k_france
+				}
+			}
+		#}
+		# Governorship of Troyes = {
+			c_troyes = {
+				1440.1.1 = {
+					government = CKU_governor_government
+					holder = CKU_francien_minor_4
+					liege = k_france
+				}
+			}
+		#}
+		
+		
+		
+		# Tournaisis = { # Should be independent county
 			b_tournai = {
 				1440.1.1 = {
 					holder = CKU_francien_minor_2
@@ -211,4 +323,13 @@
 				}
 			}
 		#}
+		
+		
+		
+		
+		c_perigord = {
+			1437.1.1 = {
+				holder = CKU_harcourt_1 # House de Chatillon
+			}
+		}
 #}

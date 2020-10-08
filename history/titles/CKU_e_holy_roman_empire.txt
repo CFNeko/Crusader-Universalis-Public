@@ -1,11 +1,10 @@
 #HRE {
 	e_hre = {
-		1440.1.1 = {
+		1438.1.1 = {
 			holder = CKU_austrian_1
 			succession_laws = {
 				princely_elective_succession_law
 				male_only_law
-				hre_law_1
 			}
 		}
 	}
@@ -209,10 +208,11 @@
 				}
 			}
 		#}
-		# Price-Bishopric Cambrésis = {
-			b_cambrai = {
+		# Price-Bishopric Cambrésis = { # Is its own county
+			c_cambray = {
 				1440.1.1 = {
-					holder = CKU_french_bishop_1
+					government = theocracy_government
+					holder = CKU_bourgogne_25
 					liege = "e_hre"
 				}
 			}

@@ -1,4 +1,4 @@
-version="1.1.1"
+version="1.1.2"
 tags={
 	"Total Conversion"
 	"Alternative History"
@@ -10,4 +10,4 @@ tags={
 	"Culture"
 }
 name="Crusader Universalis"
-supported_version="1.1.1"
+supported_version="1.1.2"

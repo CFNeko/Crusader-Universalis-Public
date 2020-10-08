@@ -12,10 +12,12 @@
 	trait = arrogant
 	trait = education_martial_3
 
-	#father = 463151
-	#we will add it back once PDX fix his history files
+	father = 463151
 	1351.10.16 = {
 		birth = yes
+	}
+	1360.10.8 = {
+		add_spouse = CKU_valois_12
 	}
 	1380.11.15 = {
 		add_spouse = CKU_milan_01
@@ -68,6 +70,30 @@ CKU_milan_02 = {
 		birth = yes
 	}
 	1412.5.16 = {
+		death = yes
+	}
+}
+
+CKU_milan_03 = {
+	name = "Valentina"
+	female = yes
+	dynasty = CKU_visconti
+	martial = 3
+	diplomacy = 6
+	intrigue = 4
+	stewardship = 7
+	religion = "catholic"
+	culture = lombard
+	trait = wrathful
+	trait = deceitful
+	trait = arrogant
+	trait = education_martial_3
+
+	father = CKU_milan_0
+	1371.1.1 = {
+		birth = yes
+	}
+	1408.12.4 = {
 		death = yes
 	}
 }

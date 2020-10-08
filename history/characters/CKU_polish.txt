@@ -1,6 +1,7 @@
 ﻿CKU_polish_1 = {
-	name = "Regent"
-	dynasty = CKU_jagiellon
+	name = "Zbigniew"
+	dna = CKU_polish_1_dna
+	#dynasty = CKU_jagiellon
 	martial = 3
 	diplomacy = 6
 	intrigue = 4
@@ -11,7 +12,7 @@
 	trait = deceitful
 	trait = arrogant
 	trait = education_martial_3
-	1430.1.1 = {
+	1389.12.5 = {
 		birth = yes
 	}
 }

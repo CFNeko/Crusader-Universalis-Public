@@ -55,7 +55,7 @@ CKU_1444_europe = {
 		history_id = CKU_castille_1
 		position = { 50 725 }
 
-		animation = disapproval
+		animation = personality_irrational
 	}
 
 	character = {
@@ -72,7 +72,7 @@ CKU_1444_europe = {
 		history_id = CKU_francien_1
 		position = { 150 500 }
 
-		animation = disapproval
+		animation = personality_bold
 	}
 	
 	character = {
@@ -89,7 +89,7 @@ CKU_1444_europe = {
 		history_id = CKU_english_1
 		position = { 375 150 }
 
-		animation = disapproval
+		animation = personality_compassionate
 	}
 	
 	#character = {
@@ -123,7 +123,7 @@ CKU_1444_europe = {
 		history_id = CKU_austrian_1
 		position = { 550 550 }
 
-		animation = disapproval
+		animation = personality_content
 	}
 
 	character = {
@@ -134,13 +134,13 @@ CKU_1444_europe = {
 		birth = 1413.11.19
 		title = d_ostmark
 		government = feudal_government
-		culture = franconian
+		culture = swabian
 		religion = catholic
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
 		history_id = CKU_hohenzollern_2
 		position = { 700 225 }
 
-		animation = disapproval
+		animation = personality_honorable
 	}
 
 	#character = {
@@ -174,7 +174,7 @@ CKU_1444_europe = {
 		history_id = CKU_hungarian_1
 		position = { 675 750 }
 
-		animation = disapproval
+		animation = personality_honorable
 	}
 	
 	#character = {
@@ -196,19 +196,18 @@ CKU_1444_europe = {
 	
 	character = {
 		name = "bookmark_1444_europe_poland"
-		dynasty = CKU_jagiellon
+		#dynasty = CKU_jagiellon
 		dynasty_splendor_level = 5
 		type = male
-		birth = 1444.11.10
+		history_id = CKU_polish_1
+		birth = 1389.12.5
 		title = k_poland
 		government = feudal_government
 		culture = polish
 		religion = catholic
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
-		history_id = CKU_polish_1
-		position = { 1125 450 }
-
-		animation = disapproval
+		position = { 1100 450 }
+		animation = personality_zealous
 	}
 
 	character = {
@@ -225,7 +224,7 @@ CKU_1444_europe = {
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
 		position = { 1200 725 }
 
-		animation = rage
+		animation = personality_bold
 	}
 	
 	character = {
@@ -239,10 +238,10 @@ CKU_1444_europe = {
 		culture = russian
 		religion = orthodox
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
-		history_id = CKU_rurikid_1_dna
+		history_id = CKU_rurikid_1
 		position = { 1300 120 }
 	
-		animation = disapproval
+		animation = stress
 	}
 }
 

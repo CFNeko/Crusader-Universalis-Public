@@ -15,8 +15,6 @@
 	discover_innovation = innovation_motte
 	discover_innovation = innovation_bannus
 	discover_innovation = innovation_catapult
-	discover_innovation = innovation_gavelkind
-	discover_innovation = innovation_city_planning
 	discover_innovation = innovation_casus_belli
 }
 
@@ -65,6 +63,7 @@
 
 1400.1.1. = {
 	#50 years after count Flandy's 1350 innovation tree, Late Medieval free
+	join_era = culture_era_early_modern
 	#
 	discover_innovation = innovation_court_officials
 	discover_innovation = innovation_cranes

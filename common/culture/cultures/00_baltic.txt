@@ -92,6 +92,143 @@
 			2 = caucasian_northern_dark_hair
 		}
 	}
+	lithuanian = {
+		
+		color = { 0.56 0.55 0.2 }
+
+		cadet_dynasty_names = {
+			"dynn_Jogailaitis"
+			"dynn_Gediminaitis"
+			"dynn_Astikaitis"
+			"dynn_AlS_eniS_kis"
+			"dynn_Cartoriskis"
+			"dynn_Giedraitis"
+			"dynn_Alelkaitis"
+			"dynn_Sviriskis"
+			"dynn_Valmantaitis"
+			"dynn_Kesgailos"
+			"dynn_Mangirdaitis"
+			"dynn_Hlebowicius"
+			"dynn_Schalauosunus"
+			"dynn_Ragai"
+			"dynn_Ismemel"
+			"dynn_Isskalvia"
+			"dynn_Lamati"
+		}
+
+		dynasty_names = {
+			"dynn_Jogailaitis"
+			"dynn_Gediminaitis"
+			"dynn_Astikaitis"
+			"dynn_AlS_eniS_kis"
+			"dynn_Cartoriskis"
+			"dynn_Giedraitis"
+			"dynn_Alelkaitis"
+			"dynn_Sviriskis"
+			"dynn_Valmantaitis"
+			"dynn_Kesgailos"
+			"dynn_Mangirdaitis"
+			"dynn_Hlebowicius"
+			"dynn_Schalauosunus"
+			"dynn_Ragai"
+			"dynn_Ismemel"
+			"dynn_Isskalvia"
+			"dynn_Lamati"
+		}
+
+		male_names = {
+			Algirdas Antanas Antavas Aras Arunas Azuolas Budrys Bukantas Butavas Butigeidis Butvydas Daugvilas Daumantas Dausprungas Dravenis Erdenis Erdvilas Gedigaudas
+			Gediminas Gedivilas Gintaras Gintautas Girdenis Irmantas Jaunutis Jogaila Jovirdas Kantibutas Karijotas Kesgaila Kestutis Korigaila Korybutas
+			Lasukas Lingvenis Liudas Lubartas Lutuveras Merkelis Mindaugas Minigaila Mantvydas Movkoldas Narimantas Povilas Pukuveras Rimantas
+			Rimgaila Rimvydas Ringaudas Sarunas Skirgaila Songaila Svarnas Svitrigaila Tarvydas Tovtivilas Traidenis Treniotas Vainius Vaisvilkas Valimantas
+			Vidmantas Vingoldas Virmantas Visvaldis Vizgirdas Vykintas Vytautas Vytenis Zivinbudas Zygimantas
+		}
+		female_names = {
+			Aldona Anele Audra Ausra Birute Dannila Danute Evalda Gaudimante Giedre Gintare Jevna Kenna Laima Mikova Roze Saule Svajone Vida
+		}
+		
+		dynasty_of_location_prefix = "dynnp_is"
+
+		ethnicities = {
+			80 = caucasian_northern_blond
+			15 = caucasian_northern_ginger
+			3 = caucasian_northern_brown_hair
+			2 = caucasian_northern_dark_hair
+		}
+	}
+	prussian = {
+		
+		color = { 0.56 0.55 0.4 }
+
+		cadet_dynasty_names = {
+			"dynn_Kuilis"
+			"dynn_Kalabijjan"
+			"dynn_Jankowskie"
+			{ "dynnp_is" "dynn_Barta" }
+			{ "dynnp_is" "dynn_Galinda" }
+			{ "dynnp_is" "dynn_Sasna" }
+			{ "dynnp_is" "dynn_Kulmas" }
+			{ "dynnp_is" "dynn_Pamede" }
+			{ "dynnp_is" "dynn_Pagude" }
+			{ "dynnp_is" "dynn_Varme" }
+			{ "dynnp_is" "dynn_Notanga" }
+			{ "dynnp_is" "dynn_Semba" }
+			{ "dynnp_is" "dynn_Skalva" }
+			{ "dynnp_is" "dynn_Nadruva" }
+			{ "dynnp_is" "dynn_Truso" }
+			{ "dynn_Pregolyas" }
+			{ "dynn_Nemanas" }
+			{ "dynn_Priegliusas" }
+			{ "dynn_Alnas" }
+			{ "dynn_Dravantas" }
+			{ "dynn_Spirdin" }
+			{ "dynn_Peckollas" }
+			{ "dynn_Rickias" }
+		}
+
+		dynasty_names = {
+			"dynn_Kuilis"
+			"dynn_Kalabijjan"
+			"dynn_Jankowskie"
+			{ "dynnp_is" "dynn_Barta" }
+			{ "dynnp_is" "dynn_Galinda" }
+			{ "dynnp_is" "dynn_Sasna" }
+			{ "dynnp_is" "dynn_Kulmas" }
+			{ "dynnp_is" "dynn_Pamede" }
+			{ "dynnp_is" "dynn_Pagude" }
+			{ "dynnp_is" "dynn_Varme" }
+			{ "dynnp_is" "dynn_Notanga" }
+			{ "dynnp_is" "dynn_Semba" }
+			{ "dynnp_is" "dynn_Skalva" }
+			{ "dynnp_is" "dynn_Nadruva" }
+			{ "dynnp_is" "dynn_Truso" }
+			{ "dynn_Pregolyas" }
+			{ "dynn_Nemanas" }
+			{ "dynn_Priegliusas" }
+			{ "dynn_Alnas" }
+			{ "dynn_Dravantas" }
+			{ "dynn_Spirdin" }
+			{ "dynn_Peckollas" }
+			{ "dynn_Rickias" }
+		}
+
+		male_names = {
+			Alvydas Arelis Auctune Bajoras Beidras Budo Dagonis Ekkelis Galindas Gauronas Gerdautas Glande Golding Jauguttis Karatas Klukis Kugis
+			Milzas Nomedas Prusas Sergonis Ulinniks Ulitis
+		}
+		female_names = {
+			Betten Dagas Gelennis Gerkus Grasus Gulbis Mila Milyuns Weslikan Ziedas
+		}
+		
+		dynasty_of_location_prefix = "dynnp_is"
+
+		ethnicities = {
+			80 = caucasian_northern_blond
+			15 = caucasian_northern_ginger
+			3 = caucasian_northern_brown_hair
+			2 = caucasian_northern_dark_hair
+		}
+	}
 	semigallian = {
 		
 		color = { 0.5 0.5 0.1 }
@@ -223,79 +360,6 @@
 		}
 		female_names = {
 			Aldona Anele Audra Ausra Birute Dannila Danute Evalda Gaudimante Giedre Gintare Jevna Kenna Laima Mikova Roze Saule Svajone Vida
-		}
-		
-		dynasty_of_location_prefix = "dynnp_is"
-
-		ethnicities = {
-			80 = caucasian_northern_blond
-			15 = caucasian_northern_ginger
-			3 = caucasian_northern_brown_hair
-			2 = caucasian_northern_dark_hair
-		}
-	}
-	prussian = {
-		
-		color = { 0.56 0.55 0.4 }
-
-		cadet_dynasty_names = {
-			"dynn_Kuilis"
-			"dynn_Kalabijjan"
-			"dynn_Jankowskie"
-			{ "dynnp_is" "dynn_Barta" }
-			{ "dynnp_is" "dynn_Galinda" }
-			{ "dynnp_is" "dynn_Sasna" }
-			{ "dynnp_is" "dynn_Kulmas" }
-			{ "dynnp_is" "dynn_Pamede" }
-			{ "dynnp_is" "dynn_Pagude" }
-			{ "dynnp_is" "dynn_Varme" }
-			{ "dynnp_is" "dynn_Notanga" }
-			{ "dynnp_is" "dynn_Semba" }
-			{ "dynnp_is" "dynn_Skalva" }
-			{ "dynnp_is" "dynn_Nadruva" }
-			{ "dynnp_is" "dynn_Truso" }
-			{ "dynn_Pregolyas" }
-			{ "dynn_Nemanas" }
-			{ "dynn_Priegliusas" }
-			{ "dynn_Alnas" }
-			{ "dynn_Dravantas" }
-			{ "dynn_Spirdin" }
-			{ "dynn_Peckollas" }
-			{ "dynn_Rickias" }
-		}
-
-		dynasty_names = {
-			"dynn_Kuilis"
-			"dynn_Kalabijjan"
-			"dynn_Jankowskie"
-			{ "dynnp_is" "dynn_Barta" }
-			{ "dynnp_is" "dynn_Galinda" }
-			{ "dynnp_is" "dynn_Sasna" }
-			{ "dynnp_is" "dynn_Kulmas" }
-			{ "dynnp_is" "dynn_Pamede" }
-			{ "dynnp_is" "dynn_Pagude" }
-			{ "dynnp_is" "dynn_Varme" }
-			{ "dynnp_is" "dynn_Notanga" }
-			{ "dynnp_is" "dynn_Semba" }
-			{ "dynnp_is" "dynn_Skalva" }
-			{ "dynnp_is" "dynn_Nadruva" }
-			{ "dynnp_is" "dynn_Truso" }
-			{ "dynn_Pregolyas" }
-			{ "dynn_Nemanas" }
-			{ "dynn_Priegliusas" }
-			{ "dynn_Alnas" }
-			{ "dynn_Dravantas" }
-			{ "dynn_Spirdin" }
-			{ "dynn_Peckollas" }
-			{ "dynn_Rickias" }
-		}
-
-		male_names = {
-			Alvydas Arelis Auctune Bajoras Beidras Budo Dagonis Ekkelis Galindas Gauronas Gerdautas Glande Golding Jauguttis Karatas Klukis Kugis
-			Milzas Nomedas Prusas Sergonis Ulinniks Ulitis
-		}
-		female_names = {
-			Betten Dagas Gelennis Gerkus Grasus Gulbis Mila Milyuns Weslikan Ziedas
 		}
 		
 		dynasty_of_location_prefix = "dynnp_is"

@@ -83,7 +83,7 @@ b_amalfi = {
     }
 }
 
-b_salerno = {
+c_salerno = {
 	1440.1.1 = {
 		holder = CKU_salerno_1
 		liege = d_naples

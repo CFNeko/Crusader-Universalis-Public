@@ -663,7 +663,7 @@
 
 ###c_yperen
 2125 = {	#YPRES
-	culture = walloon
+	culture = flemish
 	religion = catholic
 	holding = castle_holding
 }
@@ -678,7 +678,7 @@
 
 ###c_guines
 2130 = {	#CALAIS
-	culture = walloon
+	culture = flemish
 	religion = catholic
 	holding = castle_holding
 }
@@ -691,7 +691,7 @@
 
 ###c_lille
 2126 = {	#LILLE
-	culture = walloon
+	culture = flemish
 	religion = catholic
 	holding = castle_holding
 }

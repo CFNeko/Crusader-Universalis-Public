@@ -1,16 +1,12 @@
 CKU_taranto_1 = {
-	name = "Giovanni Antonio Orsini del Balzo"
-	dynasty = 89
+	name = "Giovanni Antonio del Balzo"
+	dynasty = CKU_orsini
 	martial = 3
 	diplomacy = 6
 	intrigue = 4
 	stewardship = 7
 	religion = "catholic"
-	culture = apulian
-	trait = wrathful
-	trait = deceitful
-	trait = arrogant
-	trait = education_martial_3
+	culture = neapolitan
 	1401.9.9 = {
 		birth = yes
 	}

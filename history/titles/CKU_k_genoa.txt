@@ -2,6 +2,7 @@ k_genoa = {
 	government = republic_government
 	1443.1.28 = {
 		holder = CKU_genoa_1
+		liege = e_hre
 	}
 }
 

@@ -6,6 +6,9 @@
 		dna = CKU_english_1_dna
 		religion = catholic
 		culture = english
+		trait = craven
+		trait = shy
+		trait = compassionate
 		1421.12.6 = {
 			birth = yes
 		}

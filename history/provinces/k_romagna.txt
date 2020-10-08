@@ -151,7 +151,7 @@
 
 ###c_lanciano
 2604 = {	#LANCIANO
-	culture = italian
+	culture = neapolitan
 	religion = catholic
 	holding = castle_holding
 	

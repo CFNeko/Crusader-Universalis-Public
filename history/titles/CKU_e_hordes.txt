@@ -66,4 +66,9 @@
 			holder = CKU_golden_horde_1
 		}
 	}
+	c_samiran = {
+		1440.1.1 = {
+			holder = CKU_golden_horde_1
+		}
+	}
 #}

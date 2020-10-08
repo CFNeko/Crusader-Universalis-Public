@@ -40,3 +40,29 @@ house_luxembourg_ligny = {
 	name = "dynn_luxembourg_ligny"
 	dynasty = CKU_luxembourg
 }
+
+# Valois
+house_alencon = {
+	name = "dynn_alencon"
+	dynasty = 101
+}
+
+house_anjou = {
+	name = "dynn_anjou"
+	dynasty = 101
+}
+
+house_orleans = {
+	name = "dynn_orleans"
+	dynasty = 101
+}
+
+house_angouleme = {
+	name = "dynn_angouleme"
+	dynasty = 101
+}
+
+house_longueville = { # Cadet branch of Valois-Orleans
+	name = "dynn_longueville"
+	dynasty = 101
+}

@@ -37,6 +37,9 @@
 		religion = catholic
 		culture = castilian
 		dynasty = 774
+		trait = fickle
+		trait = gregarious
+		trait = trusting
 		1405.3.6 = {
 			birth = yes
 		}

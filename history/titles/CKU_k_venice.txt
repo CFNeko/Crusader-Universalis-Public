@@ -5,6 +5,12 @@
 			holder = CKU_venice_1
 		}
 	}
+
+	d_krete = {
+		1440.1.1 = {
+			holder = CKU_venice_1
+		}
+	}
 	
 	d_venice = {
 		1440.1.1 = {
@@ -130,6 +136,12 @@
 		1440.1.1 = {
 			holder = CKU_naxos_1
 			liege = k_venice
+		}
+	}
+
+	c_dyrrachion = {
+		1440.1.1 = {
+			holder = CKU_venice_1
 		}
 	}
 	

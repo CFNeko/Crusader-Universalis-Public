@@ -36,7 +36,8 @@ innovation_military_1 = {
 	icon = @fortifications
 	custom = unlock_late_medieval_fortification_buildings
 
-	
+	flag = global_regular
+	flag = early_modern_era_regular
 }
 
 innovation_military_2 = {
@@ -45,6 +46,9 @@ innovation_military_2 = {
 	icon = @siege_weapons
 
 	unlock_maa = bombard
+
+	flag = global_regular
+	flag = early_modern_era_regular
 }
 
 innovation_military_3 = {
@@ -58,7 +62,8 @@ innovation_military_3 = {
 		levy_reinforcement_rate = 0.15
 	}
 
-	
+	flag = global_regular
+	flag = early_modern_era_regular	
 }
 
 innovation_military_4 = {
@@ -71,6 +76,8 @@ innovation_military_4 = {
 		men_at_arms_limit = 5
 	}
 
+	flag = global_regular
+	flag = early_modern_era_regular
 	
 }
 
@@ -83,6 +90,8 @@ innovation_military_5 = {
 		siege_phase_time = -0.1
 	}
 
+	flag = global_regular
+	flag = early_modern_era_regular
 	
 }
 
@@ -99,7 +108,8 @@ innovation_military_6 = {
 		type = heavy_cavalry
 		toughness = 3
 	}
-
+	flag = global_regular
+	flag = early_modern_era_regular
 	
 }
 
@@ -112,7 +122,8 @@ innovation_civic_1 = {
 	unlock_law = single_heir_succession_law
 	unlock_law = single_heir_succession_law_youngest
 
-	
+	flag = global_regular
+	flag = early_modern_era_regular
 }
 
 innovation_civic_2 = {
@@ -126,7 +137,8 @@ innovation_civic_2 = {
 		build_speed = -0.15
 	}
 
-	
+	flag = global_regular
+	flag = early_modern_era_regular
 }
 
 innovation_civic_3 = {
@@ -139,7 +151,8 @@ innovation_civic_3 = {
 		fellow_vassal_opinion = 5
 	}
 
-	
+	flag = global_regular
+	flag = early_modern_era_regular
 }
 
 innovation_civic_4 = {
@@ -150,6 +163,8 @@ innovation_civic_4 = {
 	unlock_casus_belli = de_jure_cb
 	custom = multiple_claim_wars_others
 	custom = cb_discount_prestige_10
+	flag = global_regular
+	flag = early_modern_era_regular
 }
 
 innovation_civic_5 = {
@@ -161,6 +176,8 @@ innovation_civic_5 = {
 		monthly_prestige_gain_mult = 0.1
 	}
 
+	flag = global_regular
+	flag = early_modern_era_regular
 	
 }
 
@@ -172,7 +189,8 @@ innovation_civic_6 = {
 	modifier = {
 		domain_limit = 1
 	}
-
+	flag = global_regular
+	flag = early_modern_era_regular
 	
 }
 
@@ -182,7 +200,8 @@ innovation_civic_7 = {
 	icon = @misc_inventions
 
 	custom = reduce_develop_county_penalty_04
-
+	flag = global_regular
+	flag = early_modern_era_regular
 	
 }
 
@@ -194,7 +213,8 @@ innovation_civic_8 = {
 	modifier = {
 		development_growth_factor = 0.1
 	}
-
+	flag = global_regular
+	flag = early_modern_era_regular
 	
 }
 

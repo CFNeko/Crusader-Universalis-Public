@@ -17,11 +17,15 @@
 
 			CKU_hohenzollern_2 = {	#Irontooth
 				name = "Friedrich"
+				dna = CKU_hohenzollern_2_dna
 				religion = catholic
 				culture = franconian #CTU_saxon
 				dynasty = 12476
 				father = CKU_hohenzollern_1
 				give_nickname = nick_irontooth
+				trait = diligent
+				trait = ambitious
+				trait = stubborn
 				1413.11.19 = {
 					birth = yes
 				}
@@ -173,13 +177,15 @@
 	#Habsburgs = {
 		CKU_austrian_1 = {
 			name = "Friedrich"
+			dna = CKU_austrian_1_dna
 			religion = catholic
 			culture = bavarian #CTU_austrian
 			dynasty = 51
 			father = CKU_austrian_7
-			trait = chaste
 			trait = calm
+			trait = patient
 			trait = shy
+			trait = chaste
 			trait = education_diplomacy_3
 			1415.9.21 = {
 				birth = yes
@@ -188,6 +194,7 @@
 
 		CKU_austrian_2 = {
 			name = "Ladislaus"
+			dna = CKU_austrian_2_dna
 			religion = catholic
 			culture = bavarian #CTU_austrian
 			dynasty = 51
@@ -203,8 +210,14 @@
 			culture = bavarian #CTU_austrian
 			father = CKU_austrian_6
 			dynasty = 51
-			1439.1.1 = {
+			1427.10.26 = {
 				birth = yes
+			}
+			1433.1.1 = {
+				create_betrothal = CKU_valois_22
+			}
+			1496.3.4 = {
+				death = yes
 			}
 		}
 		# Daddy Chin
@@ -354,10 +367,13 @@
 				religion = catholic
 				culture = bavarian
 				dynasty = 217
-				1403.9.1 = {
+				1368.1.1 = {
 					birth = yes
 				}
-				1445.4.7 = {
+				1413.10.1 = {
+					add_spouse = CKU_alencon_4
+				}
+				1447.5.1 = {
 					death = yes
 				}
 			}
@@ -734,6 +750,22 @@
 				birth = yes #unknown
 			}
 			1448.1.1 = {
+				death = yes
+			}
+		}
+		CKU_marck_2 = {
+			name = "Maria"
+			female = yes
+			religion = catholic
+			culture = rhenish
+			dynasty = 7117
+			father = CKU_marck_1
+			mother = CKU_bourgogne_22
+			# Married Charles de Orleans
+			1426.9.19 = {
+				birth = yes
+			}
+			1486.8.23 = {
 				death = yes
 			}
 		}

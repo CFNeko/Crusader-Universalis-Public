@@ -1,10 +1,13 @@
-﻿
-# Hungarian {
+﻿# Hungarian {
 	CKU_hungarian_1 = {
 		name = "Janos"
+		dna = CKU_hungarian_1_dna
 		religion = catholic
 		culture = hungarian
 		dynasty = CKU_hunyadi
+		trait = brave
+		trait = ambitious
+		trait = zealous
 		1406.1.1 = {
 			birth = yes
 		}

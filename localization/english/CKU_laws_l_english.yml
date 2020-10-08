@@ -4,3 +4,8 @@
  special_contract_stadhouders: "Governorship"
  special_contract_stadhouders_desc: "A Governorship is a non-dynastic feudal subject that grants a large increase in tax revenue at the cost of some domain limit due to its administration being tied into the ruler's very own administration."
  governorship_tax_increase: "Governor Obligations"
+
+ CKU_governor_government: "Governorship"
+ CKU_governor_government_desc: "Governorships are a form of non-dynastic landholders that pay additional amounts of tax to their overlord"
+ CKU_governor_government_vassals_label: "Governor Obligations are all the same for all Governor Vassals"
+ CKU_governor_government_obligations: "Governorship Obligations"

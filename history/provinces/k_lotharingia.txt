@@ -2,7 +2,7 @@
 ##d_luxembourg ###################################
 ###c_luxembourg
 2082 = {	#LUXEMBOURG
-	culture = walloon
+	culture = flemish
 	religion = catholic
 	holding = castle_holding
 	
@@ -22,7 +22,7 @@
 
 ###c_bouillon
 2091 = {	#BOUILLON
-	culture = walloon
+	culture = flemish
 	religion = catholic
 	holding = castle_holding
 }
@@ -39,7 +39,7 @@
 
 ###c_liege
 2097 = {	#LIEGE
-	culture = walloon
+	culture = flemish
 	religion = catholic
 	holding = castle_holding
 }
@@ -52,7 +52,7 @@
 
 ###c_namur
 2098 = {	#NAMUR
-	culture = walloon
+	culture = flemish
 	religion = catholic
 	holding = castle_holding
 }
@@ -93,7 +93,7 @@
 
 ###c_hainaut
 2117 = {	#MONS
-	culture = walloon
+	culture = flemish
 	religion = catholic
 	holding = castle_holding
 }
@@ -107,7 +107,7 @@
 
 ###c_cambray
 2118 = {	#CAMBRAI
-	culture = walloon
+	culture = flemish
 	religion = catholic
 	holding = church_holding
 }
