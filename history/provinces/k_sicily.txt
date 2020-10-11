@@ -75,10 +75,12 @@
 
 ###c_malta
 2646 = {	#MALTA
-	culture = sicilian
+	culture = maltese
 	religion = catholic
 	holding = castle_holding
 	
+	special_building_slot = great_harbour_01
+	special_building = great_harbour_01
 	
 }
 

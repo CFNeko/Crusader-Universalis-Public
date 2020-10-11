@@ -97,4 +97,5 @@
 	discover_innovation = innovation_royal_armory
 	discover_innovation = innovation_sappers
 	discover_innovation = innovation_standing_armies
+	discover_innovation = innovation_colonising
 } 

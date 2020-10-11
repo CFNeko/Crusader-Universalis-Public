@@ -14,6 +14,7 @@
 	religion = insular_celtic
 	terrain = hills
 	
+	holding = none
 
 }
 
@@ -24,6 +25,7 @@
 	religion = insular_celtic
 	terrain = hills
 	
+	holding = none
 
 }
 
@@ -33,7 +35,6 @@
 	culture = irish
 	religion = insular_celtic
 	terrain = hills
-
 	
 }
 

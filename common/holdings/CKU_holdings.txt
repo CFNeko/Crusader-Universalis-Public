@@ -1,0 +1,20 @@
+﻿colonisable_holding = {
+	primary_building = colonisable_01
+
+	buildings = {
+		longhouses_01
+	}
+
+	flag = tribal
+}
+
+colony_holding = {
+	primary_building = colony_01
+
+	buildings = {
+		colony_housing_district_01
+		colony_housing_district_02
+	}
+
+	can_be_inherited = yes
+}

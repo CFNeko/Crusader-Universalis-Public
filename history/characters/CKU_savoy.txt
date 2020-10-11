@@ -304,36 +304,9 @@ CKU_savoy_10 = {
 		birth = yes
 	}
 	1434.1.1 = {
-		add_spouse = CKU_savoy_10_1
+		add_spouse = CKU_lusignan_11
 	}
 	1465.1.29 = {
-		death = yes
-	}
-}
-
-CKU_savoy_10_1 = {
-	name = "Anna di Cipro"
-	dynasty = 240
-	martial = 3
-	diplomacy = 6
-	intrigue = 4
-	stewardship = 7
-	religion = "catholic"
-	culture = piedmontese
-	trait = wrathful
-	trait = deceitful
-	trait = arrogant
-	trait = education_martial_3
-
-	female = yes
-
-	1419.9.24 = {
-		birth = yes
-	}
-	1434.1.1 = {
-		add_spouse = CKU_savoy_10
-	}
-	1462.11.11 = {
 		death = yes
 	}
 }
@@ -427,7 +400,7 @@ CKU_savoy_14 = {
 	trait = education_martial_3
 
 	father = CKU_savoy_10
-	mother = CKU_savoy_10_1
+	mother = CKU_lusignan_11
 	1435.2.1 = {
 		birth = yes
 	}
@@ -453,7 +426,7 @@ CKU_savoy_15 = {
 	female = yes
 
 	father = CKU_savoy_10
-	mother = CKU_savoy_10_1
+	mother = CKU_lusignan_11
 	1436.1.1 = {
 		birth = yes
 	}
@@ -477,7 +450,7 @@ CKU_savoy_16 = {
 	trait = education_martial_3
 
 	father = CKU_savoy_10
-	mother = CKU_savoy_10_1
+	mother = CKU_lusignan_11
 	1436.6.5 = {
 		birth = yes
 	}
@@ -503,7 +476,7 @@ CKU_savoy_17 = {
 	female = yes
 
 	father = CKU_savoy_10
-	mother = CKU_savoy_10_1
+	mother = CKU_lusignan_11
 	1439.1.1 = {
 		birth = yes
 	}
@@ -532,7 +505,7 @@ CKU_savoy_18 = {
 	female = yes
 
 	father = CKU_savoy_10
-	mother = CKU_savoy_10_1
+	mother = CKU_lusignan_11
 
 	1441.1.1 = {
 		birth = yes
@@ -557,7 +530,7 @@ CKU_savoy_19 = {
 	trait = education_martial_3
 
 	father = CKU_savoy_10
-	mother = CKU_savoy_10_1
+	mother = CKU_lusignan_11
 
 	1440.1.1 = {
 		birth = yes
@@ -582,7 +555,7 @@ CKU_savoy_20 = {
 	trait = education_martial_3
 
 	father = CKU_savoy_10
-	mother = CKU_savoy_10_1
+	mother = CKU_lusignan_11
 
 	1442.1.1 = {
 		birth = yes
@@ -607,7 +580,7 @@ CKU_savoy_21 = {
 	trait = education_martial_3
 
 	father = CKU_savoy_10
-	mother = CKU_savoy_10_1
+	mother = CKU_lusignan_11
 
 	1443.2.5 = {
 		birth = yes

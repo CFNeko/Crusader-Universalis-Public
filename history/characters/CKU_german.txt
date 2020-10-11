@@ -942,14 +942,15 @@
 			}
 		}
 		CKU_gryff_1 = {	
-			name = "Wartislaw"
+			name = "Erik"
+			dna = CKU_gryff_1_dna
 			religion = catholic
 			culture = pommeranian
 			dynasty = 177
-			1438.1.1 = {
-				birth = yes #unknown
+			1381.1.1 = {
+				birth = yes
 			}
-			1483.1.1 = {
+			1459.9.24 = {
 				death = yes
 			}
 		}

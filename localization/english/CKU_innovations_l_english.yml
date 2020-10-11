@@ -1,2 +1,6 @@
 l_english:
-  culture_era_early_modern: "Renaissance"
+ culture_era_early_modern:0 "Renaissance"
+
+ innovation_gallowglass:0 "Gallowglass"
+ innovation_gallowglass_desc:0 "Gallowglasses were a type of mercenary in scotland"
+ innovation_colonising:0 "Colonialism"

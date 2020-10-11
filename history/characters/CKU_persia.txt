@@ -1,0 +1,394 @@
+# Ajam = {
+	CKU_ajam_1 = {
+		name = "Muhammad bin Baysonqor"
+		dynasty = dynn_timurid
+		religion = muwalladi
+		culture = turkish
+		1418.1.1 = {
+			birth = yes
+		}
+	}
+#}
+# Ardalan = {
+	CKU_ardalan_1 = {
+		name = "Bawa"
+		dynasty = dynn_ardalan
+		religion = muwalladi
+		culture = kurdish
+		1381.1.1 = {
+			birth = yes
+		}
+	}
+#}
+# Luristan = {
+	CKU_luristan_1 = {
+		name = "Malik Hussein"
+		dynasty = dynn_khorishidi
+		religion = muwalladi
+		culture = kurdish
+		1394.1.1 = {
+			birth = yes
+		}
+	}
+#}
+# Biapas = {
+	CKU_biapas_1 = {
+		name = "Ala al-Din"
+		dynasty = dynn_eshaqvand
+		religion = muwalladi
+		culture = daylamite
+		1410.1.1 = {
+			birth = yes
+		}
+	}
+#}
+# Gilan = {
+	CKU_gilan_1 = {
+		name = "Sayyed Naser"
+		dynasty = dynn_kiya
+		religion = muwalladi
+		culture = daylamite
+		1411.1.1 = {
+			birth = yes
+		}
+	}
+#}
+# Mazandaran = {
+	CKU_mazandaran_1 = {
+		name = "Kamal al-Din"
+		dynasty = dynn_marashi
+		religion = muwalladi
+		culture = daylamite
+		1424.1.1 = {
+			birth = yes
+		}
+	}
+#}
+# Timurids = {
+	CKU_timurid_1 = {		#timurids
+		name = "Sahrokh"
+		dynasty = dynn_timurid
+		religion = muwalladi
+		culture = turkish
+		father = CKU_timurid_2	#timur
+		mother = CKU_timurid_4	#timur wife
+		1377.8.20 = {
+			birth = yes
+		}
+		
+	}
+	CKU_timurid_2 = {		#timur
+		name = "Temür"
+		dynasty = dynn_timurid
+		religion = muwalladi
+		culture = turkish
+		1336.4.9 = {
+			birth = yes
+		}
+		1405.2.18 = {
+			death = yes
+		}
+	}
+	CKU_timurid_3 = {		#transoxiana
+		name = "Ulegh Beg"
+		dynasty = dynn_timurid
+		religion = muwalladi
+		culture = turkish
+		father = CKU_timurid_1	#sahrokh
+		1394.1.1 = {
+			birth = yes
+		}
+		
+	}
+	CKU_timurid_4 = {		#timur's wife
+		name = "Taghay Tarkhan"
+		dynasty = dynn_t_agha
+		religion = muwalladi
+		culture = turkish
+		female = yes
+		1340.1.1 = {
+			birth = yes
+		}
+		1398.1.1 = {
+			death = yes
+		}
+	}
+#}
+# Fars = {
+	CKU_fars_1 = {
+		name = "Abdallah bin Ibrahim"
+		dynasty = dynn_timurid
+		religion = muwalladi
+		culture = turkish
+		1433.1.1 = {
+			birth = yes
+		}
+	}
+#}
+# Khorasan  = {
+	CKU_khorasan_1 = {
+		name = "Babur bin Baysunkur"
+		dynasty = dynn_timurid
+		religion = muwalladi
+		culture = turkish
+		1423.1.1 = {
+			birth = yes
+		}
+	}
+#}
+# Afghanistan = {
+	CKU_afghanistan_1 = {
+		name = "Karashtar bin Soyurghatmish"
+		dynasty = dynn_timurid
+		religion = muwalladi
+		culture = turkish
+		1425.1.1 = {
+			birth = yes
+		}
+	}
+#}
+# Sistan = {
+	CKU_sistan_1 = {
+		name = "Malik Mahmud"
+		dynasty = dynn_mihrabanid
+		religion = muwalladi
+		culture = turkish
+		1419.1.1 = {
+			birth = yes
+		}
+	}
+#}
+# Baluchistan = {
+	CKU_baluchistan_1 = {
+		name = "Malik Kumbar"
+		dynasty = dynn_mirwari
+		religion = muwalladi
+		culture = baloch
+		1425.1.1 = {
+			birth = yes
+		}
+	}
+#}
+# Kashmir  = {
+	CKU_kashmir_1 = {
+		name = "Zayn al-'Abidin Shah"
+		dynasty = dynn_k_miri
+		religion = muwalladi
+		culture = kashmiri
+		1399.1.1 = {
+			birth = yes
+		}
+	}
+#}
+# Ladakh = {
+	CKU_ladakh_1 = {
+		name = "Gyalpo Takpa Bomlde"
+		dynasty = dynn_namgyal
+		religion = vajrayana
+		culture = kashmiri
+		1412.1.1 = {
+			birth = yes
+		}
+	}
+#}
+# shirvan = {
+	CKU_shirvan_1 = {
+		name = "Ibrahim"
+		dynasty = dynn_derbendid
+		religion = muwalladi
+		culture = persian
+		1399.1.1 = {
+			birth = yes
+		}
+	}
+#}
+# arbabil = {
+	CKU_ardabil_1 = {
+		name = "Jafar"
+		dynasty = dynn_a_safavid
+		religion = muwalladi
+		culture = persian
+		1423.1.1 = {
+			birth = yes
+		}
+	}
+#}
+# Kharabakh = {
+	CKU_kharabakh_1 = {
+		name = "Albast"
+		dynasty = dynn_hasan_jalalyan
+		religion = coptic
+		culture = armenian
+		1425.1.1 = {
+			birth = yes
+		}
+	}
+#}
+# georgia = {
+	CKU_georgia_1 = {
+		name = "Vakhtang"
+		dynasty = dynn_bagrationi
+		religion = orthodox
+		culture = georgian
+		1413.1.1 = {
+			birth = yes
+		}
+	}
+#}
+# Imereti = {
+	CKU_imereti_1 = {
+		name = "Demetre"
+		dynasty = dynn_bagrationi
+		religion = orthodox
+		culture = georgian
+		1381.1.1 = {
+			birth = yes
+		}
+	}
+#}
+# Samsthke = {
+	CKU_samtskhe_1 = {
+		name = "Aghbugha"
+		dynasty = dynn_jaqeli
+		religion = orthodox
+		culture = georgian
+		1425.1.1 = {
+			birth = yes
+		}
+	}
+#}
+# Circassia = {
+	CKU_circassia_1 = {
+		name = "Inal"
+		dynasty = dynn_khegayk
+		religion = orthodox
+		culture = alan
+		1410.1.1 = {
+			birth = yes
+		}
+	}
+#}
+# Shamkhalate = {
+	CKU_shamkhalate_1 = {
+		name = "Ali-beg"
+		dynasty = dynn_a_andi
+		religion = muwalladi
+		culture = daylamite
+		1406.1.1 = {
+			birth = yes
+		}
+	}
+#}
+# Qara = {
+	CKU_kara_1 = {
+		name = "Isfahan"
+		dynasty = dynn_k_koyunlu
+		religion = muwalladi
+		culture = kurdish
+		1410.1.1 = {
+			birth = yes
+		}
+	}
+#}
+# Aq = {
+	CKU_ak_1 = {
+		name = "Jahangir bin Ali"
+		dynasty = dynn_a_koyunlu
+		religion = muwalladi
+		culture = turkish
+		1414.1.1 = {
+			birth = yes
+		}
+	}
+#}
+#Bitlis = {
+	CKU_bitlis_1 = {
+		name = "Bidlo"
+		dynasty = dynn_rojaki
+		religion = coptic
+		culture = kurdish
+		1421.1.1 = {
+			birth = yes
+		}
+	}
+#}
+# Ayyubids = {
+	CKU_ayyubids_1 = {
+		name = "Salih Salah ad-Din"
+		dynasty = dynn_a_ayyubids
+		religion = muwalladi
+		culture = kurdish
+		1411.1.1 = {
+			birth = yes
+		}
+	}
+#}
+#Musha'sha'iyyah = {
+	CKU_musha_1 = {
+		name = "Muhammed"
+		dynasty = dynn_falah
+		religion = ismaili
+		culture = mashriqi
+		1422.1.1 = {
+			birth = yes
+		}
+	}
+#}
+#al-Hasa = {
+	CKU_hasa_1 = {
+		name = "Ajwad ibn Zamil"
+		dynasty = dynn_jabrid
+		religion = ismaili
+		culture = bedouin
+		1424.1.1 = {
+			birth = yes
+		}
+	}
+#}
+# Ormus = {
+	CKU_ormus_1 = {
+		name = "Fakhr al-Din"
+		dynasty = dynn_turani
+		religion = muwalladi
+		culture = bedouin
+		1422.1.1 = {
+			birth = yes
+		}
+	}
+#}
+# oman = {
+	CKU_oman_1 = {
+		name = "Abul Hassan"
+		dynasty = dynn_nabhan
+		religion = ibadi
+		culture = bedouin
+		1415.1.1 = {
+			birth = yes
+		}
+	}
+#}	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

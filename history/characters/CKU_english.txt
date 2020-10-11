@@ -1,7 +1,7 @@
 ﻿
 # England {
 	CKU_english_1 = {
-		name = "Henri"
+		name = "Henry"
 		dynasty = 100058
 		dna = CKU_english_1_dna
 		religion = catholic

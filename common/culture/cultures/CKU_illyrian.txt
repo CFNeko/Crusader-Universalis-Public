@@ -1,0 +1,72 @@
+﻿illyrian_group = {
+	graphical_cultures = {
+		south_slavic_group_coa_gfx
+		western_coa_gfx
+		mediterranean_building_gfx
+		byzantine_clothing_gfx
+		eastern_unit_gfx
+	}
+
+	mercenary_names = {
+		{ name = "mercenary_company_stratioti_of_place_1" }
+		{ name = "mercenary_company_wayfarers_of_place" }
+		{ name = "mercenary_company_stratioti_of_place_2" }
+	}
+	
+	albanian = {
+		
+		color = hsv{ 1 0.95 0.45 }
+		
+		cadet_dynasty_names = {
+			"dynn_Hoxha"
+			"dynn_Shehu"
+			"dynn_Dervishi"
+			"dynn_Cela"
+			"dynn_Prifti"
+			"dynn_Elezi"
+			"dynn_Sula"
+			"dynn_Gjoni"
+			"dynn_Kurti"
+			"dynn_Kola"
+		}
+		dynasty_names = {
+			"dynn_Hoxha"
+			"dynn_Shehu"
+			"dynn_Dervishi"
+			"dynn_Cela"
+			"dynn_Prifti"
+			"dynn_Elezi"
+			"dynn_Sula"
+			"dynn_Gjoni"
+			"dynn_Kurti"
+			"dynn_Kola"
+		}
+		
+		male_names = {
+			Abdyl Arber Bardhyll Dalmat Edon Engjell Erjon Fatbard Fisnik Gjergj Gjon Genti Guzim Ilir Ismail Kreshnik
+			Lefter Mergim Mirarber Nderim Qendrim Saban Vjosa Zamir Pjeter Skender Sokol Vasil Xhemal Xhelal Xhafer Ylli
+		}
+		female_names = {
+			Albana Ajkuna Blerta Blinera Bukuroshe Diellza Doruntina Drita Elira Flutura Ylbere 
+			Lendina Manjola Marsela Ndrita Nora Rovena Roze Sumejja Tirana Vlora Xhesika Zjarrta
+		}
+		
+		#founder_named_dynasties = yes
+		
+		always_use_patronym = yes
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 40
+		mat_grf_name_chance = 10
+		father_name_chance = 10
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+	
+		ethnicities = {
+			10 = mediterranean_byzantine
+		}	
+	}
+}

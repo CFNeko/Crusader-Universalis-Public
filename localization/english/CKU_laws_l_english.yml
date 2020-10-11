@@ -7,5 +7,5 @@
 
  CKU_governor_government: "Governorship"
  CKU_governor_government_desc: "Governorships are a form of non-dynastic landholders that pay additional amounts of tax to their overlord"
- CKU_governor_government_vassals_label: "Governor Obligations are all the same for all Governor Vassals"
+ CKU_governor_government_vassals_label: "Governor Obligations are all the same for all Governor Vassals "
  CKU_governor_government_obligations: "Governorship Obligations"

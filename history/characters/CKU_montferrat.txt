@@ -66,33 +66,9 @@ CKU_montferrat_3 = {
 		birth = yes
 	}
 	1384.1.1 = {
-		add_spouse = CKU_montferrat_3_1
+		add_spouse = CKU_scarponnois_6
 	}
 	1418.4.26 = {
-		death = yes
-	}
-}
-
-CKU_montferrat_3_1 = {
-	name = "Giovanna"
-	dynasty = CKU_bar
-	religion = catholic
-	culture = piedmontese
-	trait = generous
-	trait = calm
-	trait = patient
-	trait = education_diplomacy_3
-	diplomacy = 4
-	martial = 6
-	intrigue = 1
-	stewardship = 2
-	learning = 8
-
-	female = yes
-	1360.1.1 = {
-		birth = yes
-	}
-	1402.1.1 = {
 		death = yes
 	}
 }
@@ -163,7 +139,7 @@ CKU_montferrat_6 = {
 	dynasty = 48
 
 	father = CKU_montferrat_3
-	mother = CKU_montferrat_3_1
+	mother = CKU_scarponnois_6
 	1395.3.23 = {
 		birth = yes
 	}
@@ -221,7 +197,7 @@ CKU_montferrat_7 = {
 	female = yes
 
 	father = CKU_montferrat_3
-	mother = CKU_montferrat_3_1
+	mother = CKU_scarponnois_6
 	1399.1.1 = {
 		birth = yes
 	}
@@ -248,7 +224,7 @@ CKU_montferrat_8 = {
 	female = yes
 
 	father = CKU_montferrat_3
-	mother = CKU_montferrat_3_1
+	mother = CKU_scarponnois_6
 	1397.1.1 = {
 		birth = yes
 	}

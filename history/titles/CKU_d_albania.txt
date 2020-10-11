@@ -1,0 +1,17 @@
+d_dyrrachion = {
+	1444.1.1 = {
+		holder = CKU_albanian_1
+	}
+}
+
+c_arbanon = {
+	1444.1.1 = {
+		holder = CKU_albanian_1
+	}
+}
+
+c_debar = {
+	1444.1.1 = {
+		holder = CKU_albanian_1
+	}
+}

@@ -1,0 +1,20 @@
+CKU_albanian_1 = {
+	name = "Gjergj Skanderbeg"
+	dynasty = CKU_kastrioti
+	martial = 16
+	diplomacy = 8
+	intrigue = 5
+	stewardship = 6
+	religion = "catholic"
+	culture = albanian
+	trait = wrathful
+	trait = brave
+	trait = stubborn
+	trait = education_martial_4
+	1405.5.6 = {
+		birth = yes
+	}
+	1468.1.17 = {
+		death = yes
+	}
+}

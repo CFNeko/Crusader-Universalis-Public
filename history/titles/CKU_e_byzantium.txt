@@ -51,3 +51,9 @@ c_burgas = {
 		holder = CKU_byzantium_1
 	}
 }
+
+k_cyprus = {
+	1432.6.29 = {
+		holder = CKU_lusignan_8
+	}
+}

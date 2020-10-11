@@ -3,3 +3,56 @@ k_scotland = {
 		holder = CKU_scottish_4
 	}
 }
+
+d_western_isles  = {
+	1423.1.1 = {
+		holder = CKU_scottish_5
+		liege = k_scotland
+	}
+	1449.1.1 = {
+		holder = CKU_scottish_6
+	}
+}
+
+d_the_isles = {
+	1423.1.1 = {
+		holder = CKU_scottish_5
+		liege = k_scotland
+	}
+}
+
+d_moray  = {   # the birth/death dates arent clear for succession
+	1391.1.1 = {
+		holder = CKU_scottish_8
+		liege = k_scotland
+	}
+	1422.1.1 = {
+		holder = CKU_scottish_9
+		liege = k_scotland
+	}
+	1429.1.1 = {
+		holder = CKU_scottish_10
+		liege = k_scotland
+	}
+}
+
+d_lothian = {
+	1443.1.1 = {   # the duchy was created in 1445 but this is simpler
+		holder = CKU_scottish_11
+		liege = k_scotland
+	}
+}
+
+c_galloway = {
+	1440.1.1 = {
+		holder = CKU_scottish_12
+		liege = k_scotland
+	}
+}
+
+c_annandale = {
+	1440.1.1 = {
+		holder = CKU_scottish_12
+		liege = k_scotland
+	}
+}

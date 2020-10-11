@@ -513,4 +513,53 @@
 		mat_grm_name_chance = 40
 		mother_name_chance = 5
 	}
+	maltese = {
+		
+		color = { 0.6 0.0 0.0 }
+
+		cadet_dynasty_names = {
+			"dynn_Farrugia"
+			"dynn_Borg"
+			"dynn_Cilia"
+			"dynn_Formoza"
+			"dynn_Grech"
+			"dynn_Muscat"
+			"dynn_Agius"
+			"dynn_Gonzi"
+		}
+
+		dynasty_names = {
+			"dynn_Farrugia"
+			"dynn_Borg"
+			"dynn_Cilia"
+			"dynn_Formoza"
+			"dynn_Grech"
+			"dynn_Muscat"
+			"dynn_Agius"
+			"dynn_Gonzi"
+		}
+
+		male_names = {
+			Żaren Rużar Gomu Awgustu Ċikku Gawdenż Toni Pawlu Alessandru Anglu Andrea Bastjan Bertu Duminku Edwardu Fonzu Frangisk Konstantinu Karmenu Konsu Ishmael Anton Ċensu Tumas Peppi Pietru Vitor Salvu Leli Wenzu Nazzarenu Noe Rokku Lawrenz Piju Vitor Karlu Mikiel Massimiljanu Mose
+		}
+		female_names = {
+			Żeppa Gerit Marigwann Filomena Manann Genoveffa Ubaldeska Gejta Grazjella Gustina Karla Karmena Katarina Konsa Koncetta Ganna Tereża Pompea Pawla Duminka Nina Monika Pina Pawla Rut Rita Vittorja Sofija Leonarda Elena Żarena Rożarja Lola Pina Ħilda Miriam Marinton Margerita Morena 
+		}
+
+		dynasty_of_location_prefix = "dynnp_de"
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 15
+		mat_grf_name_chance = 5
+		father_name_chance = 25
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 5
+		mother_name_chance = 25
+
+		ethnicities = {
+			10 = mediterranean
+		}
+	}
 }

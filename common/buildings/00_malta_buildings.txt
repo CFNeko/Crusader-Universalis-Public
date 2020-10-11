@@ -1,0 +1,37 @@
+﻿####################
+# Common Buildings #
+####################
+
+### Great Harbour
+
+great_harbour_01 = {
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_building_tradeport.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = 1000
+	
+	county_modifier = {
+		development_growth_factor = 0.3
+		development_growth = 0.3
+		tax_mult = 1
+		hostile_raid_time = 1
+	}
+	
+	province_modifier = {
+		garrison_size = 2
+		fort_level = 3
+		levy_size = 3
+		defender_advantage = 15
+	}
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}

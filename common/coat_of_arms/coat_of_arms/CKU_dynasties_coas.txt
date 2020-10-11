@@ -943,6 +943,40 @@ CKU_clermont = {
 	}
 }
 
+CKU_tremoille = {
+	pattern = "pattern_solid.dds"
+	color1 = "yellow"
+	color2 = "blue"
+	
+	colored_emblem = {
+		texture = "ce_ordinary_chevron_5.dds"
+		color1 = "red"
+		color2 = "red"
+	}
+	
+	colored_emblem = {
+		texture = "ce_eagle_small.dds"
+		color1 = "blue"
+		color2 = "red"
+		instance = { position = { 0.25 0.25 } scale = { 0.40 0.40 }  }
+		instance = { position = { 0.75 0.25 } scale = { 0.40 0.40 }  }
+		instance = { position = { 0.50 0.75 } scale = { 0.40 0.40 }  }
+	}
+}
+
+CKU_amboise = {
+	pattern = "pattern_solid.dds"
+	color1 = "red"
+	color2 = "yellow"
+	colored_emblem = {
+		texture = "ce_barry_06.dds"
+		color1 = "red"
+		color2 = "yellow"
+		instance = { position = { 0.50 0.50 } scale = { 1.0 1.0 } rotation = 90 }
+	}
+	
+}
+
 house_alencon = {
 	pattern = "pattern_solid.dds"
 	color1 = "blue"
@@ -1099,8 +1133,8 @@ house_longueville = {
 		instance = { position = { 0.50 0.20 } scale = { 0.25 0.25 }  }		
 		instance = { position = { 0.75 0.20 } scale = { 0.25 0.25 }  }		
 		
-		instance = { position = { 0.25 0.50 } scale = { 0.25 0.25 }  }
-		instance = { position = { 0.75 0.50 } scale = { 0.25 0.25 }  }		
+		instance = { position = { 0.25 0.55 } scale = { 0.25 0.25 }  }
+		instance = { position = { 0.75 0.55 } scale = { 0.25 0.25 }  }		
 		
 		instance = { position = { 0.50 0.80 } scale = { 0.25 0.25 }  }		
 	}
@@ -1185,6 +1219,18 @@ house_longueville = {
 		instance = { position = { 0.30 0.35 } scale = { 0.45 0.45 }  }
 		instance = { position = { 0.70 0.35 } scale = { 0.45 0.45 }  }
 		instance = { position = { 0.50 0.65 } scale = { 0.45 0.45 }  }
+	}
+}
+
+177 = { # Griffin
+	pattern = "pattern_solid.dds"
+	color1 = "white"
+	color2 = "red"
+	
+	colored_emblem = {
+		texture = "ce_griffin_rampant.dds"
+		color1 = "red"
+		color2 = "yellow"
 	}
 }
 

@@ -1,0 +1,607 @@
+# ajam = {
+	d_hamadan = {
+		1405.2.20 = {
+			holder = CKU_ajam_1
+			liege = e_timurids
+		}
+	}
+	d_rayy = {
+		1405.2.20 = {
+			holder = CKU_ajam_1
+		}
+	}
+	d_isfahan = {
+		1405.2.20 = {
+			holder = CKU_ajam_1
+		}
+	}
+	c_zanjan = {
+		1405.2.20 = {
+			holder = CKU_ajam_1
+		}
+	}
+	c_qazwin = {
+		1405.2.20 = {
+			holder = CKU_ajam_1
+		}
+	}
+	c_shahre-babak = {
+		1405.2.20 = {
+			holder = CKU_ajam_1
+		}
+	}
+	c_yazd = {
+		1405.2.20 = {
+			holder = CKU_ajam_1
+		}
+	}
+	
+#}
+# ardalan = {
+	c_dinawar = {
+		1444.1.1 = {
+			holder = CKU_ardalan_1
+			liege = d_hamadan
+		}
+	}
+#}
+# luristan = {
+	c_luristan = {
+		1444.1.1 = {
+			holder = CKU_luristan_1
+			liege = d_hamadan
+		}
+	}
+	c_sardan = {
+		1444.1.1 = {
+			holder = CKU_luristan_1
+		}
+	}
+#}
+# biapas = {
+	c_talish = {
+		1444.1.1 = {
+			holder = CKU_biapas_1
+			liege = 0
+		}
+	}
+	c_gilan = {
+		1444.1.1 = {
+			holder = CKU_biapas_1
+		}
+	}
+#}
+# gilan = {
+	c_ruyan = {
+		1444.1.1 = {
+			holder = CKU_gilan_1
+			liege = 0
+		}
+	}
+#}
+# mazandaran = {
+	c_mazandaran = {
+		1444.1.1 = {
+			holder = CKU_mazandaran_1
+			liege = 0
+		}
+	}
+	c_baduspan = {
+		1444.1.1 = {
+			holder = CKU_mazandaran_1
+		}
+	}
+#}
+# timurids = {
+	e_timurids = {
+		1405.2.20 = {
+			holder = CKU_timurid_1
+		}
+	}
+	k_khorasan = {
+		1405.2.20 = {
+			holder = CKU_timurid_1
+		}
+	}
+	d_herat = {
+		1405.2.20 = {
+			holder = CKU_timurid_1
+		}
+	}
+	d_nishapur = {
+		1405.2.20 = {
+			holder = CKU_timurid_1
+		}
+	}
+	d_kohestan = {
+		1405.2.20 = {
+			holder = CKU_timurid_1
+		}
+	}
+	d_kirman = {
+		1405.2.20 = {
+			holder = CKU_timurid_1
+		}
+	}
+	d_jabal_kufs = {
+		1405.2.20 = {
+			holder = CKU_timurid_1
+		}
+	}
+	d_ghur = {
+		1405.2.20 = {
+			holder = CKU_timurid_1
+		}
+	}
+	d_balkh = {
+		1405.2.20 = {
+			holder = CKU_timurid_1
+		}
+	}
+	d_khuttal = {
+		1405.2.20 = {
+			holder = CKU_timurid_1
+		}
+	}
+	d_badakhshan = {
+		1405.2.20 = {
+			holder = CKU_timurid_1
+		}
+	}
+	c_bamian = {
+		1405.2.20 = {
+			holder = CKU_timurid_1
+		}
+	}
+	c_mafaza = {
+		1405.2.20 = {
+			holder = CKU_timurid_1
+		}
+	}
+	c_sanij = {
+		1405.2.20 = {
+			holder = CKU_timurid_1
+		}
+	}
+	c_rivsharan = {
+		1405.2.20 = {
+			holder = CKU_timurid_1
+		}
+	}
+#}
+# Fars = {
+	d_fars = {
+		1405.2.20 = {
+			holder = CKU_fars_1
+			liege = e_timurids
+		}
+	}
+	c_sif-i-umara = {
+		1405.2.20 = {
+			holder = CKU_fars_1
+		}
+	}
+#}
+# Khorasan  = {
+	d_gurgan = {
+		1405.2.20 = {
+			holder = CKU_khorasan_1
+			liege = e_timurids
+		}
+	}
+	c_samaiqan = {
+		1405.2.20 = {
+			holder = CKU_khorasan_1
+		}
+	}
+	c_juwain = {
+		1405.2.20 = {
+			holder = CKU_khorasan_1
+		}
+	}
+	c_damghan = {
+		1405.2.20 = {
+			holder = CKU_khorasan_1
+		}
+	}
+#}
+# Afghanistan = {
+	d_kabul = {
+		1405.2.20 = {
+			holder = CKU_afghanistan_1
+			liege = e_timurids
+		}
+	}
+	d_zabulistan = {
+		1405.2.20 = {
+			holder = CKU_afghanistan_1
+		}
+	}
+	c_purushapura = {
+		1405.2.20 = {
+			holder = CKU_afghanistan_1
+		}
+	}
+	c_urgun = {
+		1405.2.20 = {
+			holder = CKU_afghanistan_1
+		}
+	}
+#}
+# Sistan = {
+	d_sistan = {
+		1405.2.20 = {
+			holder = CKU_sistan_1
+			liege = e_timurids
+		}
+	}
+#}
+# Transoxiana = {
+	k_transoxiana = {
+		1405.2.20 = {
+			holder = CKU_timurid_3
+			liege = e_timurids
+		}
+	}
+	d_merv = {
+		1405.2.20 = {
+			holder = CKU_timurid_3
+		}
+	}
+	c_dihistan = {
+		1405.2.20 = {
+			holder = CKU_timurid_3
+		}
+	}
+	d_nasa = {
+		1405.2.20 = {
+			holder = CKU_timurid_3
+		}
+	}
+	c_amol = {
+		1405.2.20 = {
+			holder = CKU_timurid_3
+		}
+	}
+	c_zamm = {
+		1405.2.20 = {
+			holder = CKU_timurid_3
+		}
+	}
+#}
+# Baluchistan = {
+	d_makran = {
+		1444.1.1 = {
+			holder = CKU_baluchistan_1
+		}
+	}
+	c_bampur = {
+		1444.1.1 = {
+			holder = CKU_baluchistan_1
+		}
+	}
+	c_sibi = {
+		1444.1.1 = {
+			holder = CKU_baluchistan_1
+		}
+	}
+	c_kalat = {
+		1444.1.1 = {
+			holder = CKU_baluchistan_1
+		}
+	}
+#}
+# Kashmir  = {
+	d_kasmira = {
+		1444.1.1 = {
+			holder = CKU_kashmir_1
+		}
+	}
+	c_udabhanda = {
+		1444.1.1 = {
+			holder = CKU_kashmir_1
+		}
+	}
+#}
+# Ladakh = {
+	d_ladakh = {
+		1444.1.1 = {
+			holder = CKU_ladakh_1
+		}
+	}
+	d_zanskar = {
+		1444.1.1 = {
+			holder = CKU_ladakh_1
+		}
+	}
+	d_baltiyul = {
+		1444.1.1 = {
+			holder = CKU_ladakh_1
+		}
+	}
+	d_pamir = {
+		1444.1.1 = {
+			holder = CKU_ladakh_1
+		}
+	}
+#}
+# shirvan = {
+	d_shirvan = {
+		1444.1.1 = {
+			holder = CKU_shirvan_1
+		}
+	}
+#}
+# arbabil = {
+	c_ardabil = {
+		1444.1.1 = {
+			holder = CKU_ardabil_1
+			liege = k_jazira
+		}
+	}
+#}
+# Kharabakh = {
+	c_mugan = {
+		1444.1.1 = {
+			holder = CKU_kharabakh_1
+			liege = k_jazira
+		}
+	}
+#}
+# georgia = {
+	k_georgia = {
+		1444.1.1 = {
+			holder = CKU_georgia_1
+		}
+	}
+#}
+# Imereti = {
+	d_abkhazia = {
+		1444.1.1 = {
+			holder = CKU_imereti_1
+			liege = k_georgia
+		}
+	}
+	c_acampse = {
+		1444.1.1 = {
+			holder = CKU_imereti_1
+		}
+	}
+#}
+# Samtskhe = {
+	c_klarjeti = {
+		1444.1.1 = {
+			holder = CKU_samtskhe_1
+			liege = k_georgia
+		}
+	}
+	c_tao = {
+		1444.1.1 = {
+			holder = CKU_samtskhe_1
+		}
+	}
+	c_vanand = {
+		1444.1.1 = {
+			holder = CKU_samtskhe_1
+		}
+	}
+#}
+# Circassia = {
+	d_alania = {
+		1439.1.1 = {
+			holder = CKU_circassia_1
+		}
+	}
+#}
+# Shamkhalate = {
+	d_ciscaucasia = {
+		1444.1.1 = {
+			holder = CKU_shamkhalate_1
+		}
+	}
+#}
+# Qara = {
+	k_jazira = {
+		1435.1.1 = {
+			holder = CKU_kara_1
+			liege = 0
+		}
+	}
+	d_greater_armenia = {
+		1435.1.1 = {
+			holder = CKU_kara_1
+		}
+	}
+	d_azerbaijan = {
+		1435.1.1 = {
+			holder = CKU_kara_1
+		}
+	}
+	d_kurdistan = {
+		1435.1.1 = {
+			holder = CKU_kara_1
+		}
+	}
+	d_samarra = {
+		1435.1.1 = {
+			holder = CKU_kara_1
+		}
+	}
+	d_kermanshah = {
+		1435.1.1 = {
+			holder = CKU_kara_1
+		}
+	}
+	d_baghdad = {
+		1435.1.1 = {
+			holder = CKU_kara_1
+		}
+	}
+	d_euphrates = {
+		1435.1.1 = {
+			holder = CKU_kara_1
+		}
+	}
+	d_diyarrabia = {
+		1435.1.1 = {
+			holder = CKU_kara_1
+		}
+	}
+	d_kufa = {
+		1435.1.1 = {
+			holder = CKU_kara_1
+		}
+	}
+#}
+# Aq = {
+	d_diyarbakr = {
+		1444.3.8 = {
+			holder = CKU_ak_1
+		}
+	}
+	d_diyarmudar = {
+		1444.3.8 = {
+			holder = CKU_ak_1
+		}
+	}
+	d_mesopotamia = {
+		1444.3.8 = {
+			holder = CKU_ak_1
+		}
+	}
+	d_vaspurakan = {
+		1444.3.8 = {
+			holder = CKU_ak_1
+		}
+	}
+	c_nasibin = {
+		1444.3.8 = {
+			holder = CKU_ak_1
+		}
+	}
+	c_upper_khabur = {
+		1444.3.8 = {
+			holder = CKU_ak_1
+		}
+	}
+	c_khabur = {
+		1444.3.8 = {
+			holder = CKU_ak_1
+		}
+	}
+#}
+#Bitlis = {
+	c_vaspurakan = {
+		1444.1.1 = {
+			holder = CKU_bitlis_1
+			liege = k_jazira
+		}
+	}
+	c_bagrewand = {
+		1444.1.1 = {
+			holder = CKU_bitlis_1
+		}
+	}
+#}
+# Ayyubids = {
+	c_hakkari = {
+		1433.1.1 = {
+			holder = CKU_ayyubids_1
+			liege = k_jazira
+		}
+	}
+#}
+#Musha'sha'iyyah = {
+	d_basra = {
+		1441.1.1 = {
+			holder = CKU_musha_1
+			government = theocracy_government
+			liege = k_jazira
+		}
+	}
+	d_wasit = {
+		1441.1.1 = {
+			holder = CKU_musha_1
+		}
+	}
+	d_khuzestan = {
+		1441.1.1 = {
+			holder = CKU_musha_1
+		}
+	}
+	c_batiha = {
+		1441.1.1 = {
+			holder = CKU_musha_1
+		}
+	}
+	c_akhadid = {
+		1441.1.1 = {
+			holder = CKU_musha_1
+		}
+	}
+#}
+#al-Hasa = {
+	d_al-hasa = {
+		1444.1.1 = {
+			holder = CKU_hasa_1
+			liege = k_jazira
+		}
+	}
+	d_bahrain = {
+		1444.1.1 = {
+			holder = CKU_hasa_1
+		}
+	}
+#}
+# Ormoz = {
+	d_hormuz = {
+		1444.1.1 = {
+			holder = CKU_ormus_1
+		}
+	}
+	c_julfar = {
+		1444.1.1 = {
+			holder = CKU_ormus_1
+		}
+	}
+	c_dhafra = {
+		1444.1.1 = {
+			holder = CKU_ormus_1
+		}
+	}
+	c_batina = {
+		1444.1.1 = {
+			holder = CKU_ormus_1
+		}
+	}
+	c_muscat = {
+		1444.1.1 = {
+			holder = CKU_ormus_1
+		}
+	}
+	c_duqm = {
+		1444.1.1 = {
+			holder = CKU_ormus_1
+		}
+	}
+#}
+# oman = {
+	d_oman = {
+		1444.1.1 = {
+			holder = CKU_oman_1
+		}
+	}
+#}
+
+
+
+
+
+
+
+
+
+
+
+
+

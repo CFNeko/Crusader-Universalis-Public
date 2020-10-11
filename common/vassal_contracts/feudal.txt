@@ -286,7 +286,7 @@ special_contract = {
 			parent = special_contract_none
 			position = { 2 3 }
 			
-			tax = governorship_tax_increase
+			tax = stadholder_tax_increase
 			
 			liege_modifier = {
 				domain_limit = -0.5

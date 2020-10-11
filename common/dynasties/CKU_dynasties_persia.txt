@@ -1,0 +1,104 @@
+dynn_timurid = {
+	name = "Timurid"
+	culture = "turkish"
+}
+dynn_ardalan = {
+	name = "dynn_ardalan"
+	culture = "kurdish"
+}
+dynn_khorishidi = {
+	name = "dynn_khorishidi"
+	culture = "kurdish"
+}
+dynn_eshaqvand = {
+	name = "dynn_eshaqvand"
+	culture = "daylamite"
+}
+dynn_kiya = {
+	name = "dynn_kiya"
+	culture = "daylamite"
+}
+dynn_marashi = {
+	name = "marashi"
+	culture = "daylamite"
+}
+dynn_mihrabanid = {
+	name = "dynn_mihrabanid"
+	culture = "persian"
+}
+dynn_mirwari = {
+	name = "Mirwari"
+	culture = "baloch"
+}
+dynn_miri = {
+	name "dynn_k_miri"
+	culture = "kashmiri"
+}
+dynn_namgyal = {
+	name = "dynn_namgyal"
+	culture = "kashmiri"
+}
+dynn_t_agha = {
+	name = "Agha"
+	culture = "turkish"
+}
+dynn_derbendid = {
+	name = "Derbendid"
+	culture = "persian"
+}
+dynn_a_safavid = {
+	name = "Safavid"
+	culture = "persian"
+}
+dynn_hasan_jalalyan = {
+	name = "Hasan-Jalalyan"
+	culture = "armenian"
+}
+dynn_bagrationi = {
+	name = "Bagrationi"
+	culture = "georgian"
+}
+dynn_jaqeli = {
+	name = "Jaqeli"
+	culture = "georgian"
+}
+dynn_k_koyunlu = {
+	name = "Kara Koyunlu"
+	culture = "kurdish"
+}
+dynn_a_koyunlu = {
+	name = "Ak Koyunlu"
+	culture = "turkish"
+}
+dynn_rojaki = {
+	name = "Rojaki"
+	culture = "kurdish"
+}
+dynn_a_ayyubids = {
+	name = "Ayyubid"
+	culture = "kurdish"
+}
+dynn_falah = {
+	name = "Falah"
+	culture = "Mashriqi"
+}
+dynn_jabrid = {
+	name = "Jabrid"
+	culture = "Bedouin"
+}
+dynn_turani = {
+	name = "Turani"
+	culture = "Bedouin"
+}
+dynn_nabhan = {
+	name = "Nabhan"
+	culture = "Bedouin"
+}
+dynn_khegayk = {
+	name = "Khegayk"
+	culture = "Bedouin"
+}
+dynn_a_andi = {
+	name = "Andi"
+	culture = "Daylamite"
+}

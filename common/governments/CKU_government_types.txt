@@ -9,3 +9,52 @@ CKU_governor_government = {
 	vassal_contract = { CKU_governor_government_obligations }
 	color = hsv{ 0.50 1.00 0.98 }
 }
+
+
+colonisable_government = {
+	affected_by_development = no
+	regiments_prestige_as_gold = yes
+	supply_limit_mult_for_others = -0.5
+	primary_holding = colonisable_holding
+	required_county_holdings = { colonisable_holding }
+
+	prestige_opinion_override = { -10 0 3 5 10 20 }
+	always_use_patronym = yes	
+
+	vassal_contract = { tribal_government_obligations }
+	
+	character_modifier = {
+		title_creation_cost_mult = -0.5
+		army_maintenance_mult = -0.5
+
+		feudal_government_vassal_opinion = -20
+		clan_government_vassal_opinion = -20
+		republic_government_vassal_opinion = -20
+	
+		ai_war_chance = 0
+	}
+
+	color = hsv{ 0.75 0.75 0.75 }
+}
+
+
+colonial_government = {
+	primary_holding = colony_holding
+	required_county_holdings = { colony_holding }
+
+	ai = {
+		arrange_marriage = no
+		use_goals = no
+		use_scripted_guis = no
+		perform_religious_reformation = no
+	}
+
+	vassal_contract = { republic_government_obligations }
+	
+	character_modifier = {
+		army_maintenance_mult = -0.5
+		ai_war_chance = 0
+	}
+
+	color = hsv{ 0.75 0.75 0.75 }
+}

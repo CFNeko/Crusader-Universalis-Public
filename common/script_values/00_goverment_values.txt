@@ -95,5 +95,6 @@ war_declaration_rights_allowed_cost_reduction_tooltip = {
 }
 max_contract_changes = 3
 
-#republic government values
-governorship_tax_increase = 0.25
+#governor government values
+stadholder_tax_increase = 0.25
+governorship_tax_increase = 0.50

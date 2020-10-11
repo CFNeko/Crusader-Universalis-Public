@@ -1,0 +1,20 @@
+﻿l_english:
+ building_great_harbour_01:1 "Great Harbour of Malta"
+ building_type_great_harbour_01:1 "Great Harbour"
+ building_great_harbour_01_desc:1 "The great harbour of malta is basically epic"
+
+
+
+##### COLONIAL SHIT #####
+ colonisable_government:0 "Native"
+ colonisable_holding:0 "Native"
+ building_type_colonisable_01:0 "Unreformed Tribe"
+ building_colonisalble_01:0 "Small Village"
+ building_colonisable_01_desc:0 "An unreformed tribe with a tiny population which can be colonised"
+ colonise_colonisable_holding_interaction:0 "Colonise Holding"
+ colonise_colonisable_holding_desc:0 "Destroy native buildings and turn this holding into a colony"
+ colonial_government:0 "Colonial"
+ colony_holding:0 "Colony"
+ building_type_colony_01:0 "Colony"
+ building_colony_01:0 "Settlement"
+ building_colony_01_desc:0 "A small settlement with a steady influx of immigrants"

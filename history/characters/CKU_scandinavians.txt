@@ -27,6 +27,7 @@
 # Swedes = {
 	CKU_bonde_1 = {
 		name = "Karl"
+		dna = CKU_bonde_1_dna
 		religion = catholic
 		culture = swedish
 		dynasty = 3811

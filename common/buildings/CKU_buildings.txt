@@ -1,0 +1,154 @@
+﻿####################
+# Colonisable #
+####################
+
+colonisable_01 = {
+	construction_time = slow_construction_time
+
+	asset = {
+		type = pdxmesh
+		names = {
+			"western_castle_tribal_01_a_mesh"
+			"western_castle_tribal_01_b_mesh"
+			"western_castle_tribal_01_c_mesh"
+			"western_castle_tribal_01_d_mesh"
+		}
+		illustration = @holding_illustration_grass
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
+	}
+
+	is_enabled = {
+		building_requirement_tribal = yes
+	}
+	can_construct_potential = {
+		always = no	#Tribes are set at game start.
+	}
+	
+	cost_prestige = expensive_building_tier_3_cost
+	cost_gold = expensive_building_tier_1_cost
+	#next_building = tribe_02
+	
+	levy = poor_building_levy_tier_3
+	garrison = poor_building_garrison_tier_1
+	province_modifier = {
+		monthly_income = poor_building_tax_tier_1
+	}
+	
+	#next_building = tribe_02
+
+	type_icon = "icon_building_longhouses.dds"
+
+	ai_value = {
+		base = 1
+	}
+}
+
+
+colony_01 = {
+	construction_time = slow_construction_time
+
+	asset = {
+		type = pdxmesh
+		names = {
+			"western_city_01_a_mesh"
+			"western_city_01_b_mesh"
+			"western_city_01_c_mesh"
+		}
+		illustration = @holding_illustration_western
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/western_city" soundparameter = { "Tier" = 0 } }
+	}
+
+	can_construct_potential = {
+		always = no	#Colonies can be made by colonising tribes
+	}
+	
+	cost_prestige = expensive_building_tier_3_cost
+	cost_gold = expensive_building_tier_1_cost
+	#next_building = tribe_02
+	
+	levy = poor_building_levy_tier_2
+	garrison = normal_building_garrison_tier_1
+	province_modifier = {
+		monthly_income = good_building_tax_tier_2
+	}
+	
+	#next_building = tribe_02
+
+	type_icon = "icon_building_guild_halls.dds"
+
+	ai_value = {
+		base = 1
+	}
+}
+
+colony_housing_district_01 = {
+	construction_time = standard_construction_time
+
+	can_construct_potential = {
+		has_building_or_higher = colony_01
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+
+	cost_gold = normal_building_tier_1_cost
+	
+	province_modifier = {
+		monthly_income = normal_building_tax_tier_1
+	}
+	county_modifier = {
+		development_growth_factor = 0.05
+	}
+	
+	next_building = colony_housing_district_02
+
+	type_icon = "icon_building_guild_halls.dds"
+	
+	ai_value = {
+		base = 500
+		modifier = {
+			add = 500
+			scope:holder = {
+				has_government = colonial_government
+			}
+		}
+	}
+}
+colony_housing_district_02 = {
+	construction_time = standard_construction_time
+
+	can_construct_potential = {
+		has_building_or_higher = colony_01
+		culture = {
+			has_innovation = innovation_colonising
+		}
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+
+	cost_gold = normal_building_tier_2_cost
+	
+	province_modifier = {
+		monthly_income = normal_building_tax_tier_2
+	}
+	county_modifier = {
+		development_growth_factor = 0.15
+	}
+	
+	#next_building = colony_housing_district_03
+
+	type_icon = "icon_building_guild_halls.dds"
+	
+	ai_value = {
+		base = 500
+		modifier = {
+			add = 500
+			scope:holder = {
+				has_government = colonial_government
+			}
+		}
+	}
+}

@@ -310,20 +310,20 @@
 
 	stadholder_succession_law = {
 		can_keep = {
-			has_flag = forced_into_stadholder
+			#has_flag = forced_into_stadholder
 		}
 		can_pass = {
-			has_flag = forced_into_stadholder
+			#has_flag = forced_into_stadholder
 		}
 		can_have = {
-			has_flag = forced_into_stadholder
+			#has_flag = forced_into_stadholder
 		}
 		should_start_with = {
-			always = no
+			government = CKU_governor_government
 		}
 		succession = {
-			order_of_succession = generate
-			pool_character_config = pool_city_succession
+			order_of_succession = election
+			election_type = governor_elective
 		}
 		flag = forced_into_stadholder
 		modifier = {

@@ -17,7 +17,7 @@
 	#b_beat = castle
 	
 	# Misc
-	culture = greek
+	culture = albanian
 	religion = orthodox
 	terrain = mountain
 	
@@ -29,7 +29,7 @@
 }
 
 # 472 - Epeiros
-472 = {	# 472 - Épeiros
+472 = {	# 472 - ï¿½peiros
 	
 	# County Title
 	#title = c_epeiros
@@ -87,7 +87,7 @@
 	#b_markrynia = castle
 	#b_paravola = castle
 	#b_amfissa = castle
-	#b_itea = castle #Itéa
+	#b_itea = castle #Itï¿½a
 	
 	# Misc
 	culture = greek
@@ -213,85 +213,85 @@
 
 # 3711 - Avlonas
 3711 = {	# 3711 - Avlonas
-	culture = greek
+	culture = albanian
 	religion = orthodox
 }
 
 # 3712 - Himara
 3712 = {	# 3712 - Himara
-	culture = greek
+	culture = albanian
 	religion = orthodox
 }
 
 # 3713 - Antipatreia
 3713 = {	# 3713 - Antipatreia
-	culture = greek
+	culture = albanian
 	religion = orthodox
 }
 
 # 3714 - Skrapar
 3714 = {	# 3714 - Skrapar
-	culture = greek
+	culture = albanian
 	religion = orthodox
 }
 
 # 3715 - Argyrokastron
 3715 = {	# 3715 - Argyrokastron
-	culture = greek
+	culture = albanian
 	religion = orthodox
 }
 
 # 3716 - Klisura
 3716 = {	# 3716 - Klisura
-	culture = greek
+	culture = albanian
 	religion = orthodox
 }
 
 # 3717 - Savra
 3717 = {	# 3717 - Savra
-	culture = greek
+	culture = albanian
 	religion = orthodox
 }
 
 # 3718 - Mat
 3718 = {	# 3718 - Mat
-	culture = greek
+	culture = albanian
 	religion = orthodox
 }
 
 # 3719 - Lezhe
-3719 = {	# 3719 - Lezhë
-	culture = greek
+3719 = {	# 3719 - Lezhï¿½
+	culture = albanian
 	religion = orthodox
 }
 
 # 3720 - Kruje
-3720 = {	# 3720 - Krujë
-	culture = greek
+3720 = {	# 3720 - Krujï¿½
+	culture = albanian
 	religion = orthodox
 }
 
 # 3721 - Hiskampis
 3721 = {	# 3721 - Hiskampis
-	culture = greek
+	culture = albanian
 	religion = orthodox
 }
 
 # 3722 - Kukes
 3722 = {	# 3722 - Kukes
-	culture = greek
+	culture = albanian
 	religion = orthodox
 }
 
 # 3723 - Peshkopi
 3723 = {	# 3723 - Peshkopi
-	culture = greek
+	culture = albanian
 	religion = orthodox
 }
 
 # 3724 - Debar
 3724 = {	# 3724 - Debar
-	culture = greek
+	culture = albanian
 	religion = orthodox
 }
 

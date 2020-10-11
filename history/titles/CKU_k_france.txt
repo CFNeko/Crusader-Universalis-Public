@@ -94,7 +94,7 @@
 				}
 			}
 		#}
-		# County of Armagnac = {
+		# House Armagnac = {
 			c_armagnac = {
 				1418.1.1 = {
 					holder = CKU_armagnac_2
@@ -107,8 +107,18 @@
 					liege = d_bourbon
 				}
 			}
+			b_pardiac = {
+				1418.1.1 = {
+					holder = CKU_armagnac_10
+				}
+			}
+			b_carlat = {
+				1435.1.1 = {
+					holder = CKU_armagnac_10
+				}
+			}
 		#}
-		# Duchy of Foix = {
+		# House Foix = {
 			c_foix = {
 				1436.5.4 = {
 					holder = CKU_foix_6
@@ -137,7 +147,7 @@
 				}
 			}
 		#}
-		# Duchy of Bourbon = {
+		# Duch of Bourbon = {
 			d_bourbon = {
 				1440.1.1 = {
 					holder = CKU_bourbon_2
@@ -184,7 +194,7 @@
 				}
 			}
 		#}
-		# Duchy of Albret = {
+		# Duch of Albret = {
 			c_limousin = {
 				1440.1.1 = {
 					holder = CKU_albret_1
@@ -197,7 +207,7 @@
 				}
 			}
 		#}
-		# Duchy of Brittany = {
+		# Duch of Brittany = {
 			d_brittany = {
 				1440.1.1 = {
 					holder = CKU_montfort_3
@@ -205,7 +215,7 @@
 				}
 			}
 		#}
-		# County of Tonnerrois = {
+		# Count of Tonnerrois = {
 			c_tonnerrois = {
 				1435.9.21 = {
 					holder = CKU_montfort_5
@@ -213,11 +223,51 @@
 				}
 			}
 		#}
-		# County of Sancerre = {
+		# Count of Sancerre = {
 			c_sancerre = {
 				1440.1.1 = {
 					holder = CKU_sancerre_1
 					liege = d_orleans
+				}
+			}
+		#}
+		# Count of Périgord = {
+			c_perigord = {
+				1437.1.1 = {
+					holder = CKU_chatillon_8
+					liege = k_france
+				}
+			}
+		#}
+		# Count of Montaigu = {
+			c_montaigu = {
+				1437.1.1 = {
+					holder = CKU_francien_minor_11
+					liege = k_france
+				}
+			}
+		#}
+		# Viscount of Limoges = {
+			c_limousin = {
+				1404.1.1 = {
+					holder = CKU_chatillon_11
+					liege = k_france
+				}
+			}
+		#}
+		# Viscount of Meaux = {
+			c_meaux = {
+				1415.10.25 = {
+					holder = CKU_scarponnois_14
+					liege = k_france
+				}
+			}
+		#}
+		# Viscount of Thouars = {
+			c_thouars = {
+				1426.1.1 = {
+					holder = CKU_amboise_4
+					liege = k_france
 				}
 			}
 		#}
@@ -233,14 +283,6 @@
 				1442.1.1 = {
 					holder = CKU_bourgogne_14
 					liege = c_ile_de_france
-				}
-			}
-		#}
-		# Count of Dreux = {
-			b_dreux = {
-				1442.1.1 = {
-					holder = CKU_albret_13
-					liege = c_chartres
 				}
 			}
 		#}
@@ -264,12 +306,21 @@
 				}
 			}
 		#}
-		# Archdiocese of Reims = {
+		# Bishop of Lyon = {
 			c_lyon = {
 				1444.6.6 = {
 					government = theocracy_government
 					holder = CKU_bourbon_5
 					liege = d_dauphine
+				}
+			}
+		#}
+		# Bishop of Chalon = {
+			c_chalons = {
+				1440.7.1 = {
+					government = theocracy_government
+					holder = CKU_francien_minor_10
+					liege = k_france
 				}
 			}
 		#}
@@ -312,6 +363,15 @@
 				}
 			}
 		#}
+		# Governorship of Saintonge = {
+			c_saintonge = {
+				1440.1.1 = {
+					government = CKU_governor_government
+					holder = CKU_francien_minor_11
+					liege = k_france
+				}
+			}
+		#}
 		
 		
 		
@@ -326,10 +386,9 @@
 		
 		
 		
-		
-		c_perigord = {
-			1437.1.1 = {
-				holder = CKU_harcourt_1 # House de Chatillon
-			}
-		}
+		#c_perigord = {
+		#	1437.1.1 = {
+		#		holder = CKU_francien_test_1
+		#	}
+		#}
 #}

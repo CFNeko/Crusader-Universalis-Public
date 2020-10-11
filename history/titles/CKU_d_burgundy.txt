@@ -75,6 +75,9 @@ d_holland = {
 				government = CKU_governor_government
 				holder = CKU_bourgogne_minor_1 # Governor
 				liege = d_burgundy
+				succession_laws = {
+					stadholder_succession_law
+				}
 			}
 		}
 		c_westfriesland = { # No longer existed since 1200, should be merged with c_holland
@@ -159,8 +162,8 @@ d_flanders = {
 	#}
 
 c_guines = {
-	1440.1.1 = {
-		holder = CKU_bourgogne_8
+	1398.1.1 = {
+		holder = CKU_tremoille_13
 		liege = d_burgundy
 	}
 }

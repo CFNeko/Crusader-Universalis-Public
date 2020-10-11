@@ -33,8 +33,15 @@ CKU_clermont = {
 	culture = "french"
 }
 
+CKU_tremoille = {
+	name = "dynn_tremoille"
+	culture = "french"
+}
 
-
+CKU_amboise = {
+	name = "dynn_amboise"
+	culture = "french"
+}
 
 CKU_adorno = {
 	name = "dynn_adorno"
@@ -179,4 +186,24 @@ CKU_mecklenburg_werle = {
 	prefix = "dynnp_von"
 	name = "dynn_Mecklenburg_werle"
 	culture = "pommeranian"
+}
+
+CKU_kastrioti = {
+	name = "dynn_Kastrioti"
+	culture = "albanian"
+}
+
+CKU_MacDonald = {
+	name = "dynn_Macdonald"
+	culture = "scots"
+}
+
+CKU_Dunbar = {
+	name = "dynn_Dunbar"
+	culture = "scots"
+}
+
+CKU_Hamilton = {
+	name = "dynn_Hamilton"
+	culture = "scots"
 }
