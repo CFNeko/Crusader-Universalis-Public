@@ -102,3 +102,127 @@ dynn_a_andi = {
 	name = "Andi"
 	culture = "Daylamite"
 }
+dynn_dujana = {
+	name = "Dujana"
+	culture = "Yemeni"
+}
+dynn_alkathiri = {
+	name = "Al-Kathiri"
+	culture = Yemeni
+}
+dynn_ad_din = {
+	name = "ad-Din"
+	culture = "Yemeni"
+}
+dynn_tahirid = {
+	name = "Tahirid"
+	culture = "Yemeni"
+}
+dynn_rasulids = {
+	name = "Rasulid"
+	culture = "Yemeni"
+}
+dynn_burji = {
+	name = "Burji"
+	culture = "Egyptian"
+}
+dynn_hawashim = {
+	name = ""
+	culture = "Bedouin"
+}
+dynn_husaynid = {
+	name = "Husaynid"
+	culture = "Bedouin"
+}
+dynn_risha = {
+	name = "Risha"
+	culture = "Bedouin"
+}
+dynn_maslam = {
+	name = "Maslam"
+	culture = "Bedouin"
+}
+dynn_rashid = {
+	name = "Rashid"
+	culture = "Bedouin"
+}
+dynn_saud = {
+	name = "Sa'ud"
+	culture = "Bedouin"
+}
+dynn_al_zaid = {
+	name = "Za'id"
+	culture = "Bedouin"
+}
+dynn_dulkadiroglu = {
+	name = "Dulkadiroglu"
+	culture = "Oghuz"
+}
+dynn_ramazanoglu = {
+	name = "Ramazanoglu"
+	culture = "Oghuz"
+}
+dynn_candaroglu = {
+	name = "Candaroglu"
+	culture = "Oghuz"
+}
+dynn_karamanoglu = {
+	name = "Karamanoglu"
+	culture = "Oghuz"
+}
+dynn_komnenos = {
+	name = "Komnenos"
+	culture = "Greek"
+}
+dynn_hafs = {
+	name = "Hafs"
+	culture = "Maghrebi"
+}
+dynn_sulaym = {
+	name = "Sulaym"
+	culture = "Maghrebi"
+}
+dynn_zayyan = {
+	name = "Zayyan"
+	culture = "Maghrebi"
+}
+dynn_marin = {
+	name = "Marín"
+	culture = "Maghrebi"
+}
+dynn_hintata = {
+	name = "Hintata"
+	culture = "Maghrebi"
+}
+dynn_shadhiliyya = {
+	name = "Shadhiliyya"
+	culture = "Maghrebi"
+}
+dynn_saad = {
+	name = "Sa'ad"
+	culture = "Butr"
+}
+dynn_khattab = {
+	name = "Khattab"
+	culture = "Butr"
+}
+dynn_ghadames = {
+	name = "Ghadames"
+	culture = "Butr"
+}
+dynn_jallab = {
+	name = "Jallab"
+	culture = "Butr"
+}
+dynn_yamlul = {
+	name = "Yamlul"
+	culture = "Butr"
+}
+dynn_unbgi = {
+	name = "Ungbi"
+	culture = "Butr"
+}
+dynn_tujin = {
+	name = "Tujin"
+	culture = "Butr"
+}

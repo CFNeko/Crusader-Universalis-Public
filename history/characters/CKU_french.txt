@@ -382,6 +382,9 @@
 			father = CKU_francien_1
 			mother = CKU_anjou_14
 			# Betrothed Charles de Valois-Burgundy
+			trait = charming
+			trait = intellect_good_2
+			trait = physique_bad_1
 			1428.1.1 = {
 				birth = yes
 			}
@@ -578,13 +581,16 @@
 			father = CKU_orleans_1
 			#mother = Mistress
 			# Married Marie Louvet
+			# Married Marie de Harcourt
 			trait = bastard
 			1402.11.23 = {
 				birth = yes
 			}
-			1439.1.1 = {
-				employer = CKU_francien_1
-				give_council_position = councillor_chancellor
+			1422.4.1 = {
+				add_spouse = CKU_francien_minor_29
+			}
+			1439.10.26 = {
+				add_spouse = CKU_harcourt_15
 			}
 			1468.11.24 = {
 				death = yes
@@ -596,7 +602,7 @@
 			culture = french
 			dynasty_house = house_longueville
 			father = CKU_orleans_8
-			#mother = Marie Louvet
+			mother = CKU_harcourt_15
 			1443.1.1 = {
 				birth = yes
 			}
@@ -618,6 +624,9 @@
 			1340.1.1 = {
 				birth = yes
 			}
+			1371.10.10 = {
+				add_spouse = CKU_francien_minor_26
+			}
 			1404.9.20 = {
 				death = yes
 			}
@@ -629,7 +638,7 @@
 			culture = french
 			dynasty_house = house_alencon
 			father = CKU_alencon_1
-			# mother = Marie Chamaillart
+			mother = CKU_francien_minor_26
 			# Married Jean de Harcourt
 			1373.3.29 = {
 				birth = yes
@@ -645,7 +654,7 @@
 			culture = french
 			dynasty_house = house_alencon
 			father = CKU_alencon_1
-			# mother = Marie Chamaillart
+			mother = CKU_francien_minor_26
 			1378.1.1 = {
 				birth = yes
 			}
@@ -660,7 +669,7 @@
 			culture = french
 			dynasty_house = house_alencon
 			father = CKU_alencon_1
-			# mother = Marie Chamaillart
+			mother = CKU_francien_minor_26
 			# Married Pierre de Evreux
 			# Married Ludwig VII von Wittelsbach
 			1396.1.1 = {
@@ -677,7 +686,7 @@
 			culture = french
 			dynasty_house = house_alencon
 			father = CKU_alencon_1
-			# mother = Marie Chamaillart
+			mother = CKU_francien_minor_26
 			1383.1.1 = {
 				birth = yes
 			}
@@ -691,7 +700,7 @@
 			culture = french
 			dynasty_house = house_alencon
 			father = CKU_alencon_1
-			# mother = Marie Chamaillart
+			mother = CKU_francien_minor_26
 			# Married Marie de Montfort
 			1385.1.1 = {
 				birth = yes
@@ -896,8 +905,8 @@
 			religion = "catholic"
 			culture = french
 			father = 455520
-			# mother = Isabelle de Melun
-			# Married Simon de Thouars
+			mother = CKU_melun_11
+			# Married Simon de Thouars # Thouars Family died out before 1400
 			1353.1.1 = {
 				birth = yes
 			}
@@ -911,11 +920,11 @@
 			religion = "catholic"
 			culture = french
 			father = 455520
-			# mother = Isabelle de Melun
-			1353.1.1 = {
+			mother = CKU_melun_11
+			1355.1.1 = {
 				birth = yes
 			}
-			1420.1.1 = {
+			1363.1.1 = {
 				death = yes
 			}
 		}
@@ -925,8 +934,8 @@
 			religion = "catholic"
 			culture = french
 			father = 455520
-			# mother = Isabelle de Melun
-			# Married Jeanne de Anjou-Durazzo
+			mother = CKU_melun_11
+			# Married Jeanne de Anjou-Durazzo # Anjou-Durazzo died out with Ladislas King of Naples
 			1356.1.1 = {
 				birth = yes
 			}
@@ -940,7 +949,7 @@
 			religion = "catholic"
 			culture = french
 			father = 455520
-			# mother = Isabelle de Melun
+			mother = CKU_melun_11
 			# Married Marie de Valois
 			1358.1.1 = {
 				birth = yes
@@ -997,6 +1006,9 @@
 			1216.1.1 = {
 				birth = yes
 			}
+			1242.1.1 = {
+				add_spouse = CKU_reginar_montfort_1
+			}
 			1286.1.1 = {
 				death = yes
 			}
@@ -1007,11 +1019,14 @@
 			culture = french
 			dynasty = CKU_clermont
 			father = CKU_clermont_1
-			# mother = Adèle de Montfort
+			mother = CKU_reginar_montfort_1
 			# Married Alix Dreux
 			# Married Isabelle de Avesnes
 			1245.1.1 = {
 				birth = yes
+			}
+			1268.1.1 = {
+				add_spouse = CKU_montfort_25
 			}
 			1296.1.1 = {
 				add_spouse = 31110
@@ -1027,7 +1042,7 @@
 			culture = french
 			dynasty = CKU_clermont
 			father = CKU_clermont_1
-			# mother = Adèle de Montfort
+			mother = CKU_reginar_montfort_1
 			1250.1.1 = {
 				birth = yes
 			}
@@ -1042,7 +1057,7 @@
 			culture = french
 			dynasty = CKU_clermont
 			father = CKU_clermont_1
-			# mother = Adèle de Montfort
+			mother = CKU_reginar_montfort_1
 			1252.1.1 = {
 				birth = yes
 			}
@@ -1056,8 +1071,8 @@
 			culture = french
 			dynasty = CKU_clermont
 			father = CKU_clermont_1
-			# mother = Adèle de Montfort
-			# Married Marguerite de Thourotte
+			mother = CKU_reginar_montfort_1
+			# Married Marguerite de Thourotte # Thourotte family died out in 1425
 			1255.1.1 = {
 				birth = yes
 			}
@@ -1078,6 +1093,9 @@
 			1288.1.1 = {
 				birth = yes
 			}
+			1320.1.1 = {
+				add_spouse = CKU_mello_21
+			}
 			1352.5.25 = {
 				death = yes
 			}
@@ -1090,7 +1108,7 @@
 			dynasty = CKU_clermont
 			father = CKU_clermont_5
 			# mother = Marguerite de Thourotte
-			# Married Jean de Chérisy
+			# Married Jean de Chérisy #Lowborn
 			1290.1.1 = {
 				birth = yes
 			}
@@ -1098,7 +1116,7 @@
 				death = yes
 			}
 		}
-		CKU_clermont_8 = {
+		CKU_clermont_8 = { # Check
 			name = "Raoul"
 			religion = catholic
 			culture = french
@@ -1151,7 +1169,7 @@
 			culture = french
 			dynasty = CKU_clermont
 			father = CKU_clermont_6
-			# mother = Marguerite de Mello 
+			mother = CKU_mello_21
 			# Married Jeanne de Bruyères
 			# Married Isabelle de Thouars
 			1326.1.1 = {
@@ -1167,7 +1185,7 @@
 			culture = french
 			dynasty = CKU_clermont
 			father = CKU_clermont_6
-			# mother = Marguerite de Mello 
+			mother = CKU_mello_21
 			# Married Alix de Wavrin
 			1332.1.1 = {
 				birth = yes
@@ -1567,12 +1585,16 @@
 			1385.1.1 = {
 				birth = yes
 			}
+			1417.1.1 = {
+				add_spouse = CKU_melun_14
+			}
 			1428.1.1 = {
 				death = yes
 			}
 		}
 		CKU_harcourt_13 = {
 			name = "Marie"
+			female = yes
 			religion = catholic
 			culture = french
 			dynasty = 530
@@ -1592,7 +1614,7 @@
 			culture = french
 			dynasty = 530
 			father = CKU_harcourt_12
-			# mother = Marguerite de Melun
+			mother = CKU_melun_14
 			# Married Péronnelle de Thouars
 			1420.1.1 = {
 				birth = yes
@@ -1601,6 +1623,22 @@
 				add_spouse = CKU_amboise_9
 			}
 			1487.11.14 = {
+				death = yes
+			}
+		}
+		CKU_harcourt_15 = {
+			name = "Marie"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = 530
+			father = CKU_harcourt_12
+			mother = CKU_melun_14
+			# Married Jean de Orleans
+			1420.1.1 = {
+				birth = yes
+			}
+			1464.9.1 = {
 				death = yes
 			}
 		}
@@ -2121,7 +2159,7 @@
 			culture = french
 			dynasty = 23113
 			father = 455776
-			# mother = Isabelle de Dreux
+			mother = CKU_montfort_27
 			# Married Marguerite de Dampierre
 			1281.1.1 = {
 				birth = yes
@@ -2136,7 +2174,7 @@
 			culture = french
 			dynasty = 23113
 			father = 455776
-			# mother = Isabelle de Dreux
+			mother = CKU_montfort_27
 			# Married Marie de Clacy
 			1295.1.1 = {
 				birth = yes
@@ -2309,6 +2347,22 @@
 				death = yes
 			}
 		}
+		CKU_chatillon_25 = {
+			name = "Mahaut"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = 23113
+			father = 161363
+			# mother = Marie de Dreux
+			# Married Guy de Luxembourg-Ligny
+			1330.1.1 = {
+				birth = yes
+			}
+			1404.3.1 = {
+				death = yes
+			}
+		}
 	#}
 	# La Trémoille = {
 		CKU_tremoille_1 = {
@@ -2352,6 +2406,9 @@
 			1335.1.1 = {
 				birth = yes
 			}
+			1350.1.1 = {
+				add_spouse = CKU_mello_10
+			}
 			1357.1.1 = {
 				death = yes
 			}
@@ -2393,11 +2450,15 @@
 			father = CKU_tremoille_2
 			# mother = Jeanne de Longvilliers
 			# Married Jeanne de Créquy
+			# Married Renaude de Mello
 			1402.1.1 = {
 				birth = yes
 			}
 			1425.1.1 = {
 				add_spouse = CKU_bourgogne_minor_2
+			}
+			1435.1.1 = {
+				add_spouse = CKU_mello_28
 			}
 			1452.1.1 = {
 				death = yes
@@ -2441,7 +2502,7 @@
 			culture = french
 			dynasty = CKU_tremoille
 			father = CKU_tremoille_3
-			# mother = Marie de Mello
+			mother = CKU_mello_10
 			# Married Marguerite de Noyers
 			1354.1.1 = {
 				birth = yes
@@ -2457,7 +2518,7 @@
 			culture = french
 			dynasty = CKU_tremoille
 			father = CKU_tremoille_3
-			# mother = Marie de Mello
+			mother = CKU_mello_10
 			# Married Mathieu de Longwy
 			1355.1.1 = {
 				birth = yes
@@ -2473,7 +2534,7 @@
 			culture = french
 			dynasty = CKU_tremoille
 			father = CKU_tremoille_3
-			# mother = Marie de Mello
+			mother = CKU_mello_10
 			# Married David Auxy
 			1356.1.1 = {
 				birth = yes
@@ -2830,6 +2891,922 @@
 			}
 		}
 	#}
+	# Melun = {
+		CKU_melun_1 = {
+			name = "Adam"
+			religion = catholic
+			culture = french
+			dynasty = CKU_melun
+			# father = Adam de Melun
+			# mother = Constance de Sancerre
+			# Married Jeanne de Sully
+			1258.1.1 = {
+				birth = yes
+			}
+			1304.1.1 = {
+				death = yes
+			}
+		}
+		CKU_melun_2 = {
+			name = "Jean"
+			religion = catholic
+			culture = french
+			dynasty = CKU_melun
+			father = CKU_melun_1
+			# mother = Jeanne de Sully
+			# Married Jeanne de Tancarville
+			# Married Isabelle de Antoing
+			1290.1.1 = {
+				birth = yes
+			}
+			1350.7.30 = {
+				death = yes
+			}
+		}
+		CKU_melun_3 = {
+			name = "Guillaume"
+			religion = catholic
+			culture = french
+			dynasty = CKU_melun
+			father = CKU_melun_1
+			# mother = Jeanne de Sully
+			1292.1.1 = {
+				birth = yes
+			}
+			1329.10.29 = {
+				death = yes
+			}
+		}
+		CKU_melun_4 = {
+			name = "Philippe"
+			religion = catholic
+			culture = french
+			dynasty = CKU_melun
+			father = CKU_melun_1
+			# mother = Jeanne de Sully
+			# Married 
+			1294.1.1 = {
+				birth = yes
+			}
+			1345.4.7 = {
+				death = yes
+			}
+		}
+		CKU_melun_5 = {
+			name = "Isabelle"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = CKU_melun
+			father = CKU_melun_1
+			# mother = Jeanne de Sully
+			# Married Thomas de Bruyères
+			1295.1.1 = {
+				birth = yes
+			}
+			1304.1.1 = {
+				death = yes
+			}
+		}
+		CKU_melun_6 = {
+			name = "Jean"
+			religion = catholic
+			culture = french
+			dynasty = CKU_melun
+			father = CKU_melun_2
+			# mother = Jeanne de Tancarville
+			# Married Jeanne de Crespin
+			1325.1.1 = {
+				birth = yes
+			}
+			1382.1.1 = {
+				death = yes
+			}
+		}
+		CKU_melun_7 = {
+			name = "Adam"
+			religion = catholic
+			culture = french
+			dynasty = CKU_melun
+			father = CKU_melun_2
+			# mother = Jeanne de Tancarville
+			1327.1.1 = {
+				birth = yes
+			}
+			1362.4.22 = {
+				death = yes
+			}
+		}
+		CKU_melun_8 = {
+			name = "Guillaume"
+			religion = catholic
+			culture = french
+			dynasty = CKU_melun
+			father = CKU_melun_2
+			# mother = Jeanne de Tancarville
+			1328.1.1 = {
+				birth = yes
+			}
+			1376.5.3 = {
+				death = yes
+			}
+		}
+		CKU_melun_9 = {
+			name = "Robert"
+			religion = catholic
+			culture = french
+			dynasty = CKU_melun
+			father = CKU_melun_2
+			# mother = Jeanne de Tancarville
+			# Married Isabelle de Chatenoy
+			1327.1.1 = {
+				birth = yes
+			}
+			1378.1.1 = {
+				death = yes
+			}
+		}
+		CKU_melun_10 = {
+			name = "Hugues"
+			religion = catholic
+			culture = french
+			dynasty = CKU_melun
+			father = CKU_melun_2
+			# mother = Isabelle de Antoing
+			# Married Marguerite de Picquigny
+			# Married Béatrix de Beaumont
+			1330.1.1 = {
+				birth = yes
+			}
+			1410.1.1 = {
+				death = yes
+			}
+		}
+		CKU_melun_11 = {
+			name = "Isabelle"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = CKU_melun
+			father = CKU_melun_2
+			# mother = Isabelle de Antoing
+			# Married Pierre de Dreux
+			# Married Jean de Artois
+			1332.1.1 = {
+				birth = yes
+			}
+			1352.7.11 = {
+				add_spouse = 455520
+			}
+			1389.1.1 = {
+				death = yes
+			}
+		}
+		CKU_melun_12 = {
+			name = "Jean"
+			religion = catholic
+			culture = french
+			dynasty = CKU_melun
+			father = CKU_melun_6
+			# mother = Jeanne de Crespin
+			1335.1.1 = {
+				birth = yes
+			}
+			1400.1.1 = {
+				death = yes
+			}
+		}
+		CKU_melun_13 = {
+			name = "Guillaume"
+			religion = catholic
+			culture = french
+			dynasty = CKU_melun
+			father = CKU_melun_6
+			# mother = Jeanne de Crespin
+			# Married Jeanne de Parthenay
+			1337.1.1 = {
+				birth = yes
+			}
+			1415.10.25 = {
+				death = yes
+			}
+		}
+		CKU_melun_14 = {
+			name = "Marguerite"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = CKU_melun
+			father = CKU_melun_13
+			# mother = Jeanne de Parthenay
+			# Married Jacques de Harcourt
+			1392.1.1 = {
+				birth = yes
+			}
+			1448.1.1 = {
+				death = yes
+			}
+		}
+		CKU_melun_15 = {
+			name = "Jean"
+			religion = catholic
+			culture = french
+			dynasty = CKU_melun
+			father = CKU_melun_9
+			# mother = Isabelle de Chatenoy
+			1350.1.1 = {
+				birth = yes
+			}
+			1400.1.1 = {
+				death = yes
+			}
+		}
+		CKU_melun_16 = {
+			name = "Isabeau"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = CKU_melun
+			father = CKU_melun_10
+			# mother = Marguerite de Picquigny
+			# Married Bertrand de la Bouverie
+			1376.1.1 = {
+				birth = yes
+			}
+			1409.1.1 = {
+				death = yes
+			}
+		}
+		CKU_melun_17 = {
+			name = "Jean"
+			religion = catholic
+			culture = french
+			dynasty = CKU_melun
+			father = CKU_melun_10
+			# mother = Béatrix de Beaumont
+			# Married Jeanne de Luxembourg
+			# Married Jeanne de Abbeville
+			1396.1.1 = {
+				birth = yes
+			}
+			1419.1.1 = {
+				add_spouse = CKU_luxembourg_ligny_23
+			}
+			1484.2.15 = {
+				death = yes
+			}
+		}
+		CKU_melun_18 = {
+			name = "Philippote"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = CKU_melun
+			father = CKU_melun_10
+			# mother = Béatrix de Beaumont
+			# Married Jacques de Montmorency
+			1330.1.1 = {
+				birth = yes
+			}
+			1410.1.1 = {
+				death = yes
+			}
+		}
+		CKU_melun_19 = {
+			name = "Jean"
+			religion = catholic
+			culture = french
+			dynasty = CKU_melun
+			father = CKU_melun_17
+			# mother = Jeanne de Abbeville
+			1430.1.1 = {
+				birth = yes
+			}
+			1513.10.25 = {
+				death = yes
+			}
+		}
+		CKU_melun_20 = {
+			name = "Philippote"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = CKU_melun
+			father = CKU_melun_17
+			# mother = Jeanne de Abbeville
+			# Married Thibaud de Luxembourg-Ligny
+			1420.1.1 = {
+				birth = yes
+			}
+			1456.1.1 = {
+				death = yes
+			}
+		}
+		CKU_melun_21 = {
+			name = "Helene"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = CKU_melun
+			father = CKU_melun_17
+			# mother = Jeanne de Abbeville
+			1431.1.1 = {
+				birth = yes
+			}
+			1472.1.1 = {
+				death = yes
+			}
+		}
+		CKU_melun_22 = {
+			name = "Jean"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = CKU_melun
+			father = CKU_melun_17
+			# mother = Jeanne de Abbeville
+			1433.1.1 = {
+				birth = yes
+			}
+			1446.1.1 = {
+				death = yes
+			}
+		}
+	#}
+	# Mello = {
+		CKU_mello_1 = {
+			name = "Yolande"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = 5057
+			father = 161714
+			# mother = Helvis de Montbard
+			# Married Robert de Bomez
+			1248.1.1 = {
+				birth = yes
+			}
+			1300.1.1 = {
+				death = yes
+			}
+		}
+		CKU_mello_2 = {
+			name = "Isabelle"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = 5057
+			father = 161714
+			# mother = Helvis de Montbard
+			# Married Richard de Harcourt
+			# Married Guy de Mauvoisin
+			1246.1.1 = {
+				birth = yes
+			}
+			1279.1.1 = {
+				death = yes
+			}
+		}
+		CKU_mello_3 = {
+			name = "Guillaume"
+			religion = catholic
+			culture = french
+			dynasty = 5057
+			father = 161714
+			# mother = Helvis de Montbard
+			# Married Agnès de Saint-Vérain
+			1237.1.1 = {
+				birth = yes
+			}
+			1284.1.1 = {
+				death = yes
+			}
+		}
+		CKU_mello_4 = {
+			name = "Guillaume"
+			religion = catholic
+			culture = french
+			dynasty = 5057
+			father = CKU_mello_3
+			# mother = Agnès de Saint-Vérain
+			# Married Marie de Châteauvillain
+			1275.1.1 = {
+				birth = yes
+			}
+			1326.2.22 = {
+				death = yes
+			}
+		}
+		CKU_mello_5 = {
+			name = "Elips"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = 5057
+			father = CKU_mello_4
+			# mother = Marie de Châteauvillain
+			# Married Guillaume de Flotte
+			1295.1.1 = {
+				birth = yes
+			}
+			1340.1.1 = {
+				death = yes
+			}
+		}
+		CKU_mello_6 = {
+			name = "Jean"
+			religion = catholic
+			culture = french
+			dynasty = 5057
+			father = CKU_mello_4
+			# mother = Marie de Châteauvillain
+			1300.1.1 = {
+				birth = yes
+			}
+			1376.1.1 = {
+				death = yes
+			}
+		}
+		CKU_mello_7 = {
+			name = "Guillaume"
+			religion = catholic
+			culture = french
+			dynasty = 5057
+			father = CKU_mello_4
+			# mother = Marie de Châteauvillain
+			1320.1.1 = {
+				birth = yes
+			}
+			1344.1.1 = {
+				death = yes
+			}
+		}
+		CKU_mello_8 = {
+			name = "Guy"
+			religion = catholic
+			culture = french
+			dynasty = 5057
+			father = CKU_mello_4
+			# mother = Marie de Châteauvillain
+			# Married Agnès de Cléry
+			1325.1.1 = {
+				birth = yes
+			}
+			1380.1.1 = {
+				death = yes
+			}
+		}
+		CKU_mello_9 = {
+			name = "Gibaud"
+			religion = catholic
+			culture = french
+			dynasty = 5057
+			father = CKU_mello_4
+			# mother = Marie de Châteauvillain
+			# Married Isabelle de la Tour Auvergne
+			# Married Marie de Pacy-sur-Armançon
+			1275.1.1 = {
+				birth = yes
+			}
+			1326.2.22 = {
+				death = yes
+			}
+		}
+		CKU_mello_10 = {
+			name = "Marie"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = 5057
+			father = CKU_mello_8
+			# mother = Agnès de Cléry
+			# Married Guillaume de la Trémoille
+			1340.1.1 = {
+				birth = yes
+			}
+			1400.1.1 = {
+				death = yes
+			}
+		}
+		CKU_mello_11 = {
+			name = "Guillaume"
+			religion = catholic
+			culture = french
+			dynasty = 5057
+			father = CKU_mello_8
+			# mother = Agnès de Cléry
+			# Married Isabelle de Bourbon # Other branch of Bourbon
+			1354.1.1 = {
+				birth = yes
+			}
+			1396.1.1 = {
+				death = yes
+			}
+		}
+		CKU_mello_12 = {
+			name = "Jeanne"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = 5057
+			father = CKU_mello_8
+			# mother = Agnès de Cléry
+			# Married Pierre de Aumont
+			1355.1.1 = {
+				birth = yes
+			}
+			1408.8.3 = {
+				death = yes
+			}
+		}
+		CKU_mello_13 = {
+			name = "Isabelle"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = 5057
+			father = CKU_mello_11
+			# mother = Isabelle de Bourbon
+			# Married Jean de Bourgogne-Montagu
+			1380.1.1 = {
+				birth = yes
+			}
+			1415.1.1 = {
+				death = yes
+			}
+		}
+		CKU_mello_14 = {
+			name = "Guillaume"
+			religion = catholic
+			culture = french
+			dynasty = 5057
+			father = CKU_mello_11
+			# mother = Isabelle de Bourbon
+			1382.1.1 = {
+				birth = yes
+			}
+			1419.1.1 = {
+				death = yes
+			}
+		}
+		CKU_mello_15 = {
+			name = "Charles"
+			religion = catholic
+			culture = french
+			dynasty = 5057
+			father = 161715
+			# mother = Eustachie de Lusignan
+			1280.1.1 = {
+				birth = yes
+			}
+			1309.1.1 = {
+				death = yes
+			}
+		}
+		CKU_mello_16 = {
+			name = "Mathieu"
+			religion = catholic
+			culture = french
+			dynasty = 5057
+			father = 161715
+			# mother = Eustachie de Lusignan
+			# Married Marguerite de Arcis
+			1285.1.1 = {
+				birth = yes
+			}
+			1340.1.1 = {
+				death = yes
+			}
+		}
+		CKU_mello_17 = {
+			name = "Jeanne"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = 5057
+			father = 161715
+			# mother = Jeanne de Trie
+			# Married Erard de Saint-Vérain
+			1284.1.1 = {
+				birth = yes
+			}
+			1325.1.1 = {
+				death = yes
+			}
+		}
+		CKU_mello_18 = {
+			name = "Renaud"
+			religion = catholic
+			culture = french
+			dynasty = 5057
+			father = CKU_mello_16
+			# mother = Marguerite de Arcis
+			# Married Yolande de Dinteville
+			1325.1.1 = {
+				birth = yes
+			}
+			1391.1.1 = {
+				death = yes
+			}
+		}
+		CKU_mello_19 = {
+			name = "Isabelle"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = 5057
+			father = CKU_mello_16
+			# mother = Marguerite de Arcis
+			# Married Louis de Sancerre
+			# Married Miles de Noyers
+			# Married Jean de Saint-Vérain
+			1330.1.1 = {
+				birth = yes
+			}
+			1397.1.1 = {
+				death = yes
+			}
+		}
+		CKU_mello_20 = {
+			name = "Dreux"
+			religion = catholic
+			culture = french
+			dynasty = 5057
+			father = CKU_mello_16
+			# mother = Marguerite de Arcis
+			# Married Marguerite de Saint-Vérain
+			1332.1.1 = {
+				birth = yes
+			}
+			1374.1.1 = {
+				death = yes
+			}
+		}
+		CKU_mello_21 = {
+			name = "Marguerite"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = 5057
+			father = CKU_mello_16
+			# mother = Marguerite de Arcis
+			# Married Maurice de Craon
+			# Married Jean de Chalon-Arlay
+			1304.1.1 = {
+				birth = yes
+			}
+			1350.12.25 = {
+				death = yes
+			}
+		}
+		CKU_mello_22 = {
+			name = "Dreux"
+			religion = catholic
+			culture = french
+			dynasty = 5057
+			father = CKU_mello_18
+			# mother = Yolande de Dinteville
+			# Married Isabeau de Plancy
+			1361.1.1 = {
+				birth = yes
+			}
+			1400.1.1 = {
+				death = yes
+			}
+		}
+		CKU_mello_23 = {
+			name = "Jean"
+			religion = catholic
+			culture = french
+			dynasty = 5057
+			father = CKU_mello_18
+			# mother = Yolande de Dinteville
+			# Married Marguerite de Lespinasse
+			1350.1.1 = {
+				birth = yes
+			}
+			1405.1.1 = {
+				death = yes
+			}
+		}
+		CKU_mello_24 = {
+			name = "Jeanne"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = 5057
+			father = CKU_mello_22
+			# mother = Isabeau de Plancy
+			# Married Guillaume de Chaumont-Guitry
+			1388.1.1 = {
+				birth = yes
+			}
+			1448.1.1 = {
+				death = yes
+			}
+		}
+		CKU_mello_25 = {
+			name = "Guillaumette"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = 5057
+			father = CKU_mello_23
+			# mother = Marguerite de Lespinasse
+			# Married Jean de Urgel
+			1369.1.1 = {
+				birth = yes
+			}
+			1430.1.1 = {
+				death = yes
+			}
+		}
+		CKU_mello_26 = {
+			name = "Louis"
+			religion = catholic
+			culture = french
+			dynasty = 5057
+			father = CKU_mello_23
+			# mother = Marguerite de Lespinasse
+			# Married Jeanne de Aumont
+			1370.1.1 = {
+				birth = yes
+			}
+			1431.1.1 = {
+				death = yes
+			}
+		}
+		CKU_mello_27 = {
+			name = "Jean"
+			religion = catholic
+			culture = french
+			dynasty = 5057
+			father = CKU_mello_26
+			# mother = Jeanne de Aumont
+			# Married Marguerite de Ventadour
+			1388.1.1 = {
+				birth = yes
+			}
+			1431.1.1 = {
+				death = yes
+			}
+		}
+		CKU_mello_28 = {
+			name = "Renaude"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = 5057
+			father = CKU_mello_26
+			# mother = Jeanne de Aumont
+			# Married Jean de la Trémoille
+			1391.1.1 = {
+				birth = yes
+			}
+			1438.1.1 = {
+				death = yes
+			}
+		}
+		CKU_mello_29 = {
+			name = "Claude"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = 5057
+			father = CKU_mello_27
+			# mother = Marguerite de Ventadour
+			1410.1.1 = {
+				birth = yes
+			}
+			1460.1.1 = {
+				death = yes
+			}
+		}
+		CKU_mello_30 = {
+			name = "Jeanne"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = 5057
+			father = CKU_mello_27
+			# mother = Marguerite de Ventadour
+			1412.1.1 = {
+				birth = yes
+			}
+			1460.1.1 = {
+				death = yes
+			}
+		}
+		CKU_mello_31 = {
+			name = "Dreux"
+			religion = catholic
+			culture = french
+			dynasty = 5057
+			father = CKU_mello_20
+			# mother = Marguerite de Saint-Vérain
+			# Married Isabelle de Noyers
+			1355.1.1 = {
+				birth = yes
+			}
+			1400.1.1 = {
+				death = yes
+			}
+		}
+		CKU_mello_32 = {
+			name = "Isabelle"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = 5057
+			father = CKU_mello_20
+			# mother = Marguerite de Saint-Vérain
+			# Married Louis de Plancy
+			1358.1.1 = {
+				birth = yes
+			}
+			1410.1.1 = {
+				death = yes
+			}
+		}
+		CKU_mello_33 = {
+			name = "Charles"
+			religion = catholic
+			culture = french
+			dynasty = 5057
+			father = CKU_mello_31
+			# mother = Isabelle de Noyers
+			# Married Jeanne-Isabeau Aycelin
+			1385.1.1 = {
+				birth = yes
+			}
+			1456.1.1 = {
+				death = yes
+			}
+		}
+		CKU_mello_34 = {
+			name = "Claude"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = 5057
+			father = CKU_mello_31
+			# mother = Isabelle de Noyers
+			# Married Gérard de Cusance
+			1390.1.1 = {
+				birth = yes
+			}
+			1440.1.1 = {
+				death = yes
+			}
+		}
+		CKU_mello_35 = {
+			name = "Guillaume"
+			religion = catholic
+			culture = french
+			dynasty = 5057
+			father = CKU_mello_33
+			# mother = Jeanne-Isabeau Aycelin
+			# Married Jacqueline de Vendôme
+			1400.1.1 = {
+				birth = yes
+			}
+			1460.1.1 = {
+				death = yes
+			}
+		}
+		CKU_mello_36 = {
+			name = "Charles"
+			religion = catholic
+			culture = french
+			dynasty = 5057
+			father = CKU_mello_35
+			# mother = Jacqueline de Vendôme
+			1430.1.1 = {
+				birth = yes
+			}
+			1487.3.10 = {
+				death = yes
+			}
+		}
+	# }
+	# Reginar-Montfort = {
+		CKU_reginar_montfort_1 = {
+			name = "Adèle"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = 4003
+			father = 7466
+			# mother = Béatrix de Viennois
+			# Married Simon de Clermont
+			1230.1.1 = {
+				birth = yes
+			}
+			1279.3.29 = {
+				death = yes
+			}
+		}
+	# }
 	# Sancerre = {
 		CKU_sancerre_1 = {
 			name = "Jean"
@@ -2922,6 +3899,10 @@
 			1400.3.15 = {
 				birth = yes
 			}
+			1444.1.1 = {
+				employer = CKU_francien_1
+				give_council_position = councillor_chancellor
+			}
 			1472.3.23 = {
 				death = yes
 			}
@@ -2936,6 +3917,7 @@
 				birth = yes
 			}
 			1429.1.1 = {
+				employer = CKU_francien_1
 				give_council_position = councillor_court_chaplain # Does not work properly
 			}
 			1473.7.14 = {
@@ -2970,6 +3952,7 @@
 		}
 		CKU_francien_minor_8 = {
 			name = "Agnès Sorel"
+			dna = CKU_francien_minor_8_dna
 			female = yes
 			religion = "catholic"
 			culture = french
@@ -3014,9 +3997,10 @@
 			name = "Jean"
 			religion = catholic
 			culture = french
-			# dynasty = Unknown
-			# father = Unknown
-			# Marguerite de Valois
+			dynasty = CKU_belleville
+			father = CKU_francien_minor_20
+			# Mother = Jeanne de Montaut
+			# Married Marguerite de Valois
 			1411.1.1 = {
 				birth = yes
 			}
@@ -3027,12 +4011,298 @@
 				death = yes
 			}
 		}
+		CKU_francien_minor_12 = {
+			name = "Guy"
+			religion = catholic
+			culture = french
+			# dynasty = Unknown
+			# father = Unknown
+			1400.1.1 = {
+				birth = yes
+			}
+			1471.4.21 = {
+				death = yes
+			}
+		}
+		CKU_francien_minor_13 = {
+			name = "Pierre"
+			religion = catholic
+			culture = french
+			dynasty = CKU_breze
+			# father = Pierre de Breze
+			# Married Jeanne de Crespin
+			1410.1.1 = {
+				birth = yes
+			}
+			1465.7.16 = {
+				death = yes
+			}
+		}
+		CKU_francien_minor_14 = {
+			name = "Jacques"
+			religion = catholic
+			culture = french
+			dynasty = CKU_breze
+			father = CKU_francien_minor_13
+			1440.1.1 = {
+				birth = yes
+			}
+			1494.8.14 = {
+				death = yes
+			}
+		}
+		CKU_francien_minor_15 = {
+			name = "Guy"
+			religion = catholic
+			culture = french
+			dynasty_house = house_dreux_montfort
+			# father = Unknown
+			1406.1.28 = {
+				birth = yes
+			}
+			1486.9.2 = {
+				death = yes
+			}
+		}
+		CKU_francien_minor_16 = {
+			name = "Yuan"
+			religion = catholic
+			culture = castilian
+			# dynasty = Borgia
+			# father = Unknown
+			1418.1.1 = {
+				birth = yes
+			}
+			1461.1.1 = {
+				death = yes
+			}
+		}
+		CKU_francien_minor_17 = {
+			name = "Philippe"
+			religion = catholic
+			culture = french
+			# dynasty = # Culant
+			# father = # Jean Culant
+			1413.1.1 = {
+				birth = yes
+			}
+			1441.3.1 = {
+				employer = CKU_francien_1
+				give_council_position = councillor_marshal
+			}
+			1454.12.1 = {
+				death = yes
+			}
+		}
+		CKU_francien_minor_18 = {
+			name = "Jean"
+			religion = catholic
+			culture = french
+			# dynasty = # Bureau
+			# father = # Simon Culant
+			trait = military_engineer
+			trait = education_martial_4
+			trait = brave
+			trait = diligent
+			trait = intellect_good_1
+			1390.1.1 = {
+				birth = yes
+			}
+			1463.7.2 = {
+				death = yes
+			}
+		}
+		CKU_francien_minor_19 = {
+			name = "Jacques"
+			religion = catholic
+			culture = french
+			# dynasty = # Cœur
+			# father = # Pierre Cœur
+			trait = education_stewardship_4
+			trait = education_learning_3
+			trait = diligent
+			trait = stubborn
+			trait = ambitious
+			trait = intellect_good_2
+			1395.1.1 = {
+				birth = yes
+			}
+			1456.11.25 = {
+				death = yes
+			}
+		}
+		CKU_francien_minor_20 = {
+			name = "Jean"
+			religion = catholic
+			culture = french
+			dynasty = CKU_belleville
+			# father = Unknown
+			# Married Jeanne d' Aspremont
+			# Married Jeanne de Montaut
+			1369.1.1 = {
+				birth = yes
+			}
+			1434.6.13 = {
+				death = yes
+			}
+		}
+		CKU_francien_minor_21 = {
+			name = "Olivier"
+			religion = catholic
+			culture = french
+			dynasty = CKU_belleville
+			father = CKU_francien_minor_20
+			# mother = Jeanne d' Aspremont
+			# Married Brunissende de Montbéron
+			1407.1.1 = {
+				birth = yes
+			}
+			1455.1.1 = {
+				death = yes
+			}
+		}
+		CKU_francien_minor_22 = {
+			name = "Louis"
+			religion = catholic
+			culture = french
+			dynasty = CKU_belleville
+			father = CKU_francien_minor_11
+			mother = CKU_valois_27
+			1428.1.1 = {
+				birth = yes
+			}
+			1475.1.1 = {
+				death = yes
+			}
+		}
+		CKU_francien_minor_23 = {
+			name = "Guillaume"
+			religion = catholic
+			culture = french
+			dynasty = CKU_belleville
+			father = CKU_francien_minor_11
+			mother = CKU_valois_27
+			1431.1.1 = {
+				birth = yes
+			}
+			1503.1.1 = {
+				death = yes
+			}
+		}
+		CKU_francien_minor_24 = {
+			name = "Marie"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = CKU_belleville
+			father = CKU_francien_minor_11
+			mother = CKU_valois_27
+			1438.1.1 = {
+				birth = yes
+			}
+			1479.1.1 = {
+				death = yes
+			}
+		}
+		CKU_francien_minor_25 = {
+			name = "Guillaume"
+			religion = catholic
+			culture = french
+			dynasty = CKU_chamaillard
+			# father = Jean de Chamaillard
+			# mother = Emmanuelle de Anthenaise
+			# Married Marie de Beaumont-Brienne
+			1320.1.1 = {
+				birth = yes
+			}
+			1391.1.1 = {
+				death = yes
+			}
+		}
+		CKU_francien_minor_26 = {
+			name = "Marie"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = CKU_chamaillard
+			father = CKU_francien_minor_25
+			# mother = Marie de Beaumont-Brienne
+			# Married Pierre de Alençon
+			1345.1.1 = {
+				birth = yes
+			}
+			1425.11.18 = {
+				death = yes
+			}
+		}
+		CKU_francien_minor_27 = {
+			name = "Jean"
+			religion = catholic
+			culture = french
+			dynasty = CKU_louvet
+			# father = Unknown
+			# mother = Unknown
+			# Married Metheline Lagane
+			1370.1.1 = {
+				birth = yes
+			}
+			1440.1.1 = {
+				death = yes
+			}
+		}
+		CKU_francien_minor_28 = {
+			name = "Jeanne"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = CKU_louvet
+			father = CKU_francien_minor_27
+			# mother = Metheline Lagane
+			# Married Louis de Joyeuse
+			1402.1.1 = {
+				birth = yes
+			}
+			1460.1.1 = {
+				death = yes
+			}
+		}
+		CKU_francien_minor_29 = {
+			name = "Marie"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = CKU_louvet
+			father = CKU_francien_minor_27
+			# mother = Metheline Lagane
+			# Married Jean de Orleans-Longueville
+			1400.1.1 = {
+				birth = yes
+			}
+			1426.1.1 = {
+				death = yes
+			}
+		}
+		CKU_francien_minor_30 = {
+			name = "Louis"
+			religion = catholic
+			culture = french
+			dynasty = CKU_louvet
+			father = CKU_francien_minor_27
+			# mother = Metheline Lagane
+			# Married Marguerite de Murat
+			1420.1.1 = {
+				birth = yes
+			}
+			1460.1.1 = {
+				death = yes
+			}
+		}
 		######## Test Character ########
 		CKU_francien_test_1 = {
 			name = "Jean"
 			religion = catholic
 			culture = french
-			# dynasty = CKU_amboise
+			dynasty = 5057
 			martial = 20
 			1395.1.1 = {
 				birth = yes
@@ -3161,6 +4431,7 @@
 		
 		CKU_bourgogne_6 = {
 			name = "Charles"
+			dna = CKU_bourgogne_6_dna
 			religion = catholic
 			culture = burgundian
 			dynasty = CKU_valois_bourgogne
@@ -3168,6 +4439,9 @@
 			#mother = # CKU_bourgogne_3 wife(Isabel)
 			trait = brave
 			trait = rowdy
+			trait = wrathful
+			trait = ambitious
+			trait = zealous
 			1433.11.10 = {
 				birth = yes
 			}
@@ -3387,6 +4661,9 @@
 			1384.8.1 = {
 				birth = yes
 			}
+			1402.2.21 = {
+				add_spouse = CKU_luxembourg_ligny_19
+			}
 			1415.10.25 = {
 				death = yes
 			}
@@ -3398,7 +4675,7 @@
 			culture = burgundian
 			dynasty = CKU_valois_bourgogne
 			father = CKU_bourgogne_19
-			#mother = Jeanne de Saint Pol
+			mother = CKU_luxembourg_ligny_19
 			# Married Jakobäa von Wittelsbach
 			1403.6.11 = {
 				birth = yes
@@ -3414,7 +4691,7 @@
 			culture = burgundian
 			dynasty = CKU_valois_bourgogne
 			father = CKU_bourgogne_19
-			#mother = Jeanne de Saint Pol
+			mother = CKU_luxembourg_ligny_19
 			1404.7.25 = {
 				birth = yes
 			}
@@ -4088,6 +5365,506 @@
 			}
 		}
 	# }
+	# Luxembourg-Ligny {
+		CKU_luxembourg_ligny_1 = {
+			name = "Walram"
+			religion = catholic
+			culture = burgundian
+			dynasty_house = house_luxembourg_ligny
+			father = 462604
+			mother = 7571
+			# Married Jean de Beaurevoir
+			1241.1.1 = {
+				birth = yes
+			}
+			1288.6.5 = {
+				death = yes
+			}
+		}
+		CKU_luxembourg_ligny_2 = {
+			name = "Henri"
+			religion = catholic
+			culture = burgundian
+			dynasty_house = house_luxembourg_ligny
+			father = CKU_luxembourg_ligny_1
+			# mother = Jean de Beaurevoir
+			1270.1.1 = {
+				birth = yes
+			}
+			1302.7.14 = {
+				death = yes
+			}
+		}
+		CKU_luxembourg_ligny_3 = {
+			name = "Walram"
+			religion = catholic
+			culture = burgundian
+			dynasty_house = house_luxembourg_ligny
+			father = CKU_luxembourg_ligny_1
+			# mother = Jean de Beaurevoir
+			# Married Guyotte de Haubourdin
+			1275.1.1 = {
+				birth = yes
+			}
+			1354.1.1 = {
+				death = yes
+			}
+		}
+		CKU_luxembourg_ligny_4 = {
+			name = "Jean"
+			religion = catholic
+			culture = burgundian
+			dynasty_house = house_luxembourg_ligny
+			father = CKU_luxembourg_ligny_3
+			# mother = Guyotte de Haubourdin
+			# Married Alix de Dampierre
+			1300.1.1 = {
+				birth = yes
+			}
+			1364.5.17 = {
+				death = yes
+			}
+		}
+		CKU_luxembourg_ligny_5 = {
+			name = "Guy"
+			religion = catholic
+			culture = burgundian
+			dynasty_house = house_luxembourg_ligny
+			father = CKU_luxembourg_ligny_4
+			# mother = Alix de Dampierre
+			# Married Mahaud de Chatillon
+			1340.1.1 = {
+				birth = yes
+			}
+			1354.1.1 = {
+				add_spouse = CKU_chatillon_25
+			}
+			1371.8.23 = {
+				death = yes
+			}
+		}
+		CKU_luxembourg_ligny_6 = {
+			name = "Jean"
+			religion = catholic
+			culture = burgundian
+			dynasty_house = house_luxembourg_ligny
+			father = CKU_luxembourg_ligny_4
+			# mother = Alix de Dampierre
+			1342.1.1 = {
+				birth = yes
+			}
+			1373.4.4 = {
+				death = yes
+			}
+		}
+		CKU_luxembourg_ligny_7 = {
+			name = "Henri"
+			religion = catholic
+			culture = burgundian
+			dynasty_house = house_luxembourg_ligny
+			father = CKU_luxembourg_ligny_4
+			# mother = Alix de Dampierre
+			1344.1.1 = {
+				birth = yes
+			}
+			1366.1.1 = {
+				death = yes
+			}
+		}
+		CKU_luxembourg_ligny_8 = {
+			name = "Jeanne"
+			female = yes
+			religion = catholic
+			culture = burgundian
+			dynasty_house = house_luxembourg_ligny
+			father = CKU_luxembourg_ligny_4
+			# mother = Alix de Dampierre
+			# Married Guy de Chatillon
+			# Married Guy de la Rochefoucauld
+			1335.1.1 = {
+				birth = yes
+			}
+			1390.1.1 = {
+				death = yes
+			}
+		}
+		CKU_luxembourg_ligny_9 = {
+			name = "Marie"
+			female = yes
+			religion = catholic
+			culture = burgundian
+			dynasty_house = house_luxembourg_ligny
+			father = CKU_luxembourg_ligny_4
+			# mother = Alix de Dampierre
+			# Married Henri de Joinville
+			1337.1.1 = {
+				birth = yes
+			}
+			1382.1.1 = {
+				death = yes
+			}
+		}
+		CKU_luxembourg_ligny_10 = {
+			name = "Philippote"
+			female = yes
+			religion = catholic
+			culture = burgundian
+			dynasty_house = house_luxembourg_ligny
+			father = CKU_luxembourg_ligny_4
+			# mother = Alix de Dampierre
+			# Married Raoul II de Raineval
+			1342.1.1 = {
+				birth = yes
+			}
+			1359.1.1 = {
+				death = yes
+			}
+		}
+		CKU_luxembourg_ligny_11 = {
+			name = "Catherine"
+			female = yes
+			religion = catholic
+			culture = burgundian
+			dynasty_house = house_luxembourg_ligny
+			father = CKU_luxembourg_ligny_4
+			# mother = Alix de Dampierre
+			# Married Daniel van Halewijn
+			1346.1.1 = {
+				birth = yes
+			}
+			1366.1.1 = {
+				death = yes
+			}
+		}
+		CKU_luxembourg_ligny_12 = {
+			name = "Walram"
+			religion = catholic
+			culture = burgundian
+			dynasty_house = house_luxembourg_ligny
+			father = CKU_luxembourg_ligny_5
+			mother = CKU_chatillon_25
+			# Married Maud Holland
+			1355.1.1 = {
+				birth = yes
+			}
+			1415.4.10 = {
+				death = yes
+			}
+		}
+		CKU_luxembourg_ligny_13 = {
+			name = "Pierre"
+			religion = catholic
+			culture = burgundian
+			dynasty_house = house_luxembourg_ligny
+			father = CKU_luxembourg_ligny_5
+			mother = CKU_chatillon_25
+			1369.7.20 = {
+				birth = yes
+			}
+			1387.7.2 = {
+				death = yes
+			}
+		}
+		CKU_luxembourg_ligny_14 = {
+			name = "Marguerite"
+			female = yes
+			religion = catholic
+			culture = burgundian
+			dynasty_house = house_luxembourg_ligny
+			father = CKU_luxembourg_ligny_5
+			mother = CKU_chatillon_25
+			# Married Pierre de Enghien
+			1370.1.1 = {
+				birth = yes
+			}
+			1384.1.1 = {
+				death = yes
+			}
+		}
+		CKU_luxembourg_ligny_15 = {
+			name = "Jean"
+			religion = catholic
+			culture = burgundian
+			dynasty_house = house_luxembourg_ligny
+			father = CKU_luxembourg_ligny_5
+			mother = CKU_chatillon_25
+			# Married Marguerite de Enghien
+			1370.1.1 = {
+				birth = yes
+			}
+			1397.1.1 = {
+				death = yes
+			}
+		}
+		CKU_luxembourg_ligny_16 = {
+			name = "André"
+			religion = catholic
+			culture = burgundian
+			dynasty_house = house_luxembourg_ligny
+			father = CKU_luxembourg_ligny_5
+			mother = CKU_chatillon_25
+			1363.1.1 = {
+				birth = yes
+			}
+			1396.10.1 = {
+				death = yes
+			}
+		}
+		CKU_luxembourg_ligny_17 = {
+			name = "Marie"
+			female = yes
+			religion = catholic
+			culture = burgundian
+			dynasty_house = house_luxembourg_ligny
+			father = CKU_luxembourg_ligny_5
+			mother = CKU_chatillon_25
+			# Married Pierre de Dampierre
+			# Married Jean de Conde
+			# Married Simon de Salm
+			1363.1.1 = {
+				birth = yes
+			}
+			1396.1.1 = {
+				death = yes
+			}
+		}
+		CKU_luxembourg_ligny_18 = {
+			name = "Jeanne"
+			female = yes
+			religion = catholic
+			culture = burgundian
+			dynasty_house = house_luxembourg_ligny
+			father = CKU_luxembourg_ligny_5
+			mother = CKU_chatillon_25
+			1365.1.1 = {
+				birth = yes
+			}
+			1430.9.18 = {
+				death = yes
+			}
+		}
+		CKU_luxembourg_ligny_19 = {
+			name = "Jeanne"
+			female = yes
+			religion = catholic
+			culture = burgundian
+			dynasty_house = house_luxembourg_ligny
+			father = CKU_luxembourg_ligny_12
+			# mother = Maud Holland
+			# Married Antoine de Bourgogne
+			1355.1.1 = {
+				birth = yes
+			}
+			1415.4.10 = {
+				death = yes
+			}
+		}
+		CKU_luxembourg_ligny_20 = {
+			name = "Pierre"
+			religion = catholic
+			culture = burgundian
+			dynasty_house = house_luxembourg_ligny
+			father = CKU_luxembourg_ligny_15
+			# mother = Marguerite de Enghien
+			# Married Marguerite des Baux
+			1390.1.1 = {
+				birth = yes
+			}
+			1433.8.31 = {
+				death = yes
+			}
+		}
+		CKU_luxembourg_ligny_21 = {
+			name = "Jean"
+			religion = catholic
+			culture = burgundian
+			dynasty_house = house_luxembourg_ligny
+			father = CKU_luxembourg_ligny_15
+			# mother = Marguerite de Enghien
+			# Married Jeanne de Bethune
+			1392.1.1 = {
+				birth = yes
+			}
+			1441.1.5 = {
+				death = yes
+			}
+		}
+		CKU_luxembourg_ligny_22 = {
+			name = "Louis"
+			religion = catholic
+			culture = burgundian
+			dynasty_house = house_luxembourg_ligny
+			father = CKU_luxembourg_ligny_15
+			# mother = Marguerite de Enghien
+			1397.1.1 = {
+				birth = yes
+			}
+			1443.9.18 = {
+				death = yes
+			}
+		}
+		CKU_luxembourg_ligny_23 = {
+			name = "Jeanne"
+			female = yes
+			religion = catholic
+			culture = burgundian
+			dynasty_house = house_luxembourg_ligny
+			father = CKU_luxembourg_ligny_15
+			# mother = Marguerite de Enghien
+			# Married Louis de Ghistelles
+			# Married Jean de Melun
+			1393.1.1 = {
+				birth = yes
+			}
+			1420.1.1 = {
+				death = yes
+			}
+		}
+		CKU_luxembourg_ligny_24 = {
+			name = "Thibaud"
+			religion = catholic
+			culture = burgundian
+			dynasty_house = house_luxembourg_ligny
+			father = CKU_luxembourg_ligny_20
+			# mother = Marguerite des Baux
+			# Married Philippe de Melun
+			1410.1.1 = {
+				birth = yes
+			}
+			1441.1.1 = {
+				add_spouse = CKU_melun_20
+			}
+			1477.9.1 = {
+				death = yes
+			}
+		}
+		CKU_luxembourg_ligny_25 = {
+			name = "Jacquette"
+			female = yes
+			religion = catholic
+			culture = burgundian
+			dynasty_house = house_luxembourg_ligny
+			father = CKU_luxembourg_ligny_20
+			# mother = Marguerite des Baux
+			# Married John Lancaster
+			# Married Richard Woodville
+			1390.1.1 = {
+				birth = yes
+			}
+			1433.8.31 = {
+				death = yes
+			}
+		}
+		CKU_luxembourg_ligny_26 = {
+			name = "Louis"
+			religion = catholic
+			culture = burgundian
+			dynasty_house = house_luxembourg_ligny
+			father = CKU_luxembourg_ligny_20
+			# mother = Marguerite des Baux
+			# Married Jeanne de Scarponnois
+			trait = deceitful
+			trait = education_intrigue_3
+			trait = shrewd
+			1418.1.1 = {
+				birth = yes
+			}
+			1435.7.16 = {
+				add_spouse = CKU_scarponnois_14
+			}
+			1475.12.19 = {
+				death = yes
+			}
+		}
+		CKU_luxembourg_ligny_27 = {
+			name = "Jacques"
+			religion = catholic
+			culture = burgundian
+			dynasty_house = house_luxembourg_ligny
+			father = CKU_luxembourg_ligny_20
+			# mother = Marguerite des Baux
+			1420.1.1 = {
+				birth = yes
+			}
+			1487.8.20 = {
+				death = yes
+			}
+		}
+		CKU_luxembourg_ligny_28 = {
+			name = "Catherine"
+			female = yes
+			religion = catholic
+			culture = burgundian
+			dynasty_house = house_luxembourg_ligny
+			father = CKU_luxembourg_ligny_20
+			# mother = Marguerite des Baux
+			1410.1.1 = {
+				birth = yes
+			}
+			1492.1.1 = {
+				death = yes
+			}
+		}
+		CKU_luxembourg_ligny_29 = {
+			name = "Isabelle"
+			female = yes
+			religion = catholic
+			culture = burgundian
+			dynasty_house = house_luxembourg_ligny
+			father = CKU_luxembourg_ligny_20
+			# mother = Marguerite des Baux
+			# Married Charles de Anjou
+			1420.1.1 = {
+				birth = yes
+			}
+			1472.1.1 = {
+				death = yes
+			}
+		}
+		CKU_luxembourg_ligny_30 = {
+			name = "Jean"
+			religion = catholic
+			culture = burgundian
+			dynasty_house = house_luxembourg_ligny
+			father = CKU_luxembourg_ligny_26
+			mother = CKU_scarponnois_14
+			1437.1.1 = {
+				birth = yes
+			}
+			1476.6.22 = {
+				death = yes
+			}
+		}
+		CKU_luxembourg_ligny_31 = {
+			name = "Pierre"
+			religion = catholic
+			culture = burgundian
+			dynasty_house = house_luxembourg_ligny
+			father = CKU_luxembourg_ligny_26
+			mother = CKU_scarponnois_14
+			1440.1.1 = {
+				birth = yes
+			}
+			1482.10.25 = {
+				death = yes
+			}
+		}
+		CKU_luxembourg_ligny_32 = {
+			name = "Helene"
+			female = yes
+			religion = catholic
+			culture = burgundian
+			dynasty_house = house_luxembourg_ligny
+			father = CKU_luxembourg_ligny_26
+			mother = CKU_scarponnois_14
+			1440.1.1 = {
+				birth = yes
+			}
+			1488.3.23 = {
+				death = yes
+			}
+		}
+	# }
 # }
 
 # Occitan = {
@@ -4102,9 +5879,6 @@
 			# Married Isabelle de Lorraine
 			1409.1.16 = {
 				birth = yes
-				# As part of the Duchy of Anjou
-				add_pressed_claim = c_sable
-				add_pressed_claim = c_maine
 			}
 			1420.10.20 = {
 				add_spouse = CKU_swabian_lord_2
@@ -4188,12 +5962,15 @@
 		}
 		CKU_anjou_6 = {
 			name = "Marguerite"
+			dna = CKU_anjou_6_dna
 			female = yes
 			religion = catholic
 			culture = french
 			dynasty_house = house_anjou
 			father = CKU_anjou_1
 			mother = CKU_swabian_lord_2
+			trait = ambitious
+			trait = diligent
 			1430.3.23 = {
 				birth = yes
 			}
@@ -4309,8 +6086,8 @@
 			1414.10.14 = {
 				birth = yes
 			}
-			1434.1.1 = {
-				add_pressed_claim = c_maine
+			1443.1.1 = {
+				add_spouse = CKU_luxembourg_ligny_29
 			}
 			1472.4.10 = {
 				death = yes
@@ -4318,6 +6095,7 @@
 		}
 		CKU_anjou_14 = {
 			name = "Marie"
+			dna = CKU_anjou_14_dna
 			female = yes
 			religion = catholic
 			culture = french
@@ -4803,6 +6581,10 @@
 			1376.1.1 = {
 				birth = yes
 			}
+			1408.1.1 = {
+				employer = CKU_francien_1
+				give_council_position = councillor_steward
+			}
 			1446.12.21 = {
 				death = yes
 			}
@@ -4986,12 +6768,12 @@
 
 
 # Bretagne = {
-	# Montfort {
+	# Dreux-Montfort {
 		CKU_montfort_1 = {
 			name = "Jean"
 			religion = catholic
 			culture = french
-			dynasty = 4003
+			dynasty_house = house_dreux_montfort
 			father = 455755
 			mother = 455714
 			# Married Mary Plantagenet
@@ -5011,7 +6793,7 @@
 			name = "Jean"
 			religion = catholic
 			culture = french
-			dynasty = 4003
+			dynasty_house = house_dreux_montfort
 			father = CKU_montfort_1
 			mother = CKU_evreux_5
 			1389.12.29 = {
@@ -5036,7 +6818,7 @@
 			name = "François"
 			religion = catholic
 			culture = french
-			dynasty = 4003
+			dynasty_house = house_dreux_montfort
 			father = CKU_montfort_2
 			mother = CKU_valois_15
 			# Married Isabel Stewart
@@ -5055,7 +6837,7 @@
 			female = yes
 			religion = catholic
 			culture = french
-			dynasty = 4003
+			dynasty_house = house_dreux_montfort
 			father = CKU_montfort_3
 			mother = CKU_scottish_3
 			1443.1.1 = {
@@ -5069,7 +6851,7 @@
 			name = "Arthur"
 			religion = catholic
 			culture = french
-			dynasty = 4003
+			dynasty_house = house_dreux_montfort
 			father = CKU_montfort_1
 			mother = CKU_evreux_5
 			# Married Marguerite de Valois-Burgundy
@@ -5095,7 +6877,7 @@
 			female = yes
 			religion = catholic
 			culture = french
-			dynasty = 4003
+			dynasty_house = house_dreux_montfort
 			father = CKU_montfort_1
 			mother = CKU_evreux_5
 			1391.2.18 = {
@@ -5110,7 +6892,7 @@
 			female = yes
 			religion = catholic
 			culture = french
-			dynasty = 4003
+			dynasty_house = house_dreux_montfort
 			father = CKU_montfort_1
 			mother = CKU_evreux_5
 			# Married Alain de Rohan
@@ -5125,7 +6907,7 @@
 			name = "Richard"
 			religion = catholic
 			culture = french
-			dynasty = 4003
+			dynasty_house = house_dreux_montfort
 			father = CKU_montfort_1
 			mother = CKU_evreux_5
 			# Married Marguerite de Orleans
@@ -5144,7 +6926,7 @@
 			female = yes
 			religion = catholic
 			culture = french
-			dynasty = 4003
+			dynasty_house = house_dreux_montfort
 			father = CKU_montfort_1
 			mother = CKU_evreux_5
 			# Married Jean de Armagnac
@@ -5160,7 +6942,7 @@
 			female = yes
 			religion = catholic
 			culture = french
-			dynasty = 4003
+			dynasty_house = house_dreux_montfort
 			father = CKU_montfort_2
 			mother = CKU_valois_15
 			# Married Guy de Laval
@@ -5175,7 +6957,7 @@
 			name = "Pierre"
 			religion = catholic
 			culture = french
-			dynasty = 4003
+			dynasty_house = house_dreux_montfort
 			father = CKU_montfort_2
 			mother = CKU_valois_15
 			# Married Françoise de Amboise/Thouars
@@ -5197,7 +6979,7 @@
 			name = "Gilles"
 			religion = catholic
 			culture = french
-			dynasty = 4003
+			dynasty_house = house_dreux_montfort
 			father = CKU_montfort_2
 			mother = CKU_valois_15
 			# Married Françoise de Châteaubriant
@@ -5214,7 +6996,7 @@
 			name = "François"
 			religion = catholic
 			culture = french
-			dynasty = 4003
+			dynasty_house = house_dreux_montfort
 			father = CKU_montfort_8
 			mother = CKU_orleans_7
 			1433.6.23 = {
@@ -5232,7 +7014,7 @@
 			female = yes
 			religion = catholic
 			culture = french
-			dynasty = 4003
+			dynasty_house = house_dreux_montfort
 			father = CKU_montfort_8
 			mother = CKU_orleans_7
 			# Married Guillaume de Chalon (Ivrea)
@@ -5240,6 +7022,419 @@
 				birth = yes
 			}
 			1477.1.1 = {
+				death = yes
+			}
+		}
+		CKU_montfort_15 = {
+			name = "Jean"
+			religion = catholic
+			culture = french
+			dynasty = 86
+			father = 91239
+			# mother = Beatrice de Montfort
+			# Married Péronnelle de Sully
+			1265.1.1 = {
+				birth = yes
+			}
+			1309.1.1 = {
+				death = yes
+			}
+		}
+		CKU_montfort_16 = {
+			name = "Marie"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = 86
+			father = 91239
+			# mother = Beatrice de Montfort
+			# Married Mathieu de Montmorency
+			1261.1.1 = {
+				birth = yes
+			}
+			1276.1.1 = {
+				death = yes
+			}
+		}
+		CKU_montfort_17 = {
+			name = "Jeanne"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = 86
+			father = 91239
+			# mother = Beatrice de Montfort
+			# Married Jean de Pierrepont
+			# Married Jean de Scarponnois
+			1265.1.1 = {
+				birth = yes
+			}
+			1324.1.1 = {
+				death = yes
+			}
+		}
+		CKU_montfort_18 = {
+			name = "Beatrice"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = 86
+			father = 91239
+			# mother = Beatrice de Montfort
+			# Married Péronnelle de Sully
+			1280.1.1 = {
+				birth = yes
+			}
+			1328.5.15 = {
+				death = yes
+			}
+		}
+		CKU_montfort_19 = {
+			name = "Robert"
+			religion = catholic
+			culture = french
+			dynasty = 86
+			father = CKU_montfort_15
+			# mother = Péronnelle de Sully
+			# Married Marie de Enghien
+			1293.1.1 = {
+				birth = yes
+			}
+			1327.1.1 = {
+				death = yes
+			}
+		}
+		CKU_montfort_20 = {
+			name = "Jean"
+			religion = catholic
+			culture = french
+			dynasty = 86
+			father = CKU_montfort_15
+			# mother = Péronnelle de Sully
+			# Married Ide de Rosny?
+			1295.1.1 = {
+				birth = yes
+			}
+			1331.1.1 = {
+				death = yes
+			}
+		}
+		CKU_montfort_21 = {
+			name = "Pierre"
+			religion = catholic
+			culture = french
+			dynasty = 86
+			father = CKU_montfort_15
+			# mother = Péronnelle de Sully
+			# Married Isabelle de Melun
+			1298.1.1 = {
+				birth = yes
+			}
+			1343.1.1 = {
+				add_spouse = CKU_melun_11
+			}
+			1345.11.3 = {
+				death = yes
+			}
+		}
+		CKU_montfort_22 = {
+			name = "Jeanne"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = 86
+			father = CKU_montfort_15
+			# mother = Péronnelle de Sully
+			# Married Louis de Thouars
+			1309.1.1 = {
+				birth = yes
+			}
+			1355.1.1 = {
+				death = yes
+			}
+		}
+		CKU_montfort_23 = {
+			name = "Jeanne"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = 86
+			father = CKU_montfort_21
+			mother = CKU_melun_11
+			1345.7.10 = {
+				birth = yes
+			}
+			1346.8.22 = {
+				death = yes
+			}
+		}
+		CKU_montfort_24 = {
+			name = "Robert"
+			religion = catholic
+			culture = french
+			dynasty = 86
+			father = 204989
+			# mother = Aénor de Saint-Valéry
+			# Married Agnès de Conde
+			# Married Clemence de Châteaudun
+			# Married Isabeau de Villebeon
+			1217.1.1 = {
+				birth = yes
+			}
+			1281.1.1 = {
+				death = yes
+			}
+		}
+		CKU_montfort_25 = {
+			name = "Alix"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = 86
+			father = CKU_montfort_24
+			# mother = Clemence de Châteaudun
+			# Married Raoul de Clermont
+			1255.1.1 = {
+				birth = yes
+			}
+			1302.1.1 = {
+				death = yes
+			}
+		}
+		CKU_montfort_26 = {
+			name = "Clemence"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = 86
+			father = CKU_montfort_24
+			# mother = Clemence de Châteaudun
+			# Married Gauthier de Nemours
+			# Married Jean de Barres
+			1257.1.1 = {
+				birth = yes
+			}
+			1300.1.1 = {
+				death = yes
+			}
+		}
+		CKU_montfort_27 = {
+			name = "Isabelle"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = 86
+			father = CKU_montfort_24
+			# mother = Isabeau de Villebeon
+			# Married Gaucher de Chatillon
+			1264.1.1 = {
+				birth = yes
+			}
+			1276.1.1 = {
+				add_spouse = 455776
+			}
+			1300.1.1 = {
+				death = yes
+			}
+		}
+		CKU_montfort_28 = {
+			name = "Robert"
+			religion = catholic
+			culture = french
+			dynasty = 86
+			father = CKU_montfort_24
+			# mother = Isabeau de Villebeon
+			# Married Yolande de Vendômois
+			# Married Marguerite de Beaumont
+			1265.1.1 = {
+				birth = yes
+			}
+			1306.1.1 = {
+				death = yes
+			}
+		}
+		CKU_montfort_29 = {
+			name = "Marie"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = 86
+			father = CKU_montfort_28
+			# mother = Yolande de Vendômois
+			# Married Barthelemy de Montbazon
+			1288.1.1 = {
+				birth = yes
+			}
+			1351.1.1 = {
+				death = yes
+			}
+		}
+		CKU_montfort_30 = {
+			name = "Robert"
+			religion = catholic
+			culture = french
+			dynasty = 86
+			father = CKU_montfort_28
+			# mother = Yolande de Vendômois
+			# Married Béatrix de Courlandon
+			# Married Isabeau de Saqueville
+			# Married Agnès de Thianges
+			1288.1.1 = {
+				birth = yes
+			}
+			1351.1.1 = {
+				death = yes
+			}
+		}
+		CKU_montfort_31 = {
+			name = "Jean"
+			religion = catholic
+			culture = french
+			dynasty = 86
+			father = CKU_montfort_28
+			# mother = Yolande de Vendômois
+			# Married Marguerite de La Roche
+			1290.1.1 = {
+				birth = yes
+			}
+			1340.1.1 = {#?
+				death = yes
+			}
+		}
+		CKU_montfort_32 = {
+			name = "Isabelle"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = 86
+			father = CKU_montfort_30
+			# mother = Béatrix de Courlandon
+			# Married Pierre de Trousseau
+			1316.1.1 = {
+				birth = yes
+			}
+			1340.1.1 = {
+				death = yes
+			}
+		}
+		CKU_montfort_33 = {
+			name = "Robert"
+			religion = catholic
+			culture = french
+			dynasty = 86
+			father = CKU_montfort_30
+			# mother = Béatrix de Courlandon
+			# Married Isabeau des Barres
+			1317.1.1 = {
+				birth = yes
+			}
+			1366.1.1 = {
+				death = yes
+			}
+		}
+		CKU_montfort_34 = {
+			name = "Béatrix"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = 86
+			father = CKU_montfort_30
+			# mother = Béatrix de Courlandon
+			# Married Thibaud de Mathefelon
+			1319.1.1 = {
+				birth = yes
+			}
+			1356.1.1 = {
+				death = yes
+			}
+		}
+		CKU_montfort_35 = {
+			name = "Marguerite"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = 86
+			father = CKU_montfort_30
+			# mother = Isabeau de Saqueville
+			1320.1.1 = {
+				birth = yes
+			}
+			1349.1.1 = {
+				death = yes
+			}
+		}
+		CKU_montfort_36 = {
+			name = "Jeanne"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = 86
+			father = CKU_montfort_30
+			# mother = Isabeau de Saqueville
+			# Married Jean de Brie
+			1326.1.1 = {
+				birth = yes
+			}
+			1358.1.1 = {
+				death = yes
+			}
+		}
+		CKU_montfort_37 = {
+			name = "Robert"
+			religion = catholic
+			culture = french
+			dynasty = 86
+			father = CKU_montfort_30
+			# mother = Agnès de Thianges
+			# Married Yolande de Trie
+			1347.1.1 = {
+				birth = yes
+			}
+			1391.1.1 = {
+				death = yes
+			}
+		}
+		CKU_montfort_38 = {
+			name = "Marguerite"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = 86
+			father = CKU_montfort_30
+			# mother = Agnès de Thianges
+			# Married Roger de Hellenvilliers
+			1350.1.1 = {
+				birth = yes
+			}
+			1400.1.1 = {
+				death = yes
+			}
+		}
+		CKU_montfort_39 = {
+			name = "Robert"
+			religion = catholic
+			culture = french
+			dynasty = 86
+			father = CKU_montfort_33
+			# mother = Isabeau des Barres
+			1339.1.1 = {
+				birth = yes
+			}
+			1380.1.1 = {
+				death = yes
+			}
+		}
+		CKU_montfort_40 = {
+			name = "Jean"
+			religion = catholic
+			culture = french
+			dynasty = 86
+			father = CKU_montfort_33
+			# mother = Isabeau des Barres
+			1340.1.1 = {
+				birth = yes
+			}
+			1370.1.1 = {
 				death = yes
 			}
 		}

@@ -1,0 +1,20 @@
+CKU_spoleto_1 = {
+	name = "Giulio"
+	dynasty = CKU_spoleto
+	martial = 3
+	diplomacy = 6
+	intrigue = 4
+	stewardship = 7
+	religion = "catholic"
+	culture = italian
+	trait = wrathful
+	trait = deceitful
+	trait = arrogant
+	trait = education_martial_3
+	1400.1.1 = {
+		birth = yes
+	}
+	1469.8.22 = {
+		death = yes
+	}
+}

@@ -1,28 +1,94 @@
+#Ferrara = {
+	c_ferrara = {
+		1352.1.1 = {
+			holder = 463204
+			liege = e_hre
+		}
+		1361.1.1 = {
+			holder = CKU_ferrara_1
+		}
+		1388.1.1 = {
+			holder = CKU_ferrara_2
+		}
+		1393.1.1 = {
+			holder = CKU_ferrara_3
+		}
+		1441.1.1 = {
+			holder = CKU_ferrara_5
+		}
+		1450.1.1 = {
+			holder = CKU_ferrara_6
+		}
+		1471.8.20 = {
+			holder = CKU_ferrara_9
+		}
+	}
+	c_modena = {
+		1352.1.1 = {
+			holder = 463204
+			liege = e_hre
+		}
+		1361.1.1 = {
+			holder = CKU_ferrara_1
+		}
+		1388.1.1 = {
+			holder = CKU_ferrara_2
+		}
+		1393.1.1 = {
+			holder = CKU_ferrara_3
+		}
+		1441.1.1 = {
+			holder = CKU_ferrara_5
+		}
+		1450.1.1 = {
+			holder = CKU_ferrara_6
+		}
+		1471.8.20 = {
+			holder = CKU_ferrara_9
+		}
+	}
+#}
+
 #Florence = {
-c_firenze = {
-	government = republic_government
-	1434.10.6 = {
+	c_firenze = {
 		government = republic_government
-		holder = CKU_florence_1
-		liege = e_hre
+		1434.10.6 = {
+			government = republic_government
+			holder = CKU_florence_1
+			liege = e_hre
+		}
 	}
-}
 
-c_arezzo = {
-	government = republic_government
-	1434.10.6 = {
-		holder = CKU_florence_1
-		liege = e_hre
+	c_arezzo = {
+		government = republic_government
+		1434.10.6 = {
+			government = republic_government
+			holder = CKU_florence_1
+			liege = e_hre
+		}
 	}
-}
 
-c_pisa = {
-	government = republic_government
-	1434.10.6 = {
-		holder = CKU_florence_1
-		liege = e_hre
+	c_pisa = {
+		government = republic_government
+		1434.10.6 = {
+			government = republic_government
+			holder = CKU_florence_1
+			liege = e_hre
+		}
 	}
-}
+	c_lucca = {
+		government = republic_government
+		1369.1.1 = {
+			government = republic_government
+			holder = CKU_lucca_1
+			liege = e_hre
+		}
+		1420.1.1 = {
+			government = republic_government
+			holder = CKU_lucca_2
+			liege = e_hre
+		}
+	}
 #}
 #Milan = {
 	d_lombardia = {
@@ -146,17 +212,48 @@ c_pisa = {
 #}
 #Siena = {
 	c_siena = {
-		government = republic_government
 		1358.1.1 = {
-			holder = 413017
+			government = republic_government
+			holder = CKU_pisa_1
 			liege = e_hre
 		}
 	}
-	#c_orbetello = {
-	#	government = republic_government
-	#	1414.1.1 = {
-	#		holder = 413017
-	#		liege = e_hre
-	#	}
-	#}
+	c_orbetello = {
+		1414.1.1 = {
+			holder = CKU_pisa_1
+		}
+	}
+#}
+
+#Bologna = {
+	c_bologna = {
+		1327.1.1 = {
+			government = theocracy_government
+			liege = k_papal_state
+		}
+		1337.1.1 = {
+			government = republic_government
+		}
+		1347.1.1 = {
+			government = feudal_government
+			liege = d_lombardia
+		}
+		1401.1.1 = {
+			government = republic_government
+			holder = CKU_bologna_1
+			liege = k_papal_state
+		}
+		1420.1.1 = {
+			holder = CKU_bologna_2
+		}
+		1443.1.1 = {
+			holder = CKU_bologna_3
+		}
+		1446.1.1 = {
+			holder = CKU_bologna_4
+		}
+		1463.1.1 = {
+			holder = CKU_bologna_5
+		}
+	}
 #}

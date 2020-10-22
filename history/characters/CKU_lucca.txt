@@ -1,0 +1,41 @@
+CKU_lucca_1 = {
+	name = "Alessandro I"
+	dynasty = CKU_luccorini
+	martial = 3
+	diplomacy = 6
+	intrigue = 4
+	stewardship = 7
+	religion = "catholic"
+	culture = tuscan
+	trait = wrathful
+	trait = deceitful
+	trait = arrogant
+	trait = education_martial_3
+	1300.1.1 = {
+		birth = yes
+	}
+	1400.8.22 = {
+		death = yes
+	}
+}
+
+CKU_lucca_2 = {
+	name = "Alessandro II"
+	dynasty = CKU_luccorini
+	martial = 3
+	diplomacy = 6
+	intrigue = 4
+	stewardship = 7
+	religion = "catholic"
+	culture = tuscan
+	trait = wrathful
+	trait = deceitful
+	trait = arrogant
+	trait = education_martial_3
+	1400.1.1 = {
+		birth = yes
+	}
+	1475.8.22 = {
+		death = yes
+	}
+}

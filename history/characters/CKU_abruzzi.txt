@@ -1,12 +1,12 @@
 CKU_abruzzi_1 = {
-	name = "Giosia Acquaviva"
-	dynasty = 442
+	name = "Giosia"
+	dynasty = CKU_acquaviva
 	martial = 3
 	diplomacy = 6
 	intrigue = 4
 	stewardship = 7
 	religion = "catholic"
-	culture = abruzzan
+	culture = italian
 	trait = wrathful
 	trait = deceitful
 	trait = arrogant

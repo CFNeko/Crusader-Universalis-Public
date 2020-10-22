@@ -177,7 +177,10 @@
 			can_change_succession_law_trigger = yes
 		}
 		should_start_with = {
-			historical_succession_access_single_heir_succession_law_trigger = yes
+			#historical_succession_access_single_heir_succession_law_trigger = yes
+			culture = {
+				has_innovation = innovation_hereditary_rule
+			}
 		}
 		can_title_have = {
 			can_title_have_law_general_trigger = yes

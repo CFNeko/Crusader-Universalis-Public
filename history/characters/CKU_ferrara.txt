@@ -1,0 +1,270 @@
+CKU_ferrara_1 = {
+	name = "Niccolò II"
+	dynasty_house = house_este
+	martial = 7
+	diplomacy = 7
+	intrigue = 7
+	stewardship = 7
+	religion = catholic
+	culture = emilian
+	trait = education_stewardship_2
+
+	father = 463200
+	mother = 463199
+
+	1338.5.17 = {
+		birth = yes
+	}
+	1388.3.26 = {
+		death = yes
+	}
+}
+
+CKU_ferrara_2 = {
+	name = "Alberto V"
+	dynasty_house = house_este
+	martial = 7
+	diplomacy = 7
+	intrigue = 7
+	stewardship = 7
+	religion = catholic
+	culture = emilian
+	trait = education_stewardship_2
+
+	father = 463200
+	mother = 463199
+
+	1347.2.27 = {
+		birth = yes
+	}
+	1393.7.30 = {
+		death = yes
+	}
+}
+
+CKU_ferrara_3 = {
+	name = "Niccolò III"
+	dynasty_house = house_este
+	martial = 7
+	diplomacy = 7
+	intrigue = 7
+	stewardship = 7
+	religion = catholic
+	culture = emilian
+	trait = education_stewardship_2
+
+	father = CKU_ferrara_2
+
+	1383.11.9 = {
+		birth = yes
+	}
+	1418.1.1 = {
+		add_spouse = CKU_ferrara_3_1
+	}
+	1429.1.1 = {
+		add_spouse = CKU_ferrara_3_2
+	}
+	1441.12.26 = {
+		death = yes
+	}
+}
+
+CKU_ferrara_3_1 = {
+	name = "Parisina"
+	dynasty = CKU_malatesta
+	martial = 7
+	diplomacy = 7
+	intrigue = 7
+	stewardship = 7
+	religion = catholic
+	culture = emilian
+	trait = education_stewardship_2
+
+	female = yes
+
+	1404.1.1 = {
+		birth = yes
+	}
+	1425.5.21 = {
+		death = yes
+	}
+}
+
+CKU_ferrara_3_2 = {
+	name = "Ricciarda"
+	dynasty = CKU_saluzzo
+	martial = 7
+	diplomacy = 7
+	intrigue = 7
+	stewardship = 7
+	religion = catholic
+	culture = emilian
+	trait = education_stewardship_2
+
+	female = yes
+
+	1410.1.1 = {
+		birth = yes
+	}
+	1474.8.16 = {
+		death = yes
+	}
+}
+
+CKU_ferrara_4 = {
+	name = "Ugo"
+	dynasty_house = house_este
+	martial = 7
+	diplomacy = 7
+	intrigue = 7
+	stewardship = 7
+	religion = catholic
+	culture = emilian
+	trait = education_stewardship_2
+
+	father = CKU_ferrara_3
+	trait = bastard
+
+	1405.1.1 = {
+		birth = yes
+	}
+	1425.5.21 = {
+		death = yes
+	}
+}
+
+CKU_ferrara_5 = {
+	name = "Lenoello"
+	dynasty_house = house_este
+	martial = 7
+	diplomacy = 7
+	intrigue = 7
+	stewardship = 7
+	religion = catholic
+	culture = emilian
+	trait = education_stewardship_2
+
+	father = CKU_ferrara_3
+	trait = bastard
+
+	1407.9.21 = {
+		birth = yes
+	}
+	1450.10.1 = {
+		death = yes
+	}
+}
+
+CKU_ferrara_6 = {
+	name = "Borso"
+	dynasty_house = house_este
+	martial = 7
+	diplomacy = 7
+	intrigue = 7
+	stewardship = 7
+	religion = catholic
+	culture = emilian
+	trait = education_stewardship_2
+
+	father = CKU_ferrara_3
+	trait = bastard
+
+	1413.1.1 = {
+		birth = yes
+	}
+	1471.8.20 = {
+		death = yes
+	}
+}
+
+CKU_ferrara_7 ={
+	name = "Lucia"
+	dynasty_house = house_este
+	martial = 7
+	diplomacy = 7
+	intrigue = 7
+	stewardship = 7
+	religion = catholic
+	culture = emilian
+	trait = education_stewardship_2
+
+	female = yes
+
+	father = CKU_ferrara_3
+	mother = CKU_ferrara_3_1
+
+	1419.3.24 = {
+		birth = yes
+	}
+	1437.6.24 = {
+		death = yes
+	}
+}
+
+CKU_ferrara_8 ={
+	name = "Ginevra"
+	dynasty_house = house_este
+	martial = 7
+	diplomacy = 7
+	intrigue = 7
+	stewardship = 7
+	religion = catholic
+	culture = emilian
+	trait = education_stewardship_2
+
+	female = yes
+
+	father = CKU_ferrara_3
+	mother = CKU_ferrara_3_1
+
+	1419.3.24 = {
+		birth = yes
+	}
+	1440.10.12 = {
+		death = yes
+	}
+}
+
+CKU_ferrara_9 ={
+	name = "Ercole"
+	dynasty_house = house_este
+	martial = 7
+	diplomacy = 7
+	intrigue = 7
+	stewardship = 7
+	religion = catholic
+	culture = emilian
+	trait = education_stewardship_2
+
+	father = CKU_ferrara_3
+	mother = CKU_ferrara_3_1
+
+	1431.10.26 = {
+		birth = yes
+	}
+	1505.1.25 = {
+		death = yes
+	}
+}
+
+CKU_ferrara_10 ={
+	name = "Sigismondo"
+	dynasty_house = house_este
+	martial = 7
+	diplomacy = 7
+	intrigue = 7
+	stewardship = 7
+	religion = catholic
+	culture = emilian
+	trait = education_stewardship_2
+
+	father = CKU_ferrara_3
+	mother = CKU_ferrara_3_1
+
+	1433.8.31 = {
+		birth = yes
+	}
+	1507.4.1 = {
+		death = yes
+	}
+}

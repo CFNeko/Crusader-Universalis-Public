@@ -46,6 +46,7 @@ innovation_bombard = {
 	icon = @siege_weapons
 
 	unlock_maa = bombard
+	unlock_maa = culverin
 }
 
 innovation_royal_armory = {

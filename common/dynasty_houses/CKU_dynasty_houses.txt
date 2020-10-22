@@ -32,37 +32,63 @@ house_nassau_dillenburg = {
 
 # Luxembourg
 house_luxembourg_bohemia = {
+	prefix = "dynnp_de"
 	name = "dynn_luxembourg_bohemia"
-	dynasty = CKU_luxembourg
+	dynasty = 420
 }
 
 house_luxembourg_ligny = {
+	prefix = "dynnp_de"
 	name = "dynn_luxembourg_ligny"
-	dynasty = CKU_luxembourg
+	dynasty = 420
 }
 
 # Valois
 house_alencon = {
+	prefix = "dynnp_d_"
 	name = "dynn_alencon"
 	dynasty = 101
 }
 
 house_anjou = {
+	prefix = "dynnp_d_"
 	name = "dynn_anjou"
 	dynasty = 101
 }
 
 house_orleans = {
+	prefix = "dynnp_d_"
 	name = "dynn_orleans"
 	dynasty = 101
 }
 
 house_angouleme = {
+	prefix = "dynnp_d_"
 	name = "dynn_angouleme"
 	dynasty = 101
 }
 
 house_longueville = { # Cadet branch of Valois-Orleans
+	prefix = "dynnp_de"
 	name = "dynn_longueville"
 	dynasty = 101
+}
+
+# Capetian Anjou
+house_anjou_durazzo = {
+	prefix = "dynnp_d_"
+	name = "dynn_anjou_durazzo"
+	dynasty = 81
+}
+
+# Ivrea
+house_chalon = {
+	name = "dynn_chalon"
+	dynasty = 681
+}
+
+# Dreux
+house_dreux_montfort = {
+	name = "dynn_dreux_montfort"
+	dynasty = 86
 }

@@ -1,0 +1,20 @@
+CKU_pisa_1 = {
+	name = "Raimondo"
+	dynasty = CKU_priore
+	martial = 3
+	diplomacy = 6
+	intrigue = 4
+	stewardship = 7
+	religion = "catholic"
+	culture = tuscan
+	trait = wrathful
+	trait = deceitful
+	trait = arrogant
+	trait = education_martial_3
+	1400.1.1 = {
+		birth = yes
+	}
+	1469.8.22 = {
+		death = yes
+	}
+}

@@ -1621,6 +1621,7 @@ e_britannia = {
 			cultural_names = {
 				norse = cn_jarnamoda
 				norwegian = cn_jarnamoda
+				english = cn_norfolk
 			}
 
 			c_norfolk = {
@@ -1948,6 +1949,10 @@ e_britannia = {
 			color2 = { 255 255 255 }
 			
 			capital = c_gloucestershire # Gloucester
+
+			cultural_names = {
+				english = cn_gloucester
+			}
 			
 			c_gloucestershire = {
 				color = { 245 85 20 }
@@ -2149,6 +2154,10 @@ e_britannia = {
 			color2 = { 255 255 255 }
 			
 			capital = c_hampton # Winchester
+
+			cultural_names = {
+				english = cn_somerset
+			}
 			
 			ai_primary_priority = {
 				if = {

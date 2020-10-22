@@ -29,6 +29,9 @@
 @special_maa_01 = "gfx/interface/icons/culture_innovations/innovation_special_maa_01.dds"
 @special_maa_02 = "gfx/interface/icons/culture_innovations/innovation_special_maa_02.dds"
 
+@arquebus = "gfx/interface/icons/culture_innovations/innovation_arquebus.dds"
+@culverin = "gfx/interface/icons/culture_innovations/innovation_culverin.dds"
+
 #culture_group_military
 innovation_military_1 = {
 	group = culture_group_military
@@ -43,7 +46,7 @@ innovation_military_1 = {
 innovation_military_2 = {
 	group = culture_group_military
 	culture_era = culture_era_early_modern
-	icon = @siege_weapons
+	icon = @culverin
 
 	unlock_maa = bombard
 
@@ -69,7 +72,7 @@ innovation_military_3 = {
 innovation_military_4 = {
 	group = culture_group_military
 	culture_era = culture_era_early_modern
-	icon = @leadership_2
+	icon = @arquebus
 	
 	modifier = {
 		men_at_arms_cap = 1
@@ -101,6 +104,78 @@ innovation_military_6 = {
 	icon =  @weapons_and_armor_02
 	
 	maa_upgrade = {
+		type = culverin
+		siege_value = 0.1
+		damage = 50
+	}
+	modifier = {
+		men_at_arms_maintenance = 0.10
+	}
+	flag = global_regular
+	flag = early_modern_era_regular
+	
+}
+
+innovation_military_7 = {
+	group = culture_group_military
+	culture_era = culture_era_early_modern
+	icon =  @weapons_and_armor_02
+	
+	maa_upgrade = {
+		type = heavy_infantry
+		toughness = 3
+	}
+	maa_upgrade = {
+		type = heavy_cavalry
+		toughness = 3
+	}
+	flag = global_regular
+	flag = early_modern_era_regular
+	
+}
+
+innovation_military_8 = {
+	group = culture_group_military
+	culture_era = culture_era_early_modern
+	icon =  @weapons_and_armor_02
+	
+	maa_upgrade = {
+		type = heavy_infantry
+		toughness = 3
+	}
+	maa_upgrade = {
+		type = heavy_cavalry
+		toughness = 3
+	}
+	flag = global_regular
+	flag = early_modern_era_regular
+	
+}
+
+innovation_military_9 = {
+	group = culture_group_military
+	culture_era = culture_era_early_modern
+	icon =  @weapons_and_armor_02
+	
+	maa_upgrade = {
+		type = heavy_infantry
+		toughness = 3
+	}
+	maa_upgrade = {
+		type = heavy_cavalry
+		toughness = 3
+	}
+	flag = global_regular
+	flag = early_modern_era_regular
+	
+}
+
+innovation_military_10 = {
+	group = culture_group_military
+	culture_era = culture_era_early_modern
+	icon =  @weapons_and_armor_02
+	
+	maa_upgrade = {
 		type = heavy_infantry
 		toughness = 3
 	}
@@ -114,14 +189,13 @@ innovation_military_6 = {
 }
 
 #culture_group_civic
-innovation_colonising = {
+innovation_civic_1 = {
 	group = culture_group_civic
 	culture_era = culture_era_early_modern
-	icon = @civil_construction_1
+	icon = @majesty_01
 	
-	modifier = {
-		development_growth_factor = 0.1
-	}
+	unlock_law = single_heir_succession_law
+	unlock_law = single_heir_succession_law_youngest
 
 	flag = global_regular
 	flag = early_modern_era_regular
@@ -207,6 +281,32 @@ innovation_civic_7 = {
 }
 
 innovation_civic_8 = {
+	group = culture_group_civic
+	culture_era = culture_era_early_modern
+	icon = @administration_1
+
+	modifier = {
+		development_growth_factor = 0.1
+	}
+	flag = global_regular
+	flag = early_modern_era_regular
+	
+}
+
+innovation_civic_9 = {
+	group = culture_group_civic
+	culture_era = culture_era_early_modern
+	icon = @administration_1
+
+	modifier = {
+		development_growth_factor = 0.1
+	}
+	flag = global_regular
+	flag = early_modern_era_regular
+	
+}
+
+innovation_civic_10 = {
 	group = culture_group_civic
 	culture_era = culture_era_early_modern
 	icon = @administration_1

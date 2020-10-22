@@ -452,4 +452,68 @@ d_count_palatinate = {
 		@better_than_the_alternatives_score = 50
 	}
 }
-
+e_timurids = {
+	color = { 130 12 4 }
+	color2 = { 255 255 255 }
+	definite_form = yes
+	landless = yes
+	
+	capital = c_herat
+	
+	ai_primary_priority = {
+		add = @better_than_the_alternatives_score
+	}
+	male_names = { }
+}
+k_kara_koyunlu = {
+	color = { 40 140 130 }
+	color2 = { 255 255 255 }
+	definite_form = yes
+	landless = yes
+	
+	capital = c_tabriz
+	
+	ai_primary_priority = {
+		add = @better_than_the_alternatives_score
+	}
+	male_names = { }
+}
+e_mamluks = {
+	color = { 255 206 71 }
+	color2 = { 255 255 255 }
+	definite_form = yes
+	landless = yes
+	
+	capital = c_cairo
+	
+	ai_primary_priority = {
+		add = @better_than_the_alternatives_score
+	}
+	male_names = { }
+}
+k_tunis = {
+	color = { 94 61 0 }
+	color2 = { 255 255 255 }
+	definite_form = yes
+	landless = yes
+	
+	capital = c_tunis
+	
+	ai_primary_priority = {
+		add = @better_than_the_alternatives_score
+	}
+	male_names = { }
+}
+k_karaman = {
+	color = { 135 240 250 }
+	color2 = { 255 255 255 }
+	definite_form = yes
+	landless = yes
+	
+	capital = c_isauria
+	
+	ai_primary_priority = {
+		add = @better_than_the_alternatives_score
+	}
+	male_names = { }
+}

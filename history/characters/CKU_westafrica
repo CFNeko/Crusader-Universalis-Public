@@ -1,0 +1,188 @@
+# mali = {
+	CKU_mali_1 = {
+		name = "Mansa Musa III"
+		dynasty = dynn_keita
+		religion = muwalladi
+		culture = malinke
+		1411.1.1 = {
+			birth = yes
+		}
+	}
+#}
+# jolof = {
+	CKU_jolof_1 = {
+		name = "Leeyti Tyukuli"
+		dynasty = dynn_ndiaye
+		religion = muwalladi
+		culture = wolof
+		1420.1.1 = {
+			birth = yes
+		}
+	}
+#}
+# jenne = {
+	CKU_jenne_1 = {
+		name = "Ansa Mani Sourya"
+		dynasty = dynn_konboro
+		religion = muwalladi
+		culture = malinke
+		1424.1.1 = {
+			birth = yes
+		}
+	}
+#}
+# bena = {
+	CKU_bena_1 = {
+		name = "Famaghan"
+		dynasty = dynn_a_outtara
+		religion = muwalladi
+		culture = malinke
+		1398.1.1 = {
+			birth = yes
+		}
+	}
+#}
+# zafunu = {
+	CKU_zafunu_1 = {
+		name = "Temela"
+		dynasty = dynn_zafunu
+		religion = west_african_pagan
+		culture = pulaar
+		1416.1.1 = {
+			birth = yes
+		}
+	}
+#}
+# ghana = {
+	CKU_ghana_1 = {
+		name = "Maga"
+		dynasty = dynn_diallo
+		religion = muwalladi
+		culture = pulaar
+		1389.1.1 = {
+			birth = yes
+		}
+	}
+#}
+# tuareg = {
+	CKU_tuareg_1 = {
+		name = "Akil"
+		dynasty = dynn_akamalwal
+		religion = muwalladi
+		culture = butr
+		1414.1.1 = {
+			birth = yes
+		}
+	}
+#}
+# songhay = {
+	CKU_songhay_1 = {
+		name = "Mar-Arkana"
+		dynasty = dynn_sonni
+		religion = muwalladi
+		culture = songhai
+		1381.1.1 = {
+			birth = yes
+		}
+	}
+#}
+# wagadugu = {
+	CKU_wagadugu_1 = {
+		name = "Komdao"
+		dynasty = dynn_tenga_niama
+		religion = west_african_pagan
+		culture = mossi
+		1425.1.1 = {
+			birth = yes
+		}
+	}
+#}
+
+# mossi = {
+	CKU_mossi_1 = {
+		name = "Amina"
+		dynasty = dynn_zazzau
+		religion = west_african_pagan
+		culture = mossi
+		1413.1.1 = {
+			birth = yes
+		}
+	}
+#}
+# nupe = {
+	CKU_nupe_1 = {
+		name = "Tsoede Etsu"
+		dynasty = dynn_nupe
+		religion = muwalladi
+		culture = nupe
+		1423.1.1 = {
+			birth = yes
+		}
+	}
+#}
+# oyo = {
+	CKU_oyo_1 = {
+		name = "Oranyan"
+		dynasty = dynn_alaafin
+		religion = west_african_pagan
+		culture = yoruba
+		1379.1.1 = {
+			birth = yes
+		}
+	}
+#}
+# benin = {
+	CKU_benin_1 = {
+		name = "Ewuare"
+		dynasty = dynn_abomey
+		religion = west_african_pagan
+		culture = yoruba
+		1420.1.1 = {
+			birth = yes
+		}
+	}
+#}
+# igala = {
+	CKU_igala_1 = {
+		name = "Abdullah Burja"
+		dynasty = dynn_kano
+		religion = west_african_pagan
+		culture = hausa
+		1419.1.1 = {
+			birth = yes
+		}
+	}
+#}
+# kwarafa = {
+	CKU_kwarafa_1 = {
+		name = "Sanau"
+		dynasty = dynn_azna
+		religion = muwalladi
+		culture = hausa
+		1410.1.1 = {
+			birth = yes
+		}
+	}
+#}
+# bornu = {
+	CKU_bornu_1 = {
+		name = "Kadai"
+		dynasty = dynn_sayfawa
+		religion = muwalladi
+		culture = kanuri
+		1422.1.1 = {
+			birth = yes
+		}
+	}
+#}
+# air = {
+	CKU_air_1 = {
+		name = "Yunus"
+		dynasty = dynn_istanbuwa
+		religion = muwalladi
+		culture = butr
+		1426.1.1 = {
+			birth = yes
+		}
+	}
+#}

@@ -1,0 +1,411 @@
+# mali = {
+	k_mali = {
+		1438.1.1 = {
+			holder = CKU_mali_1
+			liege = 0
+		}
+	}
+	d_lobi = {
+		1438.1.1 = {
+			holder = CKU_mali_1
+		}
+	}
+	c_kaabu = {
+		1438.1.1 = {
+			holder = CKU_mali_1
+		}
+	}
+	c_tyendugu = {
+		1438.1.1 = {
+			holder = CKU_mali_1
+		}
+	}
+	c_sikasso = {
+		1438.1.1 = {
+			holder = CKU_mali_1
+		}
+	}
+	c_nyene = {
+		1438.1.1 = {
+			holder = CKU_mali_1
+		}
+	}
+	c_leraba = {
+		1438.1.1 = {
+			holder = CKU_mali_1
+		}
+	}
+	c_po = {
+		1438.1.1 = {
+			holder = CKU_mali_1
+		}
+	}
+	c_daboya = {
+		1438.1.1 = {
+			holder = CKU_mali_1
+		}
+	}
+	c_mamprusi = {
+		1438.1.1 = {
+			holder = CKU_mali_1
+		}
+	}
+	c_kuisugu = {
+		1438.1.1 = {
+			holder = CKU_mali_1
+		}
+	}
+	c_yelimane = {
+		1438.1.1 = {
+			holder = CKU_mali_1
+		}
+	}
+	c_kaarta = {
+		1438.1.1 = {
+			holder = CKU_mali_1
+		}
+	}
+	c_kita = {
+		1438.1.1 = {
+			holder = CKU_mali_1
+		}
+	}
+#}
+# jolof = {
+	c_jolof = {
+		1444.1.1 = {
+			holder = CKU_jolof_1
+			liege = k_mali
+			government = colonisable_government
+		}
+	}
+	c_baol = {
+		1444.1.1 = {
+			holder = CKU_jolof_1
+		}
+	}
+	c_kayor = {
+		1444.1.1 = {
+			holder = CKU_jolof_1
+		}
+	}
+	c_takrur = {
+		1444.1.1 = {
+			holder = CKU_jolof_1
+		}
+	}
+	c_podor = {
+		1444.1.1 = {
+			holder = CKU_jolof_1
+		}
+	}
+	c_silla = {
+		1444.1.1 = {
+			holder = CKU_jolof_1
+		}
+	}
+	c_galam = {
+		1444.1.1 = {
+			holder = CKU_jolof_1
+		}
+	}
+#}
+# jenne = {
+	c_jenne = {
+		1444.1.1 = {
+			holder = CKU_jenne_1
+			liege = k_mali
+			government = clan
+		}
+	}
+	c_kurmina = {
+		1444.1.1 = {
+			holder = CKU_jenne_1
+		}
+	}
+	c_bandiagara = {
+		1444.1.1 = {
+			holder = CKU_jenne_1
+		}
+	}
+#}
+# bena = {
+	c_bena = {
+		1444.1.1 = {
+			holder = CKU_bena_1
+			liege = k_mali
+			government = clan
+		}
+	}
+	c_bindugu = {
+		1444.1.1 = {
+			holder = CKU_bena_1
+		}
+	}
+	c_dodugu = {
+		1444.1.1 = {
+			holder = CKU_bena_1
+		}
+	}
+#}
+# zafunu = {
+	d_diafunu = {
+		1444.1.1 = {
+			holder = CKU_zafunu_1
+			liege = 0
+		}
+	}
+	d_tagant = {
+		1444.1.1 = {
+			holder = CKU_zafunu_1
+		}
+	}
+	c_masin = {
+		1444.1.1 = {
+			holder = CKU_zafunu_1
+		}
+	}
+	c_jowol = {
+		1444.1.1 = {
+			holder = CKU_zafunu_1
+		}
+	}
+#}
+# ghana = {
+	k_ghana = {
+		1444.1.1 = {
+			holder = CKU_ghana_1
+		}
+	}
+#}
+# tuareg = {
+	d_timbuktu = {
+		1444.1.1 = {
+			holder = CKU_tuareg_1
+			liege = 0
+		}
+	}
+	c_kouga = {
+		1444.1.1 = {
+			holder = CKU_tuareg_1
+		}
+	}
+	c_taghaza = {
+		1444.1.1 = {
+			holder = CKU_tuareg_1
+		}
+	}
+#}
+# songhay = {
+	k_songhay = {
+		1444.1.1 = {
+			holder = CKU_songhay_1
+			liege = 0
+		}
+	}
+	c_upper_gurma = {
+		1444.1.1 = {
+			holder = CKU_songhay_1
+		}
+	}
+	c_oudalan = {
+		1444.1.1 = {
+			holder = CKU_songhay_1
+		}
+	}
+	c_bura = {
+		1444.1.1 = {
+			holder = CKU_songhay_1
+		}
+	}
+	c_say = {
+		1444.1.1 = {
+			holder = CKU_songhay_1
+		}
+	}
+	c_tadmekka = {
+		1444.1.1 = {
+			holder = CKU_songhay_1
+		}
+	}
+#}
+# wagadugu = {
+	d_wagadugu = {
+		1444.1.1 = {
+			holder = CKU_wagadugu_1
+			liege = 0
+		}
+	}
+	d_yatenga = {
+		1444.1.1 = {
+			holder = CKU_wagadugu_1
+		}
+	}
+	c_gurma = {
+		1444.1.1 = {
+			holder = CKU_wagadugu_1
+		}
+	}
+	c_kurumba = {
+		1444.1.1 = {
+			holder = CKU_wagadugu_1
+		}
+	}
+#}
+
+# mossi = {
+	d_borgu = {
+		1444.1.1 = {
+			holder = CKU_mossi_1
+			liege = 0
+			government = feudal
+		}
+	}
+	d_dendi = {
+		1444.1.1 = {
+			holder = CKU_mossi_1
+		}
+	}
+	c_yauri = {
+		1444.1.1 = {
+			holder = CKU_mossi_1
+		}
+	}
+	c_biun = {
+		1444.1.1 = {
+			holder = CKU_mossi_1
+		}
+	}
+	c_pendjari = {
+		1444.1.1 = {
+			holder = CKU_mossi_1
+		}
+	}
+#}
+# nupe = {
+	d_nupe = {
+		1444.1.1 = {
+			holder = CKU_nupe_1
+			liege = 0
+			government = feudal
+		}
+	}
+#}
+# oyo = {
+	d_oyo = {
+		1444.1.1 = {
+			holder = CKU_oyo_1
+			liege = 0
+			government = feudal
+		}
+	}
+#}
+# benin = {
+	d_benin = {
+		1444.1.1 = {
+			holder = CKU_benin_1
+			liege = 0
+			government = colonisable_government
+		}
+	}
+	d_ife = {
+		1444.1.1 = {
+			holder = CKU_benin_1
+		}
+	}
+#}
+# igala = {
+	c_igala = {
+		1444.1.1 = {
+			holder = CKU_igala_1
+			liege = 0
+			government = feudal
+		}
+	}
+	c_keffi = {
+		1444.1.1 = {
+			holder = CKU_igala_1
+		}
+	}
+	c_bauchi = {
+		1444.1.1 = {
+			holder = CKU_igala_1
+		}
+	}
+#}
+# kwarafa = {
+	c_kwararafa = {
+		1444.1.1 = {
+			holder = CKU_kwarafa_1
+			liege = 0
+			government = feudal
+		}
+	}
+	c_fika = {
+		1444.1.1 = {
+			holder = CKU_kwarafa_1
+		}
+	}
+	c_katagum = {
+		1444.1.1 = {
+			holder = CKU_kwarafa_1
+		}
+	}
+#}
+# bornu = {
+	d_bornu = {
+		1444.1.1 = {
+			holder = CKU_bornu_1
+			liege = 0
+		}
+	}
+	d_wandala = {
+		1444.1.1 = {
+			holder = CKU_bornu_1
+		}
+	}
+	d_baguirmi = {
+		1444.1.1 = {
+			holder = CKU_bornu_1
+		}
+	}
+	d_kanem = {
+		1444.1.1 = {
+			holder = CKU_bornu_1
+		}
+	}
+	c_kagha = {
+		1444.1.1 = {
+			holder = CKU_bornu_1
+		}
+	}
+#}
+# air = {
+	d_air = {
+		1444.1.1 = {
+			holder = CKU_air_1
+			liege = 0
+			government = tribal
+		}
+	}
+	d_kawar = {
+		1444.1.1 = {
+			holder = CKU_air_1
+		}
+	}
+	d_tibesti = {
+		1444.1.1 = {
+			holder = CKU_air_1
+		}
+	}
+	c_tessalit = {
+		1444.1.1 = {
+			holder = CKU_air_1
+		}
+	}
+	c_djanet = {
+		1444.1.1 = {
+			holder = CKU_air_1
+		}
+	}
+#}

@@ -42,7 +42,7 @@ c_azov = {
 	}
 }
 
-c_tanas = {
+c_tana = {
 	1363.6.8 = {
 		holder = CKU_genoa_1
 	}

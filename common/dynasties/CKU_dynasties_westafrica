@@ -1,0 +1,68 @@
+dynn_keita = {
+	name = "Keita"
+	culture = "Malinke"
+}
+dynn_ndiaye = {
+	name = "nDiaye"
+	culture = "Wolof"
+}
+dynn_konboro = {
+	name = "Konboro"
+	culture = "Malinke"
+}
+dynn_a_outtara = {
+	name = "Outtara"
+	culture = "Malinke"
+}
+dynn_zafunu = {
+	name = "Zafunu"
+	culture = "Pulaar"
+}
+dynn_diallo = {
+	name = "Diallo"
+	culture = "Pulaar"
+}
+dynn_akamalwal = {
+	name = "Akamalwal"
+	culture = "Butr"
+}
+dynn_sonni = {
+	name = "Sonni"
+	culture = "Songhai"
+}
+dynn_tenga_niama = {
+	name = "Tenga Niama"
+	culture = "Mossi"
+}
+dynn_zazzau = {
+	name = "Zazzau"
+	culture = "Mossi"
+}
+dynn_nupe = {
+	name = "Nupé"
+	culture = "Nupe"
+}
+dynn_alaafin = {
+	name = "Alaafin"
+	culture = "Yoruba"
+}
+dynn_abomey = {
+	name = "Abomey"
+	culture = "Yoruba"
+}
+dynn_kano = {
+	name = "Kano"
+	culture = "Yoruba"
+}
+dynn_azna = {
+	name = "Azna"
+	culture = "Hausa"
+}
+dynn_sayfawa = {
+	name = "Sayfawa"
+	culture = "Kanuri"
+}
+dynn_istanbuwa = {
+	name = "Istanbuwa"
+	culture = "Butr"
+}

@@ -47,28 +47,6 @@ c_camarda = {
 	}
 }
 
-b_isernia = {
-	1440.1.1 = {
-		holder = CKU_naples_1
-		liege = d_naples
-	}
-}
-
-b_alife = {
-	1440.1.1 = {
-		holder = CKU_naples_1
-		liege = d_naples
-	}
-}
-
-b_melfi = {
-	1440.1.1 = {
-		holder = CKU_naples_1
-		liege = d_naples
-	}
-}
-
-
 c_capua = {
 	1440.1.1 = {
 		holder = CKU_naples_1

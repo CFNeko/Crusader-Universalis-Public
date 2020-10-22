@@ -12,8 +12,14 @@ d_ancona = {
 	}
 }
 
-c_benevento = {
-	1440.1.1 = {
+d_benevento = {
+	1081.1.1 = {
+		holder = CKU_papal_state_1
+	}
+}
+
+c_casentino = {
+	1400.1.1 = {
 		holder = CKU_papal_state_1
 	}
 }
@@ -21,6 +27,16 @@ c_benevento = {
 c_roma = {
 	1442.1.1 = {
 		holder = CKU_papal_state_1
+	}
+}
+
+c_spoleto = {
+	1247.1.1 = {
+		liege = k_papal_state
+	}
+	1420.1.1 = {
+		holder = CKU_spoleto_1
+		liege = k_papal_state
 	}
 }
 

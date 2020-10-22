@@ -24,12 +24,12 @@
 			holder = CKU_francien_1
 		}
 	}
-	c_tourraine = {
-		1440.1.1 = {
+	d_berry = {
+		1419.1.15 = {
 			holder = CKU_francien_1
 		}
 	}
-	c_chartres = {
+	c_tourraine = {
 		1440.1.1 = {
 			holder = CKU_francien_1
 		}
@@ -96,6 +96,12 @@
 		#}
 		# House Armagnac = {
 			c_armagnac = {
+				1418.1.1 = {
+					holder = CKU_armagnac_2
+					liege = k_france
+				}
+			}
+			c_rouergue = {
 				1418.1.1 = {
 					holder = CKU_armagnac_2
 					liege = k_france
@@ -190,7 +196,8 @@
 			c_vendome = {
 				1403.1.1 = {
 					holder = CKU_bourbon_31
-					liege = d_orleans
+					liege = k_france
+					#liege = d_orleans
 				}
 			}
 		#}
@@ -247,6 +254,46 @@
 				}
 			}
 		#}
+		# Count of Evreux = {
+			c_evreux = {
+				1437.1.1 = {
+					holder = CKU_francien_minor_13
+					liege = k_france
+				}
+			}
+		#}
+		# Count of Maine = {
+			c_maine = {
+				1434.11.12 = {
+					holder = CKU_anjou_13
+					liege = k_france
+				}
+			}
+		#}
+		# Count of Laval = {
+			c_sable = {
+				1429.7.17 = {
+					holder = CKU_francien_minor_15
+					liege = k_france
+				}
+			}
+		#}
+		# Count of Dreux = {
+			c_chartres = {
+				1441.1.1 = {
+					holder = CKU_albret_10
+					liege = k_france
+				}
+			}
+		#}
+		# Count of Dunois = {
+			b_chateaudun = {
+				1430.1.1 = {
+					holder = CKU_orleans_8
+					liege = k_france
+				}
+			}
+		#}
 		# Viscount of Limoges = {
 			c_limousin = {
 				1404.1.1 = {
@@ -286,6 +333,14 @@
 				}
 			}
 		#}
+		# Lord of Albret = {
+			c_albret = {
+				1415.10.25 = {
+					holder = CKU_albret_10
+					liege = k_france
+				}
+			}
+		#}
 		# Viscount of Tartas = {
 			b_tartas = {
 				1425.1.1 = {
@@ -320,6 +375,24 @@
 				1440.7.1 = {
 					government = theocracy_government
 					holder = CKU_francien_minor_10
+					liege = k_france
+				}
+			}
+		#}
+		# Bishop of Gévaudan = {
+			c_gevaudan = {
+				1443.1.1 = {
+					government = theocracy_government
+					holder = CKU_francien_minor_12
+					liege = k_france
+				}
+			}
+		#}
+		# Bishop of Agen = {
+			c_agenais = {
+				1440.1.1 = {
+					government = theocracy_government
+					holder = CKU_francien_minor_16
 					liege = k_france
 				}
 			}
@@ -368,6 +441,24 @@
 				1440.1.1 = {
 					government = CKU_governor_government
 					holder = CKU_francien_minor_11
+					liege = k_france
+				}
+			}
+		#}
+		# Governorship of Poitou = {
+			d_poitou = {
+				1440.1.1 = {
+					government = CKU_governor_government
+					holder = CKU_francien_minor_13
+					liege = k_france
+				}
+			}
+		#}
+		# Governorship of Berry = {
+			c_berry = {
+				1427.1.1 = {
+					government = CKU_governor_government
+					holder = CKU_albret_10
 					liege = k_france
 				}
 			}

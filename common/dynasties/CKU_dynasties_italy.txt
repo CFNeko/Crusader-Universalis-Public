@@ -1,0 +1,84 @@
+CKU_adorno = {
+	name = "dynn_adorno"
+	culture = ligurian
+}
+
+CKU_acquaviva = {
+	name = "dynn_acquaviva"
+	culture = italian
+}
+
+CKU_arrigucci = {
+	name = "dynn_arrigucci"
+	culture = tuscan
+}
+
+CKU_bentivoglio = {
+	name = "dynn_bentivoglio"
+	culture = emilian
+}
+
+CKU_cubello = {
+	name = "dynn_cubello"
+	culture = sardinian
+}
+
+CKU_de_bardi = {
+	name = "dynn_de_bardi"
+	culture = tuscan
+}
+
+CKU_de_medici = {
+	name = "dynn_de_Medici"
+	culture = tuscan
+}
+
+CKU_foscari = {
+	name = "dynn_foscari"
+	culture = venetian
+}
+
+CKU_lascaris = {
+	name = "dynn_lascaris"
+	culture = lombard
+}
+
+CKU_luccorini = {
+	name = "dynn_luccorini"
+	culture = tuscan
+}
+
+CKU_malatesta = {
+	name = "dynn_malatesta"
+	culture = emilian
+}
+
+CKU_orsini = {
+	name = "dynn_orsini"
+	culture = neapolitan
+}
+
+CKU_priore = {
+	name = "dynn_priore"
+	culture = tuscan
+}
+
+CKU_saluzzo = {
+	name = "dynn_di_saluzzo"
+	culture = emilian
+}
+
+CKU_spina = {
+	name = "dynn_spina"
+	culture = tuscan
+}
+
+CKU_spoleto = {
+	name = "dynn_di_spoleto"
+	culture = italian
+}
+
+CKU_visconti = {
+	name = "dynn_Visconti"
+	culture = "italian"
+}

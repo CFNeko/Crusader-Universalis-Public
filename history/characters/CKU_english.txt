@@ -13,4 +13,67 @@
 			birth = yes
 		}
 	}
+
+
+
+	CKU_english_2 = {
+		name = "Humphrey"
+		dynasty = 100058
+		religion = catholic
+		culture = english
+		1390.10.3 = {
+			birth = yes
+		}
+		1447.4.4 = {
+			birth = yes
+		}
+	}
+	CKU_english_3 = {
+		name = "Humphrey"
+		dynasty = CKU_York
+		religion = catholic
+		culture = english
+		1411.9.21 = {
+			birth = yes
+		}
+		1460.12.30 = {
+			birth = yes
+		}
+	}
+	CKU_english_4 = {
+		name = "John"
+		dynasty = 558
+		religion = catholic
+		culture = english
+		1415.9.12 = {
+			birth = yes
+		}
+		1461.11.6 = {
+			birth = yes
+		}
+	}
+	CKU_english_5 = {
+		name = "John"
+		dynasty = 100058
+		religion = catholic
+		culture = english
+		1395.3.29 = {
+			birth = yes
+		}
+		1447.8.5 = {
+			birth = yes
+		}
+	}
+	CKU_english_6 = {
+		name = "Edmund"
+		dynasty = CKU_Beaufort
+		religion = catholic
+		culture = english
+		1406.1.1 = {
+			birth = yes
+		}
+		1455.5.22 = {
+			birth = yes
+		}
+	}
 #}

@@ -118,12 +118,6 @@ c_epeiros = {
 	}
 }
 
-c_germa = {
-	1444.8.1 = {
-		holder = CKU_ottomans_1
-	}
-}
-
 c_honorias = {
 	1444.8.1 = {
 		holder = CKU_ottomans_1

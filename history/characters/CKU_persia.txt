@@ -367,28 +367,367 @@
 		}
 	}
 #}	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# mahra = {
+	CKU_mahra_1 = {
+		name = "Ba"
+		dynasty = dynn_dujana
+		religion = muwalladi
+		culture = yemeni
+		1402.1.1 = {
+			birth = yes
+		}
+	}
+#}
+# kathiri = {
+	CKU_kathiri_1 = {
+		name = "Muhammad ibn'Ali"
+		dynasty = dynn_alkathiri
+		religion = muwalladi
+		culture = yemeni
+		1398.1.1 = {
+			birth = yes
+		}
+	}
+#}
+# aden = {
+	CKU_aden_1 = {
+		name = "Salâh Amir"
+		dynasty = dynn_ad_din
+		religion = muwalladi
+		culture = yemeni
+		1415.1.1 = {
+			birth = yes
+		}
+	}
+#}
+# yemen = {
+	CKU_yemen_1 = {
+		name = "Yusuf"
+		dynasty = dynn_tahirid
+		religion = muwalladi
+		culture = yemeni
+		1433.1.1 = {
+			birth = yes
+		}
+	}
+#}
+# rasulid = {				Control all of yemen, but fracture in 1454
+	CKU_rasulid_1 = {
+		name "al-Mas'ud Abu al-Qasim"
+		dynasty = dynn_rasulids
+		religion = ismaili
+		culture = yemeni
+		1428.1.1 = {
+			birth = yes
+		}
+	}
+#}
+# mamluks = {
+	CKU_mamluks_1 = {
+		name = "Sayf ad-Din Jaqmaq"
+		dynasty = dynn_a_burji
+		religion = muwalladi
+		culture = egyptian
+		1373.1.1 = {
+			birth = yes
+		}
+	}
+#}
+# hejaz = {
+	CKU_hejaz_1 = {
+		name = "Abu'l Qasim"
+		dynasty = dynn_hawashim
+		religion = muwalladi
+		culture = bedouin
+		1423.1.1 = {
+			birth = yes
+		}
+	}
+#}
+# madinah = {
+	CKU_medina_1 = {
+		name = "Daygham bin Khasram"
+		dynasty = dynn_husaynid
+		religion = muwalladi
+		culture = bedouin
+		1423.8.8 = {
+			birth = yes
+		}
+	}
+#}
+# al-Fadl = {
+	CKU_fadl_1 = {
+		name = "Qirmas Al Abu"
+		dynasty = dynn_risha
+		religion = muwalladi
+		culture = bedouin
+		1415.1.1 = {
+			birth = yes
+		}
+	}
+#}
+# anizah = {
+	CKU_anizah_1 = {
+		name = "Abdullah Dhana"
+		dynasty = dynn_maslam
+		religion = muwalladi
+		culture = bedouin
+		1414.1.1 = {
+			birth = yes
+		}
+	}
+#}
+# shammar = {
+	CKU_shammar_1 = {
+		name = "Abdullah"
+		dynasty = dynn_rashid
+		religion = muwalladi
+		culture = bedouin
+		1426.1.1 = {
+			birth = yes
+		}
+	}
+#}
+# najd = {
+	CKU_najd_1 = {
+		name = "Watban"
+		dynasty = dynn_saud
+		religion = muwalladi
+		culture = bedouin
+		1379.1.1 = {
+			birth = yes
+		}
+	}
+#}
+# dawasir = {
+	CKU_dawasir_1 = {
+		name = "Zahid"
+		dynasty = dynn_al_zaid
+		religion = muwalladi
+		culture = bedouin
+		1421.1.1 = {
+			birth = yes
+		}
+	}
+#}
+# dulkadir = {
+	CKU_dulkadir_1 = {
+		name = "Sûlayman"
+		dynasty = dynn_dulkadiroglu
+		religion = muwalladi
+		culture = oghuz
+		1398.1.1 = {
+			birth = yes
+		}
+	}
+#}
+# ramazan = {
+	CKU_ramazan_1 = {
+		name = "Dündar"
+		dynasty = dynn_ramazanoglu
+		religion = muwalladi
+		culture = oghuz
+		1415.1.1 = {
+			birth = yes
+		}
+	}
+#}
+# sinope = {
+	CKU_sinope_1 = {
+		name = "Ismaîl"
+		dynasty = dynn_candaroglu
+		religion = muwalladi
+		culture = oghuz
+		1423.1.1 = {
+			birth = yes
+		}
+	}
+#}
+# karamanids = {
+	CKU_karamanids_1 = {
+		name = "Ibrahim"
+		dynasty = dynn_karamanoglu
+		religion = muwalladi
+		culture = oghuz
+		1409.1.1 = {
+			birth = yes
+		}
+	}
+#}
+# trebizond = {
+	CKU_trebizond_1 = {
+		name = "Ioannes"
+		dynasty = dynn_komnenos
+		religion = orthodox
+		culture = greek
+		1403.1.1 = {
+			birth = yes
+		}
+	}
+#}
+# tunis = {
+	CKU_tunis_1 = {
+		name = "Uthman Banû"
+		dynasty = dynn_hafs
+		religion = muwalladi
+		culture = maghrebi
+		1416.1.1 = {
+			birth = yes
+		}
+	}
+#}
+# tripolitana = {
+	CKU_tripolitana_1 = {
+		name = "Abd al-Wahid Banû"
+		dynasty = dynn_hafs
+		religion = muwalladi
+		culture = maghrebi
+		1408.1.1 = {
+			birth = yes
+		}
+	}
+#}
+# cyrenaica = {
+	CKU_cyrenaica_1 = {
+		name = "Abdulazza Banû"
+		dynasty = dynn_sulaym
+		religion = muwalladi
+		culture = egyptian
+		1422.1.1 = {
+			birth = yes
+		}
+	}
+#}
+# tlemcen = {
+	CKU_tlemcen_1 = {
+		name = "Ahmad Banû"
+		dynasty = dynn_zayyan
+		religion = muwalladi
+		culture = maghrebi
+		1412.1.1 = {
+			birth = yes
+		}
+	}
+#}
+# morocco = {
+	CKU_morocco_1 = {
+		name = "Abd al-Haqq"
+		dynasty = dynn_marin
+		religion = muwalladi
+		culture = maghrebi
+		1419.1.1 = {
+			birth = yes
+		}
+	}
+#}
+# marrakesh = {
+	CKU_marrakesh_1 = {
+		name = "Shantuf"
+		dynasty = dynn_hintata
+		religion = muwalladi
+		culture = maghrebi
+		1410.1.1 = {
+			birth = yes
+		}
+	}
+#}
+# sous = {
+	CKU_sous_1 = {
+		name = "Muhammad"
+		dynasty = dynn_shadhiliyya
+		religion = muwalladi
+		culture = maghrebi
+		1398.1.1 = {
+			birth = yes
+		}
+	}
+#}
+# draa = {
+	CKU_draa_1 = {
+		name = "Muhammad"
+		dynasty = dynn_saad
+		religion = muwalladi
+		culture = butr
+		1411.1.1 = {
+			birth = yes
+		}
+	}
+#}
+# fezzan = {
+	CKU_fezzan_1 = {
+		name = "Zayd"
+		dynasty = dynn_khattab
+		religion = muwalladi
+		culture = butr
+		1404.1.1 = {
+			birth = yes
+		}
+	}
+#}
+# ghadames = {
+	CKU_ghadames_1 = {
+		name = "Hammad"
+		dynasty = dynn_ghadames
+		religion = muwalladi
+		culture = butr
+		1425.1.1 = {
+			birth = yes
+		}
+	}
+#}
+# mzab = {
+	CKU_mzab_1 = {
+		name = "'Uthmân"
+		dynasty = dynn_mzab
+		religion = ibadi
+		culture = butr
+		1424.1.1 = {
+			birth = yes
+		}
+	}
+#}
+# touggourt = {
+	CKU_touggourt_1 = {
+		name = "Mubarak"
+		dynasty = dynn_jallab
+		religion = muwalladi
+		culture = butr
+		1413.1.1 = {
+			birth = yes
+		}
+	}
+#}
+# djerid = {
+	CKU_djerid_1 = {
+		name = "Malik Ibn"
+		dynasty = dynn_yamlul
+		religion = muwalladi
+		culture = butr
+		1426.1.1 = {
+			birth = yes
+		}
+	}
+#}
+# tuat = {
+	CKU_tuat_1 = {
+		name = "Malik Ibn"
+		dynasty = dynn_unbgi
+		religion = muwalladi
+		culture = butr
+		1425.1.1 = {
+			birth = yes
+		}
+	}
+#}
+# figuig = {
+	CKU_figuig_1 = {
+		name = "Malik Ibn"
+		dynasty = dynn_tujin
+		religion = muwalladi
+		culture = butr
+		1424.1.1 = {
+			birth = yes
+		}
+	}
+#}
 
